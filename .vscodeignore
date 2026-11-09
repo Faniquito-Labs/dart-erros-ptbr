@@ -9,3 +9,5 @@ test-fixtures/**
 docs/**
 .gitignore
 .vscodeignore
+.vscode/**
+CONTRIBUTING.md
