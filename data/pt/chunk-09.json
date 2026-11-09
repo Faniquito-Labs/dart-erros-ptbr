@@ -1,0 +1,642 @@
+{
+ "1014a22fd348": {
+  "problem": "Uma expressão anulável não pode ser usada em um spread.",
+  "correction": "Tente verificar se o valor não é 'null' antes de usá-lo em um spread ou use um spread com verificação de nulo."
+ },
+ "11c5a0c3ee72": {
+  "problem": "A propriedade '{0}' não pode ser acessada incondicionalmente porque o receptor pode ser 'null'.",
+  "correction": "Tente tornar o acesso condicional (usando '?.') ou adicionar uma verificação de nulo no alvo ('!')."
+ },
+ "26ead3fcb758": {
+  "problem": "Uma expressão anulável não pode ser usada como condição.",
+  "correction": "Tente verificar se o valor não é 'null' antes de usá-lo como condição."
+ },
+ "6c00b47f11a1": {
+  "problem": "O operador '{0}' não pode ser invocado incondicionalmente porque o receptor pode ser 'null'.",
+  "correction": "Tente adicionar uma verificação de nulo no alvo ('!')."
+ },
+ "723c81ad26eb": {
+  "problem": "Uma expressão anulável não pode ser usada como iterador em um loop for-in.",
+  "correction": "Tente verificar se o valor não é 'null' antes de usá-lo como iterador."
+ },
+ "86b64a17d606": {
+  "problem": "A função não pode ser invocada incondicionalmente porque pode ser 'null'.",
+  "correction": "Tente adicionar uma verificação de nulo ('!')."
+ },
+ "d6f7b3e47d3a": {
+  "problem": "O método '{0}' não pode ser invocado incondicionalmente porque o receptor pode ser 'null'.",
+  "correction": "Tente tornar a chamada condicional (usando '?.') ou adicionar uma verificação de nulo no alvo ('!')."
+ },
+ "e0bbded37fd3": {
+  "problem": "Nome '{0}' não definido, usado como anotação.",
+  "correction": "Tente definir o nome ou importá-lo de outra biblioteca."
+ },
+ "27ecacdcd910": {
+  "problem": "Classe '{0}' não definida.",
+  "correction": "Tente alterar o nome para o de uma classe existente ou criar uma classe com o nome '{0}'."
+ },
+ "c2ece5461797": {
+  "problem": "Classe '{0}' não definida.",
+  "correction": "Tente usar o tipo 'bool'."
+ },
+ "75ec5ee0ea5a": {
+  "problem": "A classe '{0}' não tem um construtor sem nome.",
+  "correction": "Tente definir um construtor sem nome em '{0}' ou invocar outro construtor."
+ },
+ "a342498b53e6": {
+  "problem": "A classe '{0}' não tem um construtor chamado '{1}'.",
+  "correction": "Tente definir um construtor chamado '{1}' em '{0}' ou invocar outro construtor."
+ },
+ "9a5547ea3847": {
+  "problem": "Não existe constante chamada '{0}' em '{1}'.",
+  "correction": "Tente corrigir o nome para o de uma constante existente ou definir uma constante chamada '{0}'."
+ },
+ "0bf867e220de": {
+  "problem": "O enum não tem um construtor chamado '{0}'.",
+  "correction": "Tente corrigir o nome para o de um construtor existente ou definir um construtor com o nome '{0}'."
+ },
+ "138d48426349": {
+  "problem": "O enum não tem um construtor sem nome.",
+  "correction": "Tente adicionar o nome de um construtor existente ou definir um construtor sem nome."
+ },
+ "ed3e7f60f222": {
+  "problem": "O getter '{0}' não está definido para a extensão '{1}'.",
+  "correction": "Tente corrigir o nome para o de um getter existente ou definir um getter chamado '{0}'."
+ },
+ "257e2ee22735": {
+  "problem": "O método '{0}' não está definido para a extensão '{1}'.",
+  "correction": "Tente corrigir o nome para o de um método existente ou definir um método chamado '{0}'."
+ },
+ "e9bdac3d62ad": {
+  "problem": "O operador '{0}' não está definido para a extensão '{1}'.",
+  "correction": "Tente definir o operador '{0}'."
+ },
+ "1632c4fe1e9f": {
+  "problem": "O setter '{0}' não está definido para a extensão '{1}'.",
+  "correction": "Tente corrigir o nome para o de um setter existente ou definir um setter chamado '{0}'."
+ },
+ "b0b403c0c667": {
+  "problem": "A função '{0}' não está definida.",
+  "correction": "Tente importar a biblioteca que define '{0}', corrigir o nome para o de uma função existente ou definir uma função chamada '{0}'."
+ },
+ "86a6798e2411": {
+  "problem": "O getter '{0}' não está definido para o tipo '{1}'.",
+  "correction": "Tente importar a biblioteca que define '{0}', corrigir o nome para o de um getter existente ou definir um getter ou campo chamado '{0}'."
+ },
+ "aa3a35144f8f": {
+  "problem": "O getter '{0}' não está definido para o tipo de função '{1}'.",
+  "correction": "Tente envolver o alias de tipo de função em parênteses para acessar '{0}' como um getter de extensão em 'Type'."
+ },
+ "9e9b728c65db": {
+  "problem": "A biblioteca '{0}' não exporta um membro com o nome ocultado '{1}'.",
+  "correction": "Tente remover o nome da lista de membros ocultados."
+ },
+ "3b18ed5c44da": {
+  "problem": "Nome '{0}' não definido.",
+  "correction": "Tente corrigir para um nome que esteja definido ou declare esse nome."
+ },
+ "467583b79f5b": {
+  "problem": "Nome 'await' não definido em um corpo de função não marcado com 'async'.",
+  "correction": "Tente corrigir para um nome que esteja definido, declarar o nome ou adicionar 'async' ao corpo da função que o contém."
+ },
+ "0c0e6ea28818": {
+  "problem": "'{0}' não é uma regra de lint reconhecida.",
+  "correction": "Tente usar o nome de uma regra de lint reconhecida."
+ },
+ "072ace887117": {
+  "problem": "O método '{0}' não está definido para o tipo de função '{1}'.",
+  "correction": "Tente envolver o alias de tipo de função em parênteses para acessar '{0}' como um método de extensão em 'Type'."
+ },
+ "3dd65ecf5da6": {
+  "problem": "O método '{0}' não está definido para o tipo '{1}'.",
+  "correction": "Tente corrigir o nome para o de um método existente ou definir um método chamado '{0}'."
+ },
+ "301c90f86244": {
+  "problem": "O parâmetro nomeado '{0}' não está definido.",
+  "correction": "Tente corrigir o nome para o de um parâmetro nomeado existente ou definir um parâmetro nomeado com o nome '{0}'."
+ },
+ "53e3f3674992": {
+  "problem": "O parâmetro nomeado '_{0}' deve usar o nome público correspondente '{0}' no local da chamada.",
+  "correction": "Tente alterar o nome para '{0}'."
+ },
+ "3bdf711b11da": {
+  "problem": "O operador '{0}' não está definido para o tipo '{1}'.",
+  "correction": "Tente definir o operador '{0}'."
+ },
+ "3b02fa30b630": {
+  "problem": "O nome '{0}' está sendo referenciado pelo prefixo '{1}', mas não está definido em nenhuma das bibliotecas importadas com esse prefixo.",
+  "correction": "Tente corrigir o prefixo ou importar a biblioteca que define '{0}'."
+ },
+ "908554d9bd9c": {
+  "problem": "O parâmetro '{0}' não está definido por '{1}'.",
+  "correction": ""
+ },
+ "171664a6e95f": {
+  "problem": "O setter '{0}' não está definido para o tipo '{1}'.",
+  "correction": "Tente importar a biblioteca que define '{0}', corrigir o nome para o de um setter existente ou definir um setter ou campo chamado '{0}'."
+ },
+ "88ff56fd0c3e": {
+  "problem": "O setter '{0}' não está definido para o tipo de função '{1}'.",
+  "correction": "Tente envolver o alias de tipo de função em parênteses para acessar '{0}' como um getter de extensão em 'Type'."
+ },
+ "13dd6f7eae53": {
+  "problem": "A biblioteca '{0}' não exporta um membro com o nome exibido '{1}'.",
+  "correction": "Tente remover o nome da lista de membros exibidos."
+ },
+ "2fa0db134ac6": {
+  "problem": "O operador '{0}' não está definido em uma superclasse de '{1}'.",
+  "correction": "Tente definir o operador '{0}' em uma superclasse."
+ },
+ "64f327d6c5af": {
+  "problem": "O método '{0}' não está definido em uma superclasse de '{1}'.",
+  "correction": "Tente corrigir o nome para o de um método existente ou definir um método chamado '{0}' em uma superclasse."
+ },
+ "6c625ef7afce": {
+  "problem": "O getter '{0}' não está definido em uma superclasse de '{1}'.",
+  "correction": "Tente corrigir o nome para o de um getter existente ou definir um getter ou campo chamado '{0}' em uma superclasse."
+ },
+ "9256653f9c8e": {
+  "problem": "O setter '{0}' não está definido em uma superclasse de '{1}'.",
+  "correction": "Tente corrigir o nome para o de um setter existente ou definir um setter ou campo chamado '{0}' em uma superclasse."
+ },
+ "42f65a221c07": {
+  "problem": "O '$' tem significado especial dentro de uma string e deve ser seguido por um identificador ou por uma expressão entre chaves ({}).",
+  "correction": "Tente adicionar uma barra invertida (\\) para escapar o '$'."
+ },
+ "07f2417e96b8": {
+  "problem": "Separadores de dígitos ('_') em um literal numérico só podem ficar entre dois dígitos.",
+  "correction": "Tente remover o '_'."
+ },
+ "348a4e93bae4": {
+  "problem": "Não há '{0}' para abrir um grupo de parâmetros.",
+  "correction": "Tente inserir o '{0}' no local apropriado."
+ },
+ "693ddd8608b4": {
+  "problem": "Texto inesperado '{0}'.",
+  "correction": "Tente remover o texto."
+ },
+ "2e3097b452cb": {
+  "problem": "Tokens inesperados.",
+  "correction": ""
+ },
+ "a7911f2586fb": {
+  "problem": "O diagnóstico '{0}' não pode ser ignorado.",
+  "correction": "Tente remover o nome da lista ou remover o comentário inteiro se esse for o único nome da lista."
+ },
+ "8dae23def0e4": {
+  "problem": "Os colchetes angulares serão interpretados como HTML.",
+  "correction": "Tente usar crases em volta do conteúdo com colchetes angulares ou substituir `<` por `&lt;` e `>` por `&gt;`."
+ },
+ "6b48170e026a": {
+  "problem": "A plataforma '{0}' não é uma plataforma reconhecida.",
+  "correction": "Tente corrigir o nome da plataforma ou removê-la."
+ },
+ "02c1696db4d8": {
+  "problem": "Não torne uma função 'async' se ela não usa 'await'.",
+  "correction": "Tente remover o modificador 'async'."
+ },
+ "293d1efb5509": {
+  "problem": "'await' desnecessário.",
+  "correction": "Tente remover o 'await'."
+ },
+ "6d9b4214e1d1": {
+  "problem": "Chaves desnecessárias em uma interpolação de string.",
+  "correction": "Tente remover as chaves."
+ },
+ "a7df406b4dd8": {
+  "problem": "Instrução 'break' desnecessária.",
+  "correction": "Tente remover o 'break'."
+ },
+ "81bcf842fc7b": {
+  "problem": "Cast desnecessário.",
+  "correction": "Tente remover o cast."
+ },
+ "3f3ea66375ed": {
+  "problem": "Padrão de cast desnecessário.",
+  "correction": "Tente remover o padrão de cast."
+ },
+ "ad6e74c47a40": {
+  "problem": "Palavra-chave 'const' desnecessária.",
+  "correction": "Tente remover a palavra-chave."
+ },
+ "c890127456b5": {
+  "problem": "Palavra-chave 'const' desnecessária em um construtor de enum.",
+  "correction": "Tente remover a palavra-chave."
+ },
+ "0c06c6203fa3": {
+  "problem": "Nome de construtor '.new' desnecessário.",
+  "correction": "Tente remover o '.new'."
+ },
+ "66265ea1c919": {
+  "problem": "A dependência de desenvolvimento em {0} é desnecessária porque também existe uma dependência normal nesse pacote.",
+  "correction": "Tente remover a dependência de desenvolvimento."
+ },
+ "4ddddba48e18": {
+  "problem": "A palavra-chave 'final' não é necessária porque o parâmetro é implicitamente 'final'.",
+  "correction": "Tente remover o 'final'."
+ },
+ "6c993a8bea2d": {
+  "problem": "Variáveis locais não devem ser marcadas como 'final'.",
+  "correction": "Substitua 'final' por 'var'."
+ },
+ "f47f350fca98": {
+  "problem": "Variáveis locais não devem ser marcadas como 'final'.",
+  "correction": "Remova o 'final'."
+ },
+ "b9cc8aef86a4": {
+  "problem": "Uso desnecessário de getter e setter para encapsular um campo.",
+  "correction": "Tente remover o getter e o setter e renomear o campo."
+ },
+ "39600ec5a7c6": {
+  "problem": "O diagnóstico '{0}' não é produzido neste local, então não precisa ser ignorado.",
+  "correction": "Tente remover o comentário de ignore."
+ },
+ "8cc9c159fa3d": {
+  "problem": "O diagnóstico '{0}' não é produzido neste local, então não precisa ser ignorado.",
+  "correction": "Tente remover o nome da lista."
+ },
+ "d7e5f5a34752": {
+  "problem": "O diagnóstico '{0}' não é produzido neste arquivo, então não precisa ser ignorado.",
+  "correction": "Tente remover o comentário de ignore."
+ },
+ "da5ab485e440": {
+  "problem": "O diagnóstico '{0}' não é produzido neste arquivo, então não precisa ser ignorado.",
+  "correction": "Tente remover o nome da lista."
+ },
+ "7d9789ed165e": {
+  "problem": "O import de '{0}' é desnecessário porque todos os elementos usados também são fornecidos pelo import de '{1}'.",
+  "correction": "Tente remover a diretiva de import."
+ },
+ "c9b85763e94e": {
+  "problem": "O closure deveria ser um tear-off.",
+  "correction": "Tente usar um tear-off em vez de um closure."
+ },
+ "8694e5df67ac": {
+  "problem": "Modificador 'late' desnecessário.",
+  "correction": "Tente remover o 'late'."
+ },
+ "b48f4765ad25": {
+  "problem": "Diretivas de biblioteca sem comentários ou anotações devem ser evitadas.",
+  "correction": "Tente excluir a diretiva de biblioteca."
+ },
+ "d6e985e9139f": {
+  "problem": "Nomes de biblioteca não são necessários.",
+  "correction": "Remova o nome da biblioteca."
+ },
+ "ac935edd8481": {
+  "problem": "Um double nunca é igual a 'double.nan', então a condição é sempre 'false'.",
+  "correction": "Tente usar 'double.isNan' ou remover a condição."
+ },
+ "ad0d5ff6b0d6": {
+  "problem": "Um double nunca é igual a 'double.nan', então a condição é sempre 'true'.",
+  "correction": "Tente usar 'double.isNan' ou remover a condição."
+ },
+ "1769320b24d6": {
+  "problem": "Palavra-chave 'new' desnecessária.",
+  "correction": "Tente remover a palavra-chave 'new'."
+ },
+ "7c617788973d": {
+  "problem": "Declaração de 'noSuchMethod' desnecessária.",
+  "correction": "Tente remover a declaração de 'noSuchMethod'."
+ },
+ "4141e57e872b": {
+  "problem": "O '!' não terá efeito porque o receptor não pode ser nulo.",
+  "correction": "Tente remover o operador '!'."
+ },
+ "fefd90ebe42c": {
+  "problem": "O padrão null-assert não terá efeito porque o tipo comparado não é anulável.",
+  "correction": "Tente substituir o padrão null-assert pelo padrão aninhado."
+ },
+ "e2454f3c8267": {
+  "problem": "Atribuição de 'null' desnecessária.",
+  "correction": "Tente remover a atribuição."
+ },
+ "f9535cd8a20c": {
+  "problem": "Uso desnecessário de operador com verificação de nulo para invocar um método de extensão em um tipo anulável.",
+  "correction": "Tente remover o '?'."
+ },
+ "ccd5bfe2c740": {
+  "problem": "O padrão null-check não terá efeito porque o tipo comparado não é anulável.",
+  "correction": "Tente substituir o padrão null-check pelo padrão aninhado."
+ },
+ "4c313760a660": {
+  "problem": "Uso desnecessário de uma verificação de nulo ('!').",
+  "correction": "Tente remover a verificação de nulo."
+ },
+ "3a0390cfa689": {
+  "problem": "O operando não pode ser 'null', então a condição é sempre 'true'.",
+  "correction": "Remova a condição."
+ },
+ "3c3742e31685": {
+  "problem": "O operando sempre é 'null', então a condição é sempre 'false'.",
+  "correction": "Remova a condição."
+ },
+ "43ef45b08804": {
+  "problem": "O operando sempre é 'null', então a condição é sempre 'true'.",
+  "correction": "Remova a condição."
+ },
+ "aaaa14ff7208": {
+  "problem": "O operando não pode ser 'null', então a condição é sempre 'false'.",
+  "correction": "Tente remover a condição, uma condição que a contenha ou a instrução condicional inteira."
+ },
+ "9e069d3a7293": {
+  "problem": "Uso desnecessário de '??' com 'null'.",
+  "correction": "Tente remover o operador '??' e o operando 'null'."
+ },
+ "c6439ba69ee1": {
+  "problem": "O tipo poderia ser não anulável.",
+  "correction": "Tente alterar o tipo para não anulável."
+ },
+ "4e79bd82a335": {
+  "problem": "Sobrescrita desnecessária.",
+  "correction": "Tente adicionar comportamento no membro que sobrescreve ou remover a sobrescrita."
+ },
+ "5f63e60b2a9c": {
+  "problem": "Uso desnecessário de parênteses.",
+  "correction": "Tente remover os parênteses."
+ },
+ "944217688f57": {
+  "problem": "Corpo do construtor primário desnecessário.",
+  "correction": "Tente remover o corpo."
+ },
+ "bfe76b76c55b": {
+  "problem": "O '?' é desnecessário porque '{0}' já é anulável sem ele.",
+  "correction": ""
+ },
+ "213aaf15f7ce": {
+  "problem": "Uso desnecessário de uma string raw.",
+  "correction": "Tente usar uma string normal."
+ },
+ "f8345f78cf52": {
+  "problem": "As chaves envolvem esta expressão em um literal de set sem necessidade.",
+  "correction": "Tente remover o literal de set em volta da expressão."
+ },
+ "dce9e072d03b": {
+  "problem": "Instrução desnecessária.",
+  "correction": "Tente completar a instrução ou dividi-la."
+ },
+ "bbb1a08a6d06": {
+  "problem": "Escape desnecessário em um literal de string.",
+  "correction": "Remova o escape '\\'."
+ },
+ "4af2c46cdbdc": {
+  "problem": "Uso desnecessário de interpolação de string.",
+  "correction": "Tente substituir o literal de string pelo nome da variável."
+ },
+ "1877191de830": {
+  "problem": "Qualificador 'this.' desnecessário.",
+  "correction": "Tente remover 'this.'."
+ },
+ "17e5164cfa4e": {
+  "problem": "Uso desnecessário de 'toList' em um spread.",
+  "correction": "Tente remover a invocação de 'toList'."
+ },
+ "4f27252c2a15": {
+  "problem": "Verificação de tipo desnecessária; o resultado é sempre 'false'.",
+  "correction": "Tente corrigir a verificação de tipo ou removê-la."
+ },
+ "683c0c9f1995": {
+  "problem": "Verificação de tipo desnecessária; o resultado é sempre 'true'.",
+  "correction": "Tente corrigir a verificação de tipo ou removê-la."
+ },
+ "134ca93214d3": {
+  "problem": "Nome do tipo desnecessário em um construtor.",
+  "correction": "Tente remover o nome do tipo."
+ },
+ "6928ab5b2142": {
+  "problem": "Uso desnecessário de 'unawaited'.",
+  "correction": "Tente remover o uso de 'unawaited', pois o elemento não aguardado está anotado com '@awaitNotRequired'."
+ },
+ "e81557f2f192": {
+  "problem": "Uso desnecessário de vários underscores.",
+  "correction": "Tente usar '_'."
+ },
+ "c0bd89c3c085": {
+  "problem": "Padrão wildcard desnecessário.",
+  "correction": "Tente remover o padrão wildcard."
+ },
+ "20b12ec40484": {
+  "problem": "Membros estáticos de supertipos devem ser qualificados pelo nome do tipo que os define.",
+  "correction": "Tente adicionar '{0}.' antes do nome."
+ },
+ "879146f78605": {
+  "problem": "Membros estáticos do tipo estendido ou de uma de suas superclasses devem ser qualificados pelo nome do tipo que os define.",
+  "correction": "Tente adicionar '{0}.' antes do nome."
+ },
+ "c3c3e824c1d8": {
+  "problem": "Membro '{0}' inalcançável em uma biblioteca executável.",
+  "correction": "Tente referenciar o membro ou removê-lo."
+ },
+ "fb8990b3b97d": {
+  "problem": "Este case já é coberto pelos cases anteriores.",
+  "correction": "Tente remover a cláusula case ou reestruturar os padrões anteriores."
+ },
+ "023d26e96eff": {
+  "problem": "Esta cláusula default já é coberta pelos cases anteriores.",
+  "correction": "Tente remover a cláusula default ou reestruturar os padrões anteriores."
+ },
+ "fb04f77ac664": {
+  "problem": "'{0}' não é um código de diagnóstico reconhecido.",
+  "correction": ""
+ },
+ "702d82bf4286": {
+  "problem": "O tipo do operando ('{0}') não é subtipo nem supertipo do valor comparado ('{1}').",
+  "correction": "Tente alterar um ou ambos os operandos."
+ },
+ "a5023fe4113c": {
+  "problem": "O tipo do operando da direita ('{0}') não é subtipo nem supertipo do operando da esquerda ('{1}').",
+  "correction": "Tente alterar um ou ambos os operandos."
+ },
+ "50f4b3d76df9": {
+  "problem": "Invocar o método '{0}' não é seguro.",
+  "correction": "Tente encontrar outra forma de implementar a página."
+ },
+ "f51fdcb1a775": {
+  "problem": "Invocar o construtor '{0}' não é seguro.",
+  "correction": "Tente encontrar outra forma de implementar a página."
+ },
+ "bc2c94629f81": {
+  "problem": "Este tipo não é seguro: um parâmetro de tipo aparece em uma posição não covariante.",
+  "correction": "Tente usar um tipo mais geral que não contenha parâmetros de tipo nessa posição."
+ },
+ "a80f6b6aa61b": {
+  "problem": "O recurso {0} não é suportado no Chrome OS; considere torná-lo opcional.",
+  "correction": "Tente alterar para `android:required=\"false\"` neste recurso."
+ },
+ "7ab93cfed7a6": {
+  "problem": "O recurso {0} não é suportado no Chrome OS; considere torná-lo opcional.",
+  "correction": "Tente adicionar `android:required=\"false\"` neste recurso."
+ },
+ "143ba50bcd36": {
+  "problem": "O operador '{0}' não é suportado.",
+  "correction": ""
+ },
+ "1638bcd54ce5": {
+  "problem": "A opção '{0}' não é suportada por '{1}'.",
+  "correction": "Tente remover a opção."
+ },
+ "1fd14efbff65": {
+  "problem": "A opção '{0}' não é suportada por '{1}'.",
+  "correction": "Tente usar a única opção suportada: '{2}' ou remover a opção."
+ },
+ "e4c3409a3ec9": {
+  "problem": "A opção '{0}' não é suportada por '{1}'.",
+  "correction": "Tente usar uma das opções suportadas: {2}."
+ },
+ "27daebfe70a4": {
+  "problem": "O valor '{0}' não é suportado por '{1}'.",
+  "correction": "Tente usar um dos valores suportados: {2}."
+ },
+ "939aa90bf77c": {
+  "problem": "Comentário de várias linhas não terminado.",
+  "correction": "Tente terminar o comentário com '*/' ou remover ocorrências de '/*' sem par (porque comentários podem ser aninhados em Dart)."
+ },
+ "06d23a64c9bf": {
+  "problem": "Literal de string não terminado.",
+  "correction": ""
+ },
+ "2c9cbe2ddc6c": {
+  "problem": "A variável de exceção '{0}' não é usada, então a cláusula 'catch' pode ser removida.",
+  "correction": "Tente remover a cláusula catch."
+ },
+ "21a5d71170a3": {
+  "problem": "A variável de stack trace '{0}' não é usada e pode ser removida.",
+  "correction": "Tente remover a variável de stack trace ou usá-la."
+ },
+ "03a33365c20c": {
+  "problem": "A declaração '{0}' não é referenciada.",
+  "correction": "Tente remover a declaração de '{0}'."
+ },
+ "83d2b2316d86": {
+  "problem": "Nunca é passado um valor para o parâmetro opcional '{0}'.",
+  "correction": "Tente remover o parâmetro não utilizado."
+ },
+ "c771ba99b42b": {
+  "problem": "O valor do campo '{0}' não é utilizado.",
+  "correction": "Tente remover o campo ou usá-lo."
+ },
+ "3db2437a5acf": {
+  "problem": "O valor do campo '{0}' não é utilizado.",
+  "correction": "Tente remover a palavra-chave '{1}' para não declarar um campo ou usar o campo ou removê-lo."
+ },
+ "c9a62ef44a12": {
+  "problem": "Import não utilizado: '{0}'.",
+  "correction": "Tente remover a diretiva de import."
+ },
+ "44222e3c3017": {
+  "problem": "O label '{0}' não é utilizado.",
+  "correction": "Tente remover o label ou usá-lo em uma instrução 'break' ou 'continue'."
+ },
+ "8fea70a0d9e8": {
+  "problem": "O valor da variável local '{0}' não é utilizado.",
+  "correction": "Tente remover a variável ou usá-la."
+ },
+ "55b5fe5c8b83": {
+  "problem": "O valor de '{0}' deveria ser utilizado.",
+  "correction": "Tente usar o resultado invocando um membro, passando-o para uma função ou retornando-o desta função."
+ },
+ "e69b21188d99": {
+  "problem": "'{0}' deveria ser utilizado. {1}.",
+  "correction": "Tente usar o resultado invocando um membro, passando-o para uma função ou retornando-o desta função."
+ },
+ "d58208d560da": {
+  "problem": "O nome {0} é exibido, mas não é utilizado.",
+  "correction": "Tente remover o nome da lista de membros exibidos."
+ },
+ "09640761bfd5": {
+  "problem": "O destino da URI não existe: '{0}'.",
+  "correction": "Tente criar o arquivo referenciado pela URI ou usar uma URI de um arquivo que exista."
+ },
+ "08ea1aa8fb19": {
+  "problem": "O destino da URI não foi gerado: '{0}'.",
+  "correction": "Tente executar o gerador que cria o arquivo referenciado pela URI."
+ },
+ "7efe9e3a057e": {
+  "problem": "URIs não podem usar interpolação de string.",
+  "correction": ""
+ },
+ "37a65090ab31": {
+  "problem": "Não use 'BuildContext' depois de um 'await'.",
+  "correction": "Tente reescrever o código para não usar o 'BuildContext' ou proteja o uso com uma verificação de 'mounted'."
+ },
+ "f5d08dfa00b5": {
+  "problem": "Não use 'BuildContext' depois de um 'await' quando a verificação de 'mounted' não é a do mesmo contexto.",
+  "correction": "Proteja o uso de 'State.context' com uma verificação de 'mounted' no State, e os demais usos de BuildContext com uma verificação de 'mounted' no BuildContext."
+ },
+ "6bec9d8bf1a9": {
+  "problem": "Use um 'ColoredBox' em vez de um 'Container' com apenas uma 'Color'.",
+  "correction": "Tente substituir o 'Container' por um 'ColoredBox'."
+ },
+ "0c27797a78ad": {
+  "problem": "Use um parâmetro declarante.",
+  "correction": "Tente usar um parâmetro declarante."
+ },
+ "cca8a7d4e2f0": {
+  "problem": "Use 'DecoratedBox' em vez de um 'Container' com apenas uma 'Decoration'.",
+  "correction": "Tente substituir o 'Container' por um 'DecoratedBox'."
+ },
+ "a1392b093571": {
+  "problem": "A classe deveria ser um enum.",
+  "correction": "Tente usar um enum em vez de uma classe."
+ },
+ "aefaeac44ea9": {
+  "problem": "Instâncias de 'Color' devem ser criadas usando um inteiro hexadecimal de 8 dígitos (como '0xFFFFFFFF').",
+  "correction": ""
+ },
+ "120d4f1e7615": {
+  "problem": "Use a sintaxe de tipo de função genérico para declarar o parâmetro '{0}'.",
+  "correction": "Tente usar a sintaxe de tipo de função genérico."
+ },
+ "e366cf54cba9": {
+  "problem": "Use o operador if-null para converter um 'null' em 'bool'.",
+  "correction": "Tente usar o operador if-null."
+ },
+ "3710ce3d86d4": {
+  "problem": "Use '{0}' em vez de '% 2'.",
+  "correction": "Tente usar '{0}'."
+ },
+ "1c0ca50d5d99": {
+  "problem": "Construtores de widgets públicos devem ter um parâmetro nomeado 'key'.",
+  "correction": "Tente adicionar um parâmetro nomeado ao construtor."
+ },
+ "d63d337d14f3": {
+  "problem": "Use 'late' para membros privados com tipo não anulável.",
+  "correction": "Tente adicionar o modificador 'late'."
+ },
+ "116df6491de7": {
+  "problem": "Use a constante '{0}' em vez de um construtor que retorna o mesmo objeto.",
+  "correction": "Tente usar '{0}'."
+ },
+ "3270161e0908": {
+  "problem": "Use o marcador null-aware '?' em vez de uma verificação de nulo com 'if'.",
+  "correction": "Tente usar '?'."
+ },
+ "f670350a6223": {
+  "problem": "As extensões nativas do Dart foram descontinuadas e não estão disponíveis no Dart 2.15.",
+  "correction": "Tente usar dart:ffi para interoperabilidade com C."
+ },
+ "56e670842f24": {
+  "problem": "Esta expressão tem o tipo 'void', então seu valor não pode ser usado.",
+  "correction": "Tente verificar se você está usando a API correta; pode haver uma função ou chamada que retorna void sem você esperar. Verifique também parâmetros de tipo e variáveis que também podem ser void."
+ },
+ "bba3618ba2a9": {
+  "problem": "Use um construtor primário.",
+  "correction": "Tente usar um construtor primário."
+ },
+ "b16e74261962": {
+  "problem": "Use uma string raw para evitar o uso de escapes.",
+  "correction": "Tente transformar a string em uma string raw e remover os escapes."
+ },
+ "240b8b509988": {
+  "problem": "Use 'rethrow' para relançar uma exceção capturada.",
+  "correction": "Tente substituir o 'throw' por um 'rethrow'."
+ },
+ "e9df7e024747": {
+  "problem": "O método é usado para alterar uma propriedade.",
+  "correction": "Tente converter o método em um setter."
+ },
+ "43ed795ffec1": {
+  "problem": "Use um string buffer em vez de '+' para compor strings.",
+  "correction": "Tente escrever as partes da string em um string buffer."
+ }
+}

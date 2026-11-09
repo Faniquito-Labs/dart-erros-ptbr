@@ -1,0 +1,642 @@
+{
+ "7d363c29463f": {
+  "problem": "Um literal de record com exatamente um campo posicional exige uma vírgula final.",
+  "correction": "Tente adicionar uma vírgula final."
+ },
+ "e46e88c38be9": {
+  "problem": "Um tipo record com exatamente um campo posicional exige uma vírgula final.",
+  "correction": "Tente adicionar uma vírgula final."
+ },
+ "816c15a029ef": {
+  "problem": "A expressão constante de tempo de compilação depende de si mesma.",
+  "correction": ""
+ },
+ "7311efeb53df": {
+  "problem": "O construtor constante depende de si mesmo.",
+  "correction": ""
+ },
+ "4954128228c3": {
+  "problem": "Construtores não podem redirecionar para si mesmos, direta ou indiretamente.",
+  "correction": "Tente alterar um dos construtores do ciclo para que não redirecione."
+ },
+ "f8bb44386c3e": {
+  "problem": "O getter '{0}' retorna a si mesmo recursivamente.",
+  "correction": "Tente alterar o valor retornado."
+ },
+ "57197bbbf266": {
+  "problem": "A URI '{0}' incluída em '{1}' inclui '{1}', criando uma referência circular.",
+  "correction": "Tente alterar a cadeia de 'include's para quebrar a circularidade."
+ },
+ "09c21fce47c2": {
+  "problem": "'{0}' não pode usar a si mesmo como mixin.",
+  "correction": ""
+ },
+ "5dd8d7fd28db": {
+  "problem": "'{0}' não pode ser uma superinterface de si mesmo: {1}.",
+  "correction": ""
+ },
+ "7795cd3b46f2": {
+  "problem": "'{0}' não pode estender a si mesmo.",
+  "correction": ""
+ },
+ "bf651325c69b": {
+  "problem": "'{0}' não pode usar a si mesmo como restrição de superclasse.",
+  "correction": ""
+ },
+ "f8e434d0c41c": {
+  "problem": "'{0}' não pode implementar a si mesmo.",
+  "correction": ""
+ },
+ "92c2470fd80b": {
+  "problem": "O {0} não redeclara um {0} declarado em uma superinterface.",
+  "correction": "Tente atualizar este membro para corresponder a uma declaração de uma superinterface ou remover a anotação redeclare."
+ },
+ "6dd65c775f06": {
+  "problem": "O construtor '{0}' não foi encontrado em '{1}'.",
+  "correction": "Tente redirecionar para outro construtor ou definir o construtor chamado '{0}'."
+ },
+ "35ddc4bbfcb9": {
+  "problem": "Construtores generativos não podem redirecionar para um construtor factory.",
+  "correction": "Tente redirecionar para outro construtor."
+ },
+ "d1c43d23df59": {
+  "problem": "O construtor de redirecionamento '{0}' não pode redirecionar para um construtor da classe abstrata '{1}'.",
+  "correction": "Tente redirecionar para um construtor de outra classe."
+ },
+ "6e4729335869": {
+  "problem": "O construtor redirecionado '{0}' tem parâmetros incompatíveis com '{1}'.",
+  "correction": "Tente redirecionar para outro construtor."
+ },
+ "d63fe70cfc46": {
+  "problem": "O tipo de retorno '{0}' do construtor redirecionado não é um subtipo de '{1}'.",
+  "correction": "Tente redirecionar para outro construtor."
+ },
+ "1daadc20fca2": {
+  "problem": "O construtor '{0}' não foi encontrado em '{1}'.",
+  "correction": "Tente redirecionar para outro construtor ou defina o construtor chamado '{0}'."
+ },
+ "14d91f452652": {
+  "problem": "O nome '{0}' não é um tipo e não pode ser usado em um construtor redirecionado.",
+  "correction": "Tente redirecionar para outro construtor."
+ },
+ "f6ae3757001c": {
+  "problem": "Um construtor de redirecionamento constante não pode redirecionar para um construtor não constante.",
+  "correction": "Tente redirecionar para outro construtor."
+ },
+ "4e3862376eb8": {
+  "problem": "Um construtor de redirecionamento não pode redirecionar para um alias de tipo que se expande para um parâmetro de tipo.",
+  "correction": "Tente substituí-lo por uma classe."
+ },
+ "7b03018a46b4": {
+  "problem": "Construtores de redirecionamento não podem ter corpo.",
+  "correction": "Tente remover o corpo ou não fazer deste um construtor de redirecionamento."
+ },
+ "7a33337f910e": {
+  "problem": "Apenas construtores factory podem especificar redirecionamento com '='.",
+  "correction": "Tente transformar este em um construtor factory ou remova o redirecionamento."
+ },
+ "18bac0ad5fc1": {
+  "problem": "A variável local '{0}' não pode ser referenciada antes de ser declarada.",
+  "correction": "Tente mover a declaração para antes do primeiro uso ou renomear a variável local para que ela não esconda um nome de um escopo externo."
+ },
+ "cb1bde7447d5": {
+  "problem": "Padrões refutáveis não podem ser usados em um contexto irrefutável.",
+  "correction": "Tente usar um if-case, uma instrução 'switch' ou uma expressão 'switch'."
+ },
+ "a9b70c6a8bc6": {
+  "problem": "O tipo da expressão constante '{0}' não pode ser atribuído ao tipo do parâmetro '{1}' do operador '{2}'.",
+  "correction": ""
+ },
+ "55f76b40032f": {
+  "problem": "O tipo de retorno dos operadores usados em padrões relacionais deve poder ser atribuído a 'bool'.",
+  "correction": "Tente atualizar a declaração do operador para retornar 'bool'."
+ },
+ "f5ac4b1f06b9": {
+  "problem": "Remova elementos descontinuados em versões com breaking changes.",
+  "correction": "Tente remover o elemento descontinuado."
+ },
+ "0460cd15cd9f": {
+  "problem": "'{0}' foi removido no Dart '{1}'",
+  "correction": "Tente remover a referência a '{0}'."
+ },
+ "540606c042ad": {
+  "problem": "'{0}' foi removido no Dart '{1}'",
+  "correction": "Remova a referência a '{0}'."
+ },
+ "983e8905d732": {
+  "problem": "'{0}' foi substituído por '{1}' no Dart '{2}'.",
+  "correction": "Substitua '{0}' por '{1}'."
+ },
+ "2a16cdc9429a": {
+  "problem": "'{0}' foi substituído por '{1}' no Dart '{2}'.",
+  "correction": "Substitua '{0}' por '{2}'."
+ },
+ "4e1edd0e4006": {
+  "problem": "Campos de representação não podem ter o modificador 'var'.",
+  "correction": "Tente remover o modificador."
+ },
+ "93e731291049": {
+  "problem": "Campos de representação não podem ter modificadores.",
+  "correction": "Tente remover o modificador."
+ },
+ "d49d76ba7104": {
+  "problem": "O campo de representação não pode ter vírgula final.",
+  "correction": "Tente remover a vírgula final."
+ },
+ "7e3b4f94b1d1": {
+  "problem": "Falta uma vírgula final obrigatória.",
+  "correction": "Tente adicionar uma vírgula final."
+ },
+ "c79051d1140b": {
+  "problem": "Um padrão de map não pode conter um padrão rest.",
+  "correction": "Tente remover o padrão rest."
+ },
+ "8ea31b8e84a3": {
+  "problem": "Um rethrow deve estar dentro de uma cláusula catch.",
+  "correction": "Tente mover a expressão para dentro de uma cláusula catch ou usar uma expressão 'throw'."
+ },
+ "1f542411dd81": {
+  "problem": "Construtores não podem retornar valores.",
+  "correction": "Tente remover a instrução return ou usar um construtor factory."
+ },
+ "a0b71fd4d4eb": {
+  "problem": "Não é possível retornar um valor de uma função geradora que usa o modificador 'async*' ou 'sync*'.",
+  "correction": "Tente substituir 'return' por 'yield', usar um corpo de função em bloco ou alterar o modificador do corpo do método."
+ },
+ "fff83ee4d5d4": {
+  "problem": "'{0}' está anotado com 'doNotStore' e não deve ser retornado, a menos que '{1}' também esteja anotado.",
+  "correction": "Anote '{1}' com 'doNotStore'."
+ },
+ "32482bd9d248": {
+  "problem": "Um valor do tipo '{0}' não pode ser retornado do método '{1}' porque ele tem o tipo de retorno '{2}'.",
+  "correction": ""
+ },
+ "d32102749a9d": {
+  "problem": "Um valor do tipo '{0}' não pode ser retornado da função '{1}' porque ela tem o tipo de retorno '{2}'.",
+  "correction": ""
+ },
+ "f12dedf7e3ca": {
+  "problem": "Um valor do tipo '{0}' não pode ser retornado do construtor '{1}' porque ele tem o tipo de retorno '{2}'.",
+  "correction": ""
+ },
+ "d39a38729125": {
+  "problem": "O tipo retornado '{0}' não pode ser retornado de uma função '{1}', conforme exigido pelo contexto do closure.",
+  "correction": ""
+ },
+ "144721fafa3e": {
+  "problem": "Falta o valor de retorno depois de 'return'.",
+  "correction": ""
+ },
+ "f165ab63002a": {
+  "problem": "O uso de uma expressão as em uma expressão constante não era suportado até a versão 2.3.2, mas este código precisa poder rodar em versões anteriores.",
+  "correction": "Tente atualizar as restrições de SDK."
+ },
+ "1ecf69db4daf": {
+  "problem": "A classe '{0}' não era exportada por 'dart:core' até a versão 2.1, mas este código precisa poder rodar em versões anteriores.",
+  "correction": "Tente importar 'dart:async' ou atualizar as restrições de SDK."
+ },
+ "4943e464f054": {
+  "problem": "O uso do operador '{0}' com operandos 'bool' em um contexto constante não era suportado até a versão 2.3.2, mas este código precisa poder rodar em versões anteriores.",
+  "correction": "Tente atualizar as restrições de SDK."
+ },
+ "55e95016fc9a": {
+  "problem": "Fazer o tear-off de um construtor exige o recurso da linguagem 'constructor-tearoffs'.",
+  "correction": "Tente atualizar seu 'pubspec.yaml' para definir a restrição mínima de SDK como 2.15 ou superior e executar 'pub get'."
+ },
+ "e4e98c029c18": {
+  "problem": "Usar o operador '==' com tipos não primitivos não era suportado até a versão 2.3.2, mas este código precisa poder rodar em versões anteriores.",
+  "correction": "Tente atualizar as restrições de SDK."
+ },
+ "7a85e79b7baa": {
+  "problem": "Métodos de extensão não eram suportados até a versão 2.6.0, mas este código precisa poder rodar em versões anteriores.",
+  "correction": "Tente atualizar as restrições de SDK."
+ },
+ "196bcbd99b89": {
+  "problem": "O operador '>>>' não era suportado até a versão 2.14.0, mas este código precisa poder rodar em versões anteriores.",
+  "correction": "Tente atualizar as restrições de SDK."
+ },
+ "578af24184d0": {
+  "problem": "O uso de uma expressão is em um contexto constante não era suportado até a versão 2.3.2, mas este código precisa poder rodar em versões anteriores.",
+  "correction": "Tente atualizar as restrições de SDK."
+ },
+ "4eb363ea48dd": {
+  "problem": "O tipo 'Never' não era suportado até a versão 2.12.0, mas este código precisa poder rodar em versões anteriores.",
+  "correction": "Tente atualizar as restrições de SDK."
+ },
+ "c6cc062d24fb": {
+  "problem": "Literais de set não eram suportados até a versão 2.2, mas este código precisa poder rodar em versões anteriores.",
+  "correction": "Tente atualizar as restrições de SDK."
+ },
+ "e492a27d9acd": {
+  "problem": "Esta API está disponível desde o SDK {0}, mas as restrições '{1}' não a garantem.",
+  "correction": "Tente atualizar as restrições de SDK."
+ },
+ "1cefa15af1bb": {
+  "problem": "Os elementos for, if e spread não eram suportados até a versão 2.3.0, mas este código precisa poder rodar em versões anteriores.",
+  "correction": "Tente atualizar as restrições de SDK."
+ },
+ "72ab718feeb2": {
+  "problem": "Os elementos if e spread não eram suportados em expressões constantes até a versão 2.5.0, mas este código precisa poder rodar em versões anteriores.",
+  "correction": "Tente atualizar as restrições de SDK."
+ },
+ "4fa885f1a8ec": {
+  "problem": "Enums não podem ser declarados como 'sealed'.",
+  "correction": "Tente remover a palavra-chave 'sealed'."
+ },
+ "6af1076b9e5a": {
+  "problem": "Um mixin não pode ser declarado como 'sealed'.",
+  "correction": "Tente remover a palavra-chave 'sealed'."
+ },
+ "cb39f95483c8": {
+  "problem": "Uma mixin class não pode ser declarada como 'sealed'.",
+  "correction": "Tente remover a palavra-chave 'sealed'."
+ },
+ "de4126575fba": {
+  "problem": "O protocolo '{0}' não deve ser usado porque não é seguro.",
+  "correction": "Tente usar um protocolo seguro, como 'https'."
+ },
+ "79e39cddaeb9": {
+  "problem": "O tipo de elemento '{0}' não pode ser atribuído ao tipo do set '{1}'.",
+  "correction": ""
+ },
+ "03920bf57a38": {
+  "problem": "Construtores não podem ser um setter.",
+  "correction": "Tente remover 'set'."
+ },
+ "e38123d86316": {
+  "problem": "Setters não podem ser definidos dentro de métodos ou funções.",
+  "correction": "Tente mover o setter para fora do método ou da função."
+ },
+ "9dfece50ba82": {
+  "problem": "O elemento `<activity>` não deveria ficar travado em nenhuma orientação, para que os usuários aproveitem os ambientes de múltiplas janelas e as telas maiores no Chrome OS.",
+  "correction": "Considere declarar o elemento activity correspondente com o atributo `screenOrientation=\"unspecified\"` ou `\"fullSensor\"`."
+ },
+ "9e4225ce53ca": {
+  "problem": "O prefixo de um import deferred não pode ser usado em outras diretivas de import.",
+  "correction": "Tente renomear um dos prefixos."
+ },
+ "125ff3c3c434": {
+  "problem": "Use caminhos simples nas diretivas.",
+  "correction": "Tente simplificar o caminho da diretiva."
+ },
+ "570534829be4": {
+  "problem": "A identificação de {0} '{1}:' é redundante e pode ser removida.",
+  "correction": "Tente remover a identificação de {0} redundante."
+ },
+ "cc8f874e8a44": {
+  "problem": "'Array's devem ter uma anotação 'Array' que corresponda às dimensões.",
+  "correction": "Tente ajustar os argumentos da anotação 'Array'."
+ },
+ "e7f9f3ac22a7": {
+  "problem": "Use um 'SizedBox' para adicionar espaço em branco a um layout.",
+  "correction": "Tente usar um 'SizedBox' em vez de um 'Container'."
+ },
+ "e6053cc2d3c8": {
+  "problem": "Use 'SizedBox.{0}' para evitar a necessidade de especificar 'height' e 'width'.",
+  "correction": "Tente usar 'SizedBox.{0}' e remover os argumentos 'height' e 'width'."
+ },
+ "a856914250b3": {
+  "problem": "Use a forma de fim de linha ('///') para comentários de documentação.",
+  "correction": "Tente reescrever o comentário para usar '///'."
+ },
+ "df7f8e09bb95": {
+  "problem": "O argumento '{0}' deveria ser o último nas invocações de construtores de widget.",
+  "correction": "Tente mover o argumento para o final da lista de argumentos."
+ },
+ "458322aac9b0": {
+  "problem": "Declarações de construtor devem vir antes das declarações que não são de construtor.",
+  "correction": "Tente mover a declaração do construtor para antes de todos os outros membros."
+ },
+ "531be353821c": {
+  "problem": "Dependências não estão em ordem alfabética.",
+  "correction": "Tente ordenar as dependências em ordem alfabética (A a Z)."
+ },
+ "54bc078cb79a": {
+  "problem": "Local inválido para o construtor sem nome.",
+  "correction": "Tente mover o construtor sem nome para antes de todos os outros construtores."
+ },
+ "7b69774e56c7": {
+  "problem": "Especifique o tipo de uma variável local quando o tipo não for óbvio.",
+  "correction": "Tente adicionar uma anotação de tipo."
+ },
+ "e5cb433a31ab": {
+  "problem": "Uma anotação de tipo é necessária porque o tipo não é óbvio.",
+  "correction": "Tente adicionar uma anotação de tipo."
+ },
+ "4607c2e6e33a": {
+  "problem": "Valores constantes de uma biblioteca deferred não podem ser espalhados (spread) em um literal const.",
+  "correction": "Tente tornar o import deferred em um import não deferred."
+ },
+ "51fe527b3b7b": {
+  "problem": "O arquivo tem expressões ou instruções aninhadas demais.",
+  "correction": "Tente simplificar o código."
+ },
+ "8c8936d2ac7a": {
+  "problem": "O membro de instância '{0}' não pode ser acessado por acesso estático.",
+  "correction": ""
+ },
+ "cac6c49f0a47": {
+  "problem": "Construtores não podem ser static.",
+  "correction": "Tente remover a palavra-chave 'static'."
+ },
+ "4ebaec478f6a": {
+  "problem": "Um getter 'static' deve ter corpo.",
+  "correction": "Tente adicionar um corpo ao getter ou remover a palavra-chave 'static'."
+ },
+ "a877864db712": {
+  "problem": "Operadores não podem ser static.",
+  "correction": "Tente remover a palavra-chave 'static'."
+ },
+ "bce4a4f91e18": {
+  "problem": "Um setter 'static' deve ter corpo.",
+  "correction": "Tente adicionar um corpo ao setter ou remover a palavra-chave 'static'."
+ },
+ "eb90f15e3406": {
+  "problem": "O tipo genérico '{0}' deveria ter argumentos de tipo explícitos, mas não tem.",
+  "correction": "Use argumentos de tipo explícitos para '{0}'."
+ },
+ "4f28b000b7d6": {
+  "problem": "Falta anotação de tipo.",
+  "correction": "Tente substituir '{0}' por uma anotação de tipo."
+ },
+ "116370520ea8": {
+  "problem": "O mixin '{0}' deve ser 'base' porque o supertipo '{1}' é 'final'.",
+  "correction": ""
+ },
+ "8b0f8f093cbe": {
+  "problem": "O mixin '{0}' deve ser 'base' porque o supertipo '{1}' é 'base'.",
+  "correction": ""
+ },
+ "d631059272dd": {
+  "problem": "O tipo '{0}' deve ser 'base', 'final' ou 'sealed' porque o supertipo '{1}' é 'base'.",
+  "correction": ""
+ },
+ "f51653c2d58e": {
+  "problem": "O tipo '{0}' deve ser 'base', 'final' ou 'sealed' porque o supertipo '{1}' é 'final'.",
+  "correction": ""
+ },
+ "27f0784ad813": {
+  "problem": "Classes não podem estender classes deferred.",
+  "correction": "Tente especificar outra superclasse ou remover a cláusula extends."
+ },
+ "7f9a7d798626": {
+  "problem": "Classes não podem aplicar mixin de classes deferred.",
+  "correction": "Tente alterar o import para que não seja deferred."
+ },
+ "8caf117d726a": {
+  "problem": "Classes e mixins não podem implementar classes deferred.",
+  "correction": "Tente especificar outra interface, remover a classe da lista ou alterar o import para que não seja deferred."
+ },
+ "07f744a38471": {
+  "problem": "Classes não podem estender '{0}'.",
+  "correction": "Tente especificar outra superclasse ou remover a cláusula extends."
+ },
+ "8440efd7010d": {
+  "problem": "'{0}' não pode ser usado como restrição de superclasse.",
+  "correction": "Tente especificar outra restrição de superclasse ou remover a cláusula 'on'."
+ },
+ "dbebe366b773": {
+  "problem": "Classes não podem aplicar o mixin '{0}'.",
+  "correction": "Tente especificar outra classe ou mixin ou remover a classe ou o mixin da lista."
+ },
+ "f9d0e40d6877": {
+  "problem": "Classes e mixins não podem implementar '{0}'.",
+  "correction": "Tente especificar outra interface ou remover a classe da lista."
+ },
+ "10712a59f1f6": {
+  "problem": "A classe '{0}' não pode aplicar o mixin '{1}'.",
+  "correction": "Tente estender 'Struct' ou 'Union'."
+ },
+ "3543e86b1092": {
+  "problem": "A classe '{0}' não pode estender '{1}'.",
+  "correction": "Tente estender 'Struct' ou 'Union'."
+ },
+ "90e4a35e5b6a": {
+  "problem": "A classe '{0}' não pode implementar '{1}'.",
+  "correction": "Tente implementar 'Allocator' ou 'Finalizable'."
+ },
+ "9d463038d76a": {
+  "problem": "A classe '{0}' não deveria ser estendida, usada como mixin nem implementada porque é sealed.",
+  "correction": "Tente usar composição em vez de herança ou consulte a documentação de '{0}' para mais informações."
+ },
+ "3e2e587ed26d": {
+  "problem": "A classe '{0}' não pode estender '{1}' porque '{1}' é um subtipo de 'Struct', 'Union' ou 'AbiSpecificInteger'.",
+  "correction": "Tente estender 'Struct', 'Union' ou 'AbiSpecificInteger' diretamente."
+ },
+ "6a92619349eb": {
+  "problem": "A classe '{0}' não pode aplicar o mixin '{1}' porque '{1}' é um subtipo de 'Struct', 'Union' ou 'AbiSpecificInteger'.",
+  "correction": "Tente estender 'Struct', 'Union' ou 'AbiSpecificInteger' diretamente."
+ },
+ "6d785bdf5d94": {
+  "problem": "A classe '{0}' não pode implementar '{1}' porque '{1}' é um subtipo de 'Struct', 'Union' ou 'AbiSpecificInteger'.",
+  "correction": "Tente estender 'Struct', 'Union' ou 'AbiSpecificInteger' diretamente."
+ },
+ "bd86bbaf570f": {
+  "problem": "O tipo '{0}' deste parâmetro não é um subtipo do tipo '{1}' do parâmetro associado do construtor super.",
+  "correction": "Tente remover a anotação de tipo explícita do parâmetro."
+ },
+ "607b46d8f79f": {
+  "problem": "Não há parâmetro nomeado associado no construtor super.",
+  "correction": "Tente alterar o nome para o de um parâmetro nomeado existente do construtor super ou criar esse parâmetro nomeado."
+ },
+ "2d7eb8f2be30": {
+  "problem": "Não há parâmetro posicional associado no construtor super.",
+  "correction": "Tente usar um parâmetro normal ou adicionar mais parâmetros posicionais ao construtor super."
+ },
+ "54c7845b6910": {
+  "problem": "O construtor de enum não pode ter um inicializador 'super'.",
+  "correction": "Tente remover a invocação de 'super'."
+ },
+ "5c13b6dbc07d": {
+  "problem": "A palavra-chave 'super' não pode ser usada em uma extensão porque uma extensão não tem superclasse.",
+  "correction": ""
+ },
+ "08c225c4d07f": {
+  "problem": "A palavra-chave 'super' não pode ser usada em uma extension type porque uma extension type não tem superclasse.",
+  "correction": ""
+ },
+ "f6161ebf2741": {
+  "problem": "Contexto inválido para a invocação de 'super'.",
+  "correction": ""
+ },
+ "14eec549a361": {
+  "problem": "O construtor de redirecionamento não pode ter um inicializador 'super'.",
+  "correction": ""
+ },
+ "1867407437b4": {
+  "problem": "A classe 'Object' não pode invocar um construtor de uma superclasse.",
+  "correction": ""
+ },
+ "6dc1c2694857": {
+  "problem": "Parâmetros declarantes não podem ser parâmetros super.",
+  "correction": "Tente remover o prefixo `super.` ou tornar o parâmetro não declarante."
+ },
+ "217117f300e9": {
+  "problem": "A chamada ao superconstrutor deve ser a última em uma lista de inicializadores: '{0}'.",
+  "correction": ""
+ },
+ "47d50efff02d": {
+  "problem": "A chamada ao superconstrutor deve ser a última em uma lista de inicializadores.",
+  "correction": ""
+ },
+ "37b0e17ddcf6": {
+  "problem": "Um alias de tipo que se expande para um parâmetro de tipo não pode ser usado como restrição de superclasse.",
+  "correction": ""
+ },
+ "3ec1b728666c": {
+  "problem": "Um alias de tipo que se expande para um parâmetro de tipo não pode ser aplicado como mixin.",
+  "correction": ""
+ },
+ "835c6fbc94a7": {
+  "problem": "Um alias de tipo que se expande para um parâmetro de tipo não pode ser implementado.",
+  "correction": "Tente especificar uma classe ou mixin ou remover a lista."
+ },
+ "d02e028a8182": {
+  "problem": "Um alias de tipo que se expande para um parâmetro de tipo não pode ser usado como superclasse.",
+  "correction": "Tente especificar outra superclasse ou remover a cláusula extends."
+ },
+ "73901cfd42c3": {
+  "problem": "O 'case' não deveria ser concluído normalmente.",
+  "correction": "Tente adicionar 'break', 'return' ou 'throw'."
+ },
+ "0ecadd003504": {
+  "problem": "O tipo '{0}' da expressão do switch não pode ser atribuído ao tipo '{1}' das expressões dos cases.",
+  "correction": ""
+ },
+ "ed048884b4e9": {
+  "problem": "O case default deve ser o último case em uma instrução switch.",
+  "correction": "Tente mover o case default para depois das outras cláusulas case."
+ },
+ "b482ec823de3": {
+  "problem": "O case 'default' só pode ser declarado uma vez.",
+  "correction": "Tente remover todos os cases default, exceto um."
+ },
+ "5dc8ff0daebb": {
+  "problem": "Evite instruções switch sobre um 'Type'.",
+  "correction": "Tente usar correspondência de padrões em uma variável."
+ },
+ "8f761b410c19": {
+  "problem": "Não é possível fazer o tear-off de um construtor generativo de uma classe abstrata.",
+  "correction": "Tente fazer o tear-off de um construtor de uma classe concreta ou de um construtor não generativo."
+ },
+ "630d615a100c": {
+  "problem": "A função '{0}' tem um parâmetro marcado com '@mustBeConst' e não pode sofrer tear-off.",
+  "correction": "Tente chamar a função diretamente com um argumento constante."
+ },
+ "163e98fc2ab9": {
+  "problem": "Falta o teste de tipo para '{0}' em '=='.",
+  "correction": "Tente testar o tipo de '{0}'."
+ },
+ "adcf4140f9e8": {
+  "problem": "O ponto de código Unicode 'U+{0}' muda a aparência do texto em relação a como ele é interpretado pelo compilador.",
+  "correction": "Tente remover o ponto de código ou usar a sequência de escape Unicode '\\u{0}'."
+ },
+ "803c3a78c055": {
+  "problem": "Uso de '{0}' em um bloco 'finally'.",
+  "correction": "Tente mover '{0}' para fora do bloco 'finally'."
+ },
+ "fd501b240ad6": {
+  "problem": "O tipo '{0}' da expressão lançada deve poder ser atribuído a 'Object'.",
+  "correction": ""
+ },
+ "88029a0f71e4": {
+  "problem": "Use uma anotação de tipo em vez de 'assert' para garantir a não anulabilidade.",
+  "correction": "Tente adicionar uma anotação de tipo e remover o 'assert'."
+ },
+ "f061ff779aa2": {
+  "problem": "O tipo de '{0}' não pode ser inferido porque depende de si mesmo pelo ciclo: {1}.",
+  "correction": "Tente adicionar um tipo explícito a uma ou mais variáveis do ciclo para quebrá-lo."
+ },
+ "43806dd7bbb7": {
+  "problem": "Operadores devem ser declarados dentro de uma classe.",
+  "correction": "Tente remover o operador, movê-lo para uma classe ou convertê-lo em uma função."
+ },
+ "0d2e482ddf79": {
+  "problem": "Typedefs não podem referenciar a si mesmos, direta ou recursivamente por meio de outro typedef.",
+  "correction": ""
+ },
+ "bc2332315bb1": {
+  "problem": "Falta anotação de tipo em uma API pública.",
+  "correction": "Tente adicionar uma anotação de tipo."
+ },
+ "9a262c9eb086": {
+  "problem": "O tipo deferred '{0}' não pode ser usado em uma declaração, cast ou teste de tipo.",
+  "correction": "Tente usar outro tipo ou alterar o import para que não seja deferred."
+ },
+ "08dfa59dbd5c": {
+  "problem": "'{0}' não está em conformidade com o limite '{1}' do parâmetro de tipo '{2}'.",
+  "correction": "Tente usar um tipo que seja '{1}' ou uma subclasse dele."
+ },
+ "81ad87cf7162": {
+  "problem": "Não é possível usar argumentos de tipo com a variável de tipo '{0}'.",
+  "correction": "Tente remover os argumentos de tipo."
+ },
+ "a04c6c730f4b": {
+  "problem": "Construtores factory não podem ter tipo de retorno.",
+  "correction": "Tente remover o tipo que aparece antes de 'factory'."
+ },
+ "5517aeff8fb4": {
+  "problem": "Testes de não nulo devem ser feitos com '!= null'.",
+  "correction": "Tente substituir a verificação 'is! Null' por '!= null'."
+ },
+ "7d273086af77": {
+  "problem": "Testes de nulo devem ser feitos com '== null'.",
+  "correction": "Tente substituir a verificação 'is Null' por '== null'."
+ },
+ "44b306b106d9": {
+  "problem": "Não anote o tipo de parâmetros formais de inicialização sem necessidade.",
+  "correction": "Tente remover o tipo."
+ },
+ "4a37c6267112": {
+  "problem": "Use 'TypeName _' em vez de um literal de tipo.",
+  "correction": "Substitua por 'TypeName _'."
+ },
+ "43027768a19d": {
+  "problem": "Construtores não podem ter parâmetros de tipo.",
+  "correction": "Tente remover os parâmetros de tipo."
+ },
+ "3f7ed2ffa227": {
+  "problem": "Parâmetros de tipo não são permitidos ao definir um operador.",
+  "correction": "Tente remover os parâmetros de tipo."
+ },
+ "be618d649e7a": {
+  "problem": "Membros estáticos não podem referenciar parâmetros de tipo da classe.",
+  "correction": "Tente remover a referência ao parâmetro de tipo ou transformar o membro em um membro de instância."
+ },
+ "ef87c344dc74": {
+  "problem": "'{0}' não pode ser um supertipo do seu limite superior.",
+  "correction": "Tente usar um tipo que seja igual a '{1}' ou uma subclasse dele."
+ },
+ "10f2df36bf82": {
+  "problem": "O nome '{0}' não é um tipo e não pode ser usado em uma expressão 'is'.",
+  "correction": "Tente corrigir o nome para corresponder a um tipo existente."
+ },
+ "5bcaaf9b335f": {
+  "problem": "O nome '{0}' não está definido, então não pode ser usado em uma expressão 'is'.",
+  "correction": "Tente alterar o nome para o de um tipo existente ou criar um tipo com o nome '{0}'."
+ },
+ "abeb30681d2b": {
+  "problem": "Aliases de tipo não podem ser aumentados.",
+  "correction": ""
+ },
+ "db4cd7713f34": {
+  "problem": "Typedefs não podem ser declarados dentro de classes.",
+  "correction": "Tente mover o typedef para o nível superior."
+ },
+ "7c86b0b7f98e": {
+  "problem": "Não foi possível obter o conteúdo de '{0}'.",
+  "correction": ""
+ },
+ "a926a9aeba65": {
+  "problem": "Falta um 'await' para o 'Future' calculado por esta expressão.",
+  "correction": "Tente adicionar um 'await' ou envolver a expressão com 'unawaited'."
+ },
+ "2bae81084868": {
+  "problem": "Retornando um 'Future' sem 'await' dentro de um bloco try.",
+  "correction": "Tente adicionar um 'await'."
+ },
+ "0e7b4fd75411": {
+  "problem": "Uma expressão anulável não pode ser usada em uma instrução yield-each.",
+  "correction": "Tente verificar se o valor não é 'null' antes de usá-lo em uma instrução yield-each."
+ }
+}

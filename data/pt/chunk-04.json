@@ -1,0 +1,642 @@
+{
+ "5bdfc61754a7": {
+  "problem": "Operadores external não podem ter corpo.",
+  "correction": "Tente remover o corpo do operador ou remover a palavra-chave 'external'."
+ },
+ "49508af47304": {
+  "problem": "Setters external não podem ter corpo.",
+  "correction": "Tente remover o corpo do setter ou remover a palavra-chave 'external'."
+ },
+ "4f282cb98eff": {
+  "problem": "Typedefs não podem ser declarados como 'external'.",
+  "correction": "Tente remover a palavra-chave 'external'."
+ },
+ "9350844c3e6a": {
+  "problem": "Variáveis external não podem ter inicializadores.",
+  "correction": "Tente remover o inicializador ou a palavra-chave 'external'."
+ },
+ "c24e592ad07b": {
+  "problem": "Campos external não podem ter inicializadores.",
+  "correction": "Tente remover o inicializador ou a palavra-chave 'external'."
+ },
+ "eff89e0deb6b": {
+  "problem": "Campos external não podem ter inicializadores.",
+  "correction": "Tente remover o inicializador do campo ou a palavra-chave 'external' da declaração do campo."
+ },
+ "21a90c0246fe": {
+  "problem": "Campos em uma classe struct devem ter exatamente uma anotação indicando o tipo nativo.",
+  "correction": "Tente remover a anotação extra."
+ },
+ "928f393605ab": {
+  "problem": "Argumentos posicionais demais (esperados: {0}; encontrados: {1}).",
+  "correction": "Tente remover os argumentos extras."
+ },
+ "b09d67557577": {
+  "problem": "Argumentos posicionais demais (esperados: {0}; encontrados: {1}).",
+  "correction": "Tente remover os argumentos posicionais extras ou especificar o nome dos argumentos nomeados."
+ },
+ "a771703aa2f1": {
+  "problem": "'Array's devem ter exatamente uma anotação 'Array'.",
+  "correction": "Tente remover a anotação extra."
+ },
+ "ab9a1f9e3ed6": {
+  "problem": "Não pode haver o modificador '{0}' aqui.",
+  "correction": "Tente remover '{0}'."
+ },
+ "d227f0318ef9": {
+  "problem": "Não pode haver o modificador '{0}' em um extension type.",
+  "correction": "Tente remover '{0}'."
+ },
+ "f08e5aac4e0a": {
+  "problem": "Não pode haver o modificador '{0}' em um construtor primário.",
+  "correction": "Tente remover '{0}'."
+ },
+ "eb9b10cf8601": {
+  "problem": "Construtores factory não podem se chamar 'new'.",
+  "correction": "Tente remover a palavra-chave 'new' ou trocá-la por outro nome."
+ },
+ "72ff5a384e7b": {
+  "problem": "O construtor factory '{0}' deve ter um corpo ou redirecionamento depois que todas as augmentations forem aplicadas.",
+  "correction": "Tente adicionar um corpo ou redirecionamento à declaração introdutória ou fornecer uma augmentation com corpo ou redirecionamento."
+ },
+ "bc115e6c4889": {
+  "problem": "Declarações de nível superior não podem ser declaradas como 'factory'.",
+  "correction": "Tente remover a palavra-chave 'factory'."
+ },
+ "b66267d09f79": {
+  "problem": "Um construtor 'factory' não pode ter inicializadores.",
+  "correction": "Tente remover a palavra-chave 'factory' para torná-lo um construtor generativo ou remover os inicializadores."
+ },
+ "c22d4ce92558": {
+  "problem": "Um construtor 'factory' que não é de redirecionamento deve ter um corpo.",
+  "correction": "Tente adicionar um corpo ao construtor."
+ },
+ "40ab947630ef": {
+  "problem": "Pode haver no máximo uma anotação @DefaultAsset em uma biblioteca.",
+  "correction": "Tente remover a anotação extra."
+ },
+ "f1d065282d66": {
+  "problem": "Funções e campos nativos devem ter exatamente uma anotação `@Native`.",
+  "correction": "Tente remover a anotação extra."
+ },
+ "7203b00f9bd8": {
+  "problem": "Funções nativas devem ser declaradas como external.",
+  "correction": "Adicione a palavra-chave `external` à função."
+ },
+ "16c6ba0ff1e7": {
+  "problem": "Somente classes que estendem NativeFieldWrapperClass1 podem ser passadas como Pointer.",
+  "correction": "Passe como Handle."
+ },
+ "69550272d66c": {
+  "problem": "Número inesperado de parâmetros na anotação Native (esperados: {0}; encontrados: {1}).",
+  "correction": "Verifique se os parâmetros correspondem à função anotada."
+ },
+ "12c22e0979ff": {
+  "problem": "Número inesperado de parâmetros na anotação Native (esperados: {0}; encontrados: {1}). A anotação de método de instância Native deve ter o receptor como primeiro argumento.",
+  "correction": "Verifique se os parâmetros correspondem à função anotada, incluindo um primeiro parâmetro extra para o receptor."
+ },
+ "206cecf4c6b1": {
+  "problem": "Campos em subclasses de 'Struct' e 'Union' não podem ter inicializadores.",
+  "correction": "Tente remover o inicializador e marcar o campo como external."
+ },
+ "de6624b78b08": {
+  "problem": "O campo '{0}' não pode ser inicializado duas vezes no mesmo construtor.",
+  "correction": "Tente remover uma das inicializações."
+ },
+ "c1196784c269": {
+  "problem": "Campos não podem ser inicializados no construtor primário e também na declaração.",
+  "correction": "Tente remover uma das inicializações."
+ },
+ "e5420248021f": {
+  "problem": "Campos não podem ser inicializados na lista de parâmetros do construtor primário e também na declaração.",
+  "correction": "Tente remover uma das inicializações."
+ },
+ "169cfe5f799a": {
+  "problem": "Campos não podem ser inicializados no construtor se forem final e já tiverem sido inicializados na declaração.",
+  "correction": "Tente remover uma das inicializações."
+ },
+ "fa7d89da54c1": {
+  "problem": "Campos não podem ser inicializados na lista de parâmetros e também nos inicializadores.",
+  "correction": "Tente remover uma das inicializações."
+ },
+ "0a18bef320b3": {
+  "problem": "Um campo só pode ser inicializado na classe que o declara.",
+  "correction": "Tente passar um valor para o construtor da superclasse ou mover a inicialização para o corpo do construtor."
+ },
+ "b191ebb01222": {
+  "problem": "Parâmetros formais de inicialização não podem ser usados em construtores factory.",
+  "correction": "Tente usar um parâmetro normal."
+ },
+ "a2fefa05dcad": {
+  "problem": "Construtores em subclasses de 'Struct' e 'Union' não podem ter inicializadores de campo.",
+  "correction": "Tente remover o inicializador do campo e marcar o campo como external."
+ },
+ "b3fd75cf055c": {
+  "problem": "O tipo do inicializador '{0}' não pode ser atribuído ao tipo do campo '{1}'.",
+  "correction": ""
+ },
+ "bd2af9e9ee97": {
+  "problem": "O tipo do inicializador '{0}' não pode ser atribuído ao tipo do campo '{1}' em um construtor const.",
+  "correction": "Tente usar um subtipo ou remover a palavra-chave 'const'."
+ },
+ "497ff25cf04d": {
+  "problem": "Parâmetros formais de campo só podem ser usados em um construtor.",
+  "correction": "Tente remover 'this.'."
+ },
+ "5330c7dde19f": {
+  "problem": "O construtor de redirecionamento não pode ter um inicializador de campo.",
+  "correction": "Tente inicializar o campo no construtor para o qual se redireciona."
+ },
+ "c329f2509b5e": {
+  "problem": "O tipo do parâmetro '{0}' é incompatível com o tipo do campo '{1}'.",
+  "correction": "Tente alterar ou remover o tipo do parâmetro ou alterar o tipo do campo."
+ },
+ "f12e62df0bf3": {
+  "problem": "Campos de subclasses de 'Struct' e 'Union' devem ser marcados como external.",
+  "correction": "Tente adicionar o modificador 'external'."
+ },
+ "ece8d8498b5c": {
+  "problem": "O nome do arquivo '{0}' não é um identificador lower_case_with_underscores.",
+  "correction": "Tente alterar o nome para seguir o estilo lower_case_with_underscores."
+ },
+ "ee1d9ec0a498": {
+  "problem": "Membros não podem ser declarados como 'final' e 'covariant' ao mesmo tempo.",
+  "correction": "Tente remover a palavra-chave 'final' ou 'covariant'."
+ },
+ "0595252c9427": {
+  "problem": "Membros marcados como 'late' com inicializador não podem ser declarados como 'final' e 'covariant' ao mesmo tempo.",
+  "correction": "Tente remover a palavra-chave 'final' ou 'covariant' ou remover o inicializador."
+ },
+ "0969f746bb60": {
+  "problem": "Membros não podem ser declarados como 'final' e 'var' ao mesmo tempo.",
+  "correction": "Tente remover a palavra-chave 'var'."
+ },
+ "ef90a8aead4b": {
+  "problem": "Um construtor não pode ser declarado como 'final'.",
+  "correction": "Tente remover a palavra-chave 'final'."
+ },
+ "831734f9ad77": {
+  "problem": "Enums não podem ser declarados como 'final'.",
+  "correction": "Tente remover a palavra-chave 'final'."
+ },
+ "bcecf1f2340a": {
+  "problem": "'{0}' é final e recebeu um valor na declaração, então não pode receber um novo valor.",
+  "correction": "Tente remover uma das inicializações."
+ },
+ "d0eca6b31d5c": {
+  "problem": "Getters, setters e métodos não podem ser declarados como 'final'.",
+  "correction": "Tente remover a palavra-chave 'final'."
+ },
+ "b51aac371fdd": {
+  "problem": "Um mixin não pode ser declarado como 'final'.",
+  "correction": "Tente remover a palavra-chave 'final'."
+ },
+ "08743ad38acd": {
+  "problem": "Uma mixin class não pode ser declarada como 'final'.",
+  "correction": "Tente remover a palavra-chave 'final'."
+ },
+ "bee3637ade5d": {
+  "problem": "A variável final '{0}' deve ser inicializada.",
+  "correction": "Tente inicializar a variável."
+ },
+ "0fbff8b1d59d": {
+  "problem": "Todas as variáveis final devem ser inicializadas, mas '{0}', '{1}' e mais {2} não foram.",
+  "correction": "Tente adicionar inicializadores para os campos."
+ },
+ "73b53e5fc2fb": {
+  "problem": "Todas as variáveis final devem ser inicializadas, mas '{0}' e '{1}' não foram.",
+  "correction": "Tente adicionar inicializadores para os campos."
+ },
+ "e3dfb2f600fe": {
+  "problem": "Todas as variáveis final devem ser inicializadas, mas '{0}' não foi.",
+  "correction": "Tente adicionar um inicializador para o campo."
+ },
+ "43d01c48b3bf": {
+  "problem": "Era esperado que o valor do campo 'flutter' fosse um map.",
+  "correction": "Tente converter o valor para um map."
+ },
+ "2fdbf79c135d": {
+  "problem": "O comentário de to-do não segue o estilo do Flutter.",
+  "correction": "Tente seguir o estilo do Flutter para comentários de to-do."
+ },
+ "b482e63499e6": {
+  "problem": "O tipo '{0}' usado no loop 'for' deve implementar '{1}' com um argumento de tipo que possa ser atribuído a '{2}'.",
+  "correction": ""
+ },
+ "5aff3e10603a": {
+  "problem": "O tipo '{0}' usado no loop 'for' deve implementar '{1}'.",
+  "correction": ""
+ },
+ "82a341ff6374": {
+  "problem": "A variável de um loop for-in não pode ser 'const'.",
+  "correction": "Tente remover o modificador 'const' da variável ou use outra variável."
+ },
+ "d6cbeda884b5": {
+  "problem": "A função ou membro '{0}' deve ter um corpo depois que todas as augmentations forem aplicadas.",
+  "correction": "Tente adicionar um corpo à declaração introdutória ou fornecer uma augmentation com corpo."
+ },
+ "de0ef8bc1d72": {
+  "problem": "Parâmetros de tipo função não podem especificar 'const', 'final' ou 'var' no lugar do tipo de retorno.",
+  "correction": "Tente substituir a palavra-chave por um tipo de retorno."
+ },
+ "5f6b64ecb747": {
+  "problem": "Tipos de função genéricos não podem ser usados como limites de parâmetro de tipo.",
+  "correction": "Tente fazer a variável livre do tipo de função fazer parte da assinatura da declaração maior."
+ },
+ "5fb13ecd5a78": {
+  "problem": "Um tipo de função genérico não pode ser argumento de tipo.",
+  "correction": "Tente remover os parâmetros de tipo do tipo de função genérico ou usar 'dynamic' como argumento de tipo aqui."
+ },
+ "c990175e957d": {
+  "problem": "Um tear-off de método em um receptor cujo tipo é 'dynamic' não pode ter argumentos de tipo.",
+  "correction": "Especifique o tipo do receptor ou remova os argumentos de tipo do tear-off do método."
+ },
+ "96f476d28c45": {
+  "problem": "A classe '{0}' não pode estender 'Struct' ou 'Union' porque '{0}' é genérica.",
+  "correction": "Tente remover os parâmetros de tipo de '{0}'."
+ },
+ "38a8d78c8397": {
+  "problem": "Construtores não podem ser getters.",
+  "correction": "Tente remover 'get'."
+ },
+ "cf11a3b05ab9": {
+  "problem": "Getters não podem ser definidos dentro de métodos ou funções.",
+  "correction": "Tente mover o getter para fora do método ou função ou converter o getter em uma função."
+ },
+ "4d5fc1fc5841": {
+  "problem": "O tipo de retorno do getter '{0}' é '{1}', que não é atribuível ao tipo '{2}' do seu setter '{3}'.",
+  "correction": "Tente alterar os tipos para que sejam compatíveis."
+ },
+ "e2f6cf90bc46": {
+  "problem": "O tipo de retorno do getter '{0}' é '{1}', que não é subtipo do tipo '{2}' do seu setter '{3}'.",
+  "correction": "Tente alterar os tipos para que sejam compatíveis."
+ },
+ "b4c633fdc173": {
+  "problem": "Getters devem ser declarados sem lista de parâmetros.",
+  "correction": "Tente remover a lista de parâmetros ou remover a palavra-chave 'get' para definir um método em vez de um getter."
+ },
+ "156e3b8e0118": {
+  "problem": "Falta a sobrescrita correspondente de '{0}'.",
+  "correction": "Tente sobrescrever '{0}' ou remover '{1}'."
+ },
+ "6ddad7fda5b8": {
+  "problem": "Valores constantes de uma biblioteca deferred não podem ser usados como valores em uma condição if dentro de um literal de coleção const.",
+  "correction": "Tente fazer o import deixar de ser deferred."
+ },
+ "9f33672c9ee7": {
+  "problem": "Atribuição ilegal a uma expressão que não pode receber atribuição.",
+  "correction": ""
+ },
+ "f2899113d282": {
+  "problem": "Funções marcadas com 'async*' devem ter um tipo de retorno que seja supertipo de 'Stream<T>' para algum tipo 'T'.",
+  "correction": "Tente corrigir o tipo de retorno da função ou remover o modificador 'async*' do corpo da função."
+ },
+ "96e3246eb1b4": {
+  "problem": "Funções marcadas com 'async' devem ter um tipo de retorno que seja supertipo de 'Future'.",
+  "correction": "Tente corrigir o tipo de retorno da função ou remover o modificador 'async' do corpo da função."
+ },
+ "1d1a8253fde9": {
+  "problem": "Caractere ilegal '{0}'.",
+  "correction": ""
+ },
+ "0926dae8b4fd": {
+  "problem": "Um membro de instância concreto chamado '{0}' não pode ser declarado em uma classe que implementa 'Enum'.",
+  "correction": "Tente usar outro nome."
+ },
+ "27bc8069fe58": {
+  "problem": "Um membro de instância concreto chamado '{0}' não pode ser herdado de '{1}' em uma classe que implementa 'Enum'.",
+  "correction": "Tente usar outro nome."
+ },
+ "7ebd4445b9bb": {
+  "problem": "Um membro de instância chamado 'values' não pode ser herdado de '{0}' em uma classe que implementa 'Enum'.",
+  "correction": "Tente usar outro nome."
+ },
+ "b62da9799f3e": {
+  "problem": "Um membro de instância chamado 'values' não pode ser declarado em uma classe que implementa 'Enum'.",
+  "correction": "Tente usar outro nome."
+ },
+ "178bc0b04d0a": {
+  "problem": "A versão da linguagem deve ser {0}.",
+  "correction": "Tente remover o override da versão da linguagem e migrar o código."
+ },
+ "84178ae20b81": {
+  "problem": "Uma variável atribuída por uma atribuição de padrão não pode se chamar '{0}'.",
+  "correction": "Escolha outro nome."
+ },
+ "f76dfe4cc7e7": {
+  "problem": "Um padrão não pode referenciar um identificador chamado '{0}'.",
+  "correction": "Compare o identificador usando '=="
+ },
+ "901fc0ee9146": {
+  "problem": "A variável declarada por um padrão de variável não pode se chamar '{0}'.",
+  "correction": "Escolha outro nome."
+ },
+ "38b5b4ab03bc": {
+  "problem": "Funções marcadas com 'sync*' devem ter um tipo de retorno que seja supertipo de 'Iterable<T>' para algum tipo 'T'.",
+  "correction": "Tente corrigir o tipo de retorno da função ou remover o modificador 'sync*' do corpo da função."
+ },
+ "feac3a916504": {
+  "problem": "Import de uma biblioteca do diretório 'lib/src' de outro pacote.",
+  "correction": "Tente importar uma biblioteca pública que exporte esta biblioteca ou remover o import."
+ },
+ "ab9180672184": {
+  "problem": "A cláusula extends deve vir antes da cláusula implements.",
+  "correction": "Tente mover a cláusula extends para antes da cláusula implements."
+ },
+ "f9d4eeba16b9": {
+  "problem": "A cláusula on deve vir antes da cláusula implements.",
+  "correction": "Tente mover a cláusula on para antes da cláusula implements."
+ },
+ "1f9ec692f52c": {
+  "problem": "A cláusula with deve vir antes da cláusula implements.",
+  "correction": "Tente mover a cláusula with para antes da cláusula implements."
+ },
+ "102a8e1036ac": {
+  "problem": "Classes e mixins só podem implementar outras classes e mixins.",
+  "correction": "Tente especificar uma classe ou mixin ou remover o nome da lista."
+ },
+ "d989a58e395c": {
+  "problem": "'{0}' só pode ser implementado uma vez.",
+  "correction": "Tente remover todas as ocorrências do nome da classe, exceto uma."
+ },
+ "754f9d4ebc0a": {
+  "problem": "'{0}' não pode ser usado nas cláusulas 'extends' e 'implements' ao mesmo tempo.",
+  "correction": "Tente remover uma das ocorrências."
+ },
+ "833af0b414c2": {
+  "problem": "'{0}' não pode ser usado nas cláusulas 'extends' e 'with' ao mesmo tempo.",
+  "correction": "Tente remover uma das ocorrências."
+ },
+ "fb2caf5c9104": {
+  "problem": "'{0}' não pode ser usado nas cláusulas 'on' e 'implements' ao mesmo tempo.",
+  "correction": "Tente remover o tipo da cláusula 'implements'."
+ },
+ "f5f3be6307e2": {
+  "problem": "Tear-off implícito do método 'call'.",
+  "correction": "Tente fazer o tear-off do método 'call' explicitamente."
+ },
+ "2868d6675496": {
+  "problem": "'{1}' ({0}) reabre '{2}' porque não tem o modificador '{3}'.",
+  "correction": "Tente marcar '{1}' como '{3}' ou anotá-lo com '@reopen'."
+ },
+ "439d607f84ce": {
+  "problem": "O construtor sem nome de '{0}', invocado implicitamente, tem parâmetros obrigatórios.",
+  "correction": "Tente adicionar um parâmetro super explícito com os argumentos obrigatórios."
+ },
+ "e66e3d105dd9": {
+  "problem": "O membro de instância '{0}' não pode ser acessado em um inicializador.",
+  "correction": "Tente substituir a referência ao membro de instância por outra expressão."
+ },
+ "90951d4147d4": {
+  "problem": "A biblioteca importada define uma função de nível superior chamada 'loadLibrary', que fica escondida por esta biblioteca ser deferred.",
+  "correction": "Tente mudar o import para não ser deferred ou renomear a função na biblioteca importada."
+ },
+ "807723cf2054": {
+  "problem": "Diretivas import devem vir antes das diretivas part.",
+  "correction": "Tente mover as diretivas import para antes das diretivas part."
+ },
+ "0a32669d3104": {
+  "problem": "A biblioteca '{0}' é interna e não pode ser importada.",
+  "correction": ""
+ },
+ "64c9bb9efdae": {
+  "problem": "A biblioteca '{0}' é legada e não deveria ser importada em uma biblioteca com null safety.",
+  "correction": "Tente migrar a biblioteca importada."
+ },
+ "d61f905bd520": {
+  "problem": "A biblioteca importada '{0}' não pode ter uma diretiva part-of.",
+  "correction": "Tente importar a biblioteca da qual o part faz parte."
+ },
+ "fa6b7887c381": {
+  "problem": "A URI '{0}' incluída em '{1}' não foi encontrada ao analisar '{2}'.",
+  "correction": ""
+ },
+ "f086ce43342e": {
+  "problem": "{0} em {1}({2}..{3})",
+  "correction": ""
+ },
+ "f9d3ed24f2a9": {
+  "problem": "Aviso no arquivo de opções incluído {0}({1}..{2}): {3}",
+  "correction": ""
+ },
+ "1b5472203305": {
+  "problem": "A regra '{0}' é incompatível com '{1}'.",
+  "correction": "Tente remover todas as regras incompatíveis, exceto uma."
+ },
+ "2fafa5dc204f": {
+  "problem": "A regra '{0}' é incompatível com {1}, que é incluída de {2} arquivo(s){3}.",
+  "correction": "Tente desabilitar localmente todas as regras conflitantes, exceto uma ou remover um dos arquivos incompatíveis."
+ },
+ "f281a7467417": {
+  "problem": "A regra '{0}' é incompatível com {1}.",
+  "correction": "Tente desabilitar localmente todas as regras conflitantes, exceto uma ou remover um dos arquivos incompatíveis."
+ },
+ "fbd819bbdf2e": {
+  "problem": "Expressões case devem ter o mesmo tipo, '{0}' não é um '{1}'.",
+  "correction": ""
+ },
+ "d83dac8d09b2": {
+  "problem": "As superinterfaces não têm uma sobrescrita válida para '{0}': {1}.",
+  "correction": "Tente adicionar uma sobrescrita explícita que seja consistente com todos os membros herdados."
+ },
+ "07d8cf475d3f": {
+  "problem": "'{0}' é herdado como getter (de '{1}') e também como método (de '{2}').",
+  "correction": "Tente ajustar os supertipos desta classe para remover a inconsistência."
+ },
+ "09291520328e": {
+  "problem": "Parts devem ter exatamente o mesmo override de versão da linguagem que a biblioteca.",
+  "correction": ""
+ },
+ "a3f872f5cb65": {
+  "problem": "A variável '{0}' tem tipo e/ou finalidade diferente neste ramo do padrão lógico-or.",
+  "correction": "Tente declarar o padrão de variável com o mesmo tipo e finalidade nos dois ramos."
+ },
+ "0991bd28c0ac": {
+  "problem": "O getter induzido por '{0}' deve ter um corpo depois que todas as augmentations forem aplicadas.",
+  "correction": "Tente adicionar um inicializador ou fornecer uma augmentation com corpo de getter."
+ },
+ "b48dee56316e": {
+  "problem": "O getter induzido por '{0}' deve ter um corpo.",
+  "correction": "Tente remover 'abstract' e adicionar um inicializador."
+ },
+ "ce0c7eeada2f": {
+  "problem": "O setter induzido por '{0}' deve ter um corpo depois que todas as augmentations forem aplicadas.",
+  "correction": "Tente adicionar um inicializador ou fornecer uma augmentation com corpo de setter."
+ },
+ "83598e7fe9d6": {
+  "problem": "O setter induzido por '{0}' deve ter um corpo.",
+  "correction": "Tente remover 'abstract' e adicionar um inicializador."
+ },
+ "401c7e324484": {
+  "problem": "Os argumentos de tipo de '{0}' não podem ser inferidos.",
+  "correction": "Use argumentos de tipo explícitos para '{0}'."
+ },
+ "37f5c4553b4a": {
+  "problem": "Os argumentos de tipo da função '{0}' não podem ser inferidos.",
+  "correction": "Use argumentos de tipo explícitos para '{0}'."
+ },
+ "fba0a58177cb": {
+  "problem": "O tipo de retorno de '{0}' não pode ser inferido.",
+  "correction": "Declare o tipo de retorno de '{0}'."
+ },
+ "88c0c2431136": {
+  "problem": "Os argumentos de tipo do tipo de função genérico '{0}' não podem ser inferidos.",
+  "correction": "Use argumentos de tipo explícitos para '{0}'."
+ },
+ "17d41595d6b8": {
+  "problem": "Os argumentos de tipo do construtor '{0}' não podem ser inferidos.",
+  "correction": "Use argumentos de tipo explícitos para '{0}'."
+ },
+ "6f146607fbbb": {
+  "problem": "O tipo de '{0}' não pode ser inferido sem um tipo ou inicializador.",
+  "correction": "Tente especificar o tipo da variável."
+ },
+ "82f0a6b1cf27": {
+  "problem": "O tipo de '{0}' não pode ser inferido; é preciso fornecer um tipo explicitamente.",
+  "correction": "Tente especificar o tipo do parâmetro."
+ },
+ "4249f6e516aa": {
+  "problem": "O campo deve ser inicializado na declaração do campo.",
+  "correction": "Tente inicializar o campo onde ele é declarado."
+ },
+ "25527985e2f3": {
+  "problem": "A variável de um loop for-each não pode ser inicializada.",
+  "correction": "Tente remover o inicializador ou usar outro tipo de loop."
+ },
+ "0077ddbb2190": {
+  "problem": "'{0}' não é um campo da classe envolvente.",
+  "correction": "Tente corrigir o nome para corresponder a um campo existente ou definir um campo chamado '{0}'."
+ },
+ "f6493c5d6a47": {
+  "problem": "'{0}' é um campo estático da classe envolvente. Campos inicializados em um construtor não podem ser estáticos.",
+  "correction": "Tente remover a inicialização."
+ },
+ "38795d742a17": {
+  "problem": "Parâmetros declarantes não podem ser de inicialização.",
+  "correction": "Tente remover o prefixo `this.` ou tornar o parâmetro não declarante."
+ },
+ "c4de5437575a": {
+  "problem": "O membro estático '{1}' ({0}) não pode ser acessado por meio de uma instância.",
+  "correction": "Tente acessar o {0} por meio de '{3}' ({2})."
+ },
+ "f4a25a7bc909": {
+  "problem": "O membro estático '{1}' ({0}) não pode ser acessado por meio de uma instância.",
+  "correction": ""
+ },
+ "bb6876129b3a": {
+  "problem": "Membros de instância não podem ser acessados a partir de um construtor factory.",
+  "correction": "Tente remover a referência ao membro de instância."
+ },
+ "e083951a3aae": {
+  "problem": "Membros de instância não podem ser acessados a partir de um método estático.",
+  "correction": "Tente remover a referência ao membro de instância ou remover a palavra-chave 'static' do método."
+ },
+ "8139ff5178a8": {
+  "problem": "Classes abstratas não podem ser instanciadas.",
+  "correction": "Tente criar uma instância de um subtipo concreto."
+ },
+ "0daea7a00181": {
+  "problem": "Enums não podem ser instanciados.",
+  "correction": "Tente usar uma das constantes definidas."
+ },
+ "a29b4c31a864": {
+  "problem": "Type aliases que expandem para um parâmetro de tipo não podem ser instanciados.",
+  "correction": "Tente substituí-lo por uma classe."
+ },
+ "f96aa6ad9f44": {
+  "problem": "O literal inteiro está sendo usado como double, mas não pode ser representado como um double de 64 bits sem overflow ou perda de precisão: '{0}'.",
+  "correction": "Tente usar a classe 'BigInt' ou mudar para o double válido mais próximo: '{1}'."
+ },
+ "c4dad9a0d4ad": {
+  "problem": "O literal inteiro {0} não pode ser representado em 64 bits.",
+  "correction": "Tente usar a classe 'BigInt' se precisar de um inteiro maior que 9.223.372.036.854.775.807 ou menor que -9.223.372.036.854.775.808."
+ },
+ "75483621c1db": {
+  "problem": "Enums não podem ser declarados como 'interface'.",
+  "correction": "Tente remover a palavra-chave 'interface'."
+ },
+ "07ae35d461d8": {
+  "problem": "Um mixin não pode ser declarado como 'interface'.",
+  "correction": "Tente remover a palavra-chave 'interface'."
+ },
+ "a8a11333004a": {
+  "problem": "Uma mixin class não pode ser declarada como 'interface'.",
+  "correction": "Tente remover a palavra-chave 'interface'."
+ },
+ "1caf6c83e610": {
+  "problem": "A anotação deve ser uma referência a uma variável const ou uma invocação de construtor const.",
+  "correction": ""
+ },
+ "ec262e5707e4": {
+  "problem": "Valores constantes de uma biblioteca deferred não podem ser usados em anotações.",
+  "correction": "Tente mover a constante para fora da biblioteca deferred ou remover 'deferred' do import."
+ },
+ "588f5933f23c": {
+  "problem": "Valores constantes de uma biblioteca deferred não podem ser usados como anotações.",
+  "correction": "Tente remover a anotação ou mudar o import para não ser deferred."
+ },
+ "ea309cd28706": {
+  "problem": "A anotação '{0}' só pode ser usada em {1}.",
+  "correction": ""
+ },
+ "b425fab37770": {
+  "problem": "Um valor do tipo '{0}' não pode ser atribuído a uma variável do tipo '{1}'.",
+  "correction": "Tente alterar o tipo da variável ou fazer o cast do tipo do lado direito para '{1}'."
+ },
+ "950ccd119768": {
+  "problem": "A palavra-chave 'await' não é permitida em uma instrução 'for' normal.",
+  "correction": "Tente remover a palavra-chave ou usar uma instrução for-each."
+ },
+ "60ec2fb4c480": {
+  "problem": "A anotação 'awaitNotRequired' só pode ser aplicada a uma função que retorna Future ou a um campo do tipo Future.",
+  "correction": ""
+ },
+ "26faec2095f5": {
+  "problem": "Esta expressão não é válida em uma cláusula 'case' no Dart 3.0.",
+  "correction": "Tente refatorar a expressão para que seja válida no 3.0."
+ },
+ "4ff609c754ed": {
+  "problem": "A função '{0}' tem o tipo '{1}', que não é do tipo esperado '{2}'. Isso significa que o tipo de seus parâmetros ou de retorno não corresponde ao esperado.",
+  "correction": ""
+ },
+ "041acf8d700b": {
+  "problem": "O tipo da expressão de função '{0}' não é do tipo '{1}'. Isso significa que o tipo de seus parâmetros ou de retorno não corresponde ao esperado. Considere alterar o(s) tipo(s) dos parâmetros ou o(s) tipo(s) retornado(s).",
+  "correction": ""
+ },
+ "30e271db5a86": {
+  "problem": "O literal '{0}' com o tipo '{1}' não é do tipo esperado '{2}'.",
+  "correction": ""
+ },
+ "ab3d8a69501a": {
+  "problem": "O tipo do literal de lista '{0}' não é do tipo esperado '{1}'. O tipo da lista pode ser alterado com um argumento de tipo genérico explícito ou alterando os tipos dos elementos.",
+  "correction": ""
+ },
+ "67fbdeacc28b": {
+  "problem": "O tipo do literal de map '{0}' não é do tipo esperado '{1}'. O tipo do map pode ser alterado com argumentos de tipo genéricos explícitos ou alterando os tipos das chaves e dos valores.",
+  "correction": ""
+ },
+ "d7d19e2bb2c1": {
+  "problem": "O tipo do literal de set '{0}' não é do tipo esperado '{1}'. O tipo do set pode ser alterado com um argumento de tipo genérico explícito ou alterando os tipos dos elementos.",
+  "correction": ""
+ },
+ "20f62972cdd6": {
+  "problem": "O tear-off do método '{0}' tem o tipo '{1}', que não é do tipo esperado '{2}'. Isso significa que o tipo de seus parâmetros ou de retorno não corresponde ao esperado.",
+  "correction": ""
+ },
+ "4cbb2855f82f": {
+  "problem": "O construtor retorna o tipo '{0}', que não é do tipo esperado '{1}'.",
+  "correction": ""
+ },
+ "4fc6ed95de7e": {
+  "problem": "A sequência de escape '{0}' não é um code point válido.",
+  "correction": ""
+ },
+ "6afa791da5ab": {
+  "problem": "Referências em comentários devem conter um identificador possivelmente com prefixo e podem começar com 'new', mas não devem conter mais nada.",
+  "correction": ""
+ },
+ "8bebd82b8e71": {
+  "problem": "Valor constante inválido.",
+  "correction": ""
+ }
+}

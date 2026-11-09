@@ -1,0 +1,11 @@
+data/**
+src/**
+scripts/**
+node_modules/**
+out/test/**
+tsconfig.json
+**/*.map
+test-fixtures/**
+docs/**
+.gitignore
+.vscodeignore

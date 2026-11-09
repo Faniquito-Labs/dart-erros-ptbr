@@ -1,0 +1,106 @@
+[
+ {
+  "code": "non_abstract_class_inherits_abstract_member",
+  "message": "Missing concrete implementation of 'Forma.area'.\nTry implementing the missing method, or make the class abstract."
+ },
+ {
+  "code": "invalid_assignment",
+  "message": "A value of type 'String' can't be assigned to a variable of type 'int'.\nTry changing the type of the variable, or casting the right-hand type to 'int'."
+ },
+ {
+  "code": "invalid_assignment",
+  "message": "A value of type 'Null' can't be assigned to a variable of type 'String'.\nTry changing the type of the variable, or casting the right-hand type to 'String'."
+ },
+ {
+  "code": "undefined_identifier",
+  "message": "Undefined name 'valorInexistente'.\nTry correcting the name to one that is defined, or defining the name."
+ },
+ {
+  "code": "undefined_method",
+  "message": "The method 'metodoQueNaoExiste' isn't defined for the type 'Ponto'.\nTry correcting the name to the name of an existing method, or defining a method named 'metodoQueNaoExiste'."
+ },
+ {
+  "code": "not_enough_positional_arguments",
+  "message": "2 positional arguments expected by 'soma', but 1 found.\nTry adding the missing arguments."
+ },
+ {
+  "code": "assignment_to_final_local",
+  "message": "The final variable 'f' can only be set once.\nTry making 'f' non-final."
+ },
+ {
+  "code": "unchecked_use_of_nullable_value",
+  "message": "The property 'isEven' can't be unconditionally accessed because the receiver can be 'null'.\nTry making the access conditional (using '?.') or adding a null check to the target ('!')."
+ },
+ {
+  "code": "expected_token",
+  "message": "Expected to find ';'."
+ },
+ {
+  "code": "return_of_invalid_type",
+  "message": "A value of type 'int' can't be returned from the function 'main' because it has a return type of 'void'."
+ },
+ {
+  "code": "unused_local_variable",
+  "message": "The value of the local variable 'n' isn't used.\nTry removing the variable or using it."
+ },
+ {
+  "code": "unused_local_variable",
+  "message": "The value of the local variable 's' isn't used.\nTry removing the variable or using it."
+ },
+ {
+  "code": "unused_local_variable",
+  "message": "The value of the local variable 'f' isn't used.\nTry removing the variable or using it."
+ },
+ {
+  "code": "unused_local_variable",
+  "message": "The value of the local variable 'l' isn't used.\nTry removing the variable or using it."
+ },
+ {
+  "code": "annotate_overrides",
+  "message": "The member 'toString' overrides an inherited member but isn't annotated with '@override'.\nTry adding the '@override' annotation."
+ },
+ {
+  "code": "prefer_single_quotes",
+  "message": "Unnecessary use of double quotes.\nTry using single quotes unless the string contains single quotes."
+ },
+ {
+  "code": "unnecessary_this",
+  "message": "Unnecessary 'this.' qualifier.\nTry removing 'this.'."
+ },
+ {
+  "code": "always_declare_return_types",
+  "message": "The function 'soma' should have a return type but doesn't.\nTry adding a return type to the function."
+ },
+ {
+  "code": "prefer_final_locals",
+  "message": "Local variables should be final.\nTry making the variable final."
+ },
+ {
+  "code": "prefer_const_constructors",
+  "message": "Use 'const' with the constructor to improve performance.\nTry adding the 'const' keyword to the constructor invocation."
+ },
+ {
+  "code": "avoid_print",
+  "message": "Don't invoke 'print' in production code.\nTry using a logging framework."
+ },
+ {
+  "code": "not_enough_positional_arguments",
+  "message": "1 positional argument expected by 'um', but 0 found.\nTry adding the missing argument."
+ },
+ {
+  "code": "extra_positional_arguments",
+  "message": "Too many positional arguments: 1 expected, but 2 found.\nTry removing the extra arguments."
+ },
+ {
+  "code": "wrong_number_of_type_arguments",
+  "message": "The type 'Caixa' is declared with 1 type parameters, but 2 type arguments were given.\nTry adjusting the number of type arguments to match the number of type parameters."
+ },
+ {
+  "code": "await_only_futures",
+  "message": "Uses 'await' on an instance of 'int', which is not a subtype of 'Future'.\nTry removing the 'await' or changing the expression."
+ },
+ {
+  "code": "prefer_inlined_adds",
+  "message": "The addition of a list item could be inlined.\nTry adding the item to the list literal directly."
+ }
+]

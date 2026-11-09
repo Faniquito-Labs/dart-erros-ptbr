@@ -1,0 +1,642 @@
+{
+ "f6feed967ca3": {
+  "problem": "O identificador embutido '{0}' não pode ser usado como nome de extension type.",
+  "correction": "Tente escolher outro nome para o extension type."
+ },
+ "312490d0d7f7": {
+  "problem": "O nome da extensão '{0}' não é um identificador em UpperCamelCase.",
+  "correction": "Tente alterar o nome para seguir o estilo UpperCamelCase."
+ },
+ "524fdec4ace5": {
+  "problem": "O nome do tipo '{0}' não é um identificador em UpperCamelCase.",
+  "correction": "Tente alterar o nome para seguir o estilo UpperCamelCase."
+ },
+ "80db138dc60f": {
+  "problem": "Permissões de câmera tornam o app incompatível com o Chrome OS; considere adicionar os recursos opcionais \"android.hardware.camera\" e \"android.hardware.camera.autofocus\".",
+  "correction": "Tente adicionar `<uses-feature android:name=\"android.hardware.camera\"  android:required=\"false\">` `<uses-feature android:name=\"android.hardware.camera.autofocus\"  android:required=\"false\">`."
+ },
+ "09a05cb69f4b": {
+  "problem": "Instância de 'StreamSubscription' não cancelada.",
+  "correction": "Tente invocar 'cancel' na função em que a 'StreamSubscription' foi criada."
+ },
+ "b4b3c8b72338": {
+  "problem": "Duplicação desnecessária do receptor.",
+  "correction": "Tente usar uma cascata para evitar a duplicação."
+ },
+ "c8673f339b80": {
+  "problem": "A última instrução do 'case' deve ser 'break', 'continue', 'rethrow', 'return' ou 'throw'.",
+  "correction": "Tente adicionar uma das instruções necessárias."
+ },
+ "13ec5f6fe203": {
+  "problem": "O tipo '{0}' da expressão do case do switch não pode sobrescrever o operador '=='.",
+  "correction": ""
+ },
+ "c356e783812b": {
+  "problem": "O tipo '{0}' da expressão do case do switch deve ser um subtipo do tipo '{1}' da expressão do switch.",
+  "correction": ""
+ },
+ "d6259db2ca66": {
+  "problem": "Este cast sempre lança uma exceção porque a expressão sempre resulta em 'null'.",
+  "correction": ""
+ },
+ "ca771462003d": {
+  "problem": "Este cast sempre lançará uma exceção porque a variável local anulável '{0}' não foi atribuída.",
+  "correction": "Tente dar a ela uma expressão de inicialização ou garantir que seja atribuída em todos os caminhos de execução."
+ },
+ "6c9207517835": {
+  "problem": "Não faça cast de um valor anulável para um tipo não anulável.",
+  "correction": "Tente adicionar uma asserção de não nulo ('!') para tornar o tipo não anulável."
+ },
+ "4c049db4f20a": {
+  "problem": "O nome '{0}' não é um tipo, então não pode ser usado em uma expressão 'as'.",
+  "correction": "Tente alterar o nome para o de um tipo existente ou criar um tipo com o nome '{0}'."
+ },
+ "e6256bae6599": {
+  "problem": "'catch' deve ser seguido por '(identificador)' ou '(identificador, identificador)'.",
+  "correction": "Não são necessários tipos: o primeiro é dado por 'on' e o segundo é sempre 'StackTrace'."
+ },
+ "140e2cabd5ce": {
+  "problem": "Classes não podem ser declaradas dentro de outras classes.",
+  "correction": "Tente mover a classe para o nível superior."
+ },
+ "93c1cfd824ac": {
+  "problem": "O membro estático '{0}' não pode ser acessado em uma instanciação de classe.",
+  "correction": "Tente remover os argumentos de tipo do nome da classe ou alterar o nome do membro para o nome de um construtor."
+ },
+ "b35d7f7c88f6": {
+  "problem": "O membro de instância '{0}' não pode ser acessado em uma instanciação de classe.",
+  "correction": "Tente alterar o nome do membro para o nome de um construtor."
+ },
+ "e73c4bf8bb31": {
+  "problem": "A classe '{0}' não tem um construtor chamado '{1}'.",
+  "correction": "Tente invocar outro construtor ou definir um construtor chamado '{1}'."
+ },
+ "ad59a90974d6": {
+  "problem": "A classe '{0}' não pode ser usada como mixin porque não é uma mixin class nem um mixin.",
+  "correction": ""
+ },
+ "cb303e1f54cf": {
+  "problem": "A classe '{0}' não pode ser usada como mixin porque declara um construtor generativo.",
+  "correction": ""
+ },
+ "78be594f4909": {
+  "problem": "Instância de 'Sink' não fechada.",
+  "correction": "Tente invocar 'close' na função em que o 'Sink' foi criado."
+ },
+ "6c6a9eff9647": {
+  "problem": "Valores constantes de uma biblioteca deferred não podem ser usados como valores em um construtor 'const'.",
+  "correction": "Tente remover a palavra-chave 'const' do construtor ou remover a palavra-chave 'deferred' do import."
+ },
+ "6f355bb7e5d2": {
+  "problem": "Valores constantes de uma biblioteca deferred não podem ser usados como chaves em um literal de map 'const'.",
+  "correction": "Tente remover a palavra-chave 'const' do literal de map ou remover a palavra-chave 'deferred' do import."
+ },
+ "b2493947f741": {
+  "problem": "Valores constantes de uma biblioteca deferred não podem ser usados como valores em um literal de map 'const'.",
+  "correction": "Tente remover a palavra-chave 'const' do literal de map ou remover a palavra-chave 'deferred' do import."
+ },
+ "b4867288ca0b": {
+  "problem": "Valores constantes de uma biblioteca deferred não podem ser usados como valores em um literal de lista 'const'.",
+  "correction": "Tente remover a palavra-chave 'const' do literal de lista ou remover a palavra-chave 'deferred' do import."
+ },
+ "f371c03cded6": {
+  "problem": "Valores constantes de uma biblioteca deferred não podem ser usados como valores em um literal de set 'const'.",
+  "correction": "Tente remover a palavra-chave 'const' do literal de set ou remover a palavra-chave 'deferred' do import."
+ },
+ "563368a387f7": {
+  "problem": "O tipo '{0}' do argumento não tem relação com '{1}'.",
+  "correction": "Tente alterar o tipo do argumento ou do elemento para que correspondam."
+ },
+ "16acea1197a4": {
+  "problem": "Loops for-in usam 'in' em vez de dois-pontos.",
+  "correction": "Tente substituir os dois-pontos pela palavra-chave 'in'."
+ },
+ "472156a93fb0": {
+  "problem": "Ordene os nomes dos combinators em ordem alfabética.",
+  "correction": "Tente ordenar os nomes dos combinators em ordem alfabética."
+ },
+ "a1b0446b06f4": {
+  "problem": "O nome referenciado não está visível no escopo.",
+  "correction": "Tente adicionar um import para o nome referenciado."
+ },
+ "5c5da194a011": {
+  "problem": "A classe '{0}' não pode implementar Finalizable.",
+  "correction": "Tente remover a cláusula implements de '{0}'."
+ },
+ "bdbdb1059d17": {
+  "problem": "Classes concretas não podem ter 'Enum' como superinterface.",
+  "correction": "Tente especificar outra interface ou removê-la da lista."
+ },
+ "2f76351c1009": {
+  "problem": "'{0}' deve ter um corpo de método porque '{1}' não é abstrata.",
+  "correction": "Tente tornar '{1}' abstrata ou adicionar um corpo a '{0}'."
+ },
+ "6a74702be0c2": {
+  "problem": "O alvo da URI condicional '{0}' não existe.",
+  "correction": "Tente criar o arquivo referenciado pela URI ou usar uma URI de um arquivo que exista."
+ },
+ "2b62798062c7": {
+  "problem": "'{0}' não pode ser usado para nomear um construtor e um setter estático nesta classe.",
+  "correction": "Tente renomear o construtor ou o setter."
+ },
+ "c19c3cd6acc0": {
+  "problem": "'{0}' não pode ser usado para nomear um construtor e um campo estático nesta classe.",
+  "correction": "Tente renomear o construtor ou o campo."
+ },
+ "c1f6dee44d25": {
+  "problem": "'{0}' não pode ser usado para nomear um construtor e um getter estático nesta classe.",
+  "correction": "Tente renomear o construtor ou o getter."
+ },
+ "e34a42e2b8cf": {
+  "problem": "'{0}' não pode ser usado para nomear um construtor e um método estático nesta classe.",
+  "correction": "Tente renomear o construtor ou o método."
+ },
+ "5448b41e4561": {
+  "problem": "A classe '{0}' não pode definir o campo '{1}' e ter o método '{2}.{1}' com o mesmo nome.",
+  "correction": "Tente converter o getter em um método ou renomear o campo para um nome que não conflite."
+ },
+ "7d4947d96ac6": {
+  "problem": "'{1}' ({0}) não pode implementar '{2}' e '{3}' ao mesmo tempo porque os argumentos de tipo são diferentes.",
+  "correction": ""
+ },
+ "69366416dfef": {
+  "problem": "'{1}' ({0}) não pode herdar um método e um setter chamados '{2}'.",
+  "correction": ""
+ },
+ "ed07423cf961": {
+  "problem": "A classe '{0}' não pode definir o método '{1}' e ter o campo '{2}.{1}' com o mesmo nome.",
+  "correction": "Tente converter o método em um getter ou renomear o método para um nome que não conflite."
+ },
+ "e4577eb36ac3": {
+  "problem": "Membros não podem ser declarados como '{0}' e '{1}' ao mesmo tempo.",
+  "correction": "Tente remover uma das palavras-chave."
+ },
+ "96378d8f5024": {
+  "problem": "A classe '{0}' não pode definir o membro estático '{1}' e ter o membro de instância '{2}.{1}' com o mesmo nome.",
+  "correction": "Tente renomear o membro para um nome que não conflite."
+ },
+ "04c3d9062c0c": {
+  "problem": "'{0}' não pode ser usado para nomear um parâmetro de tipo e a extensão em que o parâmetro de tipo é definido.",
+  "correction": "Tente renomear o parâmetro de tipo ou a extensão."
+ },
+ "21ef7bd122c2": {
+  "problem": "'{0}' não pode ser usado para nomear um parâmetro de tipo e a classe em que o parâmetro de tipo é definido.",
+  "correction": "Tente renomear o parâmetro de tipo ou a classe."
+ },
+ "4d5b2f1909b4": {
+  "problem": "'{0}' não pode ser usado para nomear um parâmetro de tipo e o extension type em que o parâmetro de tipo é definido.",
+  "correction": "Tente renomear o parâmetro de tipo ou o extension type."
+ },
+ "5537e058c390": {
+  "problem": "'{0}' não pode ser usado para nomear um parâmetro de tipo e o mixin em que o parâmetro de tipo é definido.",
+  "correction": "Tente renomear o parâmetro de tipo ou o mixin."
+ },
+ "e08559eb7896": {
+  "problem": "'{0}' não pode ser usado para nomear um parâmetro de tipo e o enum em que o parâmetro de tipo é definido.",
+  "correction": "Tente renomear o parâmetro de tipo ou o enum."
+ },
+ "2a8b5af92386": {
+  "problem": "'{0}' não pode ser usado para nomear um parâmetro de tipo e um membro nesta extensão.",
+  "correction": "Tente renomear o parâmetro de tipo ou o membro."
+ },
+ "4593ff7ae7f2": {
+  "problem": "'{0}' não pode ser usado para nomear um parâmetro de tipo e um membro nesta classe.",
+  "correction": "Tente renomear o parâmetro de tipo ou o membro."
+ },
+ "4a96da19555c": {
+  "problem": "'{0}' não pode ser usado para nomear um parâmetro de tipo e um membro neste mixin.",
+  "correction": "Tente renomear o parâmetro de tipo ou o membro."
+ },
+ "50eef6e9d8c9": {
+  "problem": "'{0}' não pode ser usado para nomear um parâmetro de tipo e um membro neste enum.",
+  "correction": "Tente renomear o parâmetro de tipo ou o membro."
+ },
+ "77b100b4605e": {
+  "problem": "'{0}' não pode ser usado para nomear um parâmetro de tipo e um membro neste extension type.",
+  "correction": "Tente renomear o parâmetro de tipo ou o membro."
+ },
+ "3d5dc6145e0a": {
+  "problem": "Membros não podem ser declarados como 'const' e 'final' ao mesmo tempo.",
+  "correction": "Tente remover a palavra-chave 'const' ou 'final'."
+ },
+ "06830a3923c6": {
+  "problem": "Classes não podem ser declaradas como 'const'.",
+  "correction": "Tente remover a palavra-chave 'const'. Se você quer indicar que instâncias da classe podem ser constantes, coloque a palavra-chave 'const' no(s) construtor(es) da classe."
+ },
+ "dd53b3d22a97": {
+  "problem": "Em um construtor const, um valor do tipo '{0}' não pode ser atribuído ao campo '{1}', que tem o tipo '{2}'.",
+  "correction": "Tente usar um subtipo ou remover a palavra-chave 'const'."
+ },
+ "5bf5dfb5e5b4": {
+  "problem": "Um valor do tipo '{0}' não pode ser atribuído a um parâmetro do tipo '{1}' em um construtor const.",
+  "correction": "Tente usar um subtipo ou remover a palavra-chave 'const'."
+ },
+ "f804936aa48b": {
+  "problem": "Construtores const não podem lançar exceções.",
+  "correction": "Tente remover a instrução throw ou a palavra-chave 'const'."
+ },
+ "11bb5df79a0d": {
+  "problem": "Construtores const não podem ter corpo.",
+  "correction": "Tente remover a palavra-chave 'const' ou o corpo."
+ },
+ "e7c3a8645c46": {
+  "problem": "Não é possível definir o construtor 'const' porque o campo '{0}' é inicializado com um valor não constante.",
+  "correction": "Tente inicializar o campo com um valor constante ou remover a palavra-chave 'const' do construtor."
+ },
+ "721682eac6b7": {
+  "problem": "Este construtor não pode ser declarado 'const' porque um mixin adiciona o campo de instância: {0}.",
+  "correction": "Tente remover a palavra-chave 'const', remover a cláusula 'with' da declaração da classe ou remover o campo da mixin class."
+ },
+ "c0ae342241b5": {
+  "problem": "Este construtor não pode ser declarado 'const' porque os mixins adicionam os campos de instância: {0}.",
+  "correction": "Tente remover a palavra-chave 'const', remover a cláusula 'with' da declaração da classe ou remover os campos das mixin classes."
+ },
+ "0f72435a88c3": {
+  "problem": "Um construtor constante não pode chamar um construtor não constante da superclasse '{0}'.",
+  "correction": "Tente chamar um construtor constante na superclasse ou remover a palavra-chave 'const' do construtor."
+ },
+ "e2356b3ef081": {
+  "problem": "Não é possível definir um construtor const para uma classe com campos não finais.",
+  "correction": "Tente tornar todos os campos final ou remover a palavra-chave 'const' do construtor."
+ },
+ "deddfb248a7d": {
+  "problem": "Classes deferred não podem ser criadas com 'const'.",
+  "correction": "Tente usar 'new' para criar a instância ou alterar o import para não ser deferred."
+ },
+ "ea17f30400dc": {
+  "problem": "A asserção nesta expressão constante falhou.",
+  "correction": ""
+ },
+ "5a3709d4ec91": {
+  "problem": "Uma asserção falhou com a mensagem '{0}'.",
+  "correction": ""
+ },
+ "255537597de3": {
+  "problem": "Métodos de extensão não podem ser usados em expressões constantes.",
+  "correction": ""
+ },
+ "144a6604d2ac": {
+  "problem": "Métodos de extension type não podem ser usados em expressões constantes.",
+  "correction": ""
+ },
+ "c8da1a6b7a9a": {
+  "problem": "Expressões constantes não suportam elementos 'for'.",
+  "correction": "Tente substituir o elemento 'for' por um spread ou remover 'const'."
+ },
+ "fde80bb23da6": {
+  "problem": "Métodos não podem ser invocados em expressões constantes.",
+  "correction": ""
+ },
+ "e483ca6e21e3": {
+  "problem": "Em expressões constantes, os operandos do operador de igualdade devem ter igualdade primitiva.",
+  "correction": ""
+ },
+ "028018706121": {
+  "problem": "A propriedade '{0}' não pode ser acessada no tipo '{1}' em uma expressão constante.",
+  "correction": ""
+ },
+ "b618ebca4f70": {
+  "problem": "A avaliação desta expressão constante lança uma exceção.",
+  "correction": ""
+ },
+ "974b33ea6441": {
+  "problem": "A avaliação desta expressão constante lança uma IntegerDivisionByZeroException.",
+  "correction": ""
+ },
+ "2c3c8518d7dd": {
+  "problem": "Em expressões constantes, os operandos deste operador devem ser do tipo 'bool'.",
+  "correction": ""
+ },
+ "e8ec3461d9e5": {
+  "problem": "Em expressões constantes, os operandos deste operador devem ser do tipo 'bool' ou 'int'.",
+  "correction": ""
+ },
+ "5e170d9b7f54": {
+  "problem": "Em expressões constantes, os operandos deste operador devem ser do tipo 'bool', 'num', 'String' ou 'null'.",
+  "correction": ""
+ },
+ "3a7de3999213": {
+  "problem": "Em expressões constantes, os operandos deste operador devem ser do tipo 'int'.",
+  "correction": ""
+ },
+ "f9400de23504": {
+  "problem": "Em expressões constantes, os operandos deste operador devem ser do tipo 'num'.",
+  "correction": ""
+ },
+ "1f7d6602131f": {
+  "problem": "Em expressões constantes, os operandos deste operador devem ser do tipo 'num' ou 'String'.",
+  "correction": ""
+ },
+ "810a246b828c": {
+  "problem": "Em expressões constantes, os operandos deste operador devem ser do tipo 'String'.",
+  "correction": ""
+ },
+ "56eb7d02a4b3": {
+  "problem": "Em expressões constantes, os operandos deste operador devem ser do tipo 'Type'.",
+  "correction": ""
+ },
+ "7cf95fc8a136": {
+  "problem": "Somente construtores factory de redirecionamento podem ser declarados como 'const'.",
+  "correction": "Tente remover a palavra-chave 'const' ou substituir o corpo por '=' seguido de um alvo válido."
+ },
+ "2b7b4bd2f086": {
+  "problem": "Variáveis const devem ser inicializadas com um valor constante.",
+  "correction": "Tente alterar o inicializador para uma expressão constante."
+ },
+ "637b916ca356": {
+  "problem": "Valores constantes de uma biblioteca deferred não podem ser usados para inicializar uma variável 'const'.",
+  "correction": "Tente inicializar a variável sem referenciar membros da biblioteca deferred ou alterar o import para não ser deferred."
+ },
+ "f54bc72affaa": {
+  "problem": "Somente campos estáticos podem ser declarados como const.",
+  "correction": "Tente declarar o campo como final ou adicionar a palavra-chave 'static'."
+ },
+ "261eefe45933": {
+  "problem": "O tipo da chave em um map constante não pode sobrescrever o operador '==' nem 'hashCode', mas a classe '{0}' sobrescreve.",
+  "correction": "Tente usar outro valor para a chave ou remover a palavra-chave 'const' do map."
+ },
+ "c0bf20da8738": {
+  "problem": "Getters, setters e métodos não podem ser declarados como 'const'.",
+  "correction": "Tente remover a palavra-chave 'const'."
+ },
+ "130cd4ed9735": {
+  "problem": "A constante '{0}' deve ser inicializada.",
+  "correction": "Tente adicionar uma inicialização à declaração."
+ },
+ "6874c1be8b5d": {
+  "problem": "A parte de corpo de um construtor primário constante não pode ter corpo em bloco.",
+  "correction": "Tente substituir o corpo em bloco por ponto e vírgula ou remover o modificador 'const'."
+ },
+ "e5d376735909": {
+  "problem": "A parte de corpo de um construtor primário constante não pode ter corpo de expressão.",
+  "correction": "Tente substituir o corpo de expressão por ponto e vírgula ou remover o modificador 'const'."
+ },
+ "5aa1b81e8619": {
+  "problem": "Um elemento em um set constante não pode sobrescrever o operador '==' nem 'hashCode', mas o tipo '{0}' sobrescreve.",
+  "correction": "Tente usar outro valor para o elemento ou remover a palavra-chave 'const' do set."
+ },
+ "d47cbba3f7c5": {
+  "problem": "Uma lista ou um set é esperado neste spread.",
+  "correction": ""
+ },
+ "ebec8d119671": {
+  "problem": "Um map é esperado neste spread.",
+  "correction": ""
+ },
+ "c95948ae1302": {
+  "problem": "Parâmetros de tipo não podem ser usados em uma expressão constante.",
+  "correction": "Tente substituir o parâmetro de tipo por outro tipo."
+ },
+ "ec951543b852": {
+  "problem": "O construtor sendo chamado não é um construtor const.",
+  "correction": "Tente remover 'const' da invocação do construtor."
+ },
+ "c71af2712d07": {
+  "problem": "Argumentos de uma criação constante devem ser expressões constantes.",
+  "correction": "Tente tornar o argumento uma constante válida ou use 'new' para chamar o construtor."
+ },
+ "be7b404cb6ff": {
+  "problem": "Um tear-off de construtor constante não pode usar um parâmetro de tipo como argumento de tipo.",
+  "correction": "Tente substituir o parâmetro de tipo por outro tipo."
+ },
+ "df34948820f7": {
+  "problem": "Um tear-off de função constante não pode usar um parâmetro de tipo como argumento de tipo.",
+  "correction": "Tente substituir o parâmetro de tipo por outro tipo."
+ },
+ "f3f99f3aaa66": {
+  "problem": "Uma criação constante não pode usar um parâmetro de tipo como argumento de tipo.",
+  "correction": "Tente substituir o parâmetro de tipo por outro tipo."
+ },
+ "6fa4bfb20516": {
+  "problem": "A classe '{0}' não tem um construtor constante '{1}'.",
+  "correction": "Tente chamar outro construtor."
+ },
+ "e39c00eddc34": {
+  "problem": "A classe '{0}' não tem um construtor constante sem nome.",
+  "correction": "Tente chamar outro construtor."
+ },
+ "2804a4e17064": {
+  "problem": "'const' só pode ser usado junto com uma declaração de construtor primário.",
+  "correction": "Tente remover a palavra-chave 'const' ou adicionar uma declaração de construtor primário."
+ },
+ "3d57185c83b4": {
+  "problem": "O nome da constante '{0}' não é um identificador em lowerCamelCase.",
+  "correction": "Tente alterar o nome para seguir o estilo lowerCamelCase."
+ },
+ "aacc6c79c3e5": {
+  "problem": "O tipo '{0}' do valor comparado nunca pode ser igual a esta constante do tipo '{1}'.",
+  "correction": "Tente uma constante do mesmo tipo que o valor comparado."
+ },
+ "4c52e6a3120f": {
+  "problem": "A expressão de um padrão constante deve ser uma constante válida.",
+  "correction": "Tente tornar a expressão uma constante válida."
+ },
+ "b69b3172269c": {
+  "problem": "Augmentations de variável não podem ser const.",
+  "correction": "Tente substituir 'const' por 'final'."
+ },
+ "9cd33190864e": {
+  "problem": "Construtores não podem ter tipo de retorno.",
+  "correction": "Tente remover o tipo de retorno."
+ },
+ "21e18322f296": {
+  "problem": "Uma invocação de construtor não pode ter argumentos de tipo após o nome do construtor.",
+  "correction": "Tente remover os argumentos de tipo ou colocá-los após o nome da classe."
+ },
+ "7f282bf3ef98": {
+  "problem": "O rótulo usado em uma instrução 'continue' deve estar definido em um loop ou em um membro de switch.",
+  "correction": ""
+ },
+ "5232294f1962": {
+  "problem": "Uma instrução continue não pode ser usada fora de um loop ou de uma instrução switch.",
+  "correction": "Tente remover a instrução continue."
+ },
+ "58d600586ef0": {
+  "problem": "Uma instrução continue em um switch deve ter um rótulo como alvo.",
+  "correction": "Tente adicionar à instrução continue um rótulo associado a uma das cláusulas case."
+ },
+ "ccdd5a5d8e38": {
+  "problem": "Uso de '{0}' em uma cláusula 'finally'.",
+  "correction": "Tente reestruturar o código."
+ },
+ "d91a5ae04076": {
+  "problem": "Não foi possível inferir o parâmetro de tipo '{0}'.{1}",
+  "correction": ""
+ },
+ "aea63a519436": {
+  "problem": "Membros não podem ser declarados como 'covariant' e 'static' ao mesmo tempo.",
+  "correction": "Tente remover a palavra-chave 'covariant' ou 'static'."
+ },
+ "215690523fdb": {
+  "problem": "Um construtor não pode ser declarado como 'covariant'.",
+  "correction": "Tente remover a palavra-chave 'covariant'."
+ },
+ "bf52fdc39745": {
+  "problem": "Getters, setters e métodos não podem ser declarados como 'covariant'.",
+  "correction": "Tente remover a palavra-chave 'covariant'."
+ },
+ "c20e20d48b79": {
+  "problem": "Subclasses de 'Struct' e 'Union' são respaldadas por memória nativa e não podem ser instanciadas por um construtor generativo.",
+  "correction": "Tente alocá-la via alocação ou carregá-la a partir de um 'Pointer'."
+ },
+ "80ddc96ab8da": {
+  "problem": "O nome '{0}' não é uma classe.",
+  "correction": "Tente corrigir o nome para corresponder a uma classe existente."
+ },
+ "668e63fe3937": {
+  "problem": "As instruções de {0} devem ficar entre chaves, em um bloco.",
+  "correction": "Tente envolver a instrução em um bloco."
+ },
+ "7d665b046c32": {
+  "problem": "Comentário de documentação de biblioteca solto.",
+  "correction": "Adicione uma diretiva 'library' após o comentário da biblioteca."
+ },
+ "40da2ff0548f": {
+  "problem": "Código morto.",
+  "correction": "Tente remover o código ou corrigir o código anterior para que ele possa ser alcançado."
+ },
+ "6c85403f9d05": {
+  "problem": "Código morto: a variável wildcard atribuída está marcada como late e nunca pode ser referenciada, então este inicializador nunca será avaliado.",
+  "correction": "Tente remover o código, remover o modificador late ou trocar a variável por uma que não seja wildcard."
+ },
+ "e85c625ecb6d": {
+  "problem": "Código morto: cláusulas catch após um 'catch (e)' ou um 'on Object catch (e)' nunca são alcançadas.",
+  "correction": "Tente reordenar as cláusulas catch para que possam ser alcançadas ou remover as cláusulas catch inalcançáveis."
+ },
+ "713283d7f3ac": {
+  "problem": "Código morto: este bloco on-catch não será executado porque '{0}' é um subtipo de '{1}' e, portanto, já terá sido capturado.",
+  "correction": "Tente reordenar as cláusulas catch para que este bloco possa ser alcançado ou remover a cláusula catch inalcançável."
+ },
+ "a9982d9a5feb": {
+  "problem": "O operando esquerdo não pode ser null, então o operando direito nunca é executado.",
+  "correction": "Tente remover o operador e o operando direito."
+ },
+ "005ef0c2b292": {
+  "problem": "A augmentation não pode fornecer um corpo porque a função ou o membro já está completo.",
+  "correction": "Tente remover o corpo da augmentation ou remover o corpo da declaração anterior."
+ },
+ "648e0a94d6cf": {
+  "problem": "A augmentation não pode fornecer corpo, inicializadores nem parâmetros formais de inicialização ou super porque o construtor já está completo.",
+  "correction": "Tente remover o corpo, os inicializadores ou os parâmetros formais de inicialização ou super da augmentation ou removê-los da declaração anterior."
+ },
+ "8947dcef6fb2": {
+  "problem": "O setter induzido por esta augmentation está completo, mas o setter sendo aumentado já está completo.",
+  "correction": "Tente remover a augmentation ou tornar uma das declarações 'abstract'."
+ },
+ "c1d06623f7e4": {
+  "problem": "O getter induzido por esta augmentation está completo, mas o getter sendo aumentado já está completo.",
+  "correction": "Tente remover a augmentation ou tornar uma das declarações 'abstract'."
+ },
+ "99b5b1d1a60d": {
+  "problem": "Uma expressão switch não pode usar a palavra-chave `default`.",
+  "correction": "Tente substituir `default` por `_`."
+ },
+ "df1d11c7134d": {
+  "problem": "O construtor padrão de 'List' não está disponível quando a null safety está habilitada.",
+  "correction": "Tente usar um literal de lista, 'List.filled' ou 'List.generate'."
+ },
+ "de9612f34611": {
+  "problem": "O valor padrão deste parâmetro opcional já foi especificado na cadeia de augmentations.",
+  "correction": "Tente remover todos os valores padrão, exceto um."
+ },
+ "11efd62e689f": {
+  "problem": "Parâmetros em um tipo de função não podem ter valores padrão.",
+  "correction": "Tente remover o valor padrão."
+ },
+ "968970542085": {
+  "problem": "Valores padrão não são permitidos em construtores factory que redirecionam para outro construtor.",
+  "correction": "Tente remover o valor padrão."
+ },
+ "2939ee1d7f6c": {
+  "problem": "Parâmetros nomeados obrigatórios não podem ter valor padrão.",
+  "correction": "Tente remover o valor padrão ou o modificador 'required'."
+ },
+ "749494546909": {
+  "problem": "A palavra-chave deferred deve vir imediatamente antes do prefixo (cláusula 'as').",
+  "correction": "Tente mover a palavra-chave deferred para antes do prefixo."
+ },
+ "a20f324608d3": {
+  "problem": "Imports de bibliotecas deferred devem esconder todas as declarações de extensão.",
+  "correction": "Tente adicionar um combinator show listando os nomes que você precisa referenciar ou um combinator hide listando todas as declarações de extensão."
+ },
+ "d901d6655013": {
+  "problem": "Imports de bibliotecas deferred devem esconder todas as extensões.",
+  "correction": "Tente adicionar um combinator show listando os nomes que você precisa referenciar ou um combinator hide listando todas as extensões."
+ },
+ "a3e5cf1b2d84": {
+  "problem": "A variável local late '{0}' definitivamente não foi atribuída neste ponto.",
+  "correction": "Garanta que ela seja atribuída nos caminhos de execução necessários."
+ },
+ "8cbf2db72316": {
+  "problem": "O pacote importado '{0}' não é uma dependência do pacote que o importa.",
+  "correction": "Tente adicionar uma dependência para '{0}' no arquivo 'pubspec.yaml'."
+ },
+ "60a318883795": {
+  "problem": "O valor do campo '{0}' deve ser um map.",
+  "correction": "Tente converter o valor em um map."
+ },
+ "7af4769177fb": {
+  "problem": "Usar dois-pontos como separador antes de um valor padrão está descontinuado e não terá suporte na versão 3.0 da linguagem e posteriores.",
+  "correction": "Tente substituir os dois-pontos por um sinal de igual."
+ },
+ "1cf5a93e7e0c": {
+  "problem": "Parâmetros que inicializam um campo descontinuado devem ser descontinuados.",
+  "correction": "Tente marcar o parâmetro como descontinuado."
+ },
+ "323461609df6": {
+  "problem": "Campos inicializados por um parâmetro descontinuado devem ser descontinuados.",
+  "correction": "Tente marcar o campo como descontinuado."
+ },
+ "ea9ebfc3c71a": {
+  "problem": "Construtores em uma classe descontinuada devem ser descontinuados.",
+  "correction": "Tente marcar o construtor como descontinuado."
+ },
+ "fd0c0b7a05d9": {
+  "problem": "A possibilidade de importar '{0}' indiretamente está descontinuada.",
+  "correction": "Tente importar '{0}' diretamente."
+ },
+ "68df9c2ca53c": {
+  "problem": "Estender '{0}' está descontinuado.",
+  "correction": "Tente remover a cláusula 'extends'."
+ },
+ "7eda559e57cc": {
+  "problem": "Métodos chamados 'factory' se tornarão construtores quando o recurso primary_constructors for habilitado.",
+  "correction": "Tente adicionar um tipo de retorno ou modificador antes do nome do método ou alterar o nome do método."
+ },
+ "31c303e2fe8e": {
+  "problem": "O campo '{0}' não é mais usado e pode ser removido.",
+  "correction": "Tente remover o campo."
+ },
+ "c55fa51bbc0a": {
+  "problem": "Implementar '{0}' está descontinuado.",
+  "correction": "Tente remover '{0}' da cláusula 'implements'."
+ },
+ "5d8366c8df57": {
+  "problem": "Instanciar '{0}' está descontinuado.",
+  "correction": "Tente instanciar uma classe não abstrata."
+ },
+ "1b564e5c9ed0": {
+  "problem": "A regra de lint '{0}' está descontinuada e não deve ser habilitada.",
+  "correction": "Tente remover '{0}'."
+ },
+ "1bc3e527a561": {
+  "problem": "A regra de lint '{0}' está descontinuada e foi substituída por '{1}'.",
+  "correction": "Tente substituir '{0}' por '{1}'."
+ },
+ "2456b755329b": {
+  "problem": "'{0}' está descontinuado e não deve ser usado. {1}",
+  "correction": "Tente substituir o uso do membro descontinuado pelo substituto."
+ },
+ "da1726e0c7ad": {
+  "problem": "'{0}' está descontinuado e não deve ser usado.",
+  "correction": "Tente substituir o uso do membro descontinuado pelo substituto."
+ },
+ "1c70e9452345": {
+  "problem": "'{0}' está descontinuado e não deve ser usado.",
+  "correction": "Tente substituir o uso do membro descontinuado pelo substituto, se um substituto for especificado."
+ },
+ "529ff547dc5c": {
+  "problem": "'{0}' está descontinuado e não deve ser usado. {1}",
+  "correction": "Tente substituir o uso do membro descontinuado pelo substituto, se um substituto for especificado."
+ }
+}

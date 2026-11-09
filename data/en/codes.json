@@ -1,0 +1,4074 @@
+{
+ "abi_specific_integer_invalid": [
+  "6fecfc24c7e0"
+ ],
+ "abi_specific_integer_mapping_extra": [
+  "87622e06f6f4"
+ ],
+ "abi_specific_integer_mapping_missing": [
+  "3e4dc2c34636"
+ ],
+ "abi_specific_integer_mapping_unsupported": [
+  "d23e2a086713"
+ ],
+ "abstract_class_member": [
+  "8db1fc411641"
+ ],
+ "abstract_external_field": [
+  "de93315a352f"
+ ],
+ "abstract_field_initializer": [
+  "eef83724a384",
+  "86fc6ea485bf"
+ ],
+ "abstract_final_base_class": [
+  "1b622dd80bd1"
+ ],
+ "abstract_final_interface_class": [
+  "fc48a111ea6a"
+ ],
+ "abstract_late_field": [
+  "e2eaf0fa051f"
+ ],
+ "abstract_sealed_class": [
+  "29c4e3d2cea1"
+ ],
+ "abstract_static_field": [
+  "fc2bb933f14a"
+ ],
+ "abstract_static_method": [
+  "46ff25db2157"
+ ],
+ "abstract_super_member_reference": [
+  "c7758843571b"
+ ],
+ "address_position": [
+  "6e26829e2298"
+ ],
+ "address_receiver": [
+  "05825409298d"
+ ],
+ "always_declare_return_types": [
+  "3e8901a7da8e",
+  "f3d914738fb7"
+ ],
+ "always_put_control_body_on_new_line": [
+  "792d1acffd1b"
+ ],
+ "always_put_required_named_parameters_first": [
+  "bf3984a240b8"
+ ],
+ "always_specify_types": [
+  "cb271823c156",
+  "0a2b33e564f6",
+  "e569567646b1",
+  "9e58b20cd1c0"
+ ],
+ "always_use_package_imports": [
+  "b914b610dab2"
+ ],
+ "ambiguous_export": [
+  "934c250c948e"
+ ],
+ "ambiguous_extension_member_access": [
+  "5ca283727478",
+  "a72ca0ac25bf"
+ ],
+ "ambiguous_import": [
+  "04b7f3bed127"
+ ],
+ "ambiguous_set_or_map_literal_both": [
+  "8825b5255701"
+ ],
+ "ambiguous_set_or_map_literal_either": [
+  "62924283eb64"
+ ],
+ "analysis_option_deprecated": [
+  "6c2c09e44949",
+  "f164f6564e65"
+ ],
+ "analysis_options_deprecated_plugins": [
+  "246b728294be"
+ ],
+ "analyzer_element_model_tracking_bad": [
+  "1b0dac377d6b"
+ ],
+ "analyzer_element_model_tracking_more_than_one": [
+  "fb68561827fa"
+ ],
+ "analyzer_element_model_tracking_zero": [
+  "ac9cd53aa4f6"
+ ],
+ "analyzer_public_api_bad_part_directive": [
+  "2ed410170265"
+ ],
+ "analyzer_public_api_bad_type": [
+  "0382cc20dbde"
+ ],
+ "analyzer_public_api_experimental_inconsistency": [
+  "9f6dafd53976"
+ ],
+ "analyzer_public_api_exports_non_public_name": [
+  "43b13629f740"
+ ],
+ "analyzer_public_api_impl_in_public_api": [
+  "ec258c778821"
+ ],
+ "annotate_overrides": [
+  "a5d26039500d"
+ ],
+ "annotate_redeclares": [
+  "01d6b3dff1e9"
+ ],
+ "annotation_on_pointer_field": [
+  "b8e8d9ad197c"
+ ],
+ "annotation_on_type_argument": [
+  "bf65b36d2a50"
+ ],
+ "annotation_space_before_parenthesis": [
+  "d7809f0409cf"
+ ],
+ "annotation_with_type_arguments": [
+  "5d05fe284da6"
+ ],
+ "annotation_with_type_arguments_uninstantiated": [
+  "c8246562d7af"
+ ],
+ "anonymous_method_wrong_parameter_list": [
+  "0cc9bd0c74f5"
+ ],
+ "anonymous_method_wrong_parameter_type": [
+  "1631f6f43a80"
+ ],
+ "argument_must_be_a_constant": [
+  "d7bd5a7d82b5"
+ ],
+ "argument_must_be_native": [
+  "ae3ec5d17530"
+ ],
+ "argument_type_not_assignable": [
+  "5c2c8d48e1b4"
+ ],
+ "argument_type_not_assignable_to_error_handler": [
+  "48027d597a39"
+ ],
+ "assert_in_redirecting_constructor": [
+  "30dcb8f8cced"
+ ],
+ "asset_directory_does_not_exist": [
+  "6f4540c9a1f3"
+ ],
+ "asset_does_not_exist": [
+  "cc1a4de085dc"
+ ],
+ "asset_field_not_list": [
+  "e4464998482c"
+ ],
+ "asset_missing_path": [
+  "5823bd1b3a35"
+ ],
+ "asset_not_string": [
+  "7fb61ce4f36e"
+ ],
+ "asset_not_string_or_map": [
+  "8daa918eb332"
+ ],
+ "asset_path_not_string": [
+  "f82c98a2637e"
+ ],
+ "assignment_of_do_not_store": [
+  "1c98e7de6449"
+ ],
+ "assignment_to_const": [
+  "00a8f9e7cf83"
+ ],
+ "assignment_to_final": [
+  "6944ddaaf32e"
+ ],
+ "assignment_to_final_local": [
+  "3f983386f441"
+ ],
+ "assignment_to_final_no_setter": [
+  "6782f4fc9241"
+ ],
+ "assignment_to_function": [
+  "b9d44a9a4a1f"
+ ],
+ "assignment_to_method": [
+  "1081fb7f5206"
+ ],
+ "assignment_to_primary_constructor_parameter": [
+  "a843b3201bc4"
+ ],
+ "assignment_to_type": [
+  "b670e0c459d1"
+ ],
+ "async_for_in_wrong_context": [
+  "3207b276be1c"
+ ],
+ "async_keyword_used_as_identifier": [
+  "4d121cb3533c"
+ ],
+ "async_return_with_no_await": [
+  "43a976a6edca"
+ ],
+ "augmentation_extends_clause_already_present": [
+  "95c70e82a103"
+ ],
+ "augmentation_formal_parameter_modifier_extra": [
+  "50cf96df2c1f"
+ ],
+ "augmentation_formal_parameter_modifier_missing": [
+  "79c758abfac9"
+ ],
+ "augmentation_formal_parameter_type_mismatch": [
+  "bfde7c14977d"
+ ],
+ "augmentation_modifier_extra": [
+  "6121a5341326"
+ ],
+ "augmentation_modifier_missing": [
+  "3e27d434caf6"
+ ],
+ "augmentation_named_formal_parameter_extra": [
+  "b97ad2e6bc21"
+ ],
+ "augmentation_named_formal_parameter_missing": [
+  "93fddf547d45"
+ ],
+ "augmentation_of_different_declaration_kind": [
+  "6459f5fc1951"
+ ],
+ "augmentation_of_mixin_application_class": [
+  "c955f6881ec6"
+ ],
+ "augmentation_optional_positional_formal_parameter_count": [
+  "d7dfad0b4a21"
+ ],
+ "augmentation_positional_formal_parameter_name": [
+  "3d88f048b35c"
+ ],
+ "augmentation_required_positional_formal_parameter_count": [
+  "2480af395ec3"
+ ],
+ "augmentation_return_type_mismatch": [
+  "88ce0853b47a",
+  "aba8ed83f4b1"
+ ],
+ "augmentation_type_parameter_bound": [
+  "8408eb8bdfd7"
+ ],
+ "augmentation_type_parameter_count": [
+  "e91e44e377c8"
+ ],
+ "augmentation_type_parameter_name": [
+  "95f229668a58"
+ ],
+ "augmentation_without_declaration": [
+  "0d189a58c9ff",
+  "5fd0b145705a",
+  "0d989de25ed3"
+ ],
+ "augmented_expression_is_not_setter": [
+  "88144fda5cd2"
+ ],
+ "augmented_expression_is_setter": [
+  "56ec3def9b9c"
+ ],
+ "augmented_expression_not_operator": [
+  "1d93bea3cfff"
+ ],
+ "augments_constant_variable": [
+  "5d18795d648a"
+ ],
+ "avoid_annotating_with_dynamic": [
+  "7fbda736624c"
+ ],
+ "avoid_bool_literals_in_conditional_expressions": [
+  "9c68a01e01b7"
+ ],
+ "avoid_catches_without_on_clauses": [
+  "2e85a034c4a3"
+ ],
+ "avoid_catching_errors": [
+  "1f5c8d3cb9b9",
+  "0f42121b10c6"
+ ],
+ "avoid_classes_with_only_static_members": [
+  "ced10dfa19e3"
+ ],
+ "avoid_double_and_int_checks": [
+  "437932fc776e"
+ ],
+ "avoid_dynamic_calls": [
+  "d26935c8bf04"
+ ],
+ "avoid_empty_else": [
+  "ff4332dff059"
+ ],
+ "avoid_equals_and_hash_code_on_mutable_classes": [
+  "986df1d9d507"
+ ],
+ "avoid_escaping_inner_quotes": [
+  "f4ba89fd2110"
+ ],
+ "avoid_field_initializers_in_const_classes": [
+  "63b7d11fbed4"
+ ],
+ "avoid_final_parameters": [
+  "16896118579a"
+ ],
+ "avoid_function_literals_in_foreach_calls": [
+  "2d7606919dae"
+ ],
+ "avoid_futureor_void": [
+  "b51ed40d8eb3"
+ ],
+ "avoid_implementing_value_types": [
+  "f42dc8172607"
+ ],
+ "avoid_init_to_null": [
+  "09a74f3158f3"
+ ],
+ "avoid_js_rounded_ints": [
+  "065ef97cc97a"
+ ],
+ "avoid_multiple_declarations_per_line": [
+  "85ae0027d4fd"
+ ],
+ "avoid_null_checks_in_equality_operators": [
+  "59fc08eb84d9"
+ ],
+ "avoid_positional_boolean_parameters": [
+  "b409230752a6"
+ ],
+ "avoid_print": [
+  "0eb0dc9cd027"
+ ],
+ "avoid_private_typedef_functions": [
+  "2b1fc2e16890"
+ ],
+ "avoid_redundant_argument_values": [
+  "0484f74e5f63"
+ ],
+ "avoid_relative_lib_imports": [
+  "b4271983e217"
+ ],
+ "avoid_renaming_method_parameters": [
+  "92d244bfa977"
+ ],
+ "avoid_return_types_on_setters": [
+  "a27dd5cad007"
+ ],
+ "avoid_returning_null_for_void": [
+  "36aeb54d4f0c",
+  "4afc2aff6e62"
+ ],
+ "avoid_returning_this": [
+  "99fee04ff9fb"
+ ],
+ "avoid_setters_without_getters": [
+  "434a4b17970c"
+ ],
+ "avoid_shadowing_type_parameters": [
+  "b2a7154c52ba"
+ ],
+ "avoid_single_cascade_in_expression_statements": [
+  "7cd089eec366"
+ ],
+ "avoid_slow_async_io": [
+  "f671c8e347fb"
+ ],
+ "avoid_type_to_string": [
+  "5d4deff4a57a"
+ ],
+ "avoid_types_as_parameter_names": [
+  "d2a860f65d6f",
+  "3ea6e45b02a9"
+ ],
+ "avoid_types_on_closure_parameters": [
+  "d386672f12f6"
+ ],
+ "avoid_unnecessary_containers": [
+  "687f635c455a"
+ ],
+ "avoid_unused_constructor_parameters": [
+  "899e7e66e7bb"
+ ],
+ "avoid_void_async": [
+  "fbbe67bc62cc"
+ ],
+ "avoid_web_libraries_in_flutter": [
+  "78f1fa214c79"
+ ],
+ "await_in_late_local_variable_initializer": [
+  "7968fe9a5b08"
+ ],
+ "await_in_wrong_context": [
+  "5121b848e893"
+ ],
+ "await_of_incompatible_type": [
+  "c36184c23c93"
+ ],
+ "await_only_futures": [
+  "3c131f181999"
+ ],
+ "base_enum": [
+  "3526f5d49ba0"
+ ],
+ "binary_operator_written_out": [
+  "5582ef1de880"
+ ],
+ "body_might_complete_normally": [
+  "3044a321c8a4"
+ ],
+ "body_might_complete_normally_catch_error": [
+  "a5737d1234df"
+ ],
+ "body_might_complete_normally_nullable": [
+  "3bba0c61c7ec"
+ ],
+ "break_label_on_switch_member": [
+  "767318d536ff"
+ ],
+ "break_outside_of_loop": [
+  "30a73b138702"
+ ],
+ "built_in_identifier_as_type": [
+  "adecdc2a5271"
+ ],
+ "built_in_identifier_in_declaration": [
+  "1bf01999de71",
+  "f6feed967ca3",
+  "d62ad6701c83",
+  "062d8f77271f",
+  "62ce259044e9",
+  "85e4ef3f529c"
+ ],
+ "camel_case_extensions": [
+  "312490d0d7f7"
+ ],
+ "camel_case_types": [
+  "524fdec4ace5"
+ ],
+ "camera_permissions_incompatible": [
+  "80db138dc60f"
+ ],
+ "cancel_subscriptions": [
+  "09a05cb69f4b"
+ ],
+ "cascade_invocations": [
+  "b4b3c8b72338"
+ ],
+ "case_block_not_terminated": [
+  "c8673f339b80"
+ ],
+ "case_expression_type_implements_equals": [
+  "13ec5f6fe203"
+ ],
+ "case_expression_type_is_not_switch_expression_subtype": [
+  "c356e783812b"
+ ],
+ "cast_from_null_always_fails": [
+  "d6259db2ca66"
+ ],
+ "cast_from_nullable_always_fails": [
+  "ca771462003d"
+ ],
+ "cast_nullable_to_non_nullable": [
+  "6c9207517835"
+ ],
+ "cast_to_non_type": [
+  "4c049db4f20a"
+ ],
+ "catch_syntax": [
+  "e6256bae6599"
+ ],
+ "catch_syntax_extra_parameters": [
+  "e6256bae6599"
+ ],
+ "class_in_class": [
+  "140e2cabd5ce"
+ ],
+ "class_instantiation_access_to_member": [
+  "b35d7f7c88f6",
+  "e73c4bf8bb31",
+  "93c1cfd824ac"
+ ],
+ "class_used_as_mixin": [
+  "ad59a90974d6"
+ ],
+ "class_used_as_mixin_declares_generative_constructor": [
+  "cb303e1f54cf"
+ ],
+ "close_sinks": [
+  "78be594f4909"
+ ],
+ "collection_element_from_deferred_library": [
+  "b4867288ca0b",
+  "6f355bb7e5d2",
+  "b2493947f741",
+  "f371c03cded6",
+  "6c6a9eff9647"
+ ],
+ "collection_methods_unrelated_type": [
+  "563368a387f7"
+ ],
+ "colon_in_place_of_in": [
+  "16acea1197a4"
+ ],
+ "combinators_ordering": [
+  "472156a93fb0"
+ ],
+ "comment_references": [
+  "a1b0446b06f4"
+ ],
+ "compound_implements_finalizable": [
+  "5c5da194a011"
+ ],
+ "concrete_class_has_enum_superinterface": [
+  "bdbdb1059d17"
+ ],
+ "concrete_class_with_abstract_member": [
+  "2f76351c1009"
+ ],
+ "conditional_uri_does_not_exist": [
+  "6a74702be0c2"
+ ],
+ "conflicting_constructor_and_static_member": [
+  "c19c3cd6acc0",
+  "c1f6dee44d25",
+  "e34a42e2b8cf",
+  "2b62798062c7"
+ ],
+ "conflicting_field_and_method": [
+  "5448b41e4561"
+ ],
+ "conflicting_generic_interfaces": [
+  "7d4947d96ac6"
+ ],
+ "conflicting_inherited_method_and_setter": [
+  "69366416dfef"
+ ],
+ "conflicting_method_and_field": [
+  "ed07423cf961"
+ ],
+ "conflicting_modifiers": [
+  "e4577eb36ac3"
+ ],
+ "conflicting_static_and_instance": [
+  "96378d8f5024"
+ ],
+ "conflicting_type_variable_and_container": [
+  "21ef7bd122c2",
+  "e08559eb7896",
+  "04c3d9062c0c",
+  "4d5b2f1909b4",
+  "5537e058c390"
+ ],
+ "conflicting_type_variable_and_member": [
+  "4593ff7ae7f2",
+  "4a96da19555c",
+  "50eef6e9d8c9",
+  "2a8b5af92386",
+  "77b100b4605e"
+ ],
+ "const_and_final": [
+  "3d5dc6145e0a"
+ ],
+ "const_class": [
+  "06830a3923c6"
+ ],
+ "const_constructor_field_type_mismatch": [
+  "dd53b3d22a97"
+ ],
+ "const_constructor_param_type_mismatch": [
+  "5bf5dfb5e5b4"
+ ],
+ "const_constructor_throws_exception": [
+  "f804936aa48b"
+ ],
+ "const_constructor_with_body": [
+  "11bb5df79a0d"
+ ],
+ "const_constructor_with_field_initialized_by_non_const": [
+  "e7c3a8645c46"
+ ],
+ "const_constructor_with_mixin_with_field": [
+  "721682eac6b7",
+  "c0ae342241b5"
+ ],
+ "const_constructor_with_non_const_super": [
+  "0f72435a88c3"
+ ],
+ "const_constructor_with_non_final_field": [
+  "e2356b3ef081"
+ ],
+ "const_deferred_class": [
+  "deddfb248a7d"
+ ],
+ "const_eval_assertion_failure": [
+  "ea17f30400dc"
+ ],
+ "const_eval_assertion_failure_with_message": [
+  "5a3709d4ec91"
+ ],
+ "const_eval_extension_method": [
+  "255537597de3"
+ ],
+ "const_eval_extension_type_method": [
+  "144a6604d2ac"
+ ],
+ "const_eval_for_element": [
+  "c8da1a6b7a9a"
+ ],
+ "const_eval_method_invocation": [
+  "fde80bb23da6"
+ ],
+ "const_eval_primitive_equality": [
+  "e483ca6e21e3"
+ ],
+ "const_eval_property_access": [
+  "028018706121"
+ ],
+ "const_eval_throws_exception": [
+  "b618ebca4f70"
+ ],
+ "const_eval_throws_idbze": [
+  "974b33ea6441"
+ ],
+ "const_eval_type_bool": [
+  "2c3c8518d7dd"
+ ],
+ "const_eval_type_bool_int": [
+  "e8ec3461d9e5"
+ ],
+ "const_eval_type_bool_num_string": [
+  "5e170d9b7f54"
+ ],
+ "const_eval_type_int": [
+  "3a7de3999213"
+ ],
+ "const_eval_type_num": [
+  "f9400de23504"
+ ],
+ "const_eval_type_num_string": [
+  "1f7d6602131f"
+ ],
+ "const_eval_type_string": [
+  "810a246b828c"
+ ],
+ "const_eval_type_type": [
+  "56eb7d02a4b3"
+ ],
+ "const_factory": [
+  "7cf95fc8a136"
+ ],
+ "const_initialized_with_non_constant_value": [
+  "2b7b4bd2f086"
+ ],
+ "const_initialized_with_non_constant_value_from_deferred_library": [
+  "637b916ca356"
+ ],
+ "const_instance_field": [
+  "f54bc72affaa"
+ ],
+ "const_map_key_not_primitive_equality": [
+  "261eefe45933"
+ ],
+ "const_method": [
+  "c0bf20da8738"
+ ],
+ "const_not_initialized": [
+  "130cd4ed9735"
+ ],
+ "const_primary_constructor_with_body": [
+  "6874c1be8b5d",
+  "e5d376735909"
+ ],
+ "const_set_element_not_primitive_equality": [
+  "5aa1b81e8619"
+ ],
+ "const_spread_expected_list_or_set": [
+  "d47cbba3f7c5"
+ ],
+ "const_spread_expected_map": [
+  "ebec8d119671"
+ ],
+ "const_type_parameter": [
+  "c95948ae1302"
+ ],
+ "const_with_non_const": [
+  "ec951543b852"
+ ],
+ "const_with_non_constant_argument": [
+  "c71af2712d07"
+ ],
+ "const_with_type_parameters": [
+  "f3f99f3aaa66",
+  "be7b404cb6ff",
+  "df34948820f7"
+ ],
+ "const_with_undefined_constructor": [
+  "6fa4bfb20516"
+ ],
+ "const_with_undefined_constructor_default": [
+  "e39c00eddc34"
+ ],
+ "const_without_primary_constructor": [
+  "2804a4e17064"
+ ],
+ "constant_identifier_names": [
+  "3d57185c83b4"
+ ],
+ "constant_pattern_never_matches_value_type": [
+  "aacc6c79c3e5"
+ ],
+ "constant_pattern_with_non_constant_expression": [
+  "4c52e6a3120f"
+ ],
+ "constant_variable_augmentation": [
+  "b69b3172269c"
+ ],
+ "constructor_with_return_type": [
+  "9cd33190864e"
+ ],
+ "constructor_with_type_arguments": [
+  "21e18322f296"
+ ],
+ "continue_label_invalid": [
+  "7f282bf3ef98"
+ ],
+ "continue_outside_of_loop": [
+  "5232294f1962"
+ ],
+ "continue_without_label_in_case": [
+  "58d600586ef0"
+ ],
+ "control_flow_in_finally": [
+  "ccdd5a5d8e38"
+ ],
+ "could_not_infer": [
+  "d91a5ae04076"
+ ],
+ "covariant_and_static": [
+  "aea63a519436"
+ ],
+ "covariant_constructor": [
+  "215690523fdb"
+ ],
+ "covariant_member": [
+  "bf52fdc39745"
+ ],
+ "creation_of_struct_or_union": [
+  "c20e20d48b79"
+ ],
+ "creation_with_non_type": [
+  "80ddc96ab8da"
+ ],
+ "curly_braces_in_flow_control_structures": [
+  "668e63fe3937"
+ ],
+ "dangling_library_doc_comments": [
+  "7d665b046c32"
+ ],
+ "dead_code": [
+  "40da2ff0548f",
+  "6c85403f9d05"
+ ],
+ "dead_code_catch_following_catch": [
+  "e85c625ecb6d"
+ ],
+ "dead_code_on_catch_subtype": [
+  "713283d7f3ac"
+ ],
+ "dead_null_aware_expression": [
+  "a9982d9a5feb"
+ ],
+ "declaration_already_complete": [
+  "c1d06623f7e4",
+  "8947dcef6fb2",
+  "648e0a94d6cf",
+  "005ef0c2b292"
+ ],
+ "default_in_switch_expression": [
+  "99b5b1d1a60d"
+ ],
+ "default_list_constructor": [
+  "df1d11c7134d"
+ ],
+ "default_value_already_specified_in_augmentation_chain": [
+  "de9612f34611"
+ ],
+ "default_value_in_function_type": [
+  "11efd62e689f"
+ ],
+ "default_value_in_redirecting_factory_constructor": [
+  "968970542085"
+ ],
+ "default_value_on_required_parameter": [
+  "2939ee1d7f6c"
+ ],
+ "deferred_after_prefix": [
+  "749494546909"
+ ],
+ "deferred_import_of_extension": [
+  "d901d6655013",
+  "a20f324608d3"
+ ],
+ "definitely_unassigned_late_local_variable": [
+  "a3e5cf1b2d84"
+ ],
+ "depend_on_referenced_packages": [
+  "8cbf2db72316"
+ ],
+ "dependencies_field_not_map": [
+  "60a318883795"
+ ],
+ "deprecated_colon_for_default_value": [
+  "7af4769177fb"
+ ],
+ "deprecated_consistency": [
+  "ea9ebfc3c71a",
+  "323461609df6",
+  "1cf5a93e7e0c"
+ ],
+ "deprecated_export_use": [
+  "fd0c0b7a05d9"
+ ],
+ "deprecated_extend": [
+  "68df9c2ca53c"
+ ],
+ "deprecated_factory_method": [
+  "7eda559e57cc"
+ ],
+ "deprecated_field": [
+  "31c303e2fe8e"
+ ],
+ "deprecated_implement": [
+  "c55fa51bbc0a"
+ ],
+ "deprecated_instantiate": [
+  "5d8366c8df57"
+ ],
+ "deprecated_lint": [
+  "1b564e5c9ed0"
+ ],
+ "deprecated_lint_with_replacement": [
+  "1bc3e527a561"
+ ],
+ "deprecated_member_use": [
+  "da1726e0c7ad",
+  "2456b755329b"
+ ],
+ "deprecated_member_use_from_same_package": [
+  "529ff547dc5c",
+  "1c70e9452345"
+ ],
+ "deprecated_mixin": [
+  "7378244f9dc2"
+ ],
+ "deprecated_new_in_comment_reference": [
+  "2b4bde52ee64"
+ ],
+ "deprecated_optional": [
+  "a9bb91d730da"
+ ],
+ "deprecated_subclass": [
+  "db828b6063a0"
+ ],
+ "deprecated_subtype_of_function": [
+  "e721fc5fe996",
+  "445fac01193e",
+  "a719fcc866f3"
+ ],
+ "diagnostic_describe_all_properties": [
+  "6b5c21d4d0f8"
+ ],
+ "directive_after_declaration": [
+  "a5628fca3bc2"
+ ],
+ "directives_ordering": [
+  "21416421366f",
+  "beb598ee7ccd",
+  "558b88797c0b",
+  "0c972bcc6ad9"
+ ],
+ "disallowed_type_instantiation_expression": [
+  "a7fe826def7c"
+ ],
+ "discarded_futures": [
+  "4b97844b0a57"
+ ],
+ "division_optimization": [
+  "05ba53071522"
+ ],
+ "do_not_use_environment": [
+  "1cf16b8064ef"
+ ],
+ "doc_directive_argument_wrong_format": [
+  "b762b14009c0"
+ ],
+ "doc_directive_has_extra_arguments": [
+  "5137ee44e3cb"
+ ],
+ "doc_directive_has_unexpected_named_argument": [
+  "c926e9549c8f"
+ ],
+ "doc_directive_missing_argument": [
+  "fcbbc8a05daf",
+  "2d99e104c791",
+  "01ff30414324"
+ ],
+ "doc_directive_missing_closing_brace": [
+  "c7738665be22"
+ ],
+ "doc_directive_missing_closing_tag": [
+  "cacef34da5bb"
+ ],
+ "doc_directive_missing_opening_tag": [
+  "bed0cf0f8893"
+ ],
+ "doc_directive_unknown": [
+  "bc94984ecf20"
+ ],
+ "doc_import_cannot_be_deferred": [
+  "b2483893905f"
+ ],
+ "doc_import_cannot_have_combinators": [
+  "445a90e349de"
+ ],
+ "doc_import_cannot_have_configurations": [
+  "d7c3ee6e601a"
+ ],
+ "doc_import_cannot_have_prefix": [
+  "8df7da6f13ea"
+ ],
+ "document_ignores": [
+  "32956c4cd88b"
+ ],
+ "dot_shorthand_missing_context": [
+  "7365eb97dca5"
+ ],
+ "dot_shorthand_undefined_member": [
+  "6f130bfa1b2c",
+  "27394b785453"
+ ],
+ "duplicate_constructor": [
+  "8ed6344b10f0",
+  "392e8fcc393c"
+ ],
+ "duplicate_deferred": [
+  "4985beceb3a0"
+ ],
+ "duplicate_definition": [
+  "503be84027b6"
+ ],
+ "duplicate_export": [
+  "272f6742543e"
+ ],
+ "duplicate_field_formal_parameter": [
+  "00d5baf6dffc"
+ ],
+ "duplicate_field_name": [
+  "c8d2f45b9c83"
+ ],
+ "duplicate_hidden_name": [
+  "c2ed766e0b59"
+ ],
+ "duplicate_ignore": [
+  "2f7313eb5bc3"
+ ],
+ "duplicate_import": [
+  "c4430d51d619"
+ ],
+ "duplicate_label_in_switch_statement": [
+  "1d33eeb93f03"
+ ],
+ "duplicate_named_argument": [
+  "b5daec542cca"
+ ],
+ "duplicate_part": [
+  "46f18b6b35f5"
+ ],
+ "duplicate_pattern_assignment_variable": [
+  "2ec2f264b540"
+ ],
+ "duplicate_pattern_field": [
+  "0c5d28e0e4bf"
+ ],
+ "duplicate_prefix": [
+  "5cd1b2d00b16"
+ ],
+ "duplicate_rest_element_in_pattern": [
+  "6e71408bc9e1"
+ ],
+ "duplicate_rule": [
+  "58eb463cdacb"
+ ],
+ "duplicate_shown_name": [
+  "41ba263847a0"
+ ],
+ "duplicate_variable_pattern": [
+  "625c78170a34"
+ ],
+ "duplicated_modifier": [
+  "13dea8ce9ef2"
+ ],
+ "empty_catches": [
+  "7773a65d2268"
+ ],
+ "empty_constructor_bodies": [
+  "f8bac7b8e866"
+ ],
+ "empty_container_bodies": [
+  "118c17c348b5"
+ ],
+ "empty_enum_body": [
+  "b3b70df90e92"
+ ],
+ "empty_map_pattern": [
+  "41983435e8de"
+ ],
+ "empty_record_literal_with_comma": [
+  "81d1e04bbe2e"
+ ],
+ "empty_record_type_named_fields_list": [
+  "bfea77761ed9"
+ ],
+ "empty_record_type_with_comma": [
+  "d8e942a086ef"
+ ],
+ "empty_statements": [
+  "f320dc924726"
+ ],
+ "empty_struct": [
+  "0c41199cd9c8"
+ ],
+ "encoding": [
+  "70dc4a488e02"
+ ],
+ "enum_constant_invokes_factory_constructor": [
+  "9803f6be9322"
+ ],
+ "enum_constant_same_name_as_enclosing": [
+  "199a5ef3168f"
+ ],
+ "enum_constant_with_non_const_constructor": [
+  "1baed3e8c184"
+ ],
+ "enum_in_class": [
+  "8584a06605ee"
+ ],
+ "enum_instantiated_to_bounds_is_not_well_bounded": [
+  "5b8787411263"
+ ],
+ "enum_mixin_with_instance_variable": [
+  "e2d07ac10daa"
+ ],
+ "enum_with_abstract_member": [
+  "0ef7dcc97367"
+ ],
+ "enum_with_name_values": [
+  "265e5a556aa8"
+ ],
+ "enum_without_constants": [
+  "1190497f5d0a"
+ ],
+ "eol_at_end_of_file": [
+  "e0541a1e62a6",
+  "badb961ac82f"
+ ],
+ "equal_elements_in_const_set": [
+  "de37b1db6737"
+ ],
+ "equal_elements_in_set": [
+  "9bb66d9f9974"
+ ],
+ "equal_keys_in_const_map": [
+  "d02cd3dc2375"
+ ],
+ "equal_keys_in_map": [
+  "8fe529dad039"
+ ],
+ "equal_keys_in_map_pattern": [
+  "2f932bbc2594"
+ ],
+ "equality_cannot_be_equality_operand": [
+  "721e8cbd1ff6"
+ ],
+ "erase_dart_type_extension_types": [
+  "d4054139e369"
+ ],
+ "exhaustive_cases": [
+  "075237de5e61"
+ ],
+ "expected_case_or_default": [
+  "7b588374cae0"
+ ],
+ "expected_catch_clause_body": [
+  "e5950dd148be"
+ ],
+ "expected_class_body": [
+  "1677bc504c2a"
+ ],
+ "expected_class_member": [
+  "4c1d3dc7ce1b"
+ ],
+ "expected_else_or_comma": [
+  "064ac0a4f558"
+ ],
+ "expected_executable": [
+  "3b83c82aa80a"
+ ],
+ "expected_extension_body": [
+  "c157164ebea0"
+ ],
+ "expected_extension_type_body": [
+  "27362c2a8dde"
+ ],
+ "expected_finally_clause_body": [
+  "aeba1d0115f0"
+ ],
+ "expected_identifier_but_got_keyword": [
+  "d6e6a41baa27"
+ ],
+ "expected_instead": [
+  "d8c6badbaa6b"
+ ],
+ "expected_list_or_map_literal": [
+  "8544cef4768d"
+ ],
+ "expected_mixin_body": [
+  "18e2abf942b5"
+ ],
+ "expected_named_type": [
+  "7f2b75808d4c",
+  "997719f73214",
+  "3af14d1d00cd"
+ ],
+ "expected_one_list_pattern_type_arguments": [
+  "76cf58337fcb"
+ ],
+ "expected_one_list_type_arguments": [
+  "a66141c8c939"
+ ],
+ "expected_one_set_type_arguments": [
+  "3aca2b713d1b"
+ ],
+ "expected_representation_field": [
+  "45154a087a91"
+ ],
+ "expected_representation_type": [
+  "e8e3484d2f41"
+ ],
+ "expected_string_literal": [
+  "d56d5bf5d739"
+ ],
+ "expected_switch_expression_body": [
+  "8d90a4efa18d"
+ ],
+ "expected_switch_statement_body": [
+  "d1317494473d"
+ ],
+ "expected_token": [
+  "7b1c2f63d9b8"
+ ],
+ "expected_try_statement_body": [
+  "c2e3c5f92d46"
+ ],
+ "expected_two_map_pattern_type_arguments": [
+  "b13d5e5fceb6"
+ ],
+ "expected_two_map_type_arguments": [
+  "359d758eeb35"
+ ],
+ "expected_type_name": [
+  "6a2aa9502b1a"
+ ],
+ "experiment_not_enabled": [
+  "1e0fb5b4306a"
+ ],
+ "experiment_not_enabled_off_by_default": [
+  "bc9de7c9e8fb"
+ ],
+ "experimental_member_use": [
+  "81dc2fc0f2ab"
+ ],
+ "export_directive_after_part_directive": [
+  "bb61ead31e47"
+ ],
+ "export_internal_library": [
+  "de4493246602"
+ ],
+ "export_legacy_symbol": [
+  "bb55960998a0"
+ ],
+ "export_of_non_library": [
+  "c394627c4169"
+ ],
+ "expression_in_map": [
+  "e472173635c2"
+ ],
+ "extends_non_class": [
+  "78dfc6b50686"
+ ],
+ "extension_as_expression": [
+  "308e5db1ef9e"
+ ],
+ "extension_augmentation_has_on_clause": [
+  "b57144f94a2b"
+ ],
+ "extension_conflicting_static_and_instance": [
+  "8977c7c7d9e4"
+ ],
+ "extension_declares_abstract_member": [
+  "e14c6897a06a"
+ ],
+ "extension_declares_constructor": [
+  "fef3a40eb80e"
+ ],
+ "extension_declares_instance_field": [
+  "fd28e5ab60e1"
+ ],
+ "extension_declares_member_of_object": [
+  "2f99a9d33624"
+ ],
+ "extension_override_access_to_static_member": [
+  "c0a4994b70cc"
+ ],
+ "extension_override_argument_not_assignable": [
+  "607fcc808889"
+ ],
+ "extension_override_with_cascade": [
+  "d38e28652d2a"
+ ],
+ "extension_override_without_access": [
+  "d334298e5532"
+ ],
+ "extension_primary_constructor": [
+  "2267c12e9ca1"
+ ],
+ "extension_type_augmentation_specifies_representation_field": [
+  "400ec2fe60a7"
+ ],
+ "extension_type_constructor_with_super_formal_parameter": [
+  "50d5507198df"
+ ],
+ "extension_type_constructor_with_super_invocation": [
+  "7a59b4469a85"
+ ],
+ "extension_type_declares_instance_field": [
+  "aaf3ac4a98bf"
+ ],
+ "extension_type_declares_member_of_object": [
+  "733fbb384346"
+ ],
+ "extension_type_extends": [
+  "fd2632ec0836"
+ ],
+ "extension_type_implements_disallowed_type": [
+  "d67fc0957c40"
+ ],
+ "extension_type_implements_itself": [
+  "ba096f194609"
+ ],
+ "extension_type_implements_not_supertype": [
+  "e776970b6527"
+ ],
+ "extension_type_implements_representation_not_supertype": [
+  "3a85a092ee4e"
+ ],
+ "extension_type_inherited_member_conflict": [
+  "f7cf0ce0930d"
+ ],
+ "extension_type_representation_depends_on_itself": [
+  "40ec8bcae281"
+ ],
+ "extension_type_representation_type_bottom": [
+  "8f6fa1f9dc30"
+ ],
+ "extension_type_with": [
+  "8bfb9cd04a18"
+ ],
+ "extension_type_with_abstract_member": [
+  "a64aaacd77b5"
+ ],
+ "external_class": [
+  "7a18cb30b7c4"
+ ],
+ "external_constructor_with_field_initializers": [
+  "19eb186e114a"
+ ],
+ "external_constructor_with_initializer": [
+  "a27605dcf6a7"
+ ],
+ "external_enum": [
+  "70c7325b3ec0"
+ ],
+ "external_factory_redirection": [
+  "5ebddc28904d"
+ ],
+ "external_factory_with_body": [
+  "b189f99a8eff"
+ ],
+ "external_getter_with_body": [
+  "cad4cab3f305"
+ ],
+ "external_late_field": [
+  "4a14c21c460f"
+ ],
+ "external_method_with_body": [
+  "22ea3d104cd7"
+ ],
+ "external_operator_with_body": [
+  "5bdfc61754a7"
+ ],
+ "external_setter_with_body": [
+  "49508af47304"
+ ],
+ "external_typedef": [
+  "4f282cb98eff"
+ ],
+ "external_with_initializer": [
+  "eff89e0deb6b",
+  "c24e592ad07b",
+  "9350844c3e6a"
+ ],
+ "extra_annotation_on_struct_field": [
+  "21a90c0246fe"
+ ],
+ "extra_positional_arguments": [
+  "928f393605ab"
+ ],
+ "extra_positional_arguments_could_be_named": [
+  "b09d67557577"
+ ],
+ "extra_size_annotation_carray": [
+  "a771703aa2f1"
+ ],
+ "extraneous_modifier": [
+  "ab9a1f9e3ed6"
+ ],
+ "extraneous_modifier_in_extension_type": [
+  "d227f0318ef9"
+ ],
+ "extraneous_modifier_in_primary_constructor": [
+  "f08e5aac4e0a"
+ ],
+ "factory_constructor_new_name": [
+  "eb9b10cf8601"
+ ],
+ "factory_not_complete_after_augmentations": [
+  "72ff5a384e7b"
+ ],
+ "factory_top_level_declaration": [
+  "bc115e6c4889"
+ ],
+ "factory_with_initializers": [
+  "b66267d09f79"
+ ],
+ "factory_without_body": [
+  "c22d4ce92558"
+ ],
+ "ffi_native_invalid_duplicate_default_asset": [
+  "40ab947630ef"
+ ],
+ "ffi_native_invalid_multiple_annotations": [
+  "f1d065282d66"
+ ],
+ "ffi_native_must_be_external": [
+  "7203b00f9bd8"
+ ],
+ "ffi_native_only_classes_extending_nativefieldwrapperclass1_can_be_pointer": [
+  "16c6ba0ff1e7"
+ ],
+ "ffi_native_unexpected_number_of_parameters": [
+  "69550272d66c"
+ ],
+ "ffi_native_unexpected_number_of_parameters_with_receiver": [
+  "12c22e0979ff"
+ ],
+ "field_in_struct_with_initializer": [
+  "206cecf4c6b1"
+ ],
+ "field_initialized_by_multiple_initializers": [
+  "de6624b78b08"
+ ],
+ "field_initialized_in_declaration_and_initializer_of_primary_constructor": [
+  "c1196784c269"
+ ],
+ "field_initialized_in_declaration_and_parameter_of_primary_constructor": [
+  "e5420248021f"
+ ],
+ "field_initialized_in_initializer_and_declaration": [
+  "169cfe5f799a"
+ ],
+ "field_initialized_in_parameter_and_initializer": [
+  "fa7d89da54c1"
+ ],
+ "field_initialized_outside_declaring_class": [
+  "0a18bef320b3"
+ ],
+ "field_initializer_factory_constructor": [
+  "b191ebb01222"
+ ],
+ "field_initializer_in_struct": [
+  "a2fefa05dcad"
+ ],
+ "field_initializer_not_assignable": [
+  "b3fd75cf055c",
+  "bd2af9e9ee97"
+ ],
+ "field_initializer_outside_constructor": [
+  "497ff25cf04d"
+ ],
+ "field_initializer_redirecting_constructor": [
+  "5330c7dde19f"
+ ],
+ "field_initializing_formal_not_assignable": [
+  "c329f2509b5e"
+ ],
+ "field_must_be_external_in_struct": [
+  "f12e62df0bf3"
+ ],
+ "file_names": [
+  "ece8d8498b5c"
+ ],
+ "final_and_covariant": [
+  "ee1d9ec0a498"
+ ],
+ "final_and_covariant_late_with_initializer": [
+  "0595252c9427"
+ ],
+ "final_and_var": [
+  "0969f746bb60"
+ ],
+ "final_constructor": [
+  "ef90a8aead4b"
+ ],
+ "final_enum": [
+  "831734f9ad77"
+ ],
+ "final_initialized_in_declaration_and_constructor": [
+  "bcecf1f2340a"
+ ],
+ "final_method": [
+  "d0eca6b31d5c"
+ ],
+ "final_mixin": [
+  "b51aac371fdd"
+ ],
+ "final_mixin_class": [
+  "08743ad38acd"
+ ],
+ "final_not_initialized": [
+  "bee3637ade5d"
+ ],
+ "final_not_initialized_constructor": [
+  "e3dfb2f600fe",
+  "73b53e5fc2fb",
+  "0fbff8b1d59d"
+ ],
+ "flutter_field_not_map": [
+  "43d01c48b3bf"
+ ],
+ "flutter_style_todos": [
+  "2fdbf79c135d"
+ ],
+ "for_in_of_invalid_element_type": [
+  "b482e63499e6"
+ ],
+ "for_in_of_invalid_type": [
+  "5aff3e10603a"
+ ],
+ "for_in_with_const_variable": [
+  "82a341ff6374"
+ ],
+ "function_not_complete_after_augmentations": [
+  "d6cbeda884b5"
+ ],
+ "function_typed_parameter_var": [
+  "de0ef8bc1d72"
+ ],
+ "generic_function_type_cannot_be_bound": [
+  "5f6b64ecb747"
+ ],
+ "generic_function_type_cannot_be_type_argument": [
+  "5fb13ecd5a78"
+ ],
+ "generic_method_type_instantiation_on_dynamic": [
+  "c990175e957d"
+ ],
+ "generic_struct_subclass": [
+  "96f476d28c45"
+ ],
+ "getter_constructor": [
+  "38a8d78c8397"
+ ],
+ "getter_in_function": [
+  "cf11a3b05ab9"
+ ],
+ "getter_not_assignable_setter_types": [
+  "4d5fc1fc5841"
+ ],
+ "getter_not_subtype_setter_types": [
+  "e2f6cf90bc46"
+ ],
+ "getter_with_parameters": [
+  "b4c633fdc173"
+ ],
+ "hash_and_equals": [
+  "156e3b8e0118"
+ ],
+ "if_element_condition_from_deferred_library": [
+  "6ddad7fda5b8"
+ ],
+ "illegal_assignment_to_non_assignable": [
+  "9f33672c9ee7"
+ ],
+ "illegal_async_generator_return_type": [
+  "f2899113d282"
+ ],
+ "illegal_async_return_type": [
+  "96e3246eb1b4"
+ ],
+ "illegal_character": [
+  "1d1a8253fde9"
+ ],
+ "illegal_concrete_enum_member": [
+  "0926dae8b4fd",
+  "27bc8069fe58"
+ ],
+ "illegal_enum_values": [
+  "b62da9799f3e",
+  "7ebd4445b9bb"
+ ],
+ "illegal_language_version_override": [
+  "178bc0b04d0a"
+ ],
+ "illegal_pattern_assignment_variable_name": [
+  "84178ae20b81"
+ ],
+ "illegal_pattern_identifier_name": [
+  "f76dfe4cc7e7"
+ ],
+ "illegal_pattern_variable_name": [
+  "901fc0ee9146"
+ ],
+ "illegal_sync_generator_return_type": [
+  "38b5b4ab03bc"
+ ],
+ "implementation_imports": [
+  "feac3a916504"
+ ],
+ "implements_before_extends": [
+  "ab9180672184"
+ ],
+ "implements_before_on": [
+  "f9d4eeba16b9"
+ ],
+ "implements_before_with": [
+  "1f9ec692f52c"
+ ],
+ "implements_non_class": [
+  "102a8e1036ac"
+ ],
+ "implements_repeated": [
+  "d989a58e395c"
+ ],
+ "implements_super_class": [
+  "754f9d4ebc0a",
+  "833af0b414c2"
+ ],
+ "implements_super_class_constraint": [
+  "fb2caf5c9104"
+ ],
+ "implicit_call_tearoffs": [
+  "f5f3be6307e2"
+ ],
+ "implicit_reopen": [
+  "2868d6675496"
+ ],
+ "implicit_super_initializer_missing_arguments": [
+  "439d607f84ce"
+ ],
+ "implicit_this_reference_in_initializer": [
+  "e66e3d105dd9"
+ ],
+ "import_deferred_library_with_load_function": [
+  "90951d4147d4"
+ ],
+ "import_directive_after_part_directive": [
+  "807723cf2054"
+ ],
+ "import_internal_library": [
+  "0a32669d3104"
+ ],
+ "import_of_legacy_library_into_null_safe": [
+  "64c9bb9efdae"
+ ],
+ "import_of_non_library": [
+  "d61f905bd520"
+ ],
+ "include_file_not_found": [
+  "fa6b7887c381"
+ ],
+ "included_file_parse_error": [
+  "f086ce43342e"
+ ],
+ "included_file_warning": [
+  "f9d3ed24f2a9"
+ ],
+ "incompatible_lint": [
+  "1b5472203305",
+  "f281a7467417",
+  "2fafa5dc204f"
+ ],
+ "inconsistent_case_expression_types": [
+  "fbd819bbdf2e"
+ ],
+ "inconsistent_inheritance": [
+  "d83dac8d09b2"
+ ],
+ "inconsistent_inheritance_getter_and_method": [
+  "07d8cf475d3f"
+ ],
+ "inconsistent_language_version_override": [
+  "09291520328e"
+ ],
+ "inconsistent_pattern_variable_logical_or": [
+  "a3f872f5cb65"
+ ],
+ "induced_getter_not_complete_after_augmentations": [
+  "0991bd28c0ac"
+ ],
+ "induced_getter_without_body": [
+  "b48dee56316e"
+ ],
+ "induced_setter_not_complete_after_augmentations": [
+  "ce0c7eeada2f"
+ ],
+ "induced_setter_without_body": [
+  "83598e7fe9d6"
+ ],
+ "inference_failure_on_collection_literal": [
+  "401c7e324484"
+ ],
+ "inference_failure_on_function_invocation": [
+  "37f5c4553b4a"
+ ],
+ "inference_failure_on_function_return_type": [
+  "fba0a58177cb"
+ ],
+ "inference_failure_on_generic_invocation": [
+  "88c0c2431136"
+ ],
+ "inference_failure_on_instance_creation": [
+  "17d41595d6b8"
+ ],
+ "inference_failure_on_uninitialized_variable": [
+  "6f146607fbbb"
+ ],
+ "inference_failure_on_untyped_parameter": [
+  "82f0a6b1cf27"
+ ],
+ "initialize_in_field_declaration": [
+  "4249f6e516aa"
+ ],
+ "initialized_variable_in_for_each": [
+  "25527985e2f3"
+ ],
+ "initializer_for_non_existent_field": [
+  "0077ddbb2190"
+ ],
+ "initializer_for_static_field": [
+  "f6493c5d6a47"
+ ],
+ "initializing_declaring_parameter": [
+  "38795d742a17"
+ ],
+ "initializing_formal_for_non_existent_field": [
+  "0077ddbb2190"
+ ],
+ "instance_access_to_static_member": [
+  "c4de5437575a",
+  "f4a25a7bc909"
+ ],
+ "instance_member_access_from_factory": [
+  "bb6876129b3a"
+ ],
+ "instance_member_access_from_static": [
+  "e083951a3aae"
+ ],
+ "instantiate_abstract_class": [
+  "8139ff5178a8"
+ ],
+ "instantiate_enum": [
+  "0daea7a00181"
+ ],
+ "instantiate_type_alias_expands_to_type_parameter": [
+  "a29b4c31a864"
+ ],
+ "integer_literal_imprecise_as_double": [
+  "f96aa6ad9f44"
+ ],
+ "integer_literal_out_of_range": [
+  "c4dad9a0d4ad"
+ ],
+ "interface_enum": [
+  "75483621c1db"
+ ],
+ "interface_mixin": [
+  "07ae35d461d8"
+ ],
+ "interface_mixin_class": [
+  "a8a11333004a"
+ ],
+ "invalid_annotation": [
+  "1caf6c83e610"
+ ],
+ "invalid_annotation_constant_value_from_deferred_library": [
+  "ec262e5707e4"
+ ],
+ "invalid_annotation_from_deferred_library": [
+  "588f5933f23c"
+ ],
+ "invalid_annotation_target": [
+  "ea309cd28706"
+ ],
+ "invalid_assignment": [
+  "b425fab37770"
+ ],
+ "invalid_await_in_for": [
+  "950ccd119768"
+ ],
+ "invalid_await_not_required_annotation": [
+  "60ec2fb4c480"
+ ],
+ "invalid_case_patterns": [
+  "26faec2095f5"
+ ],
+ "invalid_cast_function": [
+  "4ff609c754ed"
+ ],
+ "invalid_cast_function_expr": [
+  "041acf8d700b"
+ ],
+ "invalid_cast_literal": [
+  "30e271db5a86"
+ ],
+ "invalid_cast_literal_list": [
+  "ab3d8a69501a"
+ ],
+ "invalid_cast_literal_map": [
+  "67fbdeacc28b"
+ ],
+ "invalid_cast_literal_set": [
+  "d7d19e2bb2c1"
+ ],
+ "invalid_cast_method": [
+  "20f62972cdd6"
+ ],
+ "invalid_cast_new_expr": [
+  "4cbb2855f82f"
+ ],
+ "invalid_code_point": [
+  "4fc6ed95de7e"
+ ],
+ "invalid_comment_reference": [
+  "6afa791da5ab"
+ ],
+ "invalid_constant": [
+  "8bebd82b8e71"
+ ],
+ "invalid_constant_const_prefix": [
+  "2875c08a1151"
+ ],
+ "invalid_constant_pattern_binary": [
+  "0a574f3d92fc"
+ ],
+ "invalid_constant_pattern_duplicate_const": [
+  "ef8843368b75"
+ ],
+ "invalid_constant_pattern_empty_record_literal": [
+  "baf495c9b141"
+ ],
+ "invalid_constant_pattern_generic": [
+  "20f5ead7fcf9"
+ ],
+ "invalid_constant_pattern_negation": [
+  "393f9cf5c4aa"
+ ],
+ "invalid_constant_pattern_unary": [
+  "521f54cf2820"
+ ],
+ "invalid_constructor_name": [
+  "e2e65dba8d61"
+ ],
+ "invalid_covariant_modifier_in_primary_constructor": [
+  "e693418c2717"
+ ],
+ "invalid_dependency": [
+  "36d513c92755"
+ ],
+ "invalid_deprecated_extend_annotation": [
+  "20dfcb09a38c"
+ ],
+ "invalid_deprecated_implement_annotation": [
+  "fa4008cd98e3"
+ ],
+ "invalid_deprecated_instantiate_annotation": [
+  "7a264b460e3d"
+ ],
+ "invalid_deprecated_mixin_annotation": [
+  "ecf5001c00c3"
+ ],
+ "invalid_deprecated_optional_annotation": [
+  "3e33a8d31278"
+ ],
+ "invalid_deprecated_subclass_annotation": [
+  "11f02a22acb7"
+ ],
+ "invalid_exception_value": [
+  "053c6434058c"
+ ],
+ "invalid_export_of_internal_element": [
+  "116fb6df090f"
+ ],
+ "invalid_export_of_internal_element_indirectly": [
+  "be935566de2c",
+  "844f6ae4bc29"
+ ],
+ "invalid_extension_argument_count": [
+  "7d5364ea5ade"
+ ],
+ "invalid_factory_method_decl": [
+  "1fbd2f7c0c9e"
+ ],
+ "invalid_factory_method_impl": [
+  "4cc812bbf3f1"
+ ],
+ "invalid_factory_name_not_a_class": [
+  "ccaa333c3c50"
+ ],
+ "invalid_field_name": [
+  "3f93268e8c68",
+  "f109387f3bbd",
+  "979f12dcfa3c"
+ ],
+ "invalid_field_type_in_struct": [
+  "3e8bc0121545"
+ ],
+ "invalid_generic_function_type": [
+  "13ac47f86197"
+ ],
+ "invalid_hex_escape": [
+  "23de5904d523"
+ ],
+ "invalid_implementation_override": [
+  "3b52a7c2f34b",
+  "8a7379b74557"
+ ],
+ "invalid_initializer": [
+  "d252aae86a12"
+ ],
+ "invalid_inline_function_type": [
+  "4f093338c772"
+ ],
+ "invalid_inside_unary_pattern": [
+  "d4c0519ef1a7"
+ ],
+ "invalid_internal_annotation": [
+  "9c0a703c1074"
+ ],
+ "invalid_language_version_override": [
+  "bd9bf93917fe",
+  "f56e43e13154",
+  "5e184a0bb808",
+  "81b084d59f1e",
+  "59edd710458c",
+  "57bd96976341",
+  "ed81e9df9173",
+  "437e9ed6004a",
+  "71a6a8292bd7"
+ ],
+ "invalid_literal_annotation": [
+  "7d71dc41d353"
+ ],
+ "invalid_literal_in_configuration": [
+  "fd350bb6d9ec"
+ ],
+ "invalid_modifier_on_constructor": [
+  "145f7a40c630"
+ ],
+ "invalid_modifier_on_setter": [
+  "f886ee2c4ae8"
+ ],
+ "invalid_non_virtual_annotation": [
+  "7261e2fd79b5"
+ ],
+ "invalid_null_aware_operator": [
+  "f68b2977f2b9",
+  "728ba7032d28",
+  "68b81ac2bf76",
+  "dcdb27b4cccf",
+  "4b46ee892cb6"
+ ],
+ "invalid_operator": [
+  "4652130c203b"
+ ],
+ "invalid_operator_for_super": [
+  "b67e8185acde"
+ ],
+ "invalid_operator_questionmark_period_for_super": [
+  "b41abf5b8c9f"
+ ],
+ "invalid_option": [
+  "3d4ac4b869d5"
+ ],
+ "invalid_override": [
+  "961d4c5d636f",
+  "c82236bf13dd"
+ ],
+ "invalid_override_of_non_virtual_member": [
+  "956c18f0016d"
+ ],
+ "invalid_pattern_variable_in_shared_case_scope": [
+  "7091bea0559f",
+  "720f92b6b06b",
+  "b3d343fd342c"
+ ],
+ "invalid_platforms_field": [
+  "ea37ec5f6279"
+ ],
+ "invalid_reference_to_generative_enum_constructor": [
+  "117c83167725",
+  "4a178eb7c49e"
+ ],
+ "invalid_reference_to_this": [
+  "3ad73b0987bf"
+ ],
+ "invalid_reopen_annotation": [
+  "55d6d2ac2696"
+ ],
+ "invalid_return_type_for_catch_error": [
+  "cfb5c184ddb1",
+  "8811f916e8ec"
+ ],
+ "invalid_return_type_for_then": [
+  "a29a30c605ab",
+  "7aa7595bb262"
+ ],
+ "invalid_runtime_check_with_js_interop_types": [
+  "7cd2aeb1c563",
+  "055779918c68",
+  "3515a723b500",
+  "8767cfba0df8",
+  "b75413c74bf7",
+  "7252c359cd56",
+  "99166fed1a44",
+  "a304af76844a",
+  "fb3895e1114a"
+ ],
+ "invalid_sealed_annotation": [
+  "9e1f2b6fded1"
+ ],
+ "invalid_section_format": [
+  "a858b01cca1c"
+ ],
+ "invalid_star_after_async": [
+  "454b99761b5c"
+ ],
+ "invalid_super_formal_parameter_location": [
+  "989699d0a28a"
+ ],
+ "invalid_super_in_initializer": [
+  "7148f75fd8f5"
+ ],
+ "invalid_sync": [
+  "310d4bca7ea5"
+ ],
+ "invalid_this_in_initializer": [
+  "78913f482d3c"
+ ],
+ "invalid_type_argument_in_const_literal": [
+  "afcf99ee9dac",
+  "ddbc0852de00",
+  "34fc90992a30"
+ ],
+ "invalid_unicode_escape_started": [
+  "59d1b8a3b7ed"
+ ],
+ "invalid_unicode_escape_u_bracket": [
+  "d569ec4648d8"
+ ],
+ "invalid_unicode_escape_u_no_bracket": [
+  "d17170c25665"
+ ],
+ "invalid_unicode_escape_u_started": [
+  "772fcf968bc8"
+ ],
+ "invalid_uri": [
+  "19b71d58c9e4"
+ ],
+ "invalid_use_of_covariant": [
+  "6e667fa4a8e4"
+ ],
+ "invalid_use_of_covariant_in_extension": [
+  "b76d9cf50697"
+ ],
+ "invalid_use_of_do_not_submit_member": [
+  "cbf88892a126"
+ ],
+ "invalid_use_of_identifier_augmented": [
+  "8d3f61725b7a"
+ ],
+ "invalid_use_of_internal_member": [
+  "e54571204b00"
+ ],
+ "invalid_use_of_null_value": [
+  "96497f1f9fd1"
+ ],
+ "invalid_use_of_protected_member": [
+  "02005b2d554c"
+ ],
+ "invalid_use_of_type_outside_library": [
+  "d4de3c5a570b",
+  "b419b1fed592",
+  "cf0b4b43fc2f",
+  "faf4668baa59",
+  "54d40427e300",
+  "c4216bfd620d",
+  "a7299a2fc329"
+ ],
+ "invalid_use_of_visible_for_overriding_member": [
+  "5c05825af1d4"
+ ],
+ "invalid_use_of_visible_for_template_member": [
+  "aa5434f81ebd"
+ ],
+ "invalid_use_of_visible_for_testing_member": [
+  "3850df64b5a7"
+ ],
+ "invalid_visibility_annotation": [
+  "074fc722dd3b"
+ ],
+ "invalid_visible_for_overriding_annotation": [
+  "54df7c483a5e"
+ ],
+ "invalid_visible_outside_template_annotation": [
+  "62b07e56732c"
+ ],
+ "invalid_widget_preview_application": [
+  "05f0f20a4389"
+ ],
+ "invalid_widget_preview_private_argument": [
+  "e9c9c309602b"
+ ],
+ "invocation_of_extension_without_call": [
+  "fe03b1c0f5c4"
+ ],
+ "invocation_of_non_function": [
+  "894f53822866"
+ ],
+ "invocation_of_non_function_expression": [
+  "1c854e9dbda0"
+ ],
+ "join_return_with_assignment": [
+  "3fc2f4f56765"
+ ],
+ "label_in_outer_scope": [
+  "b3a9f3e4b4dd"
+ ],
+ "label_undefined": [
+  "473a319e7eec"
+ ],
+ "late_final_field_with_const_constructor": [
+  "4003b8a63b88"
+ ],
+ "late_final_local_already_assigned": [
+  "addcf604e7cc"
+ ],
+ "late_pattern_variable_declaration": [
+  "d3601f7a81c4"
+ ],
+ "leading_newlines_in_multiline_strings": [
+  "effc0b64ec04"
+ ],
+ "leaf_call_must_not_return_handle": [
+  "827c3bb9af09"
+ ],
+ "leaf_call_must_not_take_handle": [
+  "d33d7e8c9caa"
+ ],
+ "library_annotations": [
+  "5acb1903242e"
+ ],
+ "library_directive_not_first": [
+  "74a4dd0d487c"
+ ],
+ "library_names": [
+  "2efa91fe13ab"
+ ],
+ "library_prefixes": [
+  "a00b26f4d2cb"
+ ],
+ "library_private_types_in_public_api": [
+  "17eece913d78"
+ ],
+ "lines_longer_than80_chars": [
+  "d430ba69671a"
+ ],
+ "list_element_type_not_assignable": [
+  "b8ea0c301507"
+ ],
+ "literal_only_boolean_expressions": [
+  "6182c3af371a"
+ ],
+ "literal_with_class": [
+  "8e020f980edb"
+ ],
+ "literal_with_class_and_new": [
+  "7bad616f485e"
+ ],
+ "literal_with_new": [
+  "b19ec5f7d7ec"
+ ],
+ "local_function_declaration_modifier": [
+  "9f585d769edb"
+ ],
+ "main_first_positional_parameter_type": [
+  "28e4d7305e05"
+ ],
+ "main_has_required_named_parameters": [
+  "645ec5649176"
+ ],
+ "main_has_too_many_required_positional_parameters": [
+  "99d97be4a602"
+ ],
+ "main_is_not_function": [
+  "275f191c731a"
+ ],
+ "map_entry_not_in_map": [
+  "d8a9834eb164"
+ ],
+ "map_key_type_not_assignable": [
+  "f61a85e83c6d"
+ ],
+ "map_value_type_not_assignable": [
+  "54c18729d5f3"
+ ],
+ "matching_super_parameters": [
+  "9cacf4e45486"
+ ],
+ "member_with_class_name": [
+  "7c843a78eeaf"
+ ],
+ "migrate_design_widgets": [
+  "290ce1f94170"
+ ],
+ "mismatched_annotation_on_struct_field": [
+  "574b6a08a63a"
+ ],
+ "missing_annotation_on_struct_field": [
+  "38befff07110"
+ ],
+ "missing_assignable_selector": [
+  "5fa25a853492"
+ ],
+ "missing_assignment_in_initializer": [
+  "9785596285b0"
+ ],
+ "missing_catch_or_finally": [
+  "5093794377a4"
+ ],
+ "missing_closing_parenthesis": [
+  "42e3dee9f413"
+ ],
+ "missing_code_block_language_in_doc_comment": [
+  "7c3864ac97fe"
+ ],
+ "missing_const_final_var_or_type": [
+  "cfcea02ffe79"
+ ],
+ "missing_const_in_list_literal": [
+  "01d338482ac6"
+ ],
+ "missing_const_in_map_literal": [
+  "01d338482ac6"
+ ],
+ "missing_const_in_set_literal": [
+  "01d338482ac6"
+ ],
+ "missing_dart_library": [
+  "e972831f4d2b"
+ ],
+ "missing_default_value_for_parameter": [
+  "33694ba81159",
+  "cd48d53e260d",
+  "ba8103dc8fde"
+ ],
+ "missing_dependency": [
+  "133b9b2177a2",
+  "089e0d5b0f71"
+ ],
+ "missing_digit": [
+  "67d045897fee"
+ ],
+ "missing_enum_body": [
+  "08df357d018e"
+ ],
+ "missing_enum_constant_in_switch": [
+  "efd100236dd6"
+ ],
+ "missing_exception_value": [
+  "18ebefe2ea7f"
+ ],
+ "missing_expression_in_initializer": [
+  "f59e41a0317f"
+ ],
+ "missing_expression_in_throw": [
+  "a43e35f1977a"
+ ],
+ "missing_field_type_in_struct": [
+  "4da3c0552710"
+ ],
+ "missing_function_body": [
+  "82789ea08677"
+ ],
+ "missing_function_keyword": [
+  "c50bcedf204a"
+ ],
+ "missing_function_parameters": [
+  "965e23f75546"
+ ],
+ "missing_get": [
+  "9a337b63d071"
+ ],
+ "missing_hex_digit": [
+  "f57e04bccd5f"
+ ],
+ "missing_identifier": [
+  "e654983eaa43"
+ ],
+ "missing_initializer": [
+  "b2127880ce3a"
+ ],
+ "missing_keyword_operator": [
+  "a929680c6362"
+ ],
+ "missing_method_parameters": [
+  "0d1f6ea9a61b"
+ ],
+ "missing_name": [
+  "c7a44f379c07"
+ ],
+ "missing_name_for_named_parameter": [
+  "fcd832f984ef"
+ ],
+ "missing_name_in_library_directive": [
+  "32c5850e1da7"
+ ],
+ "missing_name_in_part_of_directive": [
+  "de6bee6a36a2"
+ ],
+ "missing_named_pattern_field_name": [
+  "2fb13b588c83"
+ ],
+ "missing_override_of_must_be_overridden": [
+  "5e113c3b2f08",
+  "d34bb559bc38",
+  "1db718a42a9d"
+ ],
+ "missing_prefix_in_deferred_import": [
+  "588c2d727848"
+ ],
+ "missing_primary_constructor": [
+  "ceb5d0f7b0ea"
+ ],
+ "missing_primary_constructor_parameters": [
+  "a95c56006a6e"
+ ],
+ "missing_quote": [
+  "bf07fad42dd8"
+ ],
+ "missing_required_argument": [
+  "51f9bbdd4bd0"
+ ],
+ "missing_required_param": [
+  "773a3875bdef",
+  "f9a139a6038b"
+ ],
+ "missing_return": [
+  "2439fe231498"
+ ],
+ "missing_size_annotation_carray": [
+  "fbab0e2dcb0f"
+ ],
+ "missing_star_after_sync": [
+  "1a0d36962034"
+ ],
+ "missing_statement": [
+  "b668d90ea359"
+ ],
+ "missing_terminator_for_parameter_group": [
+  "eafe3839a743"
+ ],
+ "missing_typedef_parameters": [
+  "d22cfa17f806"
+ ],
+ "missing_variable_in_for_each": [
+  "c5d9a3718e06"
+ ],
+ "missing_variable_pattern": [
+  "23aa393687bd"
+ ],
+ "missing_whitespace_between_adjacent_strings": [
+  "4f3dc6dfeca8"
+ ],
+ "mixed_parameter_groups": [
+  "a394730fea92"
+ ],
+ "mixin_application_class_augmentation": [
+  "c24409634732"
+ ],
+ "mixin_application_concrete_super_invoked_member_type": [
+  "7a0179da1730"
+ ],
+ "mixin_application_no_concrete_super_invoked_member": [
+  "cdba7720b74d",
+  "ba93083ab616"
+ ],
+ "mixin_application_not_implemented_interface": [
+  "0f0732d6231c"
+ ],
+ "mixin_class_declaration_extends_not_object": [
+  "5310b72d7525"
+ ],
+ "mixin_class_declaration_with_clause": [
+  "949fcfc34166"
+ ],
+ "mixin_class_declares_constructor": [
+  "bfb85a6c600e"
+ ],
+ "mixin_class_declares_non_trivial_generative_constructor": [
+  "82500ebc4cb2"
+ ],
+ "mixin_declares_constructor": [
+  "bf508dd89873"
+ ],
+ "mixin_inherits_from_not_object": [
+  "52464c017457"
+ ],
+ "mixin_instantiate": [
+  "d18e2a99b141"
+ ],
+ "mixin_modifier_mixin_application_class_with_multiple_mixins": [
+  "17d9c5ac4004"
+ ],
+ "mixin_of_non_class": [
+  "03f0de0bfe1d"
+ ],
+ "mixin_on_sealed_class": [
+  "3ccdea59e758"
+ ],
+ "mixin_primary_constructor": [
+  "725de3bc760e"
+ ],
+ "mixin_super_class_constraint_deferred_class": [
+  "fe005a4e5581"
+ ],
+ "mixin_super_class_constraint_non_interface": [
+  "08b25292b703"
+ ],
+ "mixin_with_clause": [
+  "7e9d8f01352c"
+ ],
+ "mixin_with_non_class_superclass": [
+  "a4658d6e7ad2"
+ ],
+ "modifier_out_of_order": [
+  "af6cdb25f651"
+ ],
+ "multiple_clauses": [
+  "2d55dd185768"
+ ],
+ "multiple_combinators": [
+  "d3fd534e35f1"
+ ],
+ "multiple_extends_clauses": [
+  "3fe0ff3112bd"
+ ],
+ "multiple_implements_clauses": [
+  "6168464248a7"
+ ],
+ "multiple_library_directives": [
+  "94146ca60b35"
+ ],
+ "multiple_named_parameter_groups": [
+  "95e58e8c8f82"
+ ],
+ "multiple_on_clauses": [
+  "e464ade13e8e"
+ ],
+ "multiple_part_of_directives": [
+  "c21159f91a95"
+ ],
+ "multiple_plugins": [
+  "fe8a923a0ee6"
+ ],
+ "multiple_positional_parameter_groups": [
+  "f6780babc11f"
+ ],
+ "multiple_primary_constructor_body_declarations": [
+  "7af0636479a4"
+ ],
+ "multiple_redirecting_constructor_invocations": [
+  "1d527934227a"
+ ],
+ "multiple_representation_fields": [
+  "de07bb5f3f52"
+ ],
+ "multiple_super_initializers": [
+  "d16c15fc7ab5"
+ ],
+ "multiple_variables_in_for_each": [
+  "f362163e319c"
+ ],
+ "multiple_variance_modifiers": [
+  "85cebd1731fb"
+ ],
+ "multiple_with_clauses": [
+  "c4f10b50913d"
+ ],
+ "must_be_a_native_function_type": [
+  "1acae0fef2a5"
+ ],
+ "must_be_a_subtype": [
+  "477526eab965"
+ ],
+ "must_be_immutable": [
+  "68b8bd92176b"
+ ],
+ "must_call_super": [
+  "cc5bd39775e1"
+ ],
+ "must_return_void": [
+  "86545194f74d"
+ ],
+ "name_not_string": [
+  "52441db6ca89"
+ ],
+ "named_function_expression": [
+  "d4272783428b"
+ ],
+ "named_function_type": [
+  "b53dfc45b304"
+ ],
+ "named_parameter_outside_group": [
+  "6ff57db665eb"
+ ],
+ "native_clause_in_non_sdk_code": [
+  "72aabf408ea5"
+ ],
+ "native_clause_should_be_annotation": [
+  "5f4099d73154"
+ ],
+ "native_field_invalid_type": [
+  "e04b095140c5"
+ ],
+ "native_field_missing_type": [
+  "3751bda1dc68"
+ ],
+ "native_field_not_static": [
+  "eb759a98f1d1"
+ ],
+ "native_function_body_in_non_sdk_code": [
+  "f4073160dbb2"
+ ],
+ "native_function_missing_type": [
+  "f99155b2e971"
+ ],
+ "negative_variable_dimension": [
+  "66ae7d534cbf"
+ ],
+ "new_constructor_dot_name": [
+  "3560df9c94c8"
+ ],
+ "new_constructor_new_name": [
+  "e8e28bd08541"
+ ],
+ "new_constructor_qualified_name": [
+  "2dea0c0a1d66"
+ ],
+ "new_with_undefined_constructor": [
+  "6018ac1e5d5f"
+ ],
+ "new_with_undefined_constructor_default": [
+  "c3674af717f6"
+ ],
+ "no_adjacent_strings_in_list": [
+  "f5855191fb8f"
+ ],
+ "no_annotation_constructor_arguments": [
+  "5e427bb01706"
+ ],
+ "no_combined_super_signature": [
+  "beeddcbf0ea4"
+ ],
+ "no_default_cases": [
+  "23a78964fbbc"
+ ],
+ "no_default_super_constructor": [
+  "4a8403921baa",
+  "2c501fea044f"
+ ],
+ "no_duplicate_case_values": [
+  "08aec8427c3c"
+ ],
+ "no_dynamic_casts": [
+  "c4defa7b5e5b"
+ ],
+ "no_generative_constructors_in_superclass": [
+  "216d21240257"
+ ],
+ "no_leading_underscores_for_library_prefixes": [
+  "8d4c7b03aa8b"
+ ],
+ "no_leading_underscores_for_local_identifiers": [
+  "fbbd9da66dbf"
+ ],
+ "no_literal_bool_comparisons": [
+  "4f3824d2f376"
+ ],
+ "no_logic_in_create_state": [
+  "b7534b8d5472"
+ ],
+ "no_raw_types": [
+  "eb90f15e3406"
+ ],
+ "no_runtimetype_tostring": [
+  "c340a73558e3"
+ ],
+ "no_self_assignments": [
+  "49de4c7c10c6"
+ ],
+ "no_solo_tests": [
+  "15ea487f1d86"
+ ],
+ "no_touchscreen_feature": [
+  "cd2db5225ebf"
+ ],
+ "no_trailing_spaces": [
+  "bd8bb8f25f22"
+ ],
+ "no_wildcard_variable_uses": [
+  "5503373b9186"
+ ],
+ "non_abstract_class_inherits_abstract_member": [
+  "ddf4d78ccdd9",
+  "fca2790d1022",
+  "66f34afe5992",
+  "99cfee949bbe",
+  "3d5d61728005"
+ ],
+ "non_bool_condition": [
+  "a5062d83d269"
+ ],
+ "non_bool_expression": [
+  "ecf025be806c"
+ ],
+ "non_bool_negation_expression": [
+  "3718445ebcf6"
+ ],
+ "non_bool_operand": [
+  "ed39f7721462"
+ ],
+ "non_const_argument_for_const_parameter": [
+  "b0a141ab1d5a"
+ ],
+ "non_const_call_to_literal_constructor": [
+  "c5b5c37bc78c",
+  "72fa7db87dd7"
+ ],
+ "non_const_generative_enum_constructor": [
+  "ceede661b194"
+ ],
+ "non_const_map_as_expression_statement": [
+  "963c128d06c9"
+ ],
+ "non_constant_annotation_constructor": [
+  "2d151baa103b"
+ ],
+ "non_constant_case_expression": [
+  "a8d8d8340964"
+ ],
+ "non_constant_case_expression_from_deferred_library": [
+  "501e7d64981f"
+ ],
+ "non_constant_default_value": [
+  "db55e11cf8ed"
+ ],
+ "non_constant_default_value_from_deferred_library": [
+  "123cb5d63d28"
+ ],
+ "non_constant_identifier_names": [
+  "f8cc59021bb4"
+ ],
+ "non_constant_list_element": [
+  "02b4eaacca05"
+ ],
+ "non_constant_map_element": [
+  "c95c2dc7434a"
+ ],
+ "non_constant_map_key": [
+  "334042b61f02"
+ ],
+ "non_constant_map_pattern_key": [
+  "a6c312927e87"
+ ],
+ "non_constant_map_value": [
+  "9aa6c0959225"
+ ],
+ "non_constant_record_field": [
+  "bfae41162521"
+ ],
+ "non_constant_record_field_from_deferred_library": [
+  "cde7cc08aaf4"
+ ],
+ "non_constant_relational_pattern_expression": [
+  "9f9bca7bf412"
+ ],
+ "non_constant_set_element": [
+  "1b58a156bb8d"
+ ],
+ "non_constant_type_argument": [
+  "db772d4cd1b6"
+ ],
+ "non_constructor_factory": [
+  "63da405999d9"
+ ],
+ "non_covariant_type_parameter_position_in_representation_type": [
+  "6d076eff9f27"
+ ],
+ "non_exhaustive_switch_expression": [
+  "fcf11cb1aa55",
+  "e43020342e10"
+ ],
+ "non_exhaustive_switch_statement": [
+  "012db848b545",
+  "6892280fba7f"
+ ],
+ "non_final_field_in_enum": [
+  "4aadc150f0ba"
+ ],
+ "non_generative_constructor": [
+  "effa50b05f79"
+ ],
+ "non_generative_implicit_constructor": [
+  "9413ddcf803f"
+ ],
+ "non_identifier_library_name": [
+  "78dc6646c4f1"
+ ],
+ "non_native_function_type_argument_to_pointer": [
+  "e15960250206"
+ ],
+ "non_nullable_equals_parameter": [
+  "435910f9d65d"
+ ],
+ "non_part_of_directive_in_part": [
+  "2e77951ff642"
+ ],
+ "non_positive_array_dimension": [
+  "12830703a0ef"
+ ],
+ "non_redirecting_generative_constructor_with_primary": [
+  "283d4fc55165"
+ ],
+ "non_resizable_activity": [
+  "ae33040d5c87"
+ ],
+ "non_sized_type_argument": [
+  "b2cbe9c4ee42"
+ ],
+ "non_string_literal_as_uri": [
+  "adc1a1c07dd6"
+ ],
+ "non_sync_factory": [
+  "ffeef1046802"
+ ],
+ "non_type_as_type_argument": [
+  "93b8c6121694"
+ ],
+ "non_type_in_catch_clause": [
+  "87613061727a"
+ ],
+ "non_user_definable_operator": [
+  "b903273fd4a0"
+ ],
+ "non_void_return_for_operator": [
+  "2f20ff563f30"
+ ],
+ "non_void_return_for_setter": [
+  "deaac35936fd"
+ ],
+ "noop_primitive_operations": [
+  "6cb5ce2d0f74"
+ ],
+ "normal_before_optional_parameters": [
+  "afd59b7730ed"
+ ],
+ "not_a_type": [
+  "a5e4bd1a0f18"
+ ],
+ "not_assigned_potentially_non_nullable_local_variable": [
+  "8f54a3b83754"
+ ],
+ "not_binary_operator": [
+  "c327f52f92d4"
+ ],
+ "not_enough_positional_arguments": [
+  "c8488713a273",
+  "5e5ff4787f78",
+  "7b34fef7a7da",
+  "5f11180aa57e"
+ ],
+ "not_initialized_non_nullable_instance_field": [
+  "ed78e6aa3a6b",
+  "df34e05554fd"
+ ],
+ "not_initialized_non_nullable_variable": [
+  "a33bad685e8d"
+ ],
+ "not_instantiated_bound": [
+  "83fa23adb130"
+ ],
+ "not_iterable_spread": [
+  "66197bb371dd"
+ ],
+ "not_map_spread": [
+  "73e4dd203d14"
+ ],
+ "not_null_aware_null_spread": [
+  "0cb0973fa8c5"
+ ],
+ "null_argument_to_non_null_type": [
+  "df4d5ce1e7f3"
+ ],
+ "null_aware_cascade_out_of_order": [
+  "59dd84175ea8"
+ ],
+ "null_check_always_fails": [
+  "021fcb486410"
+ ],
+ "null_check_on_nullable_type_parameter": [
+  "5a9517e4daf3"
+ ],
+ "null_closures": [
+  "a7bfe3418c37"
+ ],
+ "nullable_type_in_catch_clause": [
+  "b3f1ed13b897"
+ ],
+ "nullable_type_in_extends_clause": [
+  "b2974abd54aa",
+  "e6cd586d0d8a"
+ ],
+ "nullable_type_in_implements_clause": [
+  "970ec03146cb",
+  "754d40734b84"
+ ],
+ "nullable_type_in_on_clause": [
+  "f1be8e48a66e",
+  "28e088b7389c"
+ ],
+ "nullable_type_in_with_clause": [
+  "4f5c73181d16",
+  "fc4daa02b4c1"
+ ],
+ "object_cannot_extend_another_class": [
+  "0c23dc4345bc"
+ ],
+ "obsolete_colon_for_default_value": [
+  "562f9fb932ca"
+ ],
+ "omit_local_variable_types": [
+  "395a82906e35"
+ ],
+ "omit_obvious_local_variable_types": [
+  "1a9b363c18cc"
+ ],
+ "omit_obvious_property_types": [
+  "0e341e55a094"
+ ],
+ "on_repeated": [
+  "0aa6569a7f4a"
+ ],
+ "one_member_abstracts": [
+  "f5d999147dd4"
+ ],
+ "only_throw_errors": [
+  "ff10dd43151b"
+ ],
+ "optional_parameter_in_operator": [
+  "4b6815c50baa"
+ ],
+ "out_of_order_clauses": [
+  "d8bb487b0e1c"
+ ],
+ "overridden_fields": [
+  "ed9e30f30aab"
+ ],
+ "override_on_non_overriding_member": [
+  "5a62aeaf143b",
+  "a99e26bc0e09",
+  "87ef3fe9c69d",
+  "0a9ca454fd93"
+ ],
+ "package_names": [
+  "bb014a7f8b93"
+ ],
+ "package_prefixed_library_names": [
+  "7371636cbb83"
+ ],
+ "packed_annotation": [
+  "552c077bcee2"
+ ],
+ "packed_annotation_alignment": [
+  "0f190ed6eaa4"
+ ],
+ "parameter_assignments": [
+  "a77e27c2d33e"
+ ],
+ "parse_error": [
+  "e0a63cb2ea30"
+ ],
+ "part_of_different_library": [
+  "79934f0a7dab"
+ ],
+ "part_of_name": [
+  "a010cdf4ccfb"
+ ],
+ "part_of_non_part": [
+  "52871e42c20f"
+ ],
+ "part_of_unnamed_library": [
+  "4fbcabd862fc"
+ ],
+ "path_does_not_exist": [
+  "2ea3f6b73051"
+ ],
+ "path_not_posix": [
+  "42148eeda7ac"
+ ],
+ "path_pubspec_does_not_exist": [
+  "372704a55ce5"
+ ],
+ "pattern_assignment_declares_variable": [
+  "61a7d84de1eb"
+ ],
+ "pattern_assignment_not_local_variable": [
+  "5f78dcc96ca8"
+ ],
+ "pattern_constant_from_deferred_library": [
+  "c234426daf93"
+ ],
+ "pattern_never_matches_value_type": [
+  "f3de621c77ff"
+ ],
+ "pattern_type_mismatch_in_irrefutable_context": [
+  "07be8bd934a0"
+ ],
+ "pattern_variable_assignment_inside_guard": [
+  "4777a6107ea9"
+ ],
+ "pattern_variable_declaration_outside_function_or_method": [
+  "da2ff34bc953"
+ ],
+ "permission_implies_unsupported_hardware": [
+  "2243f68f7092"
+ ],
+ "platform_value_disallowed": [
+  "18d3115ee83c"
+ ],
+ "plugins_in_inner_options": [
+  "ff4e5261f3b7"
+ ],
+ "positional_after_named_argument": [
+  "797bd740e1d7"
+ ],
+ "positional_field_in_object_pattern": [
+  "5763bdbb7b4c"
+ ],
+ "positional_parameter_outside_group": [
+  "f88a5e5e4e1b"
+ ],
+ "positional_super_formal_parameter_with_positional_argument": [
+  "abac96afe391"
+ ],
+ "prefer_adjacent_string_concatenation": [
+  "fab5198dc00d"
+ ],
+ "prefer_asserts_in_initializer_lists": [
+  "197371a4fdb8"
+ ],
+ "prefer_asserts_with_message": [
+  "a94a8cb26a67"
+ ],
+ "prefer_collection_literals": [
+  "b00e748a85da"
+ ],
+ "prefer_conditional_assignment": [
+  "0cd5687b8774"
+ ],
+ "prefer_const_constructors": [
+  "dc475959f558"
+ ],
+ "prefer_const_constructors_in_immutables": [
+  "d391efe24fd9"
+ ],
+ "prefer_const_declarations": [
+  "6098205da933"
+ ],
+ "prefer_const_literals_to_create_immutables": [
+  "c1d8e46db105"
+ ],
+ "prefer_constructors_over_static_methods": [
+  "03ca15035fc4"
+ ],
+ "prefer_contains": [
+  "3c37f482f067",
+  "450896206ca1",
+  "84acd623e817"
+ ],
+ "prefer_double_quotes": [
+  "6bc02642ab45"
+ ],
+ "prefer_expression_function_bodies": [
+  "902e20fe366c"
+ ],
+ "prefer_final_fields": [
+  "e80725a5c602"
+ ],
+ "prefer_final_in_for_each": [
+  "e8aa9893b923",
+  "32c152265171"
+ ],
+ "prefer_final_locals": [
+  "40cac781aaa9"
+ ],
+ "prefer_final_parameters": [
+  "273ee887593c"
+ ],
+ "prefer_for_elements_to_map_fromiterable": [
+  "f142ad065e9c"
+ ],
+ "prefer_foreach": [
+  "f05c7114bdab"
+ ],
+ "prefer_function_declarations_over_variables": [
+  "47f1ec94f753"
+ ],
+ "prefer_generic_function_type_aliases": [
+  "1c8d810b939d"
+ ],
+ "prefer_if_elements_to_conditional_expressions": [
+  "94e76a83713d"
+ ],
+ "prefer_if_null_operators": [
+  "7f731d424de5"
+ ],
+ "prefer_initializing_formals": [
+  "5fbdcbfb0cf6"
+ ],
+ "prefer_inlined_adds": [
+  "b725e1302140",
+  "985cb3bc15ad"
+ ],
+ "prefer_int_literals": [
+  "c403cfac362a"
+ ],
+ "prefer_interpolation_to_compose_strings": [
+  "7df755afdba6"
+ ],
+ "prefer_is_empty": [
+  "924e41d257a0",
+  "ebb4178ad423",
+  "a9f26e54a1c8",
+  "4290d28477df"
+ ],
+ "prefer_is_not_empty": [
+  "ff43df1fafaf"
+ ],
+ "prefer_is_not_operator": [
+  "53c6b63901a5"
+ ],
+ "prefer_iterable_wheretype": [
+  "caee4755a53a"
+ ],
+ "prefer_mixin": [
+  "d2c060e768b8"
+ ],
+ "prefer_null_aware_method_calls": [
+  "8d8ad126b0a9"
+ ],
+ "prefer_null_aware_operators": [
+  "99cec9e734ed"
+ ],
+ "prefer_relative_imports": [
+  "e1697cc60e7a"
+ ],
+ "prefer_single_quotes": [
+  "84feff408dcc"
+ ],
+ "prefer_spread_collections": [
+  "783cf5030048"
+ ],
+ "prefer_typing_uninitialized_variables": [
+  "a4b8699214dc",
+  "e80b0faa3b8a"
+ ],
+ "prefer_void_to_null": [
+  "e17d2f092f91"
+ ],
+ "prefix_after_combinator": [
+  "6f38329e7ee6"
+ ],
+ "prefix_collides_with_top_level_member": [
+  "e0d174f9630f"
+ ],
+ "prefix_identifier_not_followed_by_dot": [
+  "1e7f3184a6df"
+ ],
+ "prefix_shadowed_by_local_declaration": [
+  "2871faa00a8f"
+ ],
+ "primary_constructor_body_with_expression_body": [
+  "fcc01fa9a1c6"
+ ],
+ "primary_constructor_body_with_modifier": [
+  "1f7c3424a38c"
+ ],
+ "primary_constructor_body_without_declaration": [
+  "a57669733774"
+ ],
+ "primary_constructor_cannot_redirect": [
+  "8982f9848c22"
+ ],
+ "private_collision_in_mixin_application": [
+  "f8ef3e58f82f"
+ ],
+ "private_named_non_field_parameter": [
+  "827ffa84e096"
+ ],
+ "private_named_parameter_duplicate_public_name": [
+  "c62401be9ecc"
+ ],
+ "private_named_parameter_without_public_name": [
+  "1a9ffebb0a92"
+ ],
+ "private_optional_parameter": [
+  "d5c4dd12a8c3"
+ ],
+ "private_setter": [
+  "28a0f54d1190"
+ ],
+ "provide_deprecation_message": [
+  "b9823ee7502f"
+ ],
+ "public_member_api_docs": [
+  "f12574ffc3d8"
+ ],
+ "read_potentially_unassigned_final": [
+  "a3bbb5a853f1"
+ ],
+ "receiver_of_type_never": [
+  "87f763a165d9"
+ ],
+ "record_literal_one_positional_no_trailing_comma": [
+  "7d363c29463f"
+ ],
+ "record_type_one_positional_no_trailing_comma": [
+  "e46e88c38be9"
+ ],
+ "recursive_compile_time_constant": [
+  "816c15a029ef"
+ ],
+ "recursive_constant_constructor": [
+  "7311efeb53df"
+ ],
+ "recursive_constructor_redirect": [
+  "4954128228c3"
+ ],
+ "recursive_getters": [
+  "f8bb44386c3e"
+ ],
+ "recursive_include_file": [
+  "57197bbbf266"
+ ],
+ "recursive_interface_inheritance": [
+  "5dd8d7fd28db",
+  "7795cd3b46f2",
+  "f8e434d0c41c",
+  "bf651325c69b",
+  "09c21fce47c2"
+ ],
+ "redeclare_on_non_redeclaring_member": [
+  "92c2470fd80b"
+ ],
+ "redirect_generative_to_missing_constructor": [
+  "6dd65c775f06"
+ ],
+ "redirect_generative_to_non_generative_constructor": [
+  "35ddc4bbfcb9"
+ ],
+ "redirect_to_abstract_class_constructor": [
+  "d1c43d23df59"
+ ],
+ "redirect_to_invalid_function_type": [
+  "6e4729335869"
+ ],
+ "redirect_to_invalid_return_type": [
+  "d63fe70cfc46"
+ ],
+ "redirect_to_missing_constructor": [
+  "1daadc20fca2"
+ ],
+ "redirect_to_non_class": [
+  "14d91f452652"
+ ],
+ "redirect_to_non_const_constructor": [
+  "f6ae3757001c"
+ ],
+ "redirect_to_type_alias_expands_to_type_parameter": [
+  "4e3862376eb8"
+ ],
+ "redirecting_constructor_with_body": [
+  "7b03018a46b4"
+ ],
+ "redirection_in_non_factory_constructor": [
+  "7a33337f910e"
+ ],
+ "referenced_before_declaration": [
+  "18bac0ad5fc1"
+ ],
+ "refutable_pattern_in_irrefutable_context": [
+  "cb1bde7447d5"
+ ],
+ "relational_pattern_operand_type_not_assignable": [
+  "a9b70c6a8bc6"
+ ],
+ "relational_pattern_operator_return_type_not_assignable_to_bool": [
+  "55f76b40032f"
+ ],
+ "remove_deprecations_in_breaking_versions": [
+  "f5ac4b1f06b9"
+ ],
+ "removed_lint": [
+  "0460cd15cd9f"
+ ],
+ "removed_lint_use": [
+  "540606c042ad"
+ ],
+ "replaced_lint": [
+  "983e8905d732"
+ ],
+ "replaced_lint_use": [
+  "2a16cdc9429a",
+  "983e8905d732"
+ ],
+ "representation_field_modifier": [
+  "93e731291049",
+  "4e1edd0e4006"
+ ],
+ "representation_field_trailing_comma": [
+  "d49d76ba7104"
+ ],
+ "require_trailing_commas": [
+  "7e3b4f94b1d1"
+ ],
+ "rest_element_in_map_pattern": [
+  "c79051d1140b"
+ ],
+ "rethrow_outside_catch": [
+  "8ea31b8e84a3"
+ ],
+ "return_in_generative_constructor": [
+  "1f542411dd81"
+ ],
+ "return_in_generator": [
+  "a0b71fd4d4eb"
+ ],
+ "return_of_do_not_store": [
+  "fff83ee4d5d4"
+ ],
+ "return_of_invalid_type": [
+  "f12dedf7e3ca",
+  "d32102749a9d",
+  "32482bd9d248"
+ ],
+ "return_of_invalid_type_from_closure": [
+  "d39a38729125"
+ ],
+ "return_without_value": [
+  "144721fafa3e"
+ ],
+ "sdk_version_as_expression_in_const_context": [
+  "f165ab63002a"
+ ],
+ "sdk_version_async_exported_from_core": [
+  "1ecf69db4daf"
+ ],
+ "sdk_version_bool_operator_in_const_context": [
+  "4943e464f054"
+ ],
+ "sdk_version_constructor_tearoffs": [
+  "55e95016fc9a"
+ ],
+ "sdk_version_eq_eq_operator_in_const_context": [
+  "e4e98c029c18"
+ ],
+ "sdk_version_extension_methods": [
+  "7a85e79b7baa"
+ ],
+ "sdk_version_gt_gt_gt_operator": [
+  "196bcbd99b89"
+ ],
+ "sdk_version_is_expression_in_const_context": [
+  "578af24184d0"
+ ],
+ "sdk_version_never": [
+  "4eb363ea48dd"
+ ],
+ "sdk_version_set_literal": [
+  "c6cc062d24fb"
+ ],
+ "sdk_version_since": [
+  "e492a27d9acd"
+ ],
+ "sdk_version_ui_as_code": [
+  "1cefa15af1bb"
+ ],
+ "sdk_version_ui_as_code_in_const_context": [
+  "72ab718feeb2"
+ ],
+ "sealed_enum": [
+  "4fa885f1a8ec"
+ ],
+ "sealed_mixin": [
+  "6af1076b9e5a"
+ ],
+ "sealed_mixin_class": [
+  "cb39f95483c8"
+ ],
+ "secure_pubspec_urls": [
+  "de4126575fba"
+ ],
+ "set_element_type_not_assignable": [
+  "79e39cddaeb9"
+ ],
+ "setter_constructor": [
+  "03920bf57a38"
+ ],
+ "setter_in_function": [
+  "e38123d86316"
+ ],
+ "setting_orientation_on_activity": [
+  "9dfece50ba82"
+ ],
+ "shared_deferred_prefix": [
+  "9e4225ce53ca"
+ ],
+ "simple_directive_paths": [
+  "125ff3c3c434"
+ ],
+ "simplify_variable_pattern": [
+  "570534829be4"
+ ],
+ "size_annotation_dimensions": [
+  "cc8f874e8a44"
+ ],
+ "sized_box_for_whitespace": [
+  "e7f9f3ac22a7"
+ ],
+ "sized_box_shrink_expand": [
+  "e6053cc2d3c8"
+ ],
+ "slash_for_doc_comments": [
+  "a856914250b3"
+ ],
+ "sort_child_properties_last": [
+  "df7f8e09bb95"
+ ],
+ "sort_constructors_first": [
+  "458322aac9b0"
+ ],
+ "sort_pub_dependencies": [
+  "531be353821c"
+ ],
+ "sort_unnamed_constructors_first": [
+  "54bc078cb79a"
+ ],
+ "specify_nonobvious_local_variable_types": [
+  "7b69774e56c7"
+ ],
+ "specify_nonobvious_property_types": [
+  "e5cb433a31ab"
+ ],
+ "spread_expression_from_deferred_library": [
+  "4607c2e6e33a"
+ ],
+ "stack_overflow": [
+  "51fe527b3b7b"
+ ],
+ "static_access_to_instance_member": [
+  "8c8936d2ac7a"
+ ],
+ "static_constructor": [
+  "cac6c49f0a47"
+ ],
+ "static_getter_without_body": [
+  "4ebaec478f6a"
+ ],
+ "static_operator": [
+  "a877864db712"
+ ],
+ "static_setter_without_body": [
+  "bce4a4f91e18"
+ ],
+ "strict_raw_type": [
+  "eb90f15e3406"
+ ],
+ "strict_top_level_inference": [
+  "cb271823c156",
+  "4f28b000b7d6",
+  "9e58b20cd1c0"
+ ],
+ "subtype_of_base_or_final_is_not_base_final_or_sealed": [
+  "8b0f8f093cbe",
+  "116370520ea8",
+  "d631059272dd",
+  "f51653c2d58e"
+ ],
+ "subtype_of_deferred_class": [
+  "8caf117d726a",
+  "7f9a7d798626",
+  "27f0784ad813"
+ ],
+ "subtype_of_disallowed_type": [
+  "07f744a38471",
+  "dbebe366b773",
+  "8440efd7010d",
+  "f9d0e40d6877"
+ ],
+ "subtype_of_ffi_class": [
+  "3543e86b1092",
+  "90e4a35e5b6a",
+  "10712a59f1f6"
+ ],
+ "subtype_of_sealed_class": [
+  "9d463038d76a"
+ ],
+ "subtype_of_struct_class": [
+  "3e2e587ed26d",
+  "6d785bdf5d94",
+  "6a92619349eb"
+ ],
+ "super_formal_parameter_type_is_not_subtype_of_associated": [
+  "bd86bbaf570f"
+ ],
+ "super_formal_parameter_without_associated_named": [
+  "607b46d8f79f"
+ ],
+ "super_formal_parameter_without_associated_positional": [
+  "2d7eb8f2be30"
+ ],
+ "super_in_enum_constructor": [
+  "54c7845b6910"
+ ],
+ "super_in_extension": [
+  "5c13b6dbc07d"
+ ],
+ "super_in_extension_type": [
+  "08c225c4d07f"
+ ],
+ "super_in_invalid_context": [
+  "f6161ebf2741"
+ ],
+ "super_in_redirecting_constructor": [
+  "14eec549a361"
+ ],
+ "super_initializer_in_object": [
+  "1867407437b4"
+ ],
+ "super_initializing_declaring_parameter": [
+  "6dc1c2694857"
+ ],
+ "super_invocation_not_last": [
+  "217117f300e9",
+  "47d50efff02d"
+ ],
+ "supertype_expands_to_type_parameter": [
+  "d02e028a8182",
+  "37b0e17ddcf6",
+  "3ec1b728666c",
+  "835c6fbc94a7"
+ ],
+ "switch_case_completes_normally": [
+  "73901cfd42c3"
+ ],
+ "switch_expression_not_assignable": [
+  "0ecadd003504"
+ ],
+ "switch_has_case_after_default_case": [
+  "ed048884b4e9"
+ ],
+ "switch_has_multiple_default_cases": [
+  "b482ec823de3"
+ ],
+ "switch_on_type": [
+  "5dc8ff0daebb"
+ ],
+ "tearoff_of_generative_constructor_of_abstract_class": [
+  "8f761b410c19"
+ ],
+ "tearoff_with_must_be_const_parameter": [
+  "630d615a100c"
+ ],
+ "test_types_in_equals": [
+  "163e98fc2ab9"
+ ],
+ "text_direction_code_point_in_comment": [
+  "adcf4140f9e8"
+ ],
+ "text_direction_code_point_in_literal": [
+  "adcf4140f9e8"
+ ],
+ "throw_in_finally": [
+  "803c3a78c055"
+ ],
+ "throw_of_invalid_type": [
+  "fd501b240ad6"
+ ],
+ "tighten_type_of_initializing_formals": [
+  "88029a0f71e4"
+ ],
+ "top_level_cycle": [
+  "f061ff779aa2"
+ ],
+ "top_level_operator": [
+  "43806dd7bbb7"
+ ],
+ "type_alias_cannot_reference_itself": [
+  "0d2e482ddf79"
+ ],
+ "type_annotate_public_apis": [
+  "bc2332315bb1"
+ ],
+ "type_annotation_deferred_class": [
+  "9a262c9eb086"
+ ],
+ "type_argument_not_matching_bounds": [
+  "08dfa59dbd5c"
+ ],
+ "type_arguments_on_type_variable": [
+  "81ad87cf7162"
+ ],
+ "type_before_factory": [
+  "a04c6c730f4b"
+ ],
+ "type_check_with_null": [
+  "5517aeff8fb4",
+  "7d273086af77"
+ ],
+ "type_init_formals": [
+  "44b306b106d9"
+ ],
+ "type_literal_in_constant_pattern": [
+  "4a37c6267112"
+ ],
+ "type_parameter_on_constructor": [
+  "43027768a19d"
+ ],
+ "type_parameter_on_operator": [
+  "3f7ed2ffa227"
+ ],
+ "type_parameter_referenced_by_static": [
+  "be618d649e7a"
+ ],
+ "type_parameter_supertype_of_its_bound": [
+  "ef87c344dc74"
+ ],
+ "type_test_with_non_type": [
+  "10f2df36bf82"
+ ],
+ "type_test_with_undefined_name": [
+  "5bcaaf9b335f"
+ ],
+ "typedef_augmentation": [
+  "abeb30681d2b"
+ ],
+ "typedef_in_class": [
+  "db4cd7713f34"
+ ],
+ "unable_get_content": [
+  "7c86b0b7f98e"
+ ],
+ "unawaited_futures": [
+  "a926a9aeba65"
+ ],
+ "unawaited_return_in_try_block": [
+  "2bae81084868"
+ ],
+ "unchecked_use_of_nullable_value": [
+  "1014a22fd348",
+  "86b64a17d606",
+  "d6f7b3e47d3a",
+  "6c00b47f11a1",
+  "0e7b4fd75411",
+  "26ead3fcb758",
+  "723c81ad26eb",
+  "11c5a0c3ee72"
+ ],
+ "undefined_annotation": [
+  "e0bbded37fd3"
+ ],
+ "undefined_class": [
+  "27ecacdcd910",
+  "c2ece5461797"
+ ],
+ "undefined_constructor_in_initializer": [
+  "a342498b53e6",
+  "75ec5ee0ea5a"
+ ],
+ "undefined_enum_constant": [
+  "9a5547ea3847"
+ ],
+ "undefined_enum_constructor": [
+  "0bf867e220de",
+  "138d48426349"
+ ],
+ "undefined_extension_getter": [
+  "ed3e7f60f222"
+ ],
+ "undefined_extension_method": [
+  "257e2ee22735"
+ ],
+ "undefined_extension_operator": [
+  "e9bdac3d62ad"
+ ],
+ "undefined_extension_setter": [
+  "1632c4fe1e9f"
+ ],
+ "undefined_function": [
+  "b0b403c0c667"
+ ],
+ "undefined_getter": [
+  "86a6798e2411",
+  "aa3a35144f8f"
+ ],
+ "undefined_hidden_name": [
+  "9e9b728c65db"
+ ],
+ "undefined_identifier": [
+  "3b18ed5c44da"
+ ],
+ "undefined_identifier_await": [
+  "467583b79f5b"
+ ],
+ "undefined_lint": [
+  "0c0e6ea28818"
+ ],
+ "undefined_method": [
+  "3dd65ecf5da6",
+  "072ace887117"
+ ],
+ "undefined_named_parameter": [
+  "301c90f86244",
+  "53e3f3674992"
+ ],
+ "undefined_operator": [
+  "3bdf711b11da"
+ ],
+ "undefined_prefixed_name": [
+  "3b02fa30b630"
+ ],
+ "undefined_referenced_parameter": [
+  "908554d9bd9c"
+ ],
+ "undefined_setter": [
+  "171664a6e95f",
+  "88ff56fd0c3e"
+ ],
+ "undefined_shown_name": [
+  "13dd6f7eae53"
+ ],
+ "undefined_super_member": [
+  "6c625ef7afce",
+  "64f327d6c5af",
+  "2fa0db134ac6",
+  "9256653f9c8e"
+ ],
+ "unexpected_dollar_in_string": [
+  "42f65a221c07"
+ ],
+ "unexpected_separator_in_number": [
+  "07f2417e96b8"
+ ],
+ "unexpected_terminator_for_parameter_group": [
+  "348a4e93bae4"
+ ],
+ "unexpected_token": [
+  "693ddd8608b4"
+ ],
+ "unexpected_tokens": [
+  "2e3097b452cb"
+ ],
+ "unignorable_ignore": [
+  "a7911f2586fb"
+ ],
+ "unintended_html_in_doc_comment": [
+  "8dae23def0e4"
+ ],
+ "unknown_platform": [
+  "6b48170e026a"
+ ],
+ "unnecessary_async": [
+  "02c1696db4d8"
+ ],
+ "unnecessary_await_in_return": [
+  "293d1efb5509"
+ ],
+ "unnecessary_brace_in_string_interps": [
+  "6d9b4214e1d1"
+ ],
+ "unnecessary_breaks": [
+  "a7df406b4dd8"
+ ],
+ "unnecessary_cast": [
+  "81bcf842fc7b"
+ ],
+ "unnecessary_cast_pattern": [
+  "3f3ea66375ed"
+ ],
+ "unnecessary_const": [
+  "ad6e74c47a40"
+ ],
+ "unnecessary_const_in_enum_constructor": [
+  "c890127456b5"
+ ],
+ "unnecessary_constructor_name": [
+  "0c06c6203fa3"
+ ],
+ "unnecessary_dev_dependency": [
+  "66265ea1c919"
+ ],
+ "unnecessary_final": [
+  "4ddddba48e18",
+  "f47f350fca98",
+  "6c993a8bea2d"
+ ],
+ "unnecessary_getters_setters": [
+  "b9cc8aef86a4"
+ ],
+ "unnecessary_ignore": [
+  "39600ec5a7c6",
+  "d7e5f5a34752",
+  "8cc9c159fa3d",
+  "da5ab485e440"
+ ],
+ "unnecessary_import": [
+  "7d9789ed165e"
+ ],
+ "unnecessary_lambdas": [
+  "c9b85763e94e"
+ ],
+ "unnecessary_late": [
+  "8694e5df67ac"
+ ],
+ "unnecessary_library_directive": [
+  "b48f4765ad25"
+ ],
+ "unnecessary_library_name": [
+  "d6e985e9139f"
+ ],
+ "unnecessary_nan_comparison": [
+  "ac935edd8481",
+  "ad0d5ff6b0d6"
+ ],
+ "unnecessary_new": [
+  "1769320b24d6"
+ ],
+ "unnecessary_no_such_method": [
+  "7c617788973d"
+ ],
+ "unnecessary_non_null_assertion": [
+  "4141e57e872b"
+ ],
+ "unnecessary_null_assert_pattern": [
+  "fefd90ebe42c"
+ ],
+ "unnecessary_null_aware_assignments": [
+  "e2454f3c8267"
+ ],
+ "unnecessary_null_aware_operator_on_extension_on_nullable": [
+  "f9535cd8a20c"
+ ],
+ "unnecessary_null_check_pattern": [
+  "ccd5bfe2c740"
+ ],
+ "unnecessary_null_checks": [
+  "4c313760a660"
+ ],
+ "unnecessary_null_comparison": [
+  "3c3742e31685",
+  "43ef45b08804",
+  "aaaa14ff7208",
+  "3a0390cfa689"
+ ],
+ "unnecessary_null_in_if_null_operators": [
+  "9e069d3a7293"
+ ],
+ "unnecessary_nullable_for_final_variable_declarations": [
+  "c6439ba69ee1"
+ ],
+ "unnecessary_overrides": [
+  "4e79bd82a335"
+ ],
+ "unnecessary_parenthesis": [
+  "5f63e60b2a9c"
+ ],
+ "unnecessary_primary_constructor_body": [
+  "944217688f57"
+ ],
+ "unnecessary_question_mark": [
+  "bfe76b76c55b"
+ ],
+ "unnecessary_raw_strings": [
+  "213aaf15f7ce"
+ ],
+ "unnecessary_set_literal": [
+  "f8345f78cf52"
+ ],
+ "unnecessary_statements": [
+  "dce9e072d03b"
+ ],
+ "unnecessary_string_escapes": [
+  "bbb1a08a6d06"
+ ],
+ "unnecessary_string_interpolations": [
+  "4af2c46cdbdc"
+ ],
+ "unnecessary_this": [
+  "1877191de830"
+ ],
+ "unnecessary_to_list_in_spreads": [
+  "17e5164cfa4e"
+ ],
+ "unnecessary_type_check": [
+  "4f27252c2a15",
+  "683c0c9f1995"
+ ],
+ "unnecessary_type_name_in_constructor": [
+  "134ca93214d3"
+ ],
+ "unnecessary_unawaited": [
+  "6928ab5b2142"
+ ],
+ "unnecessary_underscores": [
+  "e81557f2f192"
+ ],
+ "unnecessary_wildcard_pattern": [
+  "c0bd89c3c085"
+ ],
+ "unqualified_reference_to_non_local_static_member": [
+  "20b12ec40484"
+ ],
+ "unqualified_reference_to_static_member_of_extended_type": [
+  "879146f78605"
+ ],
+ "unreachable_from_main": [
+  "c3c3e824c1d8"
+ ],
+ "unreachable_switch_case": [
+  "fb8990b3b97d"
+ ],
+ "unreachable_switch_default": [
+  "023d26e96eff"
+ ],
+ "unrecognized_error_code": [
+  "fb04f77ac664"
+ ],
+ "unrelated_type_equality_checks": [
+  "a5023fe4113c",
+  "702d82bf4286"
+ ],
+ "unsafe_html": [
+  "f51fdcb1a775",
+  "50f4b3d76df9"
+ ],
+ "unsafe_variance": [
+  "bc2c94629f81"
+ ],
+ "unsupported_chrome_os_feature": [
+  "a80f6b6aa61b"
+ ],
+ "unsupported_chrome_os_hardware": [
+  "7ab93cfed7a6"
+ ],
+ "unsupported_operator": [
+  "143ba50bcd36"
+ ],
+ "unsupported_option": [
+  "1638bcd54ce5",
+  "1fd14efbff65",
+  "e4c3409a3ec9"
+ ],
+ "unsupported_value": [
+  "27daebfe70a4"
+ ],
+ "unterminated_multi_line_comment": [
+  "939aa90bf77c"
+ ],
+ "unterminated_string_literal": [
+  "06d23a64c9bf"
+ ],
+ "unused_catch_clause": [
+  "2c9cbe2ddc6c"
+ ],
+ "unused_catch_stack": [
+  "21a5d71170a3"
+ ],
+ "unused_element": [
+  "03a33365c20c"
+ ],
+ "unused_element_parameter": [
+  "83d2b2316d86"
+ ],
+ "unused_field": [
+  "c771ba99b42b"
+ ],
+ "unused_field_from_primary_constructor": [
+  "3db2437a5acf"
+ ],
+ "unused_import": [
+  "c9a62ef44a12"
+ ],
+ "unused_label": [
+  "44222e3c3017"
+ ],
+ "unused_local_variable": [
+  "8fea70a0d9e8"
+ ],
+ "unused_result": [
+  "55b5fe5c8b83",
+  "e69b21188d99"
+ ],
+ "unused_shown_name": [
+  "d58208d560da"
+ ],
+ "uri_does_not_exist": [
+  "09640761bfd5"
+ ],
+ "uri_does_not_exist_in_doc_import": [
+  "09640761bfd5"
+ ],
+ "uri_has_not_been_generated": [
+  "08ea1aa8fb19"
+ ],
+ "uri_with_interpolation": [
+  "7efe9e3a057e"
+ ],
+ "use_build_context_synchronously": [
+  "37a65090ab31",
+  "f5d08dfa00b5"
+ ],
+ "use_colored_box": [
+  "6bec9d8bf1a9"
+ ],
+ "use_declaring_parameters": [
+  "0c27797a78ad"
+ ],
+ "use_decorated_box": [
+  "cca8a7d4e2f0"
+ ],
+ "use_enums": [
+  "a1392b093571"
+ ],
+ "use_full_hex_values_for_flutter_colors": [
+  "aefaeac44ea9"
+ ],
+ "use_function_type_syntax_for_parameters": [
+  "120d4f1e7615"
+ ],
+ "use_if_null_to_convert_nulls_to_bools": [
+  "e366cf54cba9"
+ ],
+ "use_is_even_rather_than_modulo": [
+  "3710ce3d86d4"
+ ],
+ "use_key_in_widget_constructors": [
+  "1c0ca50d5d99"
+ ],
+ "use_late_for_private_fields_and_variables": [
+  "d63d337d14f3"
+ ],
+ "use_named_constants": [
+  "116df6491de7"
+ ],
+ "use_null_aware_elements": [
+  "3270161e0908"
+ ],
+ "use_of_native_extension": [
+  "f670350a6223"
+ ],
+ "use_of_void_result": [
+  "56e670842f24"
+ ],
+ "use_primary_constructors": [
+  "bba3618ba2a9"
+ ],
+ "use_raw_strings": [
+  "b16e74261962"
+ ],
+ "use_rethrow_when_possible": [
+  "240b8b509988"
+ ],
+ "use_setters_to_change_properties": [
+  "e9df7e024747"
+ ],
+ "use_string_buffers": [
+  "43ed795ffec1"
+ ],
+ "use_string_in_part_of_directives": [
+  "46effc5f2efa"
+ ],
+ "use_super_parameters": [
+  "03e722753101",
+  "6a1a6670730b"
+ ],
+ "use_test_throws_matchers": [
+  "5ca9039086b1"
+ ],
+ "use_to_and_as_if_applicable": [
+  "d4b2f535a78c"
+ ],
+ "use_truncating_division": [
+  "3c923b7dc9ea"
+ ],
+ "valid_regexps": [
+  "d9966097d5dc"
+ ],
+ "values_declaration_in_enum": [
+  "4449288bea8d"
+ ],
+ "var_and_type": [
+  "d6e46c0b4cf6"
+ ],
+ "var_as_type_name": [
+  "b5dbdbc47463"
+ ],
+ "var_class": [
+  "9e3672eff6bb"
+ ],
+ "var_enum": [
+  "55e317903f63"
+ ],
+ "var_return_type": [
+  "c09cf54b18b8"
+ ],
+ "var_typedef": [
+  "e5e175db2f16"
+ ],
+ "var_with_no_type_annotation": [
+  "1c934b3cb8b8"
+ ],
+ "variable_length_array_not_last": [
+  "9da147b8f4ad"
+ ],
+ "variable_pattern_keyword_in_declaration_context": [
+  "ec2d22cd5d56"
+ ],
+ "variable_type_mismatch": [
+  "ab48843ff703"
+ ],
+ "visit_registered_nodes": [
+  "b80830482bb2"
+ ],
+ "void_checks": [
+  "76829f1ae784"
+ ],
+ "void_with_type_arguments": [
+  "d83de44a904c"
+ ],
+ "with_before_extends": [
+  "6fa26dddae06"
+ ],
+ "workspace_field_not_list": [
+  "4e71a4d441ab"
+ ],
+ "workspace_value_not_string": [
+  "d687329d4c7a"
+ ],
+ "workspace_value_not_subdirectory": [
+  "b60a3aa6c28c"
+ ],
+ "wrong_explicit_type_parameter_variance_in_superinterface": [
+  "95b2592e00e4"
+ ],
+ "wrong_number_of_parameters_for_operator": [
+  "2a7d15004a98",
+  "64df5322ec16"
+ ],
+ "wrong_number_of_parameters_for_setter": [
+  "86710da62d6c"
+ ],
+ "wrong_number_of_type_arguments": [
+  "025406039a5f"
+ ],
+ "wrong_number_of_type_arguments_constructor": [
+  "aeb8b75bb130",
+  "29098cfb3b25",
+  "21ff0b777303"
+ ],
+ "wrong_number_of_type_arguments_element": [
+  "b5f1312466c6"
+ ],
+ "wrong_number_of_type_arguments_enum": [
+  "52baa3f8f714"
+ ],
+ "wrong_number_of_type_arguments_extension": [
+  "28303c1f2ab8"
+ ],
+ "wrong_number_of_type_arguments_function": [
+  "b956fdc0343f",
+  "ca8efd7adf05",
+  "e62ffae1eba1"
+ ],
+ "wrong_number_of_type_arguments_method": [
+  "a2fd39e23a82"
+ ],
+ "wrong_separator_for_positional_parameter": [
+  "5fb01fb82b9c"
+ ],
+ "wrong_terminator_for_parameter_group": [
+  "7c2c10e17561"
+ ],
+ "wrong_type_parameter_variance_in_superinterface": [
+  "44b226b0e957"
+ ],
+ "wrong_type_parameter_variance_position": [
+  "d5019cfc883e"
+ ],
+ "yield_in_non_generator": [
+  "b5984eafd94f",
+  "9dba5dcd69dd"
+ ],
+ "yield_of_invalid_type": [
+  "150bea134d23",
+  "1a392634499c"
+ ]
+}

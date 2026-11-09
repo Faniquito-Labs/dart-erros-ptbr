@@ -1,0 +1,642 @@
+{
+ "6d076eff9f27": {
+  "problem": "Um parâmetro de tipo de uma extension type não pode ser usado em uma posição não covariante do seu tipo de representação.",
+  "correction": "Tente remover os parâmetros de tipo dos tipos de parâmetro de função e dos limites de parâmetro de tipo."
+ },
+ "e43020342e10": {
+  "problem": "O enum '{0}' não é correspondido de forma exaustiva pelos cases do switch porque algumas das constantes do enum são privadas.",
+  "correction": "Tente adicionar um padrão wildcard."
+ },
+ "fcf11cb1aa55": {
+  "problem": "O tipo '{0}' não é correspondido de forma exaustiva pelos cases do switch, pois não corresponde ao padrão '{1}'.",
+  "correction": "Tente adicionar um padrão wildcard ou cases que correspondam a '{2}'."
+ },
+ "012db848b545": {
+  "problem": "O tipo '{0}' não é correspondido de forma exaustiva pelos cases do switch, pois não corresponde ao padrão '{1}'.",
+  "correction": "Tente adicionar um case default ou cases que correspondam a '{2}'."
+ },
+ "6892280fba7f": {
+  "problem": "O enum '{0}' não é correspondido de forma exaustiva pelos cases do switch porque algumas das constantes do enum são privadas.",
+  "correction": "Tente adicionar um case default."
+ },
+ "4aadc150f0ba": {
+  "problem": "Enums só podem declarar campos final.",
+  "correction": "Tente tornar o campo final."
+ },
+ "effa50b05f79": {
+  "problem": "Era esperado o construtor generativo '{0}', mas foi encontrado um factory.",
+  "correction": "Tente chamar outro construtor da superclasse ou fazer com que o construtor chamado não seja um construtor factory."
+ },
+ "9413ddcf803f": {
+  "problem": "O construtor sem nome da superclasse '{0}' (chamado pelo construtor padrão de '{1}') deve ser um construtor generativo, mas foi encontrado um factory.",
+  "correction": "Tente adicionar um construtor explícito com outro superinicializador ou alterar o construtor '{2}' da superclasse para que não seja um construtor factory."
+ },
+ "78dc6646c4f1": {
+  "problem": "O nome de uma biblioteca deve ser um identificador.",
+  "correction": "Tente usar um identificador como nome da biblioteca."
+ },
+ "e15960250206": {
+  "problem": "Não é possível invocar 'asFunction' porque a assinatura de função '{0}' do ponteiro não é uma assinatura de função C válida.",
+  "correction": "Tente alterar o argumento de função em 'NativeFunction' para usar apenas NativeTypes."
+ },
+ "435910f9d65d": {
+  "problem": "O tipo do parâmetro dos operadores '==' deve ser não anulável.",
+  "correction": "Tente usar um tipo não anulável."
+ },
+ "2e77951ff642": {
+  "problem": "A diretiva part-of deve ser a única diretiva em um part.",
+  "correction": "Tente remover as outras diretivas ou movê-las para a biblioteca da qual este arquivo é um part."
+ },
+ "12830703a0ef": {
+  "problem": "As dimensões de array devem ser números positivos.",
+  "correction": "Tente alterar a entrada para um número positivo."
+ },
+ "283d4fc55165": {
+  "problem": "Classes com construtores primários não podem ter construtores generativos que não sejam de redirecionamento.",
+  "correction": "Tente fazer o construtor redirecionar para o construtor primário ou remova o construtor primário."
+ },
+ "ae33040d5c87": {
+  "problem": "O elemento `<activity>` deveria permitir redimensionamento, para que os usuários aproveitem o ambiente de múltiplas janelas no Chrome OS.",
+  "correction": "Considere declarar o elemento activity correspondente com o atributo `resizableActivity=\"true\"`."
+ },
+ "b2cbe9c4ee42": {
+  "problem": "O tipo '{0}' não é um argumento de tipo válido para '{1}'. O argumento de tipo deve ser um inteiro nativo, 'Float', 'Double', 'Pointer' ou um subtipo de 'Struct', 'Union' ou 'AbiSpecificInteger'.",
+  "correction": "Tente usar um inteiro nativo, 'Float', 'Double', 'Pointer' ou um subtipo de 'Struct', 'Union' ou 'AbiSpecificInteger'."
+ },
+ "adc1a1c07dd6": {
+  "problem": "A URI deve ser um literal de string.",
+  "correction": "Tente colocar a URI entre aspas simples ou duplas."
+ },
+ "ffeef1046802": {
+  "problem": "Corpos de factory não podem usar 'async', 'async*' ou 'sync*'.",
+  "correction": ""
+ },
+ "93b8c6121694": {
+  "problem": "O nome '{0}' não é um tipo, então não pode ser usado como argumento de tipo.",
+  "correction": "Tente corrigir o nome para um tipo existente ou defina um tipo chamado '{0}'."
+ },
+ "87613061727a": {
+  "problem": "O nome '{0}' não é um tipo e não pode ser usado em uma cláusula on-catch.",
+  "correction": "Tente corrigir o nome para corresponder a uma classe existente."
+ },
+ "b903273fd4a0": {
+  "problem": "O operador '{0}' não pode ser definido pelo usuário.",
+  "correction": ""
+ },
+ "2f20ff563f30": {
+  "problem": "O tipo de retorno do operador []= deve ser 'void'.",
+  "correction": "Tente alterar o tipo de retorno para 'void'."
+ },
+ "deaac35936fd": {
+  "problem": "O tipo de retorno do setter deve ser 'void' ou estar ausente.",
+  "correction": "Tente remover o tipo de retorno ou defina um método em vez de um setter."
+ },
+ "6cb5ce2d0f74": {
+  "problem": "A expressão não tem efeito e pode ser removida.",
+  "correction": "Tente remover a expressão."
+ },
+ "afd59b7730ed": {
+  "problem": "Parâmetros normais devem vir antes dos parâmetros opcionais.",
+  "correction": "Tente mover todos os parâmetros normais para antes dos parâmetros opcionais."
+ },
+ "a5e4bd1a0f18": {
+  "problem": "{0} não é um tipo.",
+  "correction": "Tente corrigir o nome para corresponder a um tipo existente."
+ },
+ "8f54a3b83754": {
+  "problem": "A variável local não anulável '{0}' deve ser atribuída antes de ser usada.",
+  "correction": "Tente dar a ela uma expressão de inicialização ou garanta que ela seja atribuída em todos os caminhos de execução."
+ },
+ "c327f52f92d4": {
+  "problem": "'{0}' não é um operador binário.",
+  "correction": ""
+ },
+ "5e5ff4787f78": {
+  "problem": "São necessários {0} argumentos posicionais, mas a chamada tem {1}.",
+  "correction": "Tente adicionar os argumentos que faltam."
+ },
+ "5f11180aa57e": {
+  "problem": "'{1}' precisa de {0} argumentos posicionais, mas a chamada tem {2}.",
+  "correction": "Tente adicionar os argumentos que faltam."
+ },
+ "7b34fef7a7da": {
+  "problem": "'{0}' precisa de 1 argumento posicional, mas a chamada não tem nenhum.",
+  "correction": "Tente adicionar o argumento que falta."
+ },
+ "c8488713a273": {
+  "problem": "É necessário 1 argumento posicional, mas a chamada não tem nenhum.",
+  "correction": "Tente adicionar o argumento que falta."
+ },
+ "df34e05554fd": {
+  "problem": "O campo de instância não anulável '{0}' deve ser inicializado.",
+  "correction": "Tente adicionar uma expressão de inicialização, adicionar um inicializador de campo neste construtor ou marcá-lo como 'late'."
+ },
+ "ed78e6aa3a6b": {
+  "problem": "O campo de instância não anulável '{0}' deve ser inicializado.",
+  "correction": "Tente adicionar uma expressão de inicialização, um construtor generativo que o inicialize ou marcá-lo como 'late'."
+ },
+ "a33bad685e8d": {
+  "problem": "A variável não anulável '{0}' deve ser inicializada.",
+  "correction": "Tente adicionar uma expressão de inicialização."
+ },
+ "83fa23adb130": {
+  "problem": "Os tipos de limite de parâmetro de tipo devem ser instanciados.",
+  "correction": "Tente adicionar argumentos de tipo ao limite do parâmetro de tipo."
+ },
+ "66197bb371dd": {
+  "problem": "Elementos de spread em literais de lista ou set devem implementar 'Iterable'.",
+  "correction": ""
+ },
+ "73e4dd203d14": {
+  "problem": "Elementos de spread em literais de map devem implementar 'Map'.",
+  "correction": ""
+ },
+ "0cb0973fa8c5": {
+  "problem": "A expressão do tipo Null não pode ser usada com um spread que não seja null-aware.",
+  "correction": ""
+ },
+ "df4d5ce1e7f3": {
+  "problem": "'{0}' não deveria ser chamado com um argumento 'null' para o argumento de tipo não anulável '{1}'.",
+  "correction": "Tente adicionar um argumento não nulo."
+ },
+ "59dd84175ea8": {
+  "problem": "O operador de cascata '?..' deve ser o primeiro da sequência de cascata.",
+  "correction": "Tente mover o operador '?..' para que seja o primeiro operador de cascata da sequência."
+ },
+ "021fcb486410": {
+  "problem": "Esta verificação de nulo sempre lançará uma exceção, porque a expressão sempre será avaliada como 'null'.",
+  "correction": ""
+ },
+ "5a9517e4daf3": {
+  "problem": "O operador de verificação de nulo não deve ser usado em uma variável cujo tipo é um parâmetro de tipo potencialmente anulável.",
+  "correction": "Tente testar explicitamente se é 'null'."
+ },
+ "a7bfe3418c37": {
+  "problem": "O closure não pode ser 'null' porque pode ser invocado.",
+  "correction": "Tente fornecer um closure não nulo."
+ },
+ "b3f1ed13b897": {
+  "problem": "Um tipo potencialmente anulável não pode ser usado em uma cláusula 'on', porque não é válido lançar uma expressão anulável.",
+  "correction": "Tente usar um tipo não anulável."
+ },
+ "b2974abd54aa": {
+  "problem": "Uma classe não pode estender um tipo anulável.",
+  "correction": "Tente remover o ponto de interrogação."
+ },
+ "e6cd586d0d8a": {
+  "problem": "Tipos anuláveis não podem ser estendidos.",
+  "correction": "Tente remover o ponto de interrogação."
+ },
+ "754d40734b84": {
+  "problem": "Tipos anuláveis não podem ser implementados.",
+  "correction": "Tente remover o ponto de interrogação."
+ },
+ "970ec03146cb": {
+  "problem": "Uma classe, mixin ou extension type não pode implementar um tipo anulável.",
+  "correction": "Tente remover o ponto de interrogação."
+ },
+ "28e088b7389c": {
+  "problem": "Tipos anuláveis não podem ser usados como restrição de superclasse.",
+  "correction": "Tente remover o ponto de interrogação."
+ },
+ "f1be8e48a66e": {
+  "problem": "Um mixin não pode ter um tipo anulável como restrição de superclasse.",
+  "correction": "Tente remover o ponto de interrogação."
+ },
+ "4f5c73181d16": {
+  "problem": "Uma classe ou mixin não pode aplicar um mixin de tipo anulável.",
+  "correction": "Tente remover o ponto de interrogação."
+ },
+ "fc4daa02b4c1": {
+  "problem": "Tipos anuláveis não podem ser aplicados como mixin.",
+  "correction": "Tente remover o ponto de interrogação."
+ },
+ "0c23dc4345bc": {
+  "problem": "A classe 'Object' não pode estender nenhuma outra classe.",
+  "correction": ""
+ },
+ "562f9fb932ca": {
+  "problem": "Usar dois-pontos como separador antes de um valor padrão não é mais suportado.",
+  "correction": "Tente substituir os dois-pontos por um sinal de igual."
+ },
+ "395a82906e35": {
+  "problem": "Anotação de tipo desnecessária em uma variável local.",
+  "correction": "Tente remover a anotação de tipo."
+ },
+ "1a9b363c18cc": {
+  "problem": "Omita a anotação de tipo de uma variável local quando o tipo for óbvio.",
+  "correction": "Tente remover a anotação de tipo."
+ },
+ "0e341e55a094": {
+  "problem": "A anotação de tipo não é necessária porque o tipo é óbvio.",
+  "correction": "Tente remover a anotação de tipo."
+ },
+ "0aa6569a7f4a": {
+  "problem": "O tipo '{0}' só pode ser incluído uma vez nas restrições de superclasse.",
+  "correction": "Tente remover todas as ocorrências do nome do tipo, exceto uma."
+ },
+ "f5d999147dd4": {
+  "problem": "Uso desnecessário de uma classe abstrata.",
+  "correction": "Tente transformar '{0}' em uma função de nível superior e remover a classe."
+ },
+ "ff10dd43151b": {
+  "problem": "Não lance instâncias de classes que não estendem 'Exception' nem 'Error'.",
+  "correction": "Tente lançar um objeto de outra classe."
+ },
+ "4b6815c50baa": {
+  "problem": "Parâmetros opcionais não são permitidos ao definir um operador.",
+  "correction": "Tente remover os parâmetros opcionais."
+ },
+ "d8bb487b0e1c": {
+  "problem": "A cláusula '{0}' deve vir antes da cláusula '{1}'.",
+  "correction": "Tente mover a cláusula '{0}' para antes da cláusula '{1}'."
+ },
+ "ed9e30f30aab": {
+  "problem": "O campo sobrescreve um campo herdado de '{0}'.",
+  "correction": "Tente remover o campo, sobrescrevendo o getter e o setter se necessário."
+ },
+ "0a9ca454fd93": {
+  "problem": "O setter não sobrescreve um setter herdado.",
+  "correction": "Tente atualizar esta classe para corresponder à superclasse ou remover a anotação de override."
+ },
+ "5a62aeaf143b": {
+  "problem": "O campo não sobrescreve um getter ou setter herdado.",
+  "correction": "Tente atualizar esta classe para corresponder à superclasse ou remover a anotação de override."
+ },
+ "87ef3fe9c69d": {
+  "problem": "O método não sobrescreve um método herdado.",
+  "correction": "Tente atualizar esta classe para corresponder à superclasse ou remover a anotação de override."
+ },
+ "a99e26bc0e09": {
+  "problem": "O getter não sobrescreve um getter herdado.",
+  "correction": "Tente atualizar esta classe para corresponder à superclasse ou remover a anotação de override."
+ },
+ "bb014a7f8b93": {
+  "problem": "O nome de pacote '{0}' não é um identificador no formato lower_case_with_underscores.",
+  "correction": "Tente alterar o nome para seguir o estilo lower_case_with_underscores."
+ },
+ "7371636cbb83": {
+  "problem": "O nome da biblioteca não é um caminho separado por pontos prefixado pelo nome do pacote.",
+  "correction": "Tente alterar o nome para '{0}'."
+ },
+ "552c077bcee2": {
+  "problem": "Structs devem ter no máximo uma anotação 'Packed'.",
+  "correction": "Tente remover as anotações 'Packed' extras."
+ },
+ "0f190ed6eaa4": {
+  "problem": "Só há suporte para empacotamento em 1, 2, 4, 8 e 16 bytes.",
+  "correction": "Tente alterar o alinhamento da anotação 'Packed' para 1, 2, 4, 8 ou 16."
+ },
+ "a77e27c2d33e": {
+  "problem": "Atribuição inválida ao parâmetro '{0}'.",
+  "correction": "Tente usar uma variável local no lugar do parâmetro."
+ },
+ "e0a63cb2ea30": {
+  "problem": "{0}",
+  "correction": ""
+ },
+ "79934f0a7dab": {
+  "problem": "Era esperado que esta biblioteca fosse part de '{0}', e não de '{1}'.",
+  "correction": "Tente incluir outro part ou alterar o nome da biblioteca na diretiva part-of do part."
+ },
+ "a010cdf4ccfb": {
+  "problem": "A diretiva 'part of' não pode usar um nome com o recurso enhanced-parts.",
+  "correction": "Tente usar 'part of' com uma URI."
+ },
+ "52871e42c20f": {
+  "problem": "O part incluído '{0}' deve ter uma diretiva part-of.",
+  "correction": "Tente adicionar uma diretiva part-of a '{0}'."
+ },
+ "4fbcabd862fc": {
+  "problem": "A biblioteca não tem nome. Na diretiva part-of, era esperada uma URI, e não o nome de biblioteca '{0}'.",
+  "correction": "Tente alterar a diretiva part-of para uma URI ou incluir outro part."
+ },
+ "2ea3f6b73051": {
+  "problem": "O caminho '{0}' não existe.",
+  "correction": "Tente criar o caminho referenciado ou usar um caminho que exista."
+ },
+ "42148eeda7ac": {
+  "problem": "O caminho '{0}' não é um caminho no estilo POSIX.",
+  "correction": "Tente converter o valor para um caminho no estilo POSIX."
+ },
+ "372704a55ce5": {
+  "problem": "O diretório '{0}' não contém um pubspec.",
+  "correction": "Tente criar um pubspec no diretório referenciado ou usar um caminho que tenha um pubspec."
+ },
+ "61a7d84de1eb": {
+  "problem": "A variável '{0}' não pode ser declarada em uma atribuição de padrão.",
+  "correction": "Tente usar uma variável já existente ou alterar a atribuição para uma declaração de variável de padrão."
+ },
+ "5f78dcc96ca8": {
+  "problem": "Apenas variáveis locais podem ser atribuídas em atribuições de padrão.",
+  "correction": "Tente atribuir a uma variável local."
+ },
+ "c234426daf93": {
+  "problem": "Valores constantes de uma biblioteca deferred não podem ser usados em padrões.",
+  "correction": "Tente remover a palavra-chave 'deferred' do import."
+ },
+ "f3de621c77ff": {
+  "problem": "O tipo do valor correspondido '{0}' nunca pode corresponder ao tipo exigido '{1}'.",
+  "correction": "Tente usar um padrão diferente."
+ },
+ "07be8bd934a0": {
+  "problem": "O valor correspondido do tipo '{0}' não pode ser atribuído ao tipo exigido '{1}'.",
+  "correction": "Tente alterar o tipo exigido do padrão ou o tipo do valor correspondido."
+ },
+ "4777a6107ea9": {
+  "problem": "Variáveis de padrão não podem ser atribuídas dentro do guard do padrão com guard que as contém.",
+  "correction": "Tente atribuir a outra variável."
+ },
+ "da2ff34bc953": {
+  "problem": "Uma declaração de variável de padrão não pode aparecer fora de uma função ou método.",
+  "correction": "Tente declarar variáveis comuns e atribuir a partir de dentro de uma função ou método."
+ },
+ "2243f68f7092": {
+  "problem": "A permissão torna o app incompatível com o Chrome OS; considere adicionar a tag de recurso opcional {0},",
+  "correction": "Tente adicionar `<uses-feature android:name=\"{0}\"  android:required=\"false\">`."
+ },
+ "18d3115ee83c": {
+  "problem": "Chaves no campo `platforms` não podem ter valores.",
+  "correction": "Tente remover o valor, mantendo a chave."
+ },
+ "ff4e5261f3b7": {
+  "problem": "Plugins só podem ser especificados na raiz de um workspace do pub ou na raiz de um pacote que não está em um workspace.",
+  "correction": "Tente especificar os plugins em um arquivo de opções de análise em '{0}'."
+ },
+ "797bd740e1d7": {
+  "problem": "Argumentos posicionais devem vir antes dos argumentos nomeados.",
+  "correction": "Tente mover todos os argumentos posicionais para antes dos argumentos nomeados."
+ },
+ "5763bdbb7b4c": {
+  "problem": "Padrões de objeto só podem usar campos nomeados.",
+  "correction": "Tente especificar o nome do campo."
+ },
+ "f88a5e5e4e1b": {
+  "problem": "Parâmetros posicionais devem estar entre colchetes ('[' e ']').",
+  "correction": "Tente colocar os parâmetros posicionais entre colchetes."
+ },
+ "abac96afe391": {
+  "problem": "Parâmetros super posicionais não podem ser usados quando a invocação do construtor super tem um argumento posicional.",
+  "correction": "Tente fazer com que todos os parâmetros posicionais passados ao construtor super sejam parâmetros super ou todos sejam parâmetros normais."
+ },
+ "fab5198dc00d": {
+  "problem": "Literais de string não devem ser concatenados com o operador '+'.",
+  "correction": "Tente remover o operador para usar strings adjacentes."
+ },
+ "197371a4fdb8": {
+  "problem": "O assert deveria estar na lista de inicializadores.",
+  "correction": "Tente mover o assert para a lista de inicializadores."
+ },
+ "a94a8cb26a67": {
+  "problem": "Falta uma mensagem no assert.",
+  "correction": "Tente adicionar uma mensagem ao assert."
+ },
+ "b00e748a85da": {
+  "problem": "Invocação de construtor desnecessária.",
+  "correction": "Tente usar um literal de coleção."
+ },
+ "0cd5687b8774": {
+  "problem": "A instrução 'if' poderia ser substituída por uma atribuição null-aware.",
+  "correction": "Tente usar o operador '??=' para atribuir um valor condicionalmente."
+ },
+ "dc475959f558": {
+  "problem": "Use 'const' no construtor para melhorar o desempenho.",
+  "correction": "Tente adicionar a palavra-chave 'const' na invocação do construtor."
+ },
+ "d391efe24fd9": {
+  "problem": "Construtores em classes '@immutable' devem ser declarados como 'const'.",
+  "correction": "Tente adicionar 'const' à declaração do construtor."
+ },
+ "6098205da933": {
+  "problem": "Use 'const' para variáveis final inicializadas com um valor constante.",
+  "correction": "Tente substituir 'final' por 'const'."
+ },
+ "c1d8e46db105": {
+  "problem": "Use literais 'const' como argumentos de construtores de classes '@immutable'.",
+  "correction": "Tente adicionar 'const' antes do literal."
+ },
+ "03ca15035fc4": {
+  "problem": "O método estático deveria ser um construtor.",
+  "correction": "Tente converter o método em um construtor."
+ },
+ "3c37f482f067": {
+  "problem": "Sempre 'false' porque 'indexOf' é sempre maior ou igual a -1.",
+  "correction": ""
+ },
+ "450896206ca1": {
+  "problem": "Sempre 'true' porque 'indexOf' é sempre maior ou igual a -1.",
+  "correction": ""
+ },
+ "84acd623e817": {
+  "problem": "Uso desnecessário de 'indexOf' para testar se há contenção.",
+  "correction": "Tente usar 'contains'."
+ },
+ "6bc02642ab45": {
+  "problem": "Uso desnecessário de aspas simples.",
+  "correction": "Tente usar aspas duplas, a menos que a string contenha aspas duplas."
+ },
+ "902e20fe366c": {
+  "problem": "Uso desnecessário de um corpo de função em bloco.",
+  "correction": "Tente usar um corpo de função de expressão."
+ },
+ "e80725a5c602": {
+  "problem": "O campo privado {0} poderia ser 'final'.",
+  "correction": "Tente tornar o campo 'final'."
+ },
+ "32c152265171": {
+  "problem": "A variável '{0}' deveria ser final.",
+  "correction": "Tente tornar a variável final."
+ },
+ "e8aa9893b923": {
+  "problem": "O padrão deveria ser final.",
+  "correction": "Tente tornar o padrão final."
+ },
+ "40cac781aaa9": {
+  "problem": "Variáveis locais devem ser final.",
+  "correction": "Tente tornar a variável final."
+ },
+ "273ee887593c": {
+  "problem": "O parâmetro '{0}' deveria ser final.",
+  "correction": "Tente tornar o parâmetro final."
+ },
+ "f142ad065e9c": {
+  "problem": "Use elementos 'for' ao construir maps a partir de iteráveis.",
+  "correction": "Tente usar um literal de coleção com um elemento 'for'."
+ },
+ "f05c7114bdab": {
+  "problem": "Use 'forEach' com um tear-off em vez de um loop 'for' para aplicar uma função a cada elemento.",
+  "correction": "Tente usar 'forEach' com um tear-off em vez de um loop 'for'."
+ },
+ "47f1ec94f753": {
+  "problem": "Use uma declaração de função em vez de uma atribuição de variável para vincular uma função a um nome.",
+  "correction": "Tente reescrever a atribuição do closure como uma declaração de função."
+ },
+ "1c8d810b939d": {
+  "problem": "Use a sintaxe de tipo de função genérico em 'typedef's.",
+  "correction": "Tente usar a sintaxe de tipo de função genérico ('{0}')."
+ },
+ "94e76a83713d": {
+  "problem": "Use um elemento 'if' para adicionar elementos condicionalmente.",
+  "correction": "Tente usar um elemento 'if' em vez de uma expressão condicional."
+ },
+ "7f731d424de5": {
+  "problem": "Use o operador '??' em vez de '?:' ao testar se há 'null'.",
+  "correction": "Tente reescrever o código para usar '??'."
+ },
+ "5fbdcbfb0cf6": {
+  "problem": "Use um parâmetro formal de inicialização para atribuir um parâmetro a um campo.",
+  "correction": "Tente usar um parâmetro formal de inicialização ('this.{0}') para inicializar o campo."
+ },
+ "985cb3bc15ad": {
+  "problem": "O item poderia ser adicionado direto no literal de lista.",
+  "correction": "Tente adicionar o item diretamente ao literal de lista."
+ },
+ "b725e1302140": {
+  "problem": "Os itens poderiam ser adicionados direto no literal de lista.",
+  "correction": "Tente adicionar os itens diretamente ao literal de lista."
+ },
+ "c403cfac362a": {
+  "problem": "Uso desnecessário de um literal 'double'.",
+  "correction": "Tente usar um literal 'int'."
+ },
+ "7df755afdba6": {
+  "problem": "Use interpolação para compor strings e valores.",
+  "correction": "Tente usar interpolação de string para construir a string composta."
+ },
+ "4290d28477df": {
+  "problem": "Use 'isNotEmpty' em vez de 'length' para testar se a coleção não está vazia.",
+  "correction": "Tente reescrever a expressão para usar 'isNotEmpty'."
+ },
+ "924e41d257a0": {
+  "problem": "A comparação é sempre 'false' porque o tamanho é sempre maior ou igual a 0.",
+  "correction": ""
+ },
+ "a9f26e54a1c8": {
+  "problem": "Use 'isEmpty' em vez de 'length' para testar se a coleção está vazia.",
+  "correction": "Tente reescrever a expressão para usar 'isEmpty'."
+ },
+ "ebb4178ad423": {
+  "problem": "A comparação é sempre 'true' porque o tamanho é sempre maior ou igual a 0.",
+  "correction": ""
+ },
+ "ff43df1fafaf": {
+  "problem": "Use 'isNotEmpty' em vez de negar o resultado de 'isEmpty'.",
+  "correction": "Tente reescrever a expressão para usar 'isNotEmpty'."
+ },
+ "53c6b63901a5": {
+  "problem": "Use o operador 'is!' em vez de negar o valor do operador 'is'.",
+  "correction": "Tente reescrever a condição para usar o operador 'is!'."
+ },
+ "caee4755a53a": {
+  "problem": "Use 'whereType' para selecionar elementos de um determinado tipo.",
+  "correction": "Tente reescrever a expressão para usar 'whereType'."
+ },
+ "d2c060e768b8": {
+  "problem": "Apenas mixins devem ser aplicados como mixin.",
+  "correction": "Tente converter '{0}' em um mixin."
+ },
+ "8d8ad126b0a9": {
+  "problem": "Use uma invocação null-aware do método 'call' em vez de testar explicitamente se há 'null'.",
+  "correction": "Tente usar '?.call()' para invocar a função."
+ },
+ "99cec9e734ed": {
+  "problem": "Use o operador null-aware '?.' em vez de uma comparação explícita com 'null'.",
+  "correction": "Tente usar '?.'."
+ },
+ "e1697cc60e7a": {
+  "problem": "Use imports relativos para arquivos no diretório 'lib'.",
+  "correction": "Tente converter a URI para uma URI relativa."
+ },
+ "84feff408dcc": {
+  "problem": "Uso desnecessário de aspas duplas.",
+  "correction": "Tente usar aspas simples, a menos que a string contenha aspas simples."
+ },
+ "783cf5030048": {
+  "problem": "Os elementos poderiam ser adicionados direto no literal da coleção.",
+  "correction": "Tente usar o operador spread ('...') para adicionar os elementos no próprio literal."
+ },
+ "a4b8699214dc": {
+  "problem": "Um campo não inicializado deve ter uma anotação de tipo explícita.",
+  "correction": "Tente adicionar uma anotação de tipo."
+ },
+ "e80b0faa3b8a": {
+  "problem": "Uma variável não inicializada deve ter uma anotação de tipo explícita.",
+  "correction": "Tente adicionar uma anotação de tipo."
+ },
+ "e17d2f092f91": {
+  "problem": "Uso desnecessário do tipo 'Null'.",
+  "correction": "Tente usar 'void'."
+ },
+ "6f38329e7ee6": {
+  "problem": "O prefixo (cláusula 'as') deve vir antes de quaisquer combinadores show/hide.",
+  "correction": "Tente mover o prefixo para antes dos combinadores."
+ },
+ "e0d174f9630f": {
+  "problem": "O nome '{0}' já é usado como prefixo de import e não pode ser usado para nomear um elemento de nível superior.",
+  "correction": "Tente renomear o elemento de nível superior ou o prefixo."
+ },
+ "1e7f3184a6df": {
+  "problem": "O nome '{0}' se refere a um prefixo de import, então deve ser seguido por '.'.",
+  "correction": "Tente corrigir o nome para se referir a algo que não seja um prefixo ou renomear o prefixo."
+ },
+ "2871faa00a8f": {
+  "problem": "O prefixo '{0}' não pode ser usado aqui porque está escondido por uma declaração local.",
+  "correction": "Tente renomear o prefixo ou a declaração local."
+ },
+ "fcc01fa9a1c6": {
+  "problem": "O corpo de um construtor primário não pode usar '=>'.",
+  "correction": "Tente usar um corpo em bloco."
+ },
+ "1f7c3424a38c": {
+  "problem": "O corpo de um construtor primário não pode ter o modificador '{0}'.",
+  "correction": "Tente remover o modificador."
+ },
+ "a57669733774": {
+  "problem": "O corpo de um construtor primário exige a declaração de um construtor primário.",
+  "correction": "Tente adicionar a declaração do construtor primário."
+ },
+ "8982f9848c22": {
+  "problem": "Um construtor primário não pode ser um construtor de redirecionamento.",
+  "correction": "Tente remover o redirecionamento."
+ },
+ "f8ef3e58f82f": {
+  "problem": "O nome privado '{0}', definido por '{1}', conflita com o mesmo nome definido por '{2}'.",
+  "correction": "Tente remover '{1}' da cláusula 'with'."
+ },
+ "827ffa84e096": {
+  "problem": "Parâmetros nomeados que não se referem a variáveis de instância não podem começar com underscore.",
+  "correction": ""
+ },
+ "c62401be9ecc": {
+  "problem": "O nome público correspondente '{0}' já é o nome de outro parâmetro.",
+  "correction": "Tente renomear um dos parâmetros."
+ },
+ "1a9ffebb0a92": {
+  "problem": "Um parâmetro nomeado privado deve ser um identificador público após remover o underscore inicial.",
+  "correction": ""
+ },
+ "d5c4dd12a8c3": {
+  "problem": "Parâmetros nomeados não podem começar com underscore.",
+  "correction": ""
+ },
+ "28a0f54d1190": {
+  "problem": "O setter '{0}' é privado e não pode ser acessado fora da biblioteca que o declara.",
+  "correction": "Tente torná-lo público."
+ },
+ "b9823ee7502f": {
+  "problem": "Falta uma mensagem de descontinuação.",
+  "correction": "Tente usar o construtor para fornecer uma mensagem ('@Deprecated(\"message\")')."
+ },
+ "f12574ffc3d8": {
+  "problem": "Falta documentação para um membro público.",
+  "correction": "Tente adicionar documentação para o membro."
+ },
+ "a3bbb5a853f1": {
+  "problem": "A variável final '{0}' não pode ser lida porque está potencialmente não atribuída neste ponto.",
+  "correction": "Garanta que ela seja atribuída nos caminhos de execução necessários."
+ },
+ "87f763a165d9": {
+  "problem": "O receptor é do tipo 'Never' e nunca será concluído com um valor.",
+  "correction": "Tente verificar se há expressões throw ou erros de tipo no receptor"
+ }
+}

@@ -1,0 +1,642 @@
+{
+ "7c3864ac97fe": {
+  "problem": "O bloco de código não tem uma linguagem especificada.",
+  "correction": "Tente adicionar uma linguagem ao bloco de código."
+ },
+ "cfcea02ffe79": {
+  "problem": "Variáveis devem ser declaradas usando as palavras-chave 'const', 'final', 'var' ou um nome de tipo.",
+  "correction": "Tente adicionar o nome do tipo da variável ou a palavra-chave 'var'."
+ },
+ "01d338482ac6": {
+  "problem": "Ver esta mensagem indica um bug. Por favor, reporte-o.",
+  "correction": ""
+ },
+ "e972831f4d2b": {
+  "problem": "A biblioteca obrigatória '{0}' está faltando.",
+  "correction": "Reinstale o SDK do Dart ou do Flutter."
+ },
+ "33694ba81159": {
+  "problem": "O parâmetro '{0}' não pode ter o valor 'null' por causa do seu tipo, mas o valor padrão implícito é 'null'.",
+  "correction": "Tente adicionar um valor padrão explícito diferente de 'null' ou o modificador 'required'."
+ },
+ "ba8103dc8fde": {
+  "problem": "Com null safety, use a palavra-chave 'required', não a anotação '@required'.",
+  "correction": "Tente remover o '@'."
+ },
+ "cd48d53e260d": {
+  "problem": "O parâmetro '{0}' não pode ter o valor 'null' por causa do seu tipo, mas o valor padrão implícito é 'null'.",
+  "correction": "Tente adicionar um valor padrão explícito diferente de 'null'."
+ },
+ "089e0d5b0f71": {
+  "problem": "Falta uma dependência de {0} importado.",
+  "correction": "Tente adicionar {1}."
+ },
+ "133b9b2177a2": {
+  "problem": "Falta uma dependência do pacote importado '{0}'.",
+  "correction": "Tente adicionar {0}."
+ },
+ "67d045897fee": {
+  "problem": "Era esperado um dígito decimal.",
+  "correction": ""
+ },
+ "08df357d018e": {
+  "problem": "A definição de um enum deve ter um corpo com pelo menos um nome de constante.",
+  "correction": "Tente adicionar um corpo e definir pelo menos uma constante."
+ },
+ "efd100236dd6": {
+  "problem": "Falta a cláusula case para '{0}'.",
+  "correction": "Tente adicionar uma cláusula case para a constante que falta ou adicionar uma cláusula default."
+ },
+ "18ebefe2ea7f": {
+  "problem": "O método {0} deve ter um valor de retorno excepcional (o segundo argumento) quando o tipo de retorno da função não é 'void', 'Handle' nem 'Pointer'.",
+  "correction": "Tente adicionar um valor de retorno excepcional."
+ },
+ "f59e41a0317f": {
+  "problem": "Era esperada uma expressão após o operador de atribuição.",
+  "correction": "Tente adicionar o valor a ser atribuído ou remova o operador de atribuição."
+ },
+ "a43e35f1977a": {
+  "problem": "Falta uma expressão após 'throw'.",
+  "correction": "Adicione uma expressão após 'throw' ou use 'rethrow' para relançar uma exceção capturada"
+ },
+ "4da3c0552710": {
+  "problem": "Campos em classes struct devem ter um tipo declarado explicitamente como 'int', 'double' ou 'Pointer'.",
+  "correction": "Tente usar 'int', 'double' ou 'Pointer'."
+ },
+ "82789ea08677": {
+  "problem": "Um corpo de função deve ser fornecido.",
+  "correction": "Tente adicionar um corpo de função."
+ },
+ "c50bcedf204a": {
+  "problem": "Tipos de função devem ter a palavra-chave 'Function' antes da lista de parâmetros.",
+  "correction": "Tente adicionar a palavra-chave 'Function'."
+ },
+ "965e23f75546": {
+  "problem": "Funções devem ter uma lista explícita de parâmetros.",
+  "correction": "Tente adicionar uma lista de parâmetros."
+ },
+ "9a337b63d071": {
+  "problem": "Getters devem ter a palavra-chave 'get' antes do nome do getter.",
+  "correction": "Tente adicionar a palavra-chave 'get'."
+ },
+ "f57e04bccd5f": {
+  "problem": "Era esperado um dígito hexadecimal.",
+  "correction": ""
+ },
+ "e654983eaa43": {
+  "problem": "Era esperado um identificador.",
+  "correction": ""
+ },
+ "b2127880ce3a": {
+  "problem": "Era esperado um inicializador.",
+  "correction": ""
+ },
+ "a929680c6362": {
+  "problem": "Declarações de operador devem ser precedidas pela palavra-chave 'operator'.",
+  "correction": "Tente adicionar a palavra-chave 'operator'."
+ },
+ "0d1f6ea9a61b": {
+  "problem": "Métodos devem ter uma lista explícita de parâmetros.",
+  "correction": "Tente adicionar uma lista de parâmetros."
+ },
+ "c7a44f379c07": {
+  "problem": "O campo 'name' é obrigatório, mas está faltando.",
+  "correction": "Tente adicionar um campo chamado 'name'."
+ },
+ "fcd832f984ef": {
+  "problem": "Parâmetros nomeados em um tipo de função devem ter um nome",
+  "correction": "Tente fornecer um nome para o parâmetro ou remover as chaves."
+ },
+ "32c5850e1da7": {
+  "problem": "Diretivas de biblioteca devem incluir um nome de biblioteca.",
+  "correction": "Tente adicionar um nome de biblioteca após a palavra-chave 'library' ou remova a diretiva de biblioteca se a biblioteca não tiver partes."
+ },
+ "de6bee6a36a2": {
+  "problem": "Diretivas part-of devem incluir um nome de biblioteca.",
+  "correction": "Tente adicionar um nome de biblioteca após o 'of'."
+ },
+ "2fb13b588c83": {
+  "problem": "O nome do getter não foi especificado explicitamente e o padrão não é uma variável.",
+  "correction": "Tente especificar o nome do getter explicitamente ou usar um padrão de variável."
+ },
+ "1db718a42a9d": {
+  "problem": "Falta uma sobrescrita obrigatória de '{0}', '{1}' e mais {2}.",
+  "correction": "Tente sobrescrever os membros que faltam."
+ },
+ "5e113c3b2f08": {
+  "problem": "Falta uma sobrescrita obrigatória de '{0}'.",
+  "correction": "Tente sobrescrever o membro que falta."
+ },
+ "d34bb559bc38": {
+  "problem": "Falta uma sobrescrita obrigatória de '{0}' e '{1}'.",
+  "correction": "Tente sobrescrever os membros que faltam."
+ },
+ "588c2d727848": {
+  "problem": "Imports deferred devem ter um prefixo.",
+  "correction": "Tente adicionar um prefixo ao import usando uma cláusula 'as'."
+ },
+ "ceb5d0f7b0ea": {
+  "problem": "Uma declaração de extension type deve ter uma declaração de construtor primário.",
+  "correction": "Tente adicionar um construtor primário à declaração do extension type."
+ },
+ "a95c56006a6e": {
+  "problem": "Uma declaração de construtor primário deve ter parâmetros formais.",
+  "correction": "Tente adicionar parâmetros formais após o nome do construtor primário."
+ },
+ "bf07fad42dd8": {
+  "problem": "Era esperada uma aspa (' ou \").",
+  "correction": ""
+ },
+ "51f9bbdd4bd0": {
+  "problem": "O parâmetro nomeado '{0}' é obrigatório, mas não há um argumento correspondente.",
+  "correction": "Tente adicionar o argumento obrigatório."
+ },
+ "773a3875bdef": {
+  "problem": "O parâmetro '{0}' é obrigatório.",
+  "correction": ""
+ },
+ "f9a139a6038b": {
+  "problem": "O parâmetro '{0}' é obrigatório. {1}.",
+  "correction": ""
+ },
+ "2439fe231498": {
+  "problem": "Esta função tem o tipo de retorno '{0}', mas não termina com uma instrução return.",
+  "correction": "Tente adicionar uma instrução return ou alterar o tipo de retorno para 'void'."
+ },
+ "fbab0e2dcb0f": {
+  "problem": "Campos do tipo 'Array' devem ter exatamente uma anotação 'Array'.",
+  "correction": "Tente adicionar uma anotação 'Array' ou remover todas as anotações, exceto uma."
+ },
+ "1a0d36962034": {
+  "problem": "O modificador 'sync' deve ser seguido por um asterisco ('*').",
+  "correction": "Tente remover o modificador ou adicionar um asterisco."
+ },
+ "b668d90ea359": {
+  "problem": "Era esperada uma instrução.",
+  "correction": ""
+ },
+ "eafe3839a743": {
+  "problem": "Não há '{0}' para fechar o grupo de parâmetros.",
+  "correction": "Tente inserir um '{0}' no final do grupo."
+ },
+ "d22cfa17f806": {
+  "problem": "Typedefs devem ter uma lista explícita de parâmetros.",
+  "correction": "Tente adicionar uma lista de parâmetros."
+ },
+ "c5d9a3718e06": {
+  "problem": "Uma variável de loop deve ser declarada em um loop for-each antes do 'in', mas nenhuma foi encontrada.",
+  "correction": "Tente declarar uma variável de loop."
+ },
+ "23aa393687bd": {
+  "problem": "O padrão de variável '{0}' está faltando neste ramo do padrão lógico OR.",
+  "correction": "Tente declarar este padrão de variável no ramo."
+ },
+ "4f3dc6dfeca8": {
+  "problem": "Falta espaço em branco entre strings adjacentes.",
+  "correction": "Tente adicionar espaço em branco entre as strings."
+ },
+ "a394730fea92": {
+  "problem": "Não é possível ter parâmetros posicionais e nomeados na mesma lista de parâmetros.",
+  "correction": "Tente escolher um único estilo de parâmetros opcionais."
+ },
+ "c24409634732": {
+  "problem": "Uma classe de aplicação de mixin não pode ser aumentada.",
+  "correction": ""
+ },
+ "7a0179da1730": {
+  "problem": "O membro invocado via super '{0}' tem o tipo '{1}', e o membro concreto na classe tem o tipo '{2}'.",
+  "correction": ""
+ },
+ "ba93083ab616": {
+  "problem": "A classe não tem uma implementação concreta do membro invocado via super '{0}'.",
+  "correction": ""
+ },
+ "cdba7720b74d": {
+  "problem": "A classe não tem uma implementação concreta do setter invocado via super '{0}'.",
+  "correction": ""
+ },
+ "0f0732d6231c": {
+  "problem": "'{0}' não pode ser aplicado como mixin a '{1}' porque '{1}' não implementa '{2}'.",
+  "correction": "Tente estender a classe '{0}'."
+ },
+ "5310b72d7525": {
+  "problem": "A classe '{0}' não pode ser declarada como mixin porque estende uma classe diferente de 'Object'.",
+  "correction": "Tente remover o modificador 'mixin' ou alterar a superclasse para 'Object'."
+ },
+ "949fcfc34166": {
+  "problem": "A classe '{0}' não pode ser declarada como mixin porque tem uma cláusula 'with'.",
+  "correction": "Tente remover a cláusula 'with' ou remover o modificador 'mixin' da classe."
+ },
+ "bfb85a6c600e": {
+  "problem": "A classe '{0}' não pode ser usada como mixin porque declara um construtor.",
+  "correction": ""
+ },
+ "82500ebc4cb2": {
+  "problem": "A classe mixin '{0}' não pode declarar um construtor generativo não trivial.",
+  "correction": ""
+ },
+ "bf508dd89873": {
+  "problem": "Mixins não podem declarar construtores.",
+  "correction": ""
+ },
+ "52464c017457": {
+  "problem": "A classe '{0}' não pode ser usada como mixin porque estende uma classe diferente de 'Object'.",
+  "correction": ""
+ },
+ "d18e2a99b141": {
+  "problem": "Mixins não podem ser instanciados.",
+  "correction": ""
+ },
+ "17d9c5ac4004": {
+  "problem": "A classe de aplicação de mixin '{0}' só pode ter um único mixin.",
+  "correction": "Tente remover todos os mixins, exceto um."
+ },
+ "03f0de0bfe1d": {
+  "problem": "Classes só podem aplicar mixins e classes.",
+  "correction": ""
+ },
+ "3ccdea59e758": {
+  "problem": "A classe '{0}' não deve ser usada como restrição de mixin porque é sealed, e qualquer classe que aplique este mixin deve ter '{0}' como superclasse.",
+  "correction": "Tente usar composição com esta classe ou consulte a documentação dela para mais informações."
+ },
+ "725de3bc760e": {
+  "problem": "Mixins não podem ter construtores primários.",
+  "correction": "Tente remover o construtor primário ou alterar o mixin para uma classe."
+ },
+ "fe005a4e5581": {
+  "problem": "Classes deferred não podem ser usadas como restrições de superclasse.",
+  "correction": "Tente alterar o import para não ser deferred."
+ },
+ "08b25292b703": {
+  "problem": "Apenas classes e mixins podem ser usados como restrições de superclasse.",
+  "correction": ""
+ },
+ "7e9d8f01352c": {
+  "problem": "Um mixin não pode ter uma cláusula with.",
+  "correction": ""
+ },
+ "a4658d6e7ad2": {
+  "problem": "Um mixin só pode ser aplicado a uma classe.",
+  "correction": ""
+ },
+ "af6cdb25f651": {
+  "problem": "O modificador '{0}' deve vir antes do modificador '{1}'.",
+  "correction": "Tente reordenar os modificadores."
+ },
+ "2d55dd185768": {
+  "problem": "Cada definição de '{0}' pode ter no máximo uma cláusula '{1}'.",
+  "correction": "Tente combinar todas as cláusulas '{1}' em uma única cláusula."
+ },
+ "d3fd534e35f1": {
+  "problem": "Usar múltiplos combinadores 'hide' ou 'show' nunca é necessário e muitas vezes produz resultados surpreendentes.",
+  "correction": "Tente usar um único combinador."
+ },
+ "3fe0ff3112bd": {
+  "problem": "Cada definição de classe pode ter no máximo uma cláusula extends.",
+  "correction": "Tente escolher uma superclasse e defina sua classe para implementar (ou aplicar como mixin) as outras."
+ },
+ "6168464248a7": {
+  "problem": "Cada definição de classe ou mixin pode ter no máximo uma cláusula implements.",
+  "correction": "Tente combinar todas as cláusulas implements em uma única cláusula."
+ },
+ "94146ca60b35": {
+  "problem": "Apenas uma diretiva de biblioteca pode ser declarada em um arquivo.",
+  "correction": "Tente remover todas as diretivas de biblioteca, exceto uma."
+ },
+ "95e58e8c8f82": {
+  "problem": "Não é possível ter múltiplos grupos de parâmetros nomeados na mesma lista de parâmetros.",
+  "correction": "Tente combinar todos os grupos em um único grupo."
+ },
+ "e464ade13e8e": {
+  "problem": "Cada definição de mixin pode ter no máximo uma cláusula on.",
+  "correction": "Tente combinar todas as cláusulas on em uma única cláusula."
+ },
+ "c21159f91a95": {
+  "problem": "Apenas uma diretiva part-of pode ser declarada em um arquivo.",
+  "correction": "Tente remover todas as diretivas part-of, exceto uma."
+ },
+ "fe8a923a0ee6": {
+  "problem": "Múltiplos plugins não podem ser habilitados.",
+  "correction": "Remova todos os plugins após o primeiro, '{0}'."
+ },
+ "f6780babc11f": {
+  "problem": "Não é possível ter múltiplos grupos de parâmetros posicionais na mesma lista de parâmetros.",
+  "correction": "Tente combinar todos os grupos em um único grupo."
+ },
+ "7af0636479a4": {
+  "problem": "Apenas uma declaração de corpo de construtor primário é permitida.",
+  "correction": "Tente remover todas as declarações de corpo de construtor primário, exceto uma."
+ },
+ "1d527934227a": {
+  "problem": "Construtores podem ter, no máximo, um redirecionamento 'this'.",
+  "correction": "Tente remover todos os redirecionamentos, exceto um."
+ },
+ "de07bb5f3f52": {
+  "problem": "Cada extension type deve ter exatamente um campo de representação.",
+  "correction": "Tente combinar os campos em um record ou remover os campos extras."
+ },
+ "d16c15fc7ab5": {
+  "problem": "Um construtor pode ter no máximo um inicializador 'super'.",
+  "correction": "Tente remover todos os inicializadores 'super', exceto um."
+ },
+ "f362163e319c": {
+  "problem": "Só uma variável de loop pode ser declarada em um for-each antes do 'in' (encontradas: {0}).",
+  "correction": "Tente mover todas as declarações, exceto uma, para dentro do corpo do loop."
+ },
+ "85cebd1731fb": {
+  "problem": "Cada parâmetro de tipo pode ter no máximo um modificador de variância.",
+  "correction": "Use no máximo um dos modificadores 'in', 'out' ou 'inout'."
+ },
+ "c4f10b50913d": {
+  "problem": "Cada definição de classe pode ter no máximo uma cláusula with.",
+  "correction": "Tente combinar todas as cláusulas with em uma única cláusula."
+ },
+ "1acae0fef2a5": {
+  "problem": "O tipo '{0}' dado a '{1}' deve ser um tipo de função nativa válido de 'dart:ffi'.",
+  "correction": "Tente alterar o tipo para usar apenas membros de 'dart:ffi'."
+ },
+ "477526eab965": {
+  "problem": "O tipo '{0}' deve ser um subtipo de '{1}' para '{2}'.",
+  "correction": "Tente alterar um ou ambos os argumentos de tipo."
+ },
+ "68b8bd92176b": {
+  "problem": "Esta classe (ou uma classe da qual ela herda) está marcada como '@immutable', mas um ou mais dos seus campos de instância não são final: {0}",
+  "correction": ""
+ },
+ "cc5bd39775e1": {
+  "problem": "Este método sobrescreve um método anotado como '@mustCallSuper' em '{0}', mas não invoca o método sobrescrito.",
+  "correction": ""
+ },
+ "86545194f74d": {
+  "problem": "O tipo de retorno da função passada para 'NativeCallable.listener' deve ser 'void' em vez de '{0}'.",
+  "correction": "Tente alterar o tipo de retorno para 'void'."
+ },
+ "52441db6ca89": {
+  "problem": "O valor do campo 'name' deve ser uma string.",
+  "correction": "Tente converter o valor para uma string."
+ },
+ "d4272783428b": {
+  "problem": "Expressões de função não podem ter nome.",
+  "correction": "Tente remover o nome ou mover a expressão de função para uma instrução de declaração de função."
+ },
+ "b53dfc45b304": {
+  "problem": "Tipos de função não podem ter nome.",
+  "correction": "Tente substituir o nome pela palavra-chave 'Function'."
+ },
+ "6ff57db665eb": {
+  "problem": "Parâmetros nomeados devem estar entre chaves ('{' e '}').",
+  "correction": "Tente envolver os parâmetros nomeados em chaves."
+ },
+ "72aabf408ea5": {
+  "problem": "A cláusula native só pode ser usada no SDK e em código carregado por extensões nativas.",
+  "correction": "Tente remover a cláusula native."
+ },
+ "5f4099d73154": {
+  "problem": "A cláusula native nesta forma está descontinuada.",
+  "correction": "Tente remover esta cláusula native e adicionar @native() ou @native('native-name') antes da declaração."
+ },
+ "e04b095140c5": {
+  "problem": "'{0}' é um tipo não suportado para campos nativos. Campos nativos só suportam ponteiros, arrays ou tipos numéricos e compostos.",
+  "correction": "Tente alterar o tipo na anotação `@Native` para um tipo numérico de FFI, um ponteiro, um array ou uma classe composta."
+ },
+ "3751bda1dc68": {
+  "problem": "Não foi possível inferir o tipo nativo deste campo; ele deve ser especificado na anotação.",
+  "correction": "Tente adicionar um parâmetro de tipo que estenda `NativeType` à anotação `@Native`."
+ },
+ "eb759a98f1d1": {
+  "problem": "Campos nativos devem ser estáticos.",
+  "correction": "Tente adicionar o modificador 'static' a este campo."
+ },
+ "f4073160dbb2": {
+  "problem": "Funções nativas só podem ser declaradas no SDK e em código carregado por extensões nativas.",
+  "correction": "Tente remover a palavra 'native'."
+ },
+ "f99155b2e971": {
+  "problem": "Não foi possível inferir o tipo nativo desta função, então ele deve ser especificado na anotação.",
+  "correction": "Tente adicionar um parâmetro de tipo que estenda `NativeType` à anotação `@Native`."
+ },
+ "66ae7d534cbf": {
+  "problem": "A dimensão variável de um array de comprimento variável deve ser não negativa.",
+  "correction": "Tente usar um valor igual ou maior que zero."
+ },
+ "3560df9c94c8": {
+  "problem": "Construtores declarados com a palavra-chave 'new' não podem usar '.' antes do nome do construtor.",
+  "correction": "Tente substituir o '.' por um espaço."
+ },
+ "e8e28bd08541": {
+  "problem": "Construtores declarados com a palavra-chave 'new' não podem se chamar 'new'.",
+  "correction": "Tente remover o segundo 'new' ou alterá-lo para um nome diferente."
+ },
+ "2dea0c0a1d66": {
+  "problem": "Construtores declarados com a palavra-chave 'new' não podem ter nomes qualificados.",
+  "correction": "Tente remover o prefixo do nome da classe do nome qualificado ou remover a palavra-chave 'new'."
+ },
+ "6018ac1e5d5f": {
+  "problem": "A classe '{0}' não tem um construtor chamado '{1}'.",
+  "correction": "Tente invocar um construtor diferente ou defina um construtor chamado '{1}'."
+ },
+ "c3674af717f6": {
+  "problem": "A classe '{0}' não tem um construtor sem nome.",
+  "correction": "Tente usar um dos construtores nomeados definidos em '{0}'."
+ },
+ "f5855191fb8f": {
+  "problem": "Não use strings adjacentes em um literal de lista.",
+  "correction": "Tente adicionar uma vírgula entre as strings."
+ },
+ "5e427bb01706": {
+  "problem": "A criação de uma anotação deve ter argumentos.",
+  "correction": "Tente adicionar uma lista de argumentos vazia."
+ },
+ "beeddcbf0ea4": {
+  "problem": "Não é possível inferir os tipos que faltam em '{0}' a partir dos métodos sobrescritos: {1}.",
+  "correction": "Tente fornecer tipos explícitos para os parâmetros e o tipo de retorno deste método."
+ },
+ "23a78964fbbc": {
+  "problem": "Uso inválido do membro 'default' em um switch.",
+  "correction": "Tente enumerar todos os valores possíveis da expressão do switch."
+ },
+ "2c501fea044f": {
+  "problem": "A superclasse '{0}' não tem um construtor sem argumentos.",
+  "correction": "Tente declarar um construtor sem argumentos em '{0}' ou declarar um construtor em {1} que invoque explicitamente um construtor em '{0}'."
+ },
+ "4a8403921baa": {
+  "problem": "A superclasse '{0}' não tem um construtor sem argumentos.",
+  "correction": "Tente declarar um construtor sem argumentos em '{0}' ou invocar explicitamente um construtor diferente em '{0}'."
+ },
+ "08aec8427c3c": {
+  "problem": "O valor da cláusula case ('{0}') é igual ao valor de uma cláusula case anterior ('{1}').",
+  "correction": "Tente remover ou alterar o valor."
+ },
+ "c4defa7b5e5b": {
+  "problem": "Cast implícito de 'dynamic'.",
+  "correction": "Tente adicionar um cast explícito ou alterar o tipo de destino."
+ },
+ "216d21240257": {
+  "problem": "A classe '{0}' não pode estender '{1}' porque '{1}' só tem construtores factory (nenhum construtor generativo), e '{0}' tem pelo menos um construtor generativo.",
+  "correction": "Tente implementar a classe em vez de estendê-la, adicionar um construtor generativo (não factory) à superclasse '{1}' ou um construtor factory à subclasse."
+ },
+ "8d4c7b03aa8b": {
+  "problem": "O prefixo de biblioteca '{0}' começa com um underscore.",
+  "correction": "Tente renomear o prefixo para que não comece com um underscore."
+ },
+ "fbbd9da66dbf": {
+  "problem": "A variável local '{0}' começa com um underscore.",
+  "correction": "Tente renomear a variável para que não comece com um underscore."
+ },
+ "4f3824d2f376": {
+  "problem": "Comparação desnecessária com um literal booleano.",
+  "correction": "Remova a comparação e use o operador de negação `!` se necessário."
+ },
+ "b7534b8d5472": {
+  "problem": "Não coloque nenhuma lógica em 'createState'.",
+  "correction": "Tente mover a lógica para fora de 'createState'."
+ },
+ "c340a73558e3": {
+  "problem": "Usar 'toString' em um 'Type' não é seguro em código de produção.",
+  "correction": "Tente remover o uso de 'toString' ou reestruturar o código."
+ },
+ "49de4c7c10c6": {
+  "problem": "A variável ou propriedade está sendo atribuída a ela mesma.",
+  "correction": "Tente remover a atribuição, que não tem efeito direto."
+ },
+ "15ea487f1d86": {
+  "problem": "Não faça commit de testes solo.",
+  "correction": "Tente remover a anotação 'soloTest' ou o prefixo 'solo_'."
+ },
+ "cd2db5225ebf": {
+  "problem": "O recurso padrão \"android.hardware.touchscreen\" precisa ser opcional para o Chrome OS.",
+  "correction": "Considere adicionar <uses-feature android:name=\"android.hardware.touchscreen\" android:required=\"false\" /> ao manifest."
+ },
+ "bd8bb8f25f22": {
+  "problem": "Não crie literais de string com espaços no final em testes.",
+  "correction": "Tente remover os espaços no final."
+ },
+ "5503373b9186": {
+  "problem": "O identificador referenciado é um wildcard.",
+  "correction": "Use um nome de identificador que não seja um wildcard."
+ },
+ "3d5d61728005": {
+  "problem": "Faltam implementações concretas de '{0}' e '{1}'.",
+  "correction": "Tente implementar os métodos que faltam ou torne a classe abstrata."
+ },
+ "66f34afe5992": {
+  "problem": "Falta a implementação concreta de '{0}'.",
+  "correction": "Tente implementar o método que falta ou torne a classe abstrata."
+ },
+ "99cfee949bbe": {
+  "problem": "Faltam implementações concretas de '{0}', '{1}' e '{2}'.",
+  "correction": "Tente implementar os métodos que faltam ou torne a classe abstrata."
+ },
+ "ddf4d78ccdd9": {
+  "problem": "Faltam implementações concretas de '{0}', '{1}', '{2}', '{3}' e mais {4}.",
+  "correction": "Tente implementar os métodos que faltam ou torne a classe abstrata."
+ },
+ "fca2790d1022": {
+  "problem": "Faltam implementações concretas de '{0}', '{1}', '{2}' e '{3}'.",
+  "correction": "Tente implementar os métodos que faltam ou torne a classe abstrata."
+ },
+ "a5062d83d269": {
+  "problem": "Condições devem ter o tipo estático 'bool'.",
+  "correction": "Tente alterar a condição."
+ },
+ "ecf025be806c": {
+  "problem": "A expressão em um assert deve ser do tipo 'bool'.",
+  "correction": "Tente alterar a expressão."
+ },
+ "3718445ebcf6": {
+  "problem": "O operando de uma negação deve ter o tipo estático 'bool'.",
+  "correction": "Tente alterar o operando para o operador '!'."
+ },
+ "ed39f7721462": {
+  "problem": "Os operandos do operador '{0}' devem ser atribuíveis a 'bool'.",
+  "correction": ""
+ },
+ "b0a141ab1d5a": {
+  "problem": "O argumento '{0}' deve ser uma constante.",
+  "correction": "Tente substituir o argumento por uma constante."
+ },
+ "72fa7db87dd7": {
+  "problem": "Esta criação de instância deve ser 'const', porque o construtor {0} está marcado como '@literal'.",
+  "correction": "Tente adicionar a palavra-chave 'const'."
+ },
+ "c5b5c37bc78c": {
+  "problem": "Esta criação de instância deve ser 'const', porque o construtor {0} está marcado como '@literal'.",
+  "correction": "Tente substituir a palavra-chave 'new' por 'const'."
+ },
+ "ceede661b194": {
+  "problem": "Construtores generativos de enum devem ser 'const'.",
+  "correction": "Tente adicionar a palavra-chave 'const'."
+ },
+ "963c128d06c9": {
+  "problem": "Um literal de map ou set não constante sem argumentos de tipo não pode ser usado como instrução de expressão.",
+  "correction": ""
+ },
+ "2d151baa103b": {
+  "problem": "A criação de uma anotação só pode chamar um construtor const.",
+  "correction": ""
+ },
+ "a8d8d8340964": {
+  "problem": "Expressões case devem ser constantes.",
+  "correction": ""
+ },
+ "501e7d64981f": {
+  "problem": "Valores constantes de uma biblioteca deferred não podem ser usados como expressão case.",
+  "correction": "Tente reescrever o switch como uma série de instruções if ou alterar o import para não ser deferred."
+ },
+ "db55e11cf8ed": {
+  "problem": "O valor padrão de um parâmetro opcional deve ser constante.",
+  "correction": ""
+ },
+ "123cb5d63d28": {
+  "problem": "Valores constantes de uma biblioteca deferred não podem ser usados como valor padrão de parâmetro.",
+  "correction": "Tente deixar o padrão como 'null' e inicializar o parâmetro dentro do corpo da função."
+ },
+ "f8cc59021bb4": {
+  "problem": "O nome de variável '{0}' não é um identificador lowerCamelCase.",
+  "correction": "Tente alterar o nome para seguir o estilo lowerCamelCase."
+ },
+ "02b4eaacca05": {
+  "problem": "Os valores em um literal de lista const devem ser constantes.",
+  "correction": "Tente remover a palavra-chave 'const' do literal de lista."
+ },
+ "c95c2dc7434a": {
+  "problem": "Os elementos em um literal de map const devem ser constantes.",
+  "correction": "Tente remover a palavra-chave 'const' do literal de map."
+ },
+ "334042b61f02": {
+  "problem": "As chaves em um literal de map const devem ser constantes.",
+  "correction": "Tente remover a palavra-chave 'const' do literal de map."
+ },
+ "a6c312927e87": {
+  "problem": "Expressões de chave em padrões de map devem ser constantes.",
+  "correction": "Tente usar constantes."
+ },
+ "9aa6c0959225": {
+  "problem": "Os valores em um literal de map const devem ser constantes.",
+  "correction": "Tente remover a palavra-chave 'const' do literal de map."
+ },
+ "bfae41162521": {
+  "problem": "Os campos em um literal de record const devem ser constantes.",
+  "correction": "Tente remover a palavra-chave 'const' do literal de record."
+ },
+ "cde7cc08aaf4": {
+  "problem": "Valores constantes de uma biblioteca deferred não podem ser usados como campos em um literal de record 'const'.",
+  "correction": "Tente remover a palavra-chave 'const' do literal de record ou remover a palavra-chave 'deferred' do import."
+ },
+ "9f9bca7bf412": {
+  "problem": "A expressão do padrão relacional deve ser uma constante.",
+  "correction": "Tente usar uma constante."
+ },
+ "1b58a156bb8d": {
+  "problem": "Os valores em um literal de set const devem ser constantes.",
+  "correction": "Tente remover a palavra-chave 'const' do literal de set."
+ },
+ "db772d4cd1b6": {
+  "problem": "Os argumentos de tipo de '{0}' devem ser conhecidos em tempo de compilação, então não podem ser parâmetros de tipo.",
+  "correction": "Tente alterar o argumento de tipo para um tipo constante."
+ },
+ "63da405999d9": {
+  "problem": "Apenas um construtor pode ser declarado como factory.",
+  "correction": "Tente remover a palavra-chave 'factory'."
+ }
+}

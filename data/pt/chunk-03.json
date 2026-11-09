@@ -1,0 +1,642 @@
+{
+ "7378244f9dc2": {
+  "problem": "Aplicar o mixin '{0}' está descontinuado.",
+  "correction": "Tente remover '{0}' da cláusula 'with'."
+ },
+ "2b4bde52ee64": {
+  "problem": "Usar a palavra-chave 'new' em uma referência de comentário está descontinuado.",
+  "correction": "Tente referenciar um construtor pelo nome."
+ },
+ "a9bb91d730da": {
+  "problem": "Omitir um argumento para o parâmetro '{0}' está descontinuado.",
+  "correction": "Tente passar um argumento para '{0}'."
+ },
+ "db828b6063a0": {
+  "problem": "Criar subclasse de '{0}' está descontinuado.",
+  "correction": "Tente remover a cláusula 'extends' ou remover '{0}' da cláusula 'implements'."
+ },
+ "445fac01193e": {
+  "problem": "Implementar 'Function' não tem efeito.",
+  "correction": "Tente remover 'Function' da cláusula 'implements'."
+ },
+ "a719fcc866f3": {
+  "problem": "Aplicar o mixin 'Function' está descontinuado.",
+  "correction": "Tente remover 'Function' da cláusula 'with'."
+ },
+ "e721fc5fe996": {
+  "problem": "Estender 'Function' está descontinuado.",
+  "correction": "Tente remover 'Function' da cláusula 'extends'."
+ },
+ "6b5c21d4d0f8": {
+  "problem": "A propriedade pública não é descrita por 'debugFillProperties' nem por 'debugDescribeChildren'.",
+  "correction": "Tente descrever a propriedade."
+ },
+ "a5628fca3bc2": {
+  "problem": "As diretivas devem aparecer antes de qualquer declaração.",
+  "correction": "Tente mover a diretiva para antes de qualquer declaração."
+ },
+ "0c972bcc6ad9": {
+  "problem": "Coloque os {0} 'package:' antes dos {0} relativos.",
+  "correction": "Tente ordenar as diretivas."
+ },
+ "21416421366f": {
+  "problem": "Ordene as seções de diretivas em ordem alfabética.",
+  "correction": "Tente ordenar as diretivas."
+ },
+ "558b88797c0b": {
+  "problem": "Especifique os exports em uma seção separada, depois de todos os imports.",
+  "correction": "Tente ordenar as diretivas."
+ },
+ "beb598ee7ccd": {
+  "problem": "Coloque os {0} 'dart:' antes dos outros {0}.",
+  "correction": "Tente ordenar as diretivas."
+ },
+ "a7fe826def7c": {
+  "problem": "Somente um tipo genérico, função genérica, método de instância genérico ou construtor genérico pode ter argumentos de tipo.",
+  "correction": "Tente remover os argumentos de tipo ou instanciar o(s) tipo(s) de um tipo genérico, função genérica, método de instância genérico ou construtor genérico."
+ },
+ "4b97844b0a57": {
+  "problem": "Chamadas que retornam 'Future' em uma função não 'async'.",
+  "correction": "Tente converter a função envolvente para 'async' e usar 'await' no future ou envolva a expressão em 'unawaited'."
+ },
+ "05ba53071522": {
+  "problem": "O operador x ~/ y é mais eficiente que (x / y).toInt().",
+  "correction": "Tente reescrever a expressão usando o operador '~/'."
+ },
+ "1cf16b8064ef": {
+  "problem": "Uso inválido de uma declaração de ambiente.",
+  "correction": "Tente remover o uso da declaração de ambiente."
+ },
+ "b762b14009c0": {
+  "problem": "O argumento '{0}' deve estar formatado como {1}.",
+  "correction": "Tente formatar '{0}' como {1}."
+ },
+ "5137ee44e3cb": {
+  "problem": "A diretiva '{0}' tem '{1}' argumentos, mas somente '{2}' são esperados.",
+  "correction": "Tente remover os argumentos extras."
+ },
+ "c926e9549c8f": {
+  "problem": "A diretiva '{0}' tem um argumento nomeado inesperado, '{1}'.",
+  "correction": "Tente remover o argumento inesperado."
+ },
+ "01ff30414324": {
+  "problem": "A diretiva '{0}' não tem os argumentos '{1}' e '{2}'.",
+  "correction": "Tente adicionar os argumentos que faltam antes do '}' de fechamento."
+ },
+ "2d99e104c791": {
+  "problem": "A diretiva '{0}' não tem os argumentos '{1}', '{2}' e '{3}'.",
+  "correction": "Tente adicionar os argumentos que faltam antes do '}' de fechamento."
+ },
+ "fcbbc8a05daf": {
+  "problem": "A diretiva '{0}' não tem o argumento '{1}'.",
+  "correction": "Tente adicionar um argumento '{1}' antes do '}' de fechamento."
+ },
+ "c7738665be22": {
+  "problem": "A diretiva de documentação não tem a chave de fechamento ('}').",
+  "correction": "Tente fechar a diretiva com uma chave."
+ },
+ "cacef34da5bb": {
+  "problem": "A diretiva de documentação não tem a tag de fechamento.",
+  "correction": "Tente fechar a diretiva com a tag de fechamento apropriada, '{0}'."
+ },
+ "bed0cf0f8893": {
+  "problem": "A diretiva de documentação não tem a tag de abertura.",
+  "correction": "Tente abrir a diretiva com a tag de abertura apropriada, '{0}'."
+ },
+ "bc94984ecf20": {
+  "problem": "A diretiva de documentação '{0}' é desconhecida.",
+  "correction": "Tente usar uma das diretivas de documentação suportadas."
+ },
+ "b2483893905f": {
+  "problem": "Imports de documentação não podem ser 'deferred'.",
+  "correction": "Tente remover a palavra-chave 'deferred'."
+ },
+ "445a90e349de": {
+  "problem": "Imports de documentação não podem ter combinadores show ou hide.",
+  "correction": "Tente remover o combinador."
+ },
+ "d7c3ee6e601a": {
+  "problem": "Imports de documentação não podem ter configurações.",
+  "correction": "Tente remover as configurações."
+ },
+ "8df7da6f13ea": {
+  "problem": "Imports de documentação não podem ter prefixos.",
+  "correction": "Tente remover o prefixo."
+ },
+ "32956c4cd88b": {
+  "problem": "Falta a documentação explicando por que o diagnóstico é ignorado.",
+  "correction": "Tente adicionar um comentário imediatamente acima do comentário de ignore."
+ },
+ "7365eb97dca5": {
+  "problem": "Um dot shorthand não pode ser usado onde não há tipo de contexto.",
+  "correction": ""
+ },
+ "27394b785453": {
+  "problem": "O método estático ou construtor '{0}' não está definido para o tipo de contexto '{1}'.",
+  "correction": "Tente corrigir para o nome de um método estático ou construtor existente ou defina um método estático ou construtor chamado '{0}'."
+ },
+ "6f130bfa1b2c": {
+  "problem": "O getter estático '{0}' não está definido para o tipo de contexto '{1}'.",
+  "correction": "Tente corrigir para o nome de um getter estático existente ou defina um getter ou campo chamado '{0}'."
+ },
+ "392e8fcc393c": {
+  "problem": "O construtor sem nome já está definido.",
+  "correction": "Tente dar um nome a um dos construtores."
+ },
+ "8ed6344b10f0": {
+  "problem": "O construtor com o nome '{0}' já está definido.",
+  "correction": "Tente renomear um dos construtores."
+ },
+ "4985beceb3a0": {
+  "problem": "Uma diretiva de import só pode ter uma palavra-chave 'deferred'.",
+  "correction": "Tente remover todas as palavras-chave 'deferred', exceto uma."
+ },
+ "503be84027b6": {
+  "problem": "O nome '{0}' já está definido.",
+  "correction": "Tente renomear uma das declarações."
+ },
+ "272f6742543e": {
+  "problem": "Export duplicado.",
+  "correction": "Tente remover todos os exports da biblioteca, exceto um."
+ },
+ "00d5baf6dffc": {
+  "problem": "O campo '{0}' não pode ser inicializado por vários parâmetros no mesmo construtor.",
+  "correction": "Tente remover um dos parâmetros ou usar campos diferentes."
+ },
+ "c8d2f45b9c83": {
+  "problem": "O nome de campo '{0}' já está sendo usado neste record.",
+  "correction": "Tente renomear o campo."
+ },
+ "c2ed766e0b59": {
+  "problem": "Nome oculto duplicado.",
+  "correction": "Tente remover o nome repetido da lista de membros ocultos."
+ },
+ "2f7313eb5bc3": {
+  "problem": "O diagnóstico '{0}' não precisa ser ignorado aqui porque já está sendo ignorado.",
+  "correction": "Tente remover o nome da lista ou remover o comentário inteiro se este for o único nome da lista."
+ },
+ "c4430d51d619": {
+  "problem": "Import duplicado.",
+  "correction": "Tente remover todos os imports da biblioteca, exceto um."
+ },
+ "1d33eeb93f03": {
+  "problem": "O rótulo '{0}' já foi usado neste switch.",
+  "correction": "Tente escolher um nome diferente para este rótulo."
+ },
+ "b5daec542cca": {
+  "problem": "O argumento do parâmetro nomeado '{0}' já foi especificado.",
+  "correction": "Tente remover um dos argumentos nomeados ou corrigir um dos nomes para referenciar outro parâmetro nomeado."
+ },
+ "46f18b6b35f5": {
+  "problem": "A biblioteca já contém um part com a URI '{0}'.",
+  "correction": "Tente remover todas as diretivas part duplicadas, exceto uma."
+ },
+ "2ec2f264b540": {
+  "problem": "A variável '{0}' já está atribuída neste padrão.",
+  "correction": "Tente renomear a variável."
+ },
+ "0c5d28e0e4bf": {
+  "problem": "O campo '{0}' já é correspondido neste padrão.",
+  "correction": "Tente remover o campo duplicado."
+ },
+ "5cd1b2d00b16": {
+  "problem": "Uma diretiva de import só pode ter um prefixo (cláusula 'as').",
+  "correction": "Tente remover todos os prefixos, exceto um."
+ },
+ "6e71408bc9e1": {
+  "problem": "É permitido no máximo um elemento rest em um padrão de lista ou de map.",
+  "correction": "Tente remover o elemento rest duplicado."
+ },
+ "58eb463cdacb": {
+  "problem": "A regra '{0}' já está habilitada e não precisa ser habilitada novamente.",
+  "correction": "Tente remover todas as ocorrências da regra, exceto uma."
+ },
+ "41ba263847a0": {
+  "problem": "Nome exibido duplicado.",
+  "correction": "Tente remover o nome repetido da lista de membros exibidos."
+ },
+ "625c78170a34": {
+  "problem": "A variável '{0}' já está definida neste padrão.",
+  "correction": "Tente renomear a variável."
+ },
+ "13dea8ce9ef2": {
+  "problem": "O modificador '{0}' já foi especificado.",
+  "correction": "Tente remover todas as ocorrências do modificador, exceto uma."
+ },
+ "7773a65d2268": {
+  "problem": "Bloco catch vazio.",
+  "correction": "Tente adicionar instruções ao bloco, adicionar um comentário ao bloco ou remover a cláusula 'catch'."
+ },
+ "f8bac7b8e866": {
+  "problem": "Corpos de construtor vazios devem ser escritos com ';' em vez de '{}'.",
+  "correction": "Tente substituir o corpo do construtor por ';'."
+ },
+ "118c17c348b5": {
+  "problem": "Corpos vazios de {0} devem ser escritos com ';' em vez de '{}'.",
+  "correction": "Tente substituir o corpo de {0} por ';'."
+ },
+ "b3b70df90e92": {
+  "problem": "Um enum deve declarar pelo menos um nome de constante.",
+  "correction": "Tente declarar uma constante."
+ },
+ "41983435e8de": {
+  "problem": "Um padrão de map deve ter pelo menos uma entrada.",
+  "correction": "Tente substituí-lo por um padrão de objeto 'Map()'."
+ },
+ "81d1e04bbe2e": {
+  "problem": "Um literal de record sem campos não pode ter vírgula final.",
+  "correction": "Tente remover a vírgula final."
+ },
+ "bfea77761ed9": {
+  "problem": "A lista de campos nomeados em um tipo record não pode ser vazia.",
+  "correction": "Tente adicionar um campo nomeado à lista."
+ },
+ "d8e942a086ef": {
+  "problem": "Um tipo record sem campos não pode ter vírgula final.",
+  "correction": "Tente remover a vírgula final."
+ },
+ "f320dc924726": {
+  "problem": "Instrução vazia desnecessária.",
+  "correction": "Tente remover a instrução vazia ou reestruturar o código."
+ },
+ "0c41199cd9c8": {
+  "problem": "A classe '{0}' não pode ser vazia porque é subclasse de '{1}'.",
+  "correction": "Tente adicionar um campo a '{0}' ou usar outra superclasse."
+ },
+ "70dc4a488e02": {
+  "problem": "Não foi possível decodificar os bytes como UTF-8.",
+  "correction": ""
+ },
+ "9803f6be9322": {
+  "problem": "Um valor de enum não pode invocar um construtor factory.",
+  "correction": "Tente usar um construtor generativo."
+ },
+ "199a5ef3168f": {
+  "problem": "O nome do valor do enum não pode ser igual ao nome do enum.",
+  "correction": "Tente renomear a constante."
+ },
+ "1baed3e8c184": {
+  "problem": "O construtor invocado não é um construtor 'const'.",
+  "correction": "Tente invocar um construtor generativo 'const'."
+ },
+ "8584a06605ee": {
+  "problem": "Enums não podem ser declarados dentro de classes.",
+  "correction": "Tente mover o enum para o nível superior."
+ },
+ "5b8787411263": {
+  "problem": "O resultado de instanciar o enum aos limites não é bem limitado.",
+  "correction": "Tente usar limites diferentes para os parâmetros de tipo."
+ },
+ "e2d07ac10daa": {
+  "problem": "Mixins aplicados a enums não podem ter variáveis de instância.",
+  "correction": "Tente substituir as variáveis de instância por getters."
+ },
+ "0ef7dcc97367": {
+  "problem": "'{0}' deve ter um corpo de método porque '{1}' é um enum.",
+  "correction": "Tente adicionar um corpo a '{0}'."
+ },
+ "265e5a556aa8": {
+  "problem": "O nome 'values' não é um nome válido para um enum.",
+  "correction": "Tente usar um nome diferente."
+ },
+ "1190497f5d0a": {
+  "problem": "O enum deve ter pelo menos uma constante.",
+  "correction": "Tente declarar uma constante de enum."
+ },
+ "badb961ac82f": {
+  "problem": "Quebras de linha demais no final do arquivo.",
+  "correction": "Tente remover as quebras de linha extras no final do arquivo."
+ },
+ "e0541a1e62a6": {
+  "problem": "Falta uma quebra de linha no final do arquivo.",
+  "correction": "Tente adicionar uma quebra de linha no final do arquivo."
+ },
+ "de37b1db6737": {
+  "problem": "Dois elementos em um literal de set constante não podem ser iguais.",
+  "correction": "Altere ou remova o elemento duplicado."
+ },
+ "9bb66d9f9974": {
+  "problem": "Dois elementos em um literal de set não deveriam ser iguais.",
+  "correction": "Altere ou remova o elemento duplicado."
+ },
+ "d02cd3dc2375": {
+  "problem": "Duas chaves em um literal de map constante não podem ser iguais.",
+  "correction": "Altere ou remova a chave duplicada."
+ },
+ "8fe529dad039": {
+  "problem": "Duas chaves em um literal de map não deveriam ser iguais.",
+  "correction": "Altere ou remova a chave duplicada."
+ },
+ "2f932bbc2594": {
+  "problem": "Duas chaves em um padrão de map não podem ser iguais.",
+  "correction": "Altere ou remova a chave duplicada."
+ },
+ "721e8cbd1ff6": {
+  "problem": "Uma expressão de comparação não pode ser operando de outra expressão de comparação.",
+  "correction": "Tente colocar parênteses em volta de uma das comparações."
+ },
+ "d4054139e369": {
+  "problem": "Uso inseguro de 'DartType' em uma verificação 'is'.",
+  "correction": "Garanta que os extension types de DartType sejam apagados usando um método auxiliar."
+ },
+ "075237de5e61": {
+  "problem": "Faltam cláusulas case para algumas constantes em '{0}'.",
+  "correction": "Tente adicionar cláusulas case para as constantes que faltam."
+ },
+ "7b588374cae0": {
+  "problem": "Era esperado 'case' ou 'default'.",
+  "correction": "Tente colocar este código dentro de uma cláusula case."
+ },
+ "e5950dd148be": {
+  "problem": "Uma cláusula catch deve ter um corpo, mesmo que vazio.",
+  "correction": "Tente adicionar um corpo vazio."
+ },
+ "1677bc504c2a": {
+  "problem": "Uma declaração de classe deve ter um corpo, mesmo que vazio.",
+  "correction": "Tente adicionar um corpo vazio."
+ },
+ "4c1d3dc7ce1b": {
+  "problem": "Era esperado um membro de classe.",
+  "correction": "Tente colocar este código dentro de um membro de classe."
+ },
+ "064ac0a4f558": {
+  "problem": "Era esperado 'else' ou vírgula.",
+  "correction": ""
+ },
+ "3b83c82aa80a": {
+  "problem": "Era esperada uma declaração de método, getter, setter ou operador.",
+  "correction": "Isto parece ser código incompleto. Tente removê-lo ou completá-lo."
+ },
+ "c157164ebea0": {
+  "problem": "Uma declaração de extensão deve ter um corpo, mesmo que vazio.",
+  "correction": "Tente adicionar um corpo vazio."
+ },
+ "27362c2a8dde": {
+  "problem": "Uma declaração de extension type deve ter um corpo, mesmo que vazio.",
+  "correction": "Tente adicionar um corpo vazio."
+ },
+ "aeba1d0115f0": {
+  "problem": "Uma cláusula finally deve ter um corpo, mesmo que vazio.",
+  "correction": "Tente adicionar um corpo vazio."
+ },
+ "d6e6a41baa27": {
+  "problem": "'{0}' não pode ser usado como identificador porque é uma palavra-chave.",
+  "correction": "Tente renomear para um identificador que não seja uma palavra-chave."
+ },
+ "d8c6badbaa6b": {
+  "problem": "Era esperado '{0}' no lugar disto.",
+  "correction": ""
+ },
+ "8544cef4768d": {
+  "problem": "Era esperado um literal de lista ou de map.",
+  "correction": "Tente inserir um literal de lista ou de map ou remova os argumentos de tipo."
+ },
+ "18e2abf942b5": {
+  "problem": "Uma declaração de mixin deve ter um corpo, mesmo que vazio.",
+  "correction": "Tente adicionar um corpo vazio."
+ },
+ "3af14d1d00cd": {
+  "problem": "Era esperado o nome de um mixin.",
+  "correction": "Tente usar o nome de um mixin, possivelmente com argumentos de tipo."
+ },
+ "7f2b75808d4c": {
+  "problem": "Era esperado o nome de uma classe.",
+  "correction": "Tente usar o nome de uma classe, possivelmente com argumentos de tipo."
+ },
+ "997719f73214": {
+  "problem": "Era esperado o nome de uma classe ou mixin.",
+  "correction": "Tente usar o nome de uma classe ou mixin, possivelmente com argumentos de tipo."
+ },
+ "76cf58337fcb": {
+  "problem": "Padrões de lista aceitam um argumento de tipo ou nenhum (encontrados: {0}).",
+  "correction": "Tente ajustar o número de argumentos de tipo."
+ },
+ "a66141c8c939": {
+  "problem": "Literais de lista aceitam um argumento de tipo ou nenhum (encontrados: {0}).",
+  "correction": "Tente ajustar o número de argumentos de tipo."
+ },
+ "3aca2b713d1b": {
+  "problem": "Literais de set aceitam um argumento de tipo ou nenhum (encontrados: {0}).",
+  "correction": "Tente ajustar o número de argumentos de tipo."
+ },
+ "45154a087a91": {
+  "problem": "Era esperado um campo de representação.",
+  "correction": "Tente fornecer o campo de representação para este extension type."
+ },
+ "e8e3484d2f41": {
+  "problem": "Era esperado um tipo de representação.",
+  "correction": "Tente fornecer o tipo de representação para este extension type."
+ },
+ "d56d5bf5d739": {
+  "problem": "Era esperado um literal de string.",
+  "correction": ""
+ },
+ "8d90a4efa18d": {
+  "problem": "Uma expressão switch deve ter um corpo, mesmo que vazio.",
+  "correction": "Tente adicionar um corpo vazio."
+ },
+ "d1317494473d": {
+  "problem": "Uma instrução switch deve ter um corpo, mesmo que vazio.",
+  "correction": "Tente adicionar um corpo vazio."
+ },
+ "7b1c2f63d9b8": {
+  "problem": "Era esperado encontrar '{0}'.",
+  "correction": ""
+ },
+ "c2e3c5f92d46": {
+  "problem": "Uma instrução try deve ter um corpo, mesmo que vazio.",
+  "correction": "Tente adicionar um corpo vazio."
+ },
+ "b13d5e5fceb6": {
+  "problem": "Padrões de map aceitam dois argumentos de tipo ou nenhum (encontrados: {0}).",
+  "correction": "Tente ajustar o número de argumentos de tipo."
+ },
+ "359d758eeb35": {
+  "problem": "Literais de map aceitam dois argumentos de tipo ou nenhum (encontrados: {0}).",
+  "correction": "Tente ajustar o número de argumentos de tipo."
+ },
+ "6a2aa9502b1a": {
+  "problem": "Era esperado um nome de tipo.",
+  "correction": ""
+ },
+ "1e0fb5b4306a": {
+  "problem": "Isto exige que o recurso da linguagem '{0}' esteja habilitado.",
+  "correction": "Tente atualizar seu pubspec.yaml para definir a restrição mínima de SDK como {1} ou superior e executar 'pub get'."
+ },
+ "bc9de7c9e8fb": {
+  "problem": "Isto exige que o recurso experimental '{0}' da linguagem esteja habilitado.",
+  "correction": "Tente passar a opção de linha de comando '--enable-experiment={0}'."
+ },
+ "81dc2fc0f2ab": {
+  "problem": "'{0}' é experimental e pode ser removido ou alterado a qualquer momento.",
+  "correction": ""
+ },
+ "bb61ead31e47": {
+  "problem": "Diretivas export devem vir antes das diretivas part.",
+  "correction": "Tente mover as diretivas export para antes das diretivas part."
+ },
+ "de4493246602": {
+  "problem": "A biblioteca '{0}' é interna e não pode ser exportada.",
+  "correction": ""
+ },
+ "bb55960998a0": {
+  "problem": "O símbolo '{0}' está definido em uma biblioteca legada e não pode ser reexportado por uma biblioteca com null safety habilitado.",
+  "correction": "Tente remover o export ou migrar a biblioteca legada."
+ },
+ "c394627c4169": {
+  "problem": "A biblioteca exportada '{0}' não pode ter uma diretiva part-of.",
+  "correction": "Tente exportar a biblioteca da qual o part faz parte."
+ },
+ "e472173635c2": {
+  "problem": "Expressões não podem ser usadas em um literal de map.",
+  "correction": "Tente remover a expressão ou convertê-la em uma entrada de map."
+ },
+ "78dfc6b50686": {
+  "problem": "Classes só podem estender outras classes.",
+  "correction": "Tente especificar outra superclasse ou remover a cláusula extends."
+ },
+ "308e5db1ef9e": {
+  "problem": "A extensão '{0}' não pode ser usada como expressão.",
+  "correction": "Tente substituí-la por uma expressão válida."
+ },
+ "b57144f94a2b": {
+  "problem": "Augmentations de extensão não podem ter cláusulas 'on'.",
+  "correction": "Tente remover a cláusula 'on'."
+ },
+ "8977c7c7d9e4": {
+  "problem": "Uma extensão não pode definir o membro estático '{0}' e um membro de instância com o mesmo nome.",
+  "correction": "Tente renomear o membro para um nome que não conflite."
+ },
+ "e14c6897a06a": {
+  "problem": "Extensões não podem declarar membros abstratos.",
+  "correction": "Tente fornecer uma implementação para o membro."
+ },
+ "fef3a40eb80e": {
+  "problem": "Extensões não podem declarar construtores.",
+  "correction": "Tente remover a declaração do construtor."
+ },
+ "fd28e5ab60e1": {
+  "problem": "Extensões não podem declarar campos de instância.",
+  "correction": "Tente substituir o campo por um getter."
+ },
+ "2f99a9d33624": {
+  "problem": "Extensões não podem declarar membros com o mesmo nome de um membro declarado por 'Object'.",
+  "correction": "Tente especificar outro nome para o membro."
+ },
+ "c0a4994b70cc": {
+  "problem": "Um override de extensão não pode ser usado para acessar um membro estático de uma extensão.",
+  "correction": "Tente usar apenas o nome da extensão."
+ },
+ "607fcc808889": {
+  "problem": "O tipo do argumento do override de extensão '{0}' não é atribuível ao tipo estendido '{1}'.",
+  "correction": ""
+ },
+ "d38e28652d2a": {
+  "problem": "Overrides de extensão não têm valor, então não podem ser usados como receptor de uma expressão em cascata.",
+  "correction": "Tente usar '.' em vez de '..'."
+ },
+ "d334298e5532": {
+  "problem": "Um override de extensão só pode ser usado para acessar membros de instância.",
+  "correction": "Considere adicionar um acesso a um membro de instância."
+ },
+ "2267c12e9ca1": {
+  "problem": "Extensões não podem ter construtores primários.",
+  "correction": "Tente remover o construtor primário ou mudar a extensão para um extension type."
+ },
+ "400ec2fe60a7": {
+  "problem": "Uma augmentation de extension type não pode especificar um campo de representação.",
+  "correction": "Tente remover o campo de representação."
+ },
+ "50d5507198df": {
+  "problem": "Construtores de extension type não podem declarar parâmetros formais super.",
+  "correction": "Tente remover a declaração do parâmetro formal super."
+ },
+ "7a59b4469a85": {
+  "problem": "Construtores de extension type não podem incluir inicializadores super.",
+  "correction": "Tente remover a invocação do construtor super."
+ },
+ "aaf3ac4a98bf": {
+  "problem": "Extension types não podem declarar campos de instância.",
+  "correction": "Tente substituir o campo por um getter."
+ },
+ "733fbb384346": {
+  "problem": "Extension types não podem declarar membros com o mesmo nome de um membro declarado por 'Object'.",
+  "correction": "Tente especificar outro nome para o membro."
+ },
+ "fd2632ec0836": {
+  "problem": "Uma declaração de extension type não pode ter uma cláusula 'extends'.",
+  "correction": "Tente remover a cláusula 'extends' ou substituir 'extends' por 'implements'."
+ },
+ "d67fc0957c40": {
+  "problem": "Extension types não podem implementar '{0}'.",
+  "correction": "Tente especificar outro tipo ou remover o tipo da lista."
+ },
+ "ba096f194609": {
+  "problem": "O extension type não pode implementar a si mesmo.",
+  "correction": "Tente remover a superinterface que referencia este extension type."
+ },
+ "e776970b6527": {
+  "problem": "'{0}' não é um supertipo de '{1}', o tipo de representação.",
+  "correction": "Tente especificar outro tipo ou remover o tipo da lista."
+ },
+ "3a85a092ee4e": {
+  "problem": "'{0}', o tipo de representação de '{1}', não é um supertipo de '{2}', o tipo de representação de '{3}'.",
+  "correction": "Tente especificar outro tipo ou remover o tipo da lista."
+ },
+ "f7cf0ce0930d": {
+  "problem": "O extension type '{0}' tem mais de um membro distinto chamado '{1}' vindo dos tipos implementados.",
+  "correction": "Tente redeclarar o membro correspondente neste extension type."
+ },
+ "40ec8bcae281": {
+  "problem": "A representação do extension type não pode depender de si mesma.",
+  "correction": "Tente especificar outro tipo."
+ },
+ "8f6fa1f9dc30": {
+  "problem": "O tipo de representação não pode ser um tipo bottom.",
+  "correction": "Tente especificar outro tipo."
+ },
+ "8bfb9cd04a18": {
+  "problem": "Uma declaração de extension type não pode ter uma cláusula 'with'.",
+  "correction": "Tente remover a cláusula 'with' ou substituir 'with' por 'implements'."
+ },
+ "a64aaacd77b5": {
+  "problem": "'{0}' deve ter um corpo de método porque '{1}' é um extension type.",
+  "correction": "Tente adicionar um corpo a '{0}'."
+ },
+ "7a18cb30b7c4": {
+  "problem": "Classes não podem ser declaradas como 'external'.",
+  "correction": "Tente remover a palavra-chave 'external'."
+ },
+ "19eb186e114a": {
+  "problem": "Um construtor external não pode inicializar campos.",
+  "correction": "Tente remover os inicializadores de campo ou remover a palavra-chave 'external'."
+ },
+ "a27605dcf6a7": {
+  "problem": "Um construtor external não pode ter inicializadores.",
+  "correction": ""
+ },
+ "70c7325b3ec0": {
+  "problem": "Enums não podem ser declarados como 'external'.",
+  "correction": "Tente remover a palavra-chave 'external'."
+ },
+ "5ebddc28904d": {
+  "problem": "Um factory de redirecionamento não pode ser external.",
+  "correction": "Tente remover o modificador 'external'."
+ },
+ "b189f99a8eff": {
+  "problem": "Factories external não podem ter corpo.",
+  "correction": "Tente remover o corpo do factory ou remover a palavra-chave 'external'."
+ },
+ "cad4cab3f305": {
+  "problem": "Getters external não podem ter corpo.",
+  "correction": "Tente remover o corpo do getter ou remover a palavra-chave 'external'."
+ },
+ "4a14c21c460f": {
+  "problem": "Campos external não podem ser late.",
+  "correction": "Tente remover a palavra-chave 'external' ou 'late'."
+ },
+ "22ea3d104cd7": {
+  "problem": "Um método external ou nativo não pode ter corpo.",
+  "correction": ""
+ }
+}

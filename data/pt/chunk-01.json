@@ -1,0 +1,642 @@
+{
+ "6fecfc24c7e0": {
+  "problem": "Classes que estendem 'AbiSpecificInteger' devem ter exatamente um construtor const, nenhum outro membro e nenhum parâmetro de tipo.",
+  "correction": "Tente remover todos os parâmetros de tipo, remover todos os membros e adicionar um construtor const."
+ },
+ "87622e06f6f4": {
+  "problem": "Classes que estendem 'AbiSpecificInteger' devem ter exatamente uma anotação 'AbiSpecificIntegerMapping' especificando o mapeamento da ABI para um inteiro 'NativeType' de tamanho fixo.",
+  "correction": "Tente remover a anotação extra."
+ },
+ "3e4dc2c34636": {
+  "problem": "Classes que estendem 'AbiSpecificInteger' devem ter exatamente uma anotação 'AbiSpecificIntegerMapping' especificando o mapeamento da ABI para um inteiro 'NativeType' de tamanho fixo.",
+  "correction": "Tente adicionar uma anotação."
+ },
+ "d23e2a086713": {
+  "problem": "Mapeamento inválido para '{0}'; só há suporte para mapeamentos para 'Int8', 'Int16', 'Int32', 'Int64', 'Uint8', 'Uint16', 'UInt32' e 'Uint64'.",
+  "correction": "Tente alterar o valor para 'Int8', 'Int16', 'Int32', 'Int64', 'Uint8', 'Uint16', 'UInt32' ou 'Uint64'."
+ },
+ "8db1fc411641": {
+  "problem": "Membros de classes não podem ser declarados como 'abstract'.",
+  "correction": "Tente remover a palavra-chave 'abstract'. Você pode adicionar 'abstract' antes da declaração da classe."
+ },
+ "de93315a352f": {
+  "problem": "Campos não podem ser declarados como 'abstract' e 'external' ao mesmo tempo.",
+  "correction": "Tente remover a palavra-chave 'abstract' ou 'external'."
+ },
+ "86fc6ea485bf": {
+  "problem": "Campos abstratos não podem ter inicializadores.",
+  "correction": "Tente remover o inicializador ou a palavra-chave 'abstract'."
+ },
+ "eef83724a384": {
+  "problem": "Campos abstratos não podem ter inicializadores.",
+  "correction": "Tente remover o inicializador do campo ou a palavra-chave 'abstract' da declaração do campo."
+ },
+ "1b622dd80bd1": {
+  "problem": "Uma classe 'abstract' não pode ser declarada como 'final' e 'base' ao mesmo tempo.",
+  "correction": "Tente remover a palavra-chave 'final' ou 'base'."
+ },
+ "fc48a111ea6a": {
+  "problem": "Uma classe 'abstract' não pode ser declarada como 'final' e 'interface' ao mesmo tempo.",
+  "correction": "Tente remover a palavra-chave 'final' ou 'interface'."
+ },
+ "e2eaf0fa051f": {
+  "problem": "Campos abstratos não podem ser 'late'.",
+  "correction": "Tente remover a palavra-chave 'abstract' ou 'late'."
+ },
+ "29c4e3d2cea1": {
+  "problem": "Uma classe 'sealed' não pode ser marcada como 'abstract', pois já é implicitamente abstrata.",
+  "correction": "Tente remover a palavra-chave 'abstract'."
+ },
+ "fc2bb933f14a": {
+  "problem": "Campos estáticos não podem ser declarados como 'abstract'.",
+  "correction": "Tente remover a palavra-chave 'abstract' ou 'static'."
+ },
+ "46ff25db2157": {
+  "problem": "Métodos estáticos não podem ser declarados como 'abstract'.",
+  "correction": "Tente remover a palavra-chave 'abstract'."
+ },
+ "c7758843571b": {
+  "problem": "O {0} '{1}' é sempre abstrato no supertipo.",
+  "correction": ""
+ },
+ "6e26829e2298": {
+  "problem": "A expressão '.address' só pode ser usada como argumento de uma chamada external nativa do tipo leaf.",
+  "correction": ""
+ },
+ "05825409298d": {
+  "problem": "O receptor de '.address' deve ser um 'TypedData' concreto, um '[]' de um 'TypedData' concreto, um 'Array', um '[]' de um 'Array', um campo de Struct ou um campo de Union.",
+  "correction": "Altere o receptor de '.address' para um dos tipos permitidos."
+ },
+ "3e8901a7da8e": {
+  "problem": "A função '{0}' deveria ter um tipo de retorno, mas não tem.",
+  "correction": "Tente adicionar um tipo de retorno à função."
+ },
+ "f3d914738fb7": {
+  "problem": "O método '{0}' deveria ter um tipo de retorno, mas não tem.",
+  "correction": "Tente adicionar um tipo de retorno ao método."
+ },
+ "792d1acffd1b": {
+  "problem": "A instrução deve ficar em uma linha separada.",
+  "correction": "Tente mover a instrução para uma nova linha."
+ },
+ "bf3984a240b8": {
+  "problem": "Parâmetros nomeados obrigatórios devem vir antes dos parâmetros nomeados opcionais.",
+  "correction": "Tente mover o parâmetro nomeado obrigatório para antes de qualquer parâmetro nomeado opcional."
+ },
+ "0a2b33e564f6": {
+  "problem": "Anotação de tipo ausente.",
+  "correction": "Tente substituir '{0}' por '{1}'."
+ },
+ "9e58b20cd1c0": {
+  "problem": "Anotação de tipo ausente.",
+  "correction": "Tente dividir a declaração e especificar as diferentes anotações de tipo."
+ },
+ "cb271823c156": {
+  "problem": "Anotação de tipo ausente.",
+  "correction": "Tente adicionar uma anotação de tipo."
+ },
+ "e569567646b1": {
+  "problem": "Anotação de tipo ausente.",
+  "correction": "Tente especificar o tipo '{0}'."
+ },
+ "b914b610dab2": {
+  "problem": "Use imports 'package:' para arquivos no diretório 'lib'.",
+  "correction": "Tente converter a URI para uma URI 'package:'."
+ },
+ "934c250c948e": {
+  "problem": "O nome '{0}' está definido nas bibliotecas '{1}' e '{2}'.",
+  "correction": "Tente remover o export de uma das bibliotecas ou esconder explicitamente o nome em uma das diretivas de export."
+ },
+ "5ca283727478": {
+  "problem": "Um membro chamado '{0}' está definido em '{1}' e '{2}', e nenhum dos dois é mais específico.",
+  "correction": "Tente usar um extension override para especificar a extensão que você quer que seja escolhida."
+ },
+ "a72ca0ac25bf": {
+  "problem": "Um membro chamado '{0}' está definido em {1}, e nenhum deles é mais específico.",
+  "correction": "Tente usar um extension override para especificar a extensão que você quer que seja escolhida."
+ },
+ "04b7f3bed127": {
+  "problem": "O nome '{0}' está definido nas bibliotecas {1}.",
+  "correction": "Tente usar 'as prefix' em uma das diretivas de import ou usar 'hide' para esconder o nome em todos os imports, exceto um."
+ },
+ "8825b5255701": {
+  "problem": "O literal não pode ser um map nem um set porque contém pelo menos uma entrada de map literal ou um operador spread espalhando um 'Map', e pelo menos um elemento que não é nenhum dos dois.",
+  "correction": "Tente remover ou alterar alguns elementos para que todos sejam consistentes."
+ },
+ "62924283eb64": {
+  "problem": "Este literal deve ser um map ou um set, mas os elementos não têm informação suficiente para a inferência de tipo funcionar.",
+  "correction": "Tente adicionar argumentos de tipo ao literal (um para sets, dois para maps)."
+ },
+ "6c2c09e44949": {
+  "problem": "A opção '{0}' não é mais suportada.",
+  "correction": "Tente remover a opção."
+ },
+ "f164f6564e65": {
+  "problem": "A opção '{0}' não é mais suportada.",
+  "correction": "Tente usar a nova opção '{1}'."
+ },
+ "246b728294be": {
+  "problem": "O suporte a plugins legados está descontinuado e será removido em uma versão futura do Dart.",
+  "correction": "Consulte https://dart.dev/tools/analyzer-plugins para ver a documentação do novo sistema de plugins do analisador."
+ },
+ "1b0dac377d6b": {
+  "problem": "Anotação de rastreamento inválida para este membro.",
+  "correction": ""
+ },
+ "fb68561827fa": {
+  "problem": "Só pode haver uma anotação de rastreamento.",
+  "correction": ""
+ },
+ "ac9cd53aa4f6": {
+  "problem": "Nenhuma anotação de rastreamento obrigatória.",
+  "correction": ""
+ },
+ "2ed410170265": {
+  "problem": "Diretivas part na API pública do analisador devem apontar para arquivos da API pública do analisador.",
+  "correction": ""
+ },
+ "0382cc20dbde": {
+  "problem": "O elemento usa tipo(s) que não fazem parte da API pública do analisador: {0}.",
+  "correction": ""
+ },
+ "9f6dafd53976": {
+  "problem": "O elemento usa tipo(s) experimental(is), mas ele próprio não está marcado com `@experimental`: {0}.",
+  "correction": ""
+ },
+ "43b13629f740": {
+  "problem": "A diretiva de export exporta elemento(s) que não fazem parte da API pública do analisador: {0}.",
+  "correction": ""
+ },
+ "ec258c778821": {
+  "problem": "Declarações na API pública do analisador não devem terminar em \"Impl\".",
+  "correction": ""
+ },
+ "a5d26039500d": {
+  "problem": "O membro '{0}' sobrescreve um membro herdado, mas não está anotado com '@override'.",
+  "correction": "Tente adicionar a anotação '@override'."
+ },
+ "01d6b3dff1e9": {
+  "problem": "O membro '{0}' está sendo redeclarado, mas não está anotado com '@redeclare'.",
+  "correction": "Tente adicionar a anotação '@redeclare'."
+ },
+ "b8e8d9ad197c": {
+  "problem": "Campos de uma classe struct cujo tipo é 'Pointer' não devem ter anotações.",
+  "correction": "Tente remover a anotação."
+ },
+ "bf65b36d2a50": {
+  "problem": "Argumentos de tipo não podem ter anotações porque não são declarações.",
+  "correction": ""
+ },
+ "d7809f0409cf": {
+  "problem": "Anotações não podem ter espaços ou comentários antes do parêntese.",
+  "correction": "Remova quaisquer espaços ou comentários antes do parêntese."
+ },
+ "5d05fe284da6": {
+  "problem": "Uma anotação não pode usar argumentos de tipo.",
+  "correction": ""
+ },
+ "c8246562d7af": {
+  "problem": "Uma anotação com argumentos de tipo deve ser seguida por uma lista de argumentos.",
+  "correction": ""
+ },
+ "0cc9bd0c74f5": {
+  "problem": "Um método anônimo com lista de parâmetros deve ter exatamente um parâmetro posicional obrigatório.",
+  "correction": "Tente remover a lista de parâmetros ou alterá-la para ter exatamente um parâmetro posicional obrigatório."
+ },
+ "1631f6f43a80": {
+  "problem": "O tipo do receptor '{0}' deve ser atribuível ao tipo do parâmetro formal '{1}' em um método anônimo.",
+  "correction": "Tente remover o tipo do parâmetro ou torná-lo um supertipo do tipo do receptor."
+ },
+ "d7bd5a7d82b5": {
+  "problem": "O argumento '{0}' deve ser uma constante.",
+  "correction": "Tente substituir o valor por um literal ou const."
+ },
+ "ae3ec5d17530": {
+  "problem": "O argumento de 'Native.addressOf' deve estar anotado com @Native",
+  "correction": "Tente passar uma função estática ou um campo anotado com '@Native'"
+ },
+ "5c2c8d48e1b4": {
+  "problem": "O argumento do tipo '{0}' não pode ser atribuído ao parâmetro do tipo '{1}'. {2}",
+  "correction": ""
+ },
+ "48027d597a39": {
+  "problem": "O argumento do tipo '{0}' não pode ser atribuído ao parâmetro do tipo '{1} Function(Object)' ou '{1} Function(Object, StackTrace)'.",
+  "correction": ""
+ },
+ "30dcb8f8cced": {
+  "problem": "Um construtor de redirecionamento não pode ter um inicializador 'assert'.",
+  "correction": ""
+ },
+ "6f4540c9a1f3": {
+  "problem": "O diretório de assets '{0}' não existe.",
+  "correction": "Tente criar o diretório ou corrigir o caminho para o diretório."
+ },
+ "cc1a4de085dc": {
+  "problem": "O arquivo de asset '{0}' não existe.",
+  "correction": "Tente criar o arquivo ou corrigir o caminho para o arquivo."
+ },
+ "e4464998482c": {
+  "problem": "O valor do campo 'assets' deve ser uma lista de caminhos de arquivo relativos.",
+  "correction": "Tente converter o valor em uma lista de caminhos de arquivo relativos."
+ },
+ "5823bd1b3a35": {
+  "problem": "A entrada do mapa de assets deve conter um campo 'path'.",
+  "correction": "Tente adicionar um campo 'path'."
+ },
+ "7fb61ce4f36e": {
+  "problem": "Assets devem ser caminhos de arquivo (strings).",
+  "correction": "Tente converter o valor em uma string."
+ },
+ "8daa918eb332": {
+  "problem": "O valor de um asset deve ser um caminho de arquivo (string) ou um map.",
+  "correction": "Tente converter o valor em uma string ou em um map."
+ },
+ "f82c98a2637e": {
+  "problem": "Caminhos de assets devem ser caminhos de arquivo (strings).",
+  "correction": "Tente converter o valor em uma string."
+ },
+ "1c98e7de6449": {
+  "problem": "'{0}' está marcado como 'doNotStore' e não deve ser atribuído a um campo ou variável de nível superior.",
+  "correction": "Tente remover a atribuição."
+ },
+ "00a8f9e7cf83": {
+  "problem": "Variáveis constantes não podem receber um valor após a inicialização.",
+  "correction": "Tente remover a atribuição ou remover o modificador 'const' da variável."
+ },
+ "6944ddaaf32e": {
+  "problem": "'{0}' não pode ser usado como setter porque é final.",
+  "correction": "Tente encontrar outro setter ou tornar '{0}' não final."
+ },
+ "3f983386f441": {
+  "problem": "A variável final '{0}' só pode ser definida uma vez.",
+  "correction": "Tente tornar '{0}' não final."
+ },
+ "6782f4fc9241": {
+  "problem": "Não existe um setter chamado '{0}' na classe '{1}'.",
+  "correction": "Tente corrigir o nome para referenciar um setter existente ou declare o setter."
+ },
+ "b9d44a9a4a1f": {
+  "problem": "Funções não podem receber um valor.",
+  "correction": ""
+ },
+ "1081fb7f5206": {
+  "problem": "Métodos não podem receber um valor.",
+  "correction": ""
+ },
+ "a843b3201bc4": {
+  "problem": "Um parâmetro de construtor primário não pode receber atribuição em um inicializador.",
+  "correction": "Tente remover a atribuição."
+ },
+ "b670e0c459d1": {
+  "problem": "Tipos não podem receber um valor.",
+  "correction": ""
+ },
+ "3207b276be1c": {
+  "problem": "O loop for-in assíncrono só pode ser usado em uma função assíncrona.",
+  "correction": "Tente marcar o corpo da função com 'async' ou 'async*' ou remover o 'await' antes do loop for-in."
+ },
+ "4d121cb3533c": {
+  "problem": "As palavras-chave 'await' e 'yield' não podem ser usadas como identificadores em uma função assíncrona ou geradora.",
+  "correction": ""
+ },
+ "43a976a6edca": {
+  "problem": "Retornando um 'Future' sem 'await'.",
+  "correction": "Tente adicionar um 'await' ou tornar o corpo não assíncrono."
+ },
+ "95c70e82a103": {
+  "problem": "A augmentation tem uma cláusula 'extends', mas o alvo da augmentation já inclui uma cláusula 'extends', que não pode ser repetida nem alterada.",
+  "correction": "Tente remover a cláusula 'extends', aqui ou no alvo da augmentation."
+ },
+ "50cf96df2c1f": {
+  "problem": "A augmentation tem o modificador '{0}' neste parâmetro formal, mas a declaração não tem.",
+  "correction": "Tente remover o modificador '{0}' ou adicioná-lo à declaração."
+ },
+ "79c758abfac9": {
+  "problem": "A augmentation não tem o modificador '{0}' neste parâmetro formal, que a declaração tem.",
+  "correction": "Tente adicionar o modificador '{0}' ou removê-lo da declaração."
+ },
+ "bfde7c14977d": {
+  "problem": "O tipo '{0}' do parâmetro formal da augmentation deve ser igual ao tipo '{1}' do parâmetro formal da declaração.",
+  "correction": "Tente alterar o tipo do parâmetro formal da augmentation para corresponder ao da declaração ou omita o tipo."
+ },
+ "6121a5341326": {
+  "problem": "A augmentation tem o modificador '{0}', que a declaração não tem.",
+  "correction": "Tente remover o modificador '{0}' ou adicioná-lo à declaração."
+ },
+ "3e27d434caf6": {
+  "problem": "A augmentation não tem o modificador '{0}', que a declaração tem.",
+  "correction": "Tente adicionar o modificador '{0}' ou removê-lo da declaração."
+ },
+ "b97ad2e6bc21": {
+  "problem": "A augmentation tem um parâmetro formal nomeado '{0}', mas a declaração não tem.",
+  "correction": "Tente alterar os parâmetros formais da augmentation para corresponder à declaração."
+ },
+ "93fddf547d45": {
+  "problem": "A augmentation não tem o parâmetro formal nomeado '{0}' da declaração.",
+  "correction": "Tente alterar os parâmetros formais da augmentation para corresponder à declaração."
+ },
+ "6459f5fc1951": {
+  "problem": "Não é possível aplicar uma augmentation do tipo {1} em uma declaração do tipo {0}.",
+  "correction": "Tente alterar a augmentation para corresponder ao tipo de declaração."
+ },
+ "c955f6881ec6": {
+  "problem": "Classes de aplicação de mixin não podem receber augmentation.",
+  "correction": "Tente remover a palavra-chave 'augment' ou transformar o alvo em uma classe normal."
+ },
+ "d7dfad0b4a21": {
+  "problem": "A quantidade de parâmetros formais posicionais opcionais não confere: a augmentation tem {0} e a declaração tem {1}.",
+  "correction": "Tente alterar os parâmetros formais da augmentation para corresponder à declaração."
+ },
+ "3d88f048b35c": {
+  "problem": "O nome do parâmetro '{0}' deve corresponder ao nome '{1}' de uma declaração anterior ou ser '_'.",
+  "correction": "Tente alterar o nome para '{1}' ou para '_'."
+ },
+ "2480af395ec3": {
+  "problem": "A quantidade de parâmetros formais posicionais obrigatórios não confere: a augmentation tem {0} e a declaração tem {1}.",
+  "correction": "Tente alterar os parâmetros formais da augmentation para corresponder à declaração."
+ },
+ "88ce0853b47a": {
+  "problem": "O getter induzido por esta augmentation tem tipo de retorno '{0}', mas o getter sendo aumentado tem tipo de retorno '{1}'.",
+  "correction": "Tente alterar o tipo da augmentation para corresponder ao getter sendo aumentado."
+ },
+ "aba8ed83f4b1": {
+  "problem": "O tipo de retorno '{0}' da augmentation deve ser igual ao tipo de retorno '{1}' da declaração introdutória.",
+  "correction": "Tente alterar o tipo de retorno da augmentation para corresponder à declaração."
+ },
+ "8408eb8bdfd7": {
+  "problem": "O parâmetro de tipo da augmentation deve ter o mesmo limite que o parâmetro de tipo correspondente da declaração.",
+  "correction": "Tente alterar a augmentation para corresponder aos parâmetros de tipo da declaração."
+ },
+ "e91e44e377c8": {
+  "problem": "A augmentation deve ter o mesmo número de parâmetros de tipo que a declaração.",
+  "correction": "Tente alterar a augmentation para corresponder aos parâmetros de tipo da declaração."
+ },
+ "95f229668a58": {
+  "problem": "O parâmetro de tipo da augmentation deve ter o mesmo nome que o parâmetro de tipo correspondente da declaração.",
+  "correction": "Tente alterar a augmentation para corresponder aos parâmetros de tipo da declaração."
+ },
+ "0d189a58c9ff": {
+  "problem": "A declaração sendo aumentada não existe.",
+  "correction": "Tente alterar a augmentation para corresponder a uma declaração existente."
+ },
+ "0d989de25ed3": {
+  "problem": "Esta augmentation induz um setter, mas não existe declaração de setter chamada '{0}' para aumentar.",
+  "correction": "Tente alterar a augmentation para corresponder a uma declaração de setter existente."
+ },
+ "5fd0b145705a": {
+  "problem": "Esta augmentation induz um getter, mas não existe declaração de getter chamada '{0}' para aumentar.",
+  "correction": "Tente alterar a augmentation para corresponder a uma declaração de getter existente."
+ },
+ "88144fda5cd2": {
+  "problem": "A declaração aumentada não é um setter, então não pode ser usada para escrever um valor.",
+  "correction": "Tente atribuir um valor a um setter."
+ },
+ "56ec3def9b9c": {
+  "problem": "A declaração aumentada é um setter, então não pode ser usada para ler um valor.",
+  "correction": "Tente atribuir um valor ao setter aumentado."
+ },
+ "1d93bea3cfff": {
+  "problem": "A augmentation envolvente não faz augment do operador '{0}'.",
+  "correction": "Tente aumentar ou invocar o operador correto."
+ },
+ "5d18795d648a": {
+  "problem": "Variáveis const não podem receber augmentation.",
+  "correction": "Tente remover a augmentation ou transformar a variável const em uma variável final."
+ },
+ "7fbda736624c": {
+  "problem": "Anotação de tipo 'dynamic' desnecessária.",
+  "correction": "Tente remover o tipo 'dynamic'."
+ },
+ "9c68a01e01b7": {
+  "problem": "Expressões condicionais com um literal 'bool' podem ser simplificadas.",
+  "correction": "Tente reescrever a expressão usando '&&' ou '||'."
+ },
+ "2e85a034c4a3": {
+  "problem": "A cláusula catch deve usar 'on' para especificar o tipo da exceção capturada.",
+  "correction": "Tente adicionar uma cláusula 'on' antes do 'catch'."
+ },
+ "0f42121b10c6": {
+  "problem": "O tipo '{0}' não deve ser capturado porque é uma subclasse de 'Error'.",
+  "correction": "Tente remover o catch ou capturar uma 'Exception' no lugar."
+ },
+ "1f5c8d3cb9b9": {
+  "problem": "O tipo 'Error' não deve ser capturado.",
+  "correction": "Tente remover o catch ou capturar uma 'Exception' no lugar."
+ },
+ "ced10dfa19e3": {
+  "problem": "Classes devem definir membros de instância.",
+  "correction": "Tente adicionar comportamento de instância ou mover os membros para fora da classe."
+ },
+ "437932fc776e": {
+  "problem": "Verificação explícita de double ou int.",
+  "correction": "Tente remover a verificação."
+ },
+ "d26935c8bf04": {
+  "problem": "Invocação de método ou acesso a propriedade em um alvo 'dynamic'.",
+  "correction": "Tente dar um tipo ao alvo."
+ },
+ "ff4332dff059": {
+  "problem": "Instruções vazias não são permitidas em uma cláusula 'else'.",
+  "correction": "Tente remover a instrução vazia ou remover a cláusula else."
+ },
+ "986df1d9d507": {
+  "problem": "O método '{0}' não deve ser sobrescrito em classes não anotadas com '@immutable'.",
+  "correction": "Tente remover a sobrescrita ou anotar a classe com '@immutable'."
+ },
+ "f4ba89fd2110": {
+  "problem": "Escape desnecessário de '{0}'.",
+  "correction": "Tente trocar as aspas externas para '{1}'."
+ },
+ "63b7d11fbed4": {
+  "problem": "Campos em classes 'const' não devem ter inicializadores.",
+  "correction": "Tente converter o campo em um getter ou inicializar o campo nos construtores."
+ },
+ "16896118579a": {
+  "problem": "Parâmetros não devem ser marcados como 'final'.",
+  "correction": "Tente remover a palavra-chave 'final'."
+ },
+ "2d7606919dae": {
+  "problem": "Literais de função não devem ser passados para 'forEach'.",
+  "correction": "Tente usar um loop 'for'."
+ },
+ "b51ed40d8eb3": {
+  "problem": "Não use o tipo 'FutureOr<void>'.",
+  "correction": "Tente usar 'Future<void>?' ou 'void'."
+ },
+ "f42dc8172607": {
+  "problem": "Classes que sobrescrevem '==' não devem ser implementadas.",
+  "correction": "Tente remover a classe da cláusula 'implements'."
+ },
+ "09a74f3158f3": {
+  "problem": "Inicialização redundante com 'null'.",
+  "correction": "Tente remover o inicializador."
+ },
+ "065ef97cc97a": {
+  "problem": "O literal inteiro não pode ser representado com exatidão quando compilado para JavaScript.",
+  "correction": "Tente usar um 'BigInt' para representar o valor."
+ },
+ "85ae0027d4fd": {
+  "problem": "Várias variáveis declaradas em uma única linha.",
+  "correction": "Tente dividir as declarações de variáveis em várias linhas."
+ },
+ "59fc08eb84d9": {
+  "problem": "Comparação com null desnecessária na implementação de '=='.",
+  "correction": "Tente remover a comparação."
+ },
+ "b409230752a6": {
+  "problem": "Parâmetros 'bool' devem ser parâmetros nomeados.",
+  "correction": "Tente converter o parâmetro em um parâmetro nomeado."
+ },
+ "0eb0dc9cd027": {
+  "problem": "Não invoque 'print' em código de produção.",
+  "correction": "Tente usar um framework de logging."
+ },
+ "2b1fc2e16890": {
+  "problem": "O typedef é desnecessário porque é usado em apenas um lugar.",
+  "correction": "Tente expandir o tipo no local ou usá-lo em outros lugares."
+ },
+ "0484f74e5f63": {
+  "problem": "O valor do argumento é redundante porque corresponde ao valor padrão.",
+  "correction": "Tente remover o argumento."
+ },
+ "b4271983e217": {
+  "problem": "Não é possível usar um caminho relativo para importar uma biblioteca em 'lib'.",
+  "correction": "Tente corrigir o caminho relativo ou alterar o import para um import 'package:'."
+ },
+ "92d244bfa977": {
+  "problem": "O nome do parâmetro '{0}' não corresponde ao nome '{1}' no método sobrescrito.",
+  "correction": "Tente alterar o nome para '{1}'."
+ },
+ "a27dd5cad007": {
+  "problem": "Tipo de retorno desnecessário em um setter.",
+  "correction": "Tente remover o tipo de retorno."
+ },
+ "36aeb54d4f0c": {
+  "problem": "Não retorne 'null' de uma função com tipo de retorno 'void'.",
+  "correction": "Tente remover o 'null'."
+ },
+ "4afc2aff6e62": {
+  "problem": "Não retorne 'null' de um método com tipo de retorno 'void'.",
+  "correction": "Tente remover o 'null'."
+ },
+ "99fee04ff9fb": {
+  "problem": "Não retorne 'this' de um método.",
+  "correction": "Tente alterar o tipo de retorno para 'void' e remover o return."
+ },
+ "434a4b17970c": {
+  "problem": "O setter não tem um getter correspondente.",
+  "correction": "Tente adicionar um getter correspondente ou remover o setter."
+ },
+ "b2a7154c52ba": {
+  "problem": "O parâmetro de tipo '{0}' esconde um parâmetro de tipo do escopo envolvente ({1}).",
+  "correction": "Tente renomear um dos parâmetros de tipo."
+ },
+ "7cd089eec366": {
+  "problem": "Expressão em cascata desnecessária.",
+  "correction": "Tente usar o operador '{0}'."
+ },
+ "f671c8e347fb": {
+  "problem": "Uso de um método assíncrono de 'dart:io'.",
+  "correction": "Tente usar a versão síncrona do método."
+ },
+ "5d4deff4a57a": {
+  "problem": "Usar 'toString' em um 'Type' não é seguro em código de produção.",
+  "correction": "Tente uma verificação de tipo normal ou compare o 'runtimeType' diretamente."
+ },
+ "3ea6e45b02a9": {
+  "problem": "O nome do parâmetro de tipo '{0}' coincide com o nome de um tipo visível.",
+  "correction": "Tente alterar o nome do parâmetro de tipo para não coincidir com um tipo existente."
+ },
+ "d2a860f65d6f": {
+  "problem": "O nome do parâmetro '{0}' coincide com o nome de um tipo visível.",
+  "correction": "Tente adicionar um nome ao parâmetro ou alterar o nome do parâmetro para não coincidir com um tipo existente."
+ },
+ "d386672f12f6": {
+  "problem": "Anotação de tipo desnecessária em um parâmetro de expressão de função.",
+  "correction": "Tente remover a anotação de tipo."
+ },
+ "687f635c455a": {
+  "problem": "Instância desnecessária de 'Container'.",
+  "correction": "Tente remover o 'Container' (mas não seus filhos) da árvore de widgets."
+ },
+ "899e7e66e7bb": {
+  "problem": "O parâmetro '{0}' não é usado no construtor.",
+  "correction": "Tente usar o parâmetro ou removê-lo."
+ },
+ "fbbe67bc62cc": {
+  "problem": "Uma função 'async' deve ter um tipo de retorno 'Future' quando não retorna um valor.",
+  "correction": "Tente alterar o tipo de retorno."
+ },
+ "78f1fa214c79": {
+  "problem": "Não use bibliotecas exclusivas da web fora de plugins Flutter web.",
+  "correction": "Tente encontrar outra biblioteca que atenda à sua necessidade."
+ },
+ "7968fe9a5b08": {
+  "problem": "A expressão 'await' não pode ser usada no inicializador de uma variável local 'late'.",
+  "correction": "Tente remover o modificador 'late' ou reescrever o inicializador sem usar a expressão 'await'."
+ },
+ "5121b848e893": {
+  "problem": "A expressão await só pode ser usada em uma função assíncrona.",
+  "correction": "Tente marcar o corpo da função com 'async' ou 'async*'."
+ },
+ "c36184c23c93": {
+  "problem": "A expressão 'await' não pode ser usada em uma expressão com extension type que não seja subtipo de 'Future'.",
+  "correction": "Tente remover o `await` ou atualizar o extension type para implementar 'Future'."
+ },
+ "3c131f181999": {
+  "problem": "Uso de 'await' em uma instância de '{0}', que não é subtipo de 'Future'.",
+  "correction": "Tente remover o 'await' ou alterar a expressão."
+ },
+ "3526f5d49ba0": {
+  "problem": "Enums não podem ser declarados como 'base'.",
+  "correction": "Tente remover a palavra-chave 'base'."
+ },
+ "5582ef1de880": {
+  "problem": "O operador binário '{0}' está escrito como '{1}' em vez da palavra por extenso.",
+  "correction": "Tente substituir '{0}' por '{1}'."
+ },
+ "3044a321c8a4": {
+  "problem": "O corpo pode terminar normalmente, fazendo com que 'null' seja retornado, mas o tipo de retorno, '{0}', é um tipo potencialmente não anulável.",
+  "correction": "Tente adicionar uma instrução return ou throw no final."
+ },
+ "a5737d1234df": {
+  "problem": "Este handler 'onError' deve retornar um valor atribuível a '{0}', mas termina sem retornar um valor.",
+  "correction": "Tente adicionar uma instrução return."
+ },
+ "3bba0c61c7ec": {
+  "problem": "Esta função tem um tipo de retorno anulável '{0}', mas termina sem retornar um valor.",
+  "correction": "Tente adicionar uma instrução return ou, se nenhum valor nunca é retornado, alterar o tipo de retorno para 'void'."
+ },
+ "767318d536ff": {
+  "problem": "Um rótulo de break resolve para a instrução 'case' ou 'default'.",
+  "correction": ""
+ },
+ "30a73b138702": {
+  "problem": "Uma instrução break não pode ser usada fora de um loop ou de uma instrução switch.",
+  "correction": "Tente remover a instrução break."
+ },
+ "adecdc2a5271": {
+  "problem": "O identificador embutido '{0}' não pode ser usado como tipo.",
+  "correction": "Tente corrigir o nome para corresponder a um tipo existente."
+ },
+ "062d8f77271f": {
+  "problem": "O identificador embutido '{0}' não pode ser usado como nome de tipo.",
+  "correction": "Tente escolher outro nome para o tipo."
+ },
+ "1bf01999de71": {
+  "problem": "O identificador embutido '{0}' não pode ser usado como nome de extensão.",
+  "correction": "Tente escolher outro nome para a extensão."
+ },
+ "62ce259044e9": {
+  "problem": "O identificador embutido '{0}' não pode ser usado como nome de parâmetro de tipo.",
+  "correction": "Tente escolher outro nome para o parâmetro de tipo."
+ },
+ "85e4ef3f529c": {
+  "problem": "O identificador embutido '{0}' não pode ser usado como nome de typedef.",
+  "correction": "Tente escolher outro nome para o typedef."
+ },
+ "d62ad6701c83": {
+  "problem": "O identificador embutido '{0}' não pode ser usado como nome de prefixo.",
+  "correction": "Tente escolher outro nome para o prefixo."
+ }
+}

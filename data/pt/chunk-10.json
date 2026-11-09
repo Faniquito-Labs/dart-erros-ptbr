@@ -1,0 +1,194 @@
+{
+ "46effc5f2efa": {
+  "problem": "A diretiva part-of usa um nome de biblioteca.",
+  "correction": "Tente converter a diretiva para usar a URI da biblioteca."
+ },
+ "03e722753101": {
+  "problem": "Os parâmetros '{0}' poderiam ser super parâmetros.",
+  "correction": "Tente converter '{0}' em super parâmetros."
+ },
+ "6a1a6670730b": {
+  "problem": "O parâmetro '{0}' poderia ser um super parâmetro.",
+  "correction": "Tente converter '{0}' em um super parâmetro."
+ },
+ "5ca9039086b1": {
+  "problem": "Use o matcher 'throwsA' em vez de usar 'fail' quando nenhuma exceção é lançada.",
+  "correction": "Tente remover o try-catch e usar 'throwsA' para esperar uma exceção."
+ },
+ "d4b2f535a78c": {
+  "problem": "Comece o nome do método com 'to' ou 'as'.",
+  "correction": "Tente renomear o método para usar 'to' ou 'as'."
+ },
+ "3c923b7dc9ea": {
+  "problem": "Use divisão com truncamento.",
+  "correction": "Tente usar a divisão com truncamento, '~/', em vez da divisão normal ('/') seguida de 'toInt()'."
+ },
+ "d9966097d5dc": {
+  "problem": "Sintaxe de expressão regular inválida.",
+  "correction": "Tente corrigir a expressão regular."
+ },
+ "4449288bea8d": {
+  "problem": "Um membro chamado 'values' não pode ser declarado em um enum.",
+  "correction": "Tente usar outro nome."
+ },
+ "d6e46c0b4cf6": {
+  "problem": "Variáveis não podem ser declaradas usando 'var' e um nome de tipo ao mesmo tempo.",
+  "correction": "Tente remover 'var.'"
+ },
+ "b5dbdbc47463": {
+  "problem": "A palavra-chave 'var' não pode ser usada como nome de tipo.",
+  "correction": ""
+ },
+ "9e3672eff6bb": {
+  "problem": "Classes não podem ser declaradas como 'var'.",
+  "correction": "Tente remover a palavra-chave 'var'."
+ },
+ "55e317903f63": {
+  "problem": "Enums não podem ser declarados como 'var'.",
+  "correction": "Tente remover a palavra-chave 'var'."
+ },
+ "c09cf54b18b8": {
+  "problem": "O tipo de retorno não pode ser 'var'.",
+  "correction": "Tente remover a palavra-chave 'var' ou substituí-la pelo nome do tipo de retorno."
+ },
+ "e5e175db2f16": {
+  "problem": "Typedefs não podem ser declarados como 'var'.",
+  "correction": "Tente remover a palavra-chave 'var' ou substituí-la pelo nome do tipo de retorno."
+ },
+ "1c934b3cb8b8": {
+  "problem": "Evite declarar parâmetros com `var` e sem anotação de tipo.",
+  "correction": "Tente remover a palavra-chave 'var' ou substituir `var` por uma anotação de tipo."
+ },
+ "9da147b8f4ad": {
+  "problem": "'Array's de tamanho variável só podem ocorrer como o último campo de Structs.",
+  "correction": "Tente ajustar os argumentos na anotação 'Array'."
+ },
+ "ec2d22cd5d56": {
+  "problem": "Padrões de variável em contexto de declaração não podem especificar a palavra-chave 'var' ou 'final'.",
+  "correction": "Tente remover a palavra-chave."
+ },
+ "ab48843ff703": {
+  "problem": "Um valor do tipo '{0}' não pode ser atribuído a uma variável const do tipo '{1}'.",
+  "correction": "Tente usar um subtipo ou remover a palavra-chave 'const'"
+ },
+ "b80830482bb2": {
+  "problem": "Declare métodos 'visit' para todos os tipos de nó registrados.",
+  "correction": "Tente declarar um método 'visit' para todos os tipos de nó registrados."
+ },
+ "76829f1ae784": {
+  "problem": "Atribuição a uma variável do tipo 'void'.",
+  "correction": "Tente remover a atribuição ou alterar o tipo da variável."
+ },
+ "d83de44a904c": {
+  "problem": "O tipo 'void' não pode ter argumentos de tipo.",
+  "correction": "Tente remover os argumentos de tipo."
+ },
+ "6fa26dddae06": {
+  "problem": "A cláusula extends deve vir antes da cláusula with.",
+  "correction": "Tente mover a cláusula extends para antes da cláusula with."
+ },
+ "4e71a4d441ab": {
+  "problem": "O valor do campo 'workspace' deve ser uma lista de caminhos de arquivo relativos.",
+  "correction": "Tente converter o valor em uma lista de caminhos de arquivo relativos."
+ },
+ "d687329d4c7a": {
+  "problem": "As entradas de workspace devem ser caminhos de diretório (strings).",
+  "correction": "Tente converter o valor em uma string."
+ },
+ "b60a3aa6c28c": {
+  "problem": "Os valores de workspace devem ser um caminho relativo de um subdiretório de '{0}'.",
+  "correction": "Tente usar um subdiretório do diretório que contém o arquivo 'pubspec.yaml'."
+ },
+ "95b2592e00e4": {
+  "problem": "'{0}' é um parâmetro de tipo '{1}' e não pode ser usado em uma posição '{2}' em '{3}'.",
+  "correction": "Tente usar parâmetros de tipo 'in' em posições 'in' e parâmetros de tipo 'out' em posições 'out' na superinterface."
+ },
+ "2a7d15004a98": {
+  "problem": "O operador '{0}' deve declarar exatamente {1} parâmetro(s), mas declara {2}.",
+  "correction": ""
+ },
+ "64df5322ec16": {
+  "problem": "O operador '-' deve declarar 0 ou 1 parâmetro, mas declara {0}.",
+  "correction": ""
+ },
+ "86710da62d6c": {
+  "problem": "Setters devem declarar exatamente um parâmetro posicional obrigatório.",
+  "correction": ""
+ },
+ "025406039a5f": {
+  "problem": "O tipo '{0}' declara {1} parâmetro(s) de tipo, mas recebeu {2} argumento(s) de tipo.",
+  "correction": "Tente ajustar o número de argumentos de tipo para corresponder ao número de parâmetros de tipo."
+ },
+ "21ff0b777303": {
+  "problem": "O dot shorthand resolve para o construtor '{0}.{1}', e parâmetros de tipo não podem ser aplicados a invocações de construtor com dot shorthand.",
+  "correction": "Tente remover os argumentos de tipo ou adicionar o nome da classe, seguido dos argumentos de tipo e do nome do construtor."
+ },
+ "29098cfb3b25": {
+  "problem": "O construtor '{0}.{1}' não tem parâmetros de tipo.",
+  "correction": "Tente remover os argumentos de tipo ou adicionar o nome da classe, seguido dos argumentos de tipo e do nome do construtor."
+ },
+ "aeb8b75bb130": {
+  "problem": "O construtor '{0}.{1}' não tem parâmetros de tipo.",
+  "correction": "Tente mover os argumentos de tipo para depois do nome do tipo."
+ },
+ "b5f1312466c6": {
+  "problem": "'{1}' ({0}) declara {2} parâmetro(s) de tipo, mas recebeu {3} argumento(s) de tipo.",
+  "correction": "Tente ajustar o número de argumentos de tipo."
+ },
+ "52baa3f8f714": {
+  "problem": "O enum declara {0} parâmetro(s) de tipo, mas recebeu {1} argumento(s) de tipo.",
+  "correction": "Tente ajustar o número de argumentos de tipo."
+ },
+ "28303c1f2ab8": {
+  "problem": "A extensão '{0}' declara {1} parâmetro(s) de tipo, mas recebeu {2} argumento(s) de tipo.",
+  "correction": "Tente ajustar o número de argumentos de tipo."
+ },
+ "b956fdc0343f": {
+  "problem": "Esta função declara {0} parâmetro(s) de tipo, mas recebeu {1} argumento(s) de tipo.",
+  "correction": "Tente ajustar o número de argumentos de tipo para corresponder ao número de parâmetros de tipo."
+ },
+ "ca8efd7adf05": {
+  "problem": "A função '{0}' declara {1} parâmetro(s) de tipo, mas recebeu {2} argumento(s) de tipo.",
+  "correction": "Tente ajustar o número de argumentos de tipo para corresponder ao número de parâmetros de tipo."
+ },
+ "e62ffae1eba1": {
+  "problem": "O tipo desta função é '{0}', que tem {1} parâmetro(s) de tipo, mas recebeu {2} argumento(s) de tipo.",
+  "correction": "Tente ajustar o número de argumentos de tipo para corresponder ao número de parâmetros de tipo."
+ },
+ "a2fd39e23a82": {
+  "problem": "O método '{0}' declara {1} parâmetro(s) de tipo, mas recebeu {2} argumento(s) de tipo.",
+  "correction": "Tente ajustar o número de argumentos de tipo."
+ },
+ "5fb01fb82b9c": {
+  "problem": "O valor padrão de um parâmetro posicional deve ser precedido por '='.",
+  "correction": "Tente substituir o ':' por '='."
+ },
+ "7c2c10e17561": {
+  "problem": "Era esperado '{0}' para fechar o grupo de parâmetros.",
+  "correction": "Tente substituir '{0}' por '{1}'."
+ },
+ "44b226b0e957": {
+  "problem": "'{0}' não pode ser usado de forma contravariante ou invariante em '{1}'.",
+  "correction": "Tente não usar parâmetros de tipo da classe em tipos de parâmetros formais de tipos de função, nem em superinterfaces explicitamente contravariantes ou invariantes."
+ },
+ "d5019cfc883e": {
+  "problem": "O parâmetro de tipo '{0}' '{1}' não pode ser usado em uma posição '{2}'.",
+  "correction": "Tente remover o parâmetro de tipo ou alterar o modificador de variância explícita do parâmetro de tipo para outro entre 'in', 'out' ou 'inout'."
+ },
+ "9dba5dcd69dd": {
+  "problem": "Instruções yield devem estar em uma função geradora (uma marcada com 'async*' ou 'sync*').",
+  "correction": "Tente adicionar 'async*' ou 'sync*' à função que a contém."
+ },
+ "b5984eafd94f": {
+  "problem": "Instruções yield-each devem estar em uma função geradora (uma marcada com 'async*' ou 'sync*').",
+  "correction": "Tente adicionar 'async*' ou 'sync*' à função que a contém."
+ },
+ "150bea134d23": {
+  "problem": "O tipo '{0}' implícito na expressão 'yield*' deve ser atribuível a '{1}'.",
+  "correction": ""
+ },
+ "1a392634499c": {
+  "problem": "Um valor produzido com yield do tipo '{0}' deve ser atribuível a '{1}'.",
+  "correction": ""
+ }
+}

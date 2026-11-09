@@ -1,0 +1,198 @@
+{
+  "name": "dart-erros-ptbr",
+  "displayName": "Erros do Dart em Português",
+  "description": "Mostra os erros e avisos do analisador Dart/Flutter traduzidos para PT-BR, inline e no hover.",
+  "version": "0.1.1",
+  "publisher": "faniquito-labs",
+  "author": "Faniquito Labs",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Faniquito-Labs/dart-erros-ptbr.git"
+  },
+  "homepage": "https://github.com/Faniquito-Labs/dart-erros-ptbr#readme",
+  "bugs": {
+    "url": "https://github.com/Faniquito-Labs/dart-erros-ptbr/issues"
+  },
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Linters",
+    "Other"
+  ],
+  "activationEvents": [
+    "onLanguage:dart"
+  ],
+  "main": "./out/extension.js",
+  "scripts": {
+    "extract": "node scripts/extract.mjs",
+    "validate": "node scripts/validate.mjs --strict",
+    "build:dict": "node scripts/build-dictionary.mjs",
+    "compile": "tsc -p .",
+    "build": "npm run build:dict && npm run compile",
+    "test": "npm run validate && npm run build && node --test out/test/*.test.js",
+    "package": "npm test && vsce package"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "@types/vscode": "^1.90.0",
+    "@vscode/vsce": "^3.9.2",
+    "typescript": "^5.9.3",
+    "yaml": "^2.9.1"
+  },
+  "contributes": {
+    "commands": [
+      {
+        "command": "dartErrosPtbr.toggleInline",
+        "title": "Erros PT-BR: Ligar/desligar mensagens inline"
+      },
+      {
+        "command": "dartErrosPtbr.showUntranslated",
+        "title": "Erros PT-BR: Mostrar mensagens sem tradução"
+      }
+    ],
+    "configuration": {
+      "title": "Erros do Dart em PT-BR",
+      "properties": {
+        "dartErrosPtbr.inline.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Mostra a mensagem traduzida no fim da linha (estilo Error Lens)."
+        },
+        "dartErrosPtbr.inline.lineBackground": {
+          "type": "boolean",
+          "default": true,
+          "description": "Pinta o fundo da linha com a cor da severidade."
+        },
+        "dartErrosPtbr.inline.showUntranslated": {
+          "type": "boolean",
+          "default": true,
+          "description": "Mostra a mensagem original em inglês quando não houver tradução."
+        },
+        "dartErrosPtbr.inline.maxLength": {
+          "type": "number",
+          "default": 220,
+          "minimum": 40,
+          "description": "Tamanho máximo do texto inline."
+        },
+        "dartErrosPtbr.hover.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Adiciona a tradução ao passar o mouse sobre o trecho com problema."
+        },
+        "dartErrosPtbr.severities": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "error",
+              "warning",
+              "info",
+              "hint"
+            ]
+          },
+          "default": [
+            "error",
+            "warning",
+            "info"
+          ],
+          "description": "Severidades exibidas inline."
+        },
+        "dartErrosPtbr.sources": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": [
+            "dart"
+          ],
+          "description": "Fontes de diagnóstico traduzidas (campo \"source\" do diagnóstico)."
+        }
+      }
+    },
+    "colors": [
+      {
+        "id": "dartErrosPtbr.errorForeground",
+        "description": "Cor do texto inline (error).",
+        "defaults": {
+          "dark": "editorError.foreground",
+          "light": "editorError.foreground",
+          "highContrast": "editorError.foreground",
+          "highContrastLight": "editorError.foreground"
+        }
+      },
+      {
+        "id": "dartErrosPtbr.errorBackground",
+        "description": "Fundo da linha (error).",
+        "defaults": {
+          "dark": "#e4545414",
+          "light": "#e4545418",
+          "highContrast": "#00000000",
+          "highContrastLight": "#00000000"
+        }
+      },
+      {
+        "id": "dartErrosPtbr.warningForeground",
+        "description": "Cor do texto inline (warning).",
+        "defaults": {
+          "dark": "editorWarning.foreground",
+          "light": "editorWarning.foreground",
+          "highContrast": "editorWarning.foreground",
+          "highContrastLight": "editorWarning.foreground"
+        }
+      },
+      {
+        "id": "dartErrosPtbr.warningBackground",
+        "description": "Fundo da linha (warning).",
+        "defaults": {
+          "dark": "#ff942f12",
+          "light": "#ff942f14",
+          "highContrast": "#00000000",
+          "highContrastLight": "#00000000"
+        }
+      },
+      {
+        "id": "dartErrosPtbr.infoForeground",
+        "description": "Cor do texto inline (info).",
+        "defaults": {
+          "dark": "editorInfo.foreground",
+          "light": "editorInfo.foreground",
+          "highContrast": "editorInfo.foreground",
+          "highContrastLight": "editorInfo.foreground"
+        }
+      },
+      {
+        "id": "dartErrosPtbr.infoBackground",
+        "description": "Fundo da linha (info).",
+        "defaults": {
+          "dark": "#00b7e40f",
+          "light": "#00b7e410",
+          "highContrast": "#00000000",
+          "highContrastLight": "#00000000"
+        }
+      },
+      {
+        "id": "dartErrosPtbr.hintForeground",
+        "description": "Cor do texto inline (hint).",
+        "defaults": {
+          "dark": "editorHint.foreground",
+          "light": "editorHint.foreground",
+          "highContrast": "editorHint.foreground",
+          "highContrastLight": "editorHint.foreground"
+        }
+      },
+      {
+        "id": "dartErrosPtbr.hintBackground",
+        "description": "Fundo da linha (hint).",
+        "defaults": {
+          "dark": "#17a2b80a",
+          "light": "#17a2b80c",
+          "highContrast": "#00000000",
+          "highContrastLight": "#00000000"
+        }
+      }
+    ]
+  }
+}

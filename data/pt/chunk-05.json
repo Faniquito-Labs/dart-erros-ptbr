@@ -1,0 +1,642 @@
+{
+ "2875c08a1151": {
+  "problem": "A expressão não pode ser prefixada por 'const' para formar um padrão constante.",
+  "correction": "Tente envolver a expressão em 'const ( ... )'."
+ },
+ "0a574f3d92fc": {
+  "problem": "O operador binário {0} não é suportado como padrão constante.",
+  "correction": "Tente envolver a expressão em 'const ( ... )'."
+ },
+ "ef8843368b75": {
+  "problem": "Palavra-chave 'const' duplicada na expressão constante.",
+  "correction": "Tente remover uma das palavras-chave 'const'."
+ },
+ "baf495c9b141": {
+  "problem": "O literal de record vazio não é suportado como padrão constante.",
+  "correction": ""
+ },
+ "20f5ead7fcf9": {
+  "problem": "Esta expressão não é suportada como padrão constante.",
+  "correction": "Tente envolver a expressão em 'const ( ... )'."
+ },
+ "393f9cf5c4aa": {
+  "problem": "Apenas a negação de um literal numérico é suportada como padrão constante.",
+  "correction": "Tente envolver a expressão em 'const ( ... )'."
+ },
+ "521f54cf2820": {
+  "problem": "O operador unário {0} não é suportado como padrão constante.",
+  "correction": "Tente envolver a expressão em 'const ( ... )'."
+ },
+ "e2e65dba8d61": {
+  "problem": "O nome de um construtor deve ser igual ao nome da classe que o contém.",
+  "correction": ""
+ },
+ "e693418c2717": {
+  "problem": "O modificador 'covariant' só pode ser usado em parâmetros declarantes não finais.",
+  "correction": "Tente remover 'covariant'."
+ },
+ "36d513c92755": {
+  "problem": "Pacotes publicáveis não podem ter dependências '{0}'.",
+  "correction": "Tente adicionar uma entrada 'publish_to: none' para marcar o pacote como não publicável ou remova a dependência {0}."
+ },
+ "20dfcb09a38c": {
+  "problem": "A anotação '@Deprecated.extend' só pode ser aplicada a classes que podem ser estendidas.",
+  "correction": "Tente remover a anotação '@Deprecated.extend'."
+ },
+ "fa4008cd98e3": {
+  "problem": "A anotação '@Deprecated.implement' só pode ser aplicada a classes que podem ser implementadas.",
+  "correction": "Tente remover a anotação '@Deprecated.implement'."
+ },
+ "7a264b460e3d": {
+  "problem": "A anotação '@Deprecated.instantiate' só pode ser aplicada a classes.",
+  "correction": "Tente remover a anotação '@Deprecated.instantiate'."
+ },
+ "ecf5001c00c3": {
+  "problem": "A anotação '@Deprecated.mixin' só pode ser aplicada a classes.",
+  "correction": "Tente remover a anotação '@Deprecated.mixin'."
+ },
+ "3e33a8d31278": {
+  "problem": "A anotação '@Deprecated.optional' só pode ser aplicada a parâmetros opcionais.",
+  "correction": "Tente remover a anotação '@Deprecated.optional'."
+ },
+ "11f02a22acb7": {
+  "problem": "A anotação '@Deprecated.subclass' só pode ser aplicada a classes e mixins que podem ter subclasses.",
+  "correction": "Tente remover a anotação '@Deprecated.subclass'."
+ },
+ "053c6434058c": {
+  "problem": "O método {0} não pode ter um valor de retorno excepcional (o segundo argumento) quando o tipo de retorno da função é 'void', 'Handle' ou 'Pointer'.",
+  "correction": "Tente remover o valor de retorno excepcional."
+ },
+ "116fb6df090f": {
+  "problem": "O membro '{0}' não pode ser exportado como parte da API pública de um pacote.",
+  "correction": "Tente usar uma cláusula hide para esconder '{0}'."
+ },
+ "844f6ae4bc29": {
+  "problem": "O membro '{0}' não pode ser exportado como parte da API pública de um pacote, mas é exportado indiretamente como parte da assinatura de '{1}'.",
+  "correction": "Tente usar uma cláusula hide para esconder '{1}'."
+ },
+ "be935566de2c": {
+  "problem": "O membro '{0}' não pode ser exportado como parte da API pública de um pacote, mas é exportado indiretamente como parte da assinatura de '{1}'.",
+  "correction": "Tente usar uma cláusula hide para esconder '{0}'."
+ },
+ "7d5364ea5ade": {
+  "problem": "Overrides de extensão devem ter exatamente um argumento: o valor de 'this' no método da extensão.",
+  "correction": "Tente especificar exatamente um argumento."
+ },
+ "1fbd2f7c0c9e": {
+  "problem": "O método factory '{0}' deve ter um tipo de retorno.",
+  "correction": ""
+ },
+ "4cc812bbf3f1": {
+  "problem": "O método factory '{0}' não retorna um objeto recém-alocado.",
+  "correction": ""
+ },
+ "ccaa333c3c50": {
+  "problem": "O nome de um construtor factory deve ser igual ao nome da classe que o contém imediatamente.",
+  "correction": ""
+ },
+ "3f93268e8c68": {
+  "problem": "Nomes de campos de record não podem ser iguais a um membro de 'Object'.",
+  "correction": "Tente usar um nome diferente para o campo."
+ },
+ "979f12dcfa3c": {
+  "problem": "Nomes de campos de record não podem ser um cifrão seguido de um inteiro quando o inteiro é o índice de um campo posicional.",
+  "correction": "Tente usar um nome diferente para o campo."
+ },
+ "f109387f3bbd": {
+  "problem": "Nomes de campos de record não podem ser privados.",
+  "correction": "Tente remover o underscore inicial."
+ },
+ "3e8bc0121545": {
+  "problem": "Campos em classes struct não podem ter o tipo '{0}'. Eles só podem ser declarados como 'int', 'double', 'Array', 'Pointer' ou subtipo de 'Struct' ou 'Union'.",
+  "correction": "Tente usar 'int', 'double', 'Array', 'Pointer' ou subtipo de 'Struct' ou 'Union'."
+ },
+ "13ac47f86197": {
+  "problem": "Tipo de função genérica inválido.",
+  "correction": "Tente usar um tipo de função genérica (tipoDeRetorno 'Function(' parâmetros ')')."
+ },
+ "23de5904d523": {
+  "problem": "Uma sequência de escape iniciada por '\\x' deve ser seguida por 2 dígitos hexadecimais.",
+  "correction": ""
+ },
+ "3b52a7c2f34b": {
+  "problem": "'{0}.{1}' ('{2}') não é uma implementação concreta válida de '{3}.{1}' ('{4}').",
+  "correction": ""
+ },
+ "8a7379b74557": {
+  "problem": "O setter '{0}.{1}' ('{2}') não é uma implementação concreta válida de '{3}.{1}' ('{4}').",
+  "correction": ""
+ },
+ "d252aae86a12": {
+  "problem": "Inicializador inválido.",
+  "correction": "Para inicializar um campo, use a sintaxe 'nome = valor'."
+ },
+ "4f093338c772": {
+  "problem": "Tipos de função inline não podem ser usados em parâmetros de um tipo de função genérica.",
+  "correction": "Tente usar um tipo de função genérica (tipoDeRetorno 'Function(' parâmetros ')')."
+ },
+ "d4c0519ef1a7": {
+  "problem": "Este padrão não pode aparecer dentro de um padrão unário (padrão de cast, de verificação de nulo ou de asserção de não nulo) sem parênteses.",
+  "correction": "Tente combinar em um único padrão, se possível ou envolva o padrão interno em parênteses."
+ },
+ "9c0a703c1074": {
+  "problem": "Apenas elementos públicos na API privada de um pacote podem ser anotados como internos.",
+  "correction": ""
+ },
+ "437e9ed6004a": {
+  "problem": "O comentário de substituição da versão da linguagem Dart deve ser especificado com exatamente duas barras.",
+  "correction": "Especifique uma substituição da versão da linguagem Dart com um comentário como '// @dart = 2.0'."
+ },
+ "57bd96976341": {
+  "problem": "O número da substituição da versão da linguagem Dart não pode ser prefixado por uma letra.",
+  "correction": "Especifique uma substituição da versão da linguagem Dart com um comentário como '// @dart = 2.0'."
+ },
+ "59edd710458c": {
+  "problem": "O comentário de substituição da versão da linguagem Dart deve ser especificado com um número de versão, como '2.0', após o caractere '='.",
+  "correction": "Especifique uma substituição da versão da linguagem Dart com um comentário como '// @dart = 2.0'."
+ },
+ "5e184a0bb808": {
+  "problem": "A substituição da versão da linguagem deve ser especificada antes de qualquer declaração ou diretiva.",
+  "correction": "Tente mover a substituição da versão da linguagem para o topo do arquivo."
+ },
+ "71a6a8292bd7": {
+  "problem": "O comentário de substituição da versão da linguagem Dart deve ser especificado com o caractere '='.",
+  "correction": "Especifique uma substituição da versão da linguagem Dart com um comentário como '// @dart = 2.0'."
+ },
+ "81b084d59f1e": {
+  "problem": "O comentário de substituição da versão da linguagem Dart deve ser especificado com a palavra 'dart' toda em minúsculas.",
+  "correction": "Especifique uma substituição da versão da linguagem Dart com um comentário como '// @dart = 2.0'."
+ },
+ "bd9bf93917fe": {
+  "problem": "A substituição da versão da linguagem não pode especificar uma versão maior que a última versão conhecida da linguagem: {0}.{1}.",
+  "correction": "Tente remover a substituição da versão da linguagem."
+ },
+ "ed81e9df9173": {
+  "problem": "O comentário de substituição da versão da linguagem Dart não pode ser seguido por caracteres que não sejam espaço em branco.",
+  "correction": "Especifique uma substituição da versão da linguagem Dart com um comentário como '// @dart = 2.0'."
+ },
+ "f56e43e13154": {
+  "problem": "O número da substituição da versão da linguagem Dart deve começar com '@dart'.",
+  "correction": "Especifique uma substituição da versão da linguagem Dart com um comentário como '// @dart = 2.0'."
+ },
+ "7d71dc41d353": {
+  "problem": "Apenas construtores const podem ter a anotação `@literal`.",
+  "correction": ""
+ },
+ "fd350bb6d9ec": {
+  "problem": "O literal em uma configuração não pode conter interpolação.",
+  "correction": "Tente remover as expressões de interpolação."
+ },
+ "145f7a40c630": {
+  "problem": "O modificador '{0}' não pode ser aplicado ao corpo de um construtor.",
+  "correction": "Tente remover o modificador."
+ },
+ "f886ee2c4ae8": {
+  "problem": "Setters não podem usar 'async', 'async*' ou 'sync*'.",
+  "correction": "Tente remover o modificador."
+ },
+ "7261e2fd79b5": {
+  "problem": "A anotação '@nonVirtual' só pode ser aplicada a um membro de instância concreto.",
+  "correction": "Tente remover '@nonVirtual'."
+ },
+ "4b46ee892cb6": {
+  "problem": "O valor da entrada do map não pode ser nulo, então o operador null-aware '?' é desnecessário.",
+  "correction": "Tente remover o operador '?'."
+ },
+ "68b81ac2bf76": {
+  "problem": "O elemento não pode ser nulo, então o operador null-aware '?' é desnecessário.",
+  "correction": "Tente remover o operador '?'."
+ },
+ "728ba7032d28": {
+  "problem": "O receptor não pode ser 'null' por causa do curto-circuito, então o operador null-aware '{0}' não pode ser usado.",
+  "correction": "Tente substituir o operador '{0}' por '{1}'."
+ },
+ "dcdb27b4cccf": {
+  "problem": "A chave da entrada do map não pode ser nula, então o operador null-aware '?' é desnecessário.",
+  "correction": "Tente remover o operador '?'."
+ },
+ "f68b2977f2b9": {
+  "problem": "O receptor não pode ser nulo, então o operador null-aware '{0}' é desnecessário.",
+  "correction": "Tente substituir o operador '{0}' por '{1}'."
+ },
+ "4652130c203b": {
+  "problem": "A string '{0}' não é um operador que pode ser definido pelo usuário.",
+  "correction": ""
+ },
+ "b67e8185acde": {
+  "problem": "O operador '{0}' não pode ser usado com 'super'.",
+  "correction": ""
+ },
+ "b41abf5b8c9f": {
+  "problem": "O operador '?.' não pode ser usado com 'super' porque 'super' não pode ser nulo.",
+  "correction": "Tente substituir '?.' por '.'"
+ },
+ "3d4ac4b869d5": {
+  "problem": "Opção inválida especificada para '{0}': {1}",
+  "correction": ""
+ },
+ "961d4c5d636f": {
+  "problem": "'{0}.{1}' ('{2}') não é uma sobrescrita válida de '{3}.{1}' ('{4}').",
+  "correction": ""
+ },
+ "c82236bf13dd": {
+  "problem": "O setter '{0}.{1}' ('{2}') não é uma sobrescrita válida de '{3}.{1}' ('{4}').",
+  "correction": ""
+ },
+ "956c18f0016d": {
+  "problem": "O membro '{0}' é declarado não virtual em '{1}' e não pode ser sobrescrito em subclasses.",
+  "correction": ""
+ },
+ "7091bea0559f": {
+  "problem": "A variável '{0}' não tem o mesmo tipo e/ou finalidade em todos os cases que compartilham este corpo.",
+  "correction": "Tente declarar o padrão de variável com o mesmo tipo e finalidade em todos os cases."
+ },
+ "720f92b6b06b": {
+  "problem": "A variável '{0}' não está disponível porque há um rótulo ou um case 'default'.",
+  "correction": "Tente remover o rótulo ou dar ao case 'default' o seu próprio corpo."
+ },
+ "b3d343fd342c": {
+  "problem": "A variável '{0}' está disponível em alguns, mas não em todos os cases que compartilham este corpo.",
+  "correction": "Tente declarar o padrão de variável com o mesmo tipo e finalidade em todos os cases."
+ },
+ "ea37ec5f6279": {
+  "problem": "O campo 'platforms' deve ser um map com plataformas como chaves.",
+  "correction": "Tente alterar o campo 'platforms' para um map com plataformas como chaves."
+ },
+ "117c83167725": {
+  "problem": "Construtores generativos de enum só podem ser usados para criar uma constante do enum.",
+  "correction": "Tente usar um valor do enum ou um construtor factory."
+ },
+ "4a178eb7c49e": {
+  "problem": "Construtores generativos de enum não podem ser usados como tear-off.",
+  "correction": "Tente usar um valor do enum ou um construtor factory."
+ },
+ "3ad73b0987bf": {
+  "problem": "Referência inválida à expressão 'this'.",
+  "correction": ""
+ },
+ "55d6d2ac2696": {
+  "problem": "A anotação '@reopen' só pode ser aplicada a uma classe que reabre capacidades que o supertipo desabilita intencionalmente.",
+  "correction": "Tente remover a anotação '@reopen'."
+ },
+ "8811f916e8ec": {
+  "problem": "Um valor do tipo '{0}' não pode ser retornado pelo handler 'onError' porque deve ser atribuível a '{1}'.",
+  "correction": ""
+ },
+ "cfb5c184ddb1": {
+  "problem": "O tipo de retorno '{0}' não é atribuível a '{1}', como exigido por 'Future.catchError'.",
+  "correction": ""
+ },
+ "7aa7595bb262": {
+  "problem": "O tipo de retorno '{0}' não é atribuível a '{1}', como exigido por 'Future.then'.",
+  "correction": ""
+ },
+ "a29a30c605ab": {
+  "problem": "Um valor do tipo '{0}' não pode ser retornado pelo handler 'onError' porque deve ser atribuível a '{1}', como exigido por 'Future.then'.",
+  "correction": ""
+ },
+ "055779918c68": {
+  "problem": "A verificação em tempo de execução entre '{0}' e '{1}' checa se um valor Dart é um tipo de interop JS, o que pode não ser consistente entre plataformas.",
+  "correction": ""
+ },
+ "3515a723b500": {
+  "problem": "O cast de '{0}' para '{1}' converte um valor de interop JS em um tipo Dart, o que pode não ser consistente entre plataformas.",
+  "correction": "Tente usar métodos de conversão de 'dart:js_interop' para converter entre tipos de interop JS e tipos Dart."
+ },
+ "7252c359cd56": {
+  "problem": "A verificação em tempo de execução entre '{0}' e '{1}' envolve uma verificação não trivial entre dois tipos de interop JS, o que pode não ser consistente entre plataformas.",
+  "correction": "Tente usar um membro de interop JS como 'isA' de 'dart:js_interop' para verificar o tipo subjacente de valores de interop JS."
+ },
+ "7cd2aeb1c563": {
+  "problem": "O cast de '{0}' para '{1}' converte um valor Dart em um tipo de interop JS, o que pode não ser consistente entre plataformas.",
+  "correction": "Tente usar métodos de conversão de 'dart:js_interop' para converter entre tipos Dart e tipos de interop JS."
+ },
+ "8767cfba0df8": {
+  "problem": "O cast de '{0}' para '{1}' converte um valor de interop JS em um tipo de interop JS incompatível, o que pode não ser consistente entre plataformas.",
+  "correction": ""
+ },
+ "99166fed1a44": {
+  "problem": "A verificação em tempo de execução entre '{0}' e '{1}' envolve uma verificação entre um valor de interop JS e um tipo de interop JS não relacionado que sempre será verdadeira e não verificará o tipo subjacente.",
+  "correction": "Tente usar um membro de interop JS como 'isA' de 'dart:js_interop' para verificar o tipo subjacente de valores de interop JS ou torne o tipo de interop JS um supertipo usando 'implements'."
+ },
+ "a304af76844a": {
+  "problem": "A cláusula catch com o tipo '{0}' verifica se o valor capturado é um tipo de interop JS, o que pode não ser consistente entre plataformas.",
+  "correction": "Remova o tipo da cláusula catch e tente usar 'isA' de 'dart:js_interop' dentro do bloco catch para verificar se o valor é um tipo de interop JS."
+ },
+ "b75413c74bf7": {
+  "problem": "A verificação em tempo de execução entre '{0}' e '{1}' checa se um valor de interop JS é um tipo Dart, o que pode não ser consistente entre plataformas.",
+  "correction": ""
+ },
+ "fb3895e1114a": {
+  "problem": "A verificação em tempo de execução entre '{0}' e '{1}' checa se um valor Dart é um tipo de interop JS, o que pode não ser consistente entre plataformas.",
+  "correction": "Tente usar 'isA' de 'dart:js_interop' para verificar se o valor Dart é um tipo de interop JS."
+ },
+ "9e1f2b6fded1": {
+  "problem": "A anotação '@sealed' só pode ser aplicada a classes.",
+  "correction": "Tente remover a anotação '@sealed'."
+ },
+ "a858b01cca1c": {
+  "problem": "Formato inválido para a seção '{0}'.",
+  "correction": ""
+ },
+ "454b99761b5c": {
+  "problem": "O modificador 'async*' não é permitido em um corpo de função de expressão.",
+  "correction": "Tente converter o corpo em um bloco."
+ },
+ "989699d0a28a": {
+  "problem": "Parâmetros super só podem ser usados em construtores generativos que não sejam de redirecionamento.",
+  "correction": "Tente remover o modificador 'super' ou alterar o construtor para ser generativo e sem redirecionamento."
+ },
+ "7148f75fd8f5": {
+  "problem": "'super' só pode ser usado em um inicializador para chamar o construtor da superclasse (por exemplo, 'super()' ou 'super.namedConstructor()')",
+  "correction": ""
+ },
+ "310d4bca7ea5": {
+  "problem": "O modificador 'sync' não é permitido em um corpo de função de expressão.",
+  "correction": "Tente converter o corpo em um bloco."
+ },
+ "78913f482d3c": {
+  "problem": "'this' só pode ser usado em um inicializador para inicialização de campo (por exemplo, 'this.x = something') e redirecionamento de construtor (por exemplo, 'this()' ou 'this.namedConstructor())",
+  "correction": ""
+ },
+ "34fc90992a30": {
+  "problem": "Literais de set constantes não podem usar um parâmetro de tipo em um argumento de tipo, como '{0}'.",
+  "correction": "Tente substituir o parâmetro de tipo por um tipo diferente."
+ },
+ "afcf99ee9dac": {
+  "problem": "Literais de lista constantes não podem usar um parâmetro de tipo em um argumento de tipo, como '{0}'.",
+  "correction": "Tente substituir o parâmetro de tipo por um tipo diferente."
+ },
+ "ddbc0852de00": {
+  "problem": "Literais de map constantes não podem usar um parâmetro de tipo em um argumento de tipo, como '{0}'.",
+  "correction": "Tente substituir o parâmetro de tipo por um tipo diferente."
+ },
+ "59d1b8a3b7ed": {
+  "problem": "A string '\\' não pode ficar sozinha.",
+  "correction": "Tente adicionar outra barra invertida (\\) para escapar a '\\'."
+ },
+ "d569ec4648d8": {
+  "problem": "Uma sequência de escape iniciada por '\\u{' deve ser seguida por 1 a 6 dígitos hexadecimais seguidos de '}'.",
+  "correction": ""
+ },
+ "d17170c25665": {
+  "problem": "Uma sequência de escape iniciada por '\\u' deve ser seguida por 4 dígitos hexadecimais.",
+  "correction": ""
+ },
+ "772fcf968bc8": {
+  "problem": "Uma sequência de escape iniciada por '\\u' deve ser seguida por 4 dígitos hexadecimais ou por 1 a 6 dígitos entre '{' e '}'.",
+  "correction": ""
+ },
+ "19b71d58c9e4": {
+  "problem": "Sintaxe de URI inválida: '{0}'.",
+  "correction": ""
+ },
+ "6e667fa4a8e4": {
+  "problem": "A palavra-chave 'covariant' só pode ser usada em parâmetros de métodos de instância ou antes de campos de instância não finais.",
+  "correction": "Tente remover a palavra-chave 'covariant'."
+ },
+ "b76d9cf50697": {
+  "problem": "Não pode haver o modificador '{0}' em uma extensão.",
+  "correction": "Tente remover '{0}'."
+ },
+ "cbf88892a126": {
+  "problem": "Usos de '{0}' não devem ser enviados para o controle de versão.",
+  "correction": "Tente remover a referência a '{0}'."
+ },
+ "8d3f61725b7a": {
+  "problem": "O identificador 'augmented' só pode ser usado para referenciar a declaração aumentada dentro de uma augmentation.",
+  "correction": "Tente usar um identificador diferente."
+ },
+ "e54571204b00": {
+  "problem": "O membro '{0}' só pode ser usado dentro do seu pacote.",
+  "correction": ""
+ },
+ "96497f1f9fd1": {
+  "problem": "Uma expressão cujo valor é sempre 'null' não pode ser desreferenciada.",
+  "correction": "Tente alterar o tipo da expressão."
+ },
+ "02005b2d554c": {
+  "problem": "O membro '{0}' só pode ser usado dentro de membros de instância de subclasses de '{1}'.",
+  "correction": ""
+ },
+ "54d40427e300": {
+  "problem": "A classe '{0}' não pode ser usada como restrição de superclasse de mixin fora da sua biblioteca porque é uma classe final.",
+  "correction": ""
+ },
+ "a7299a2fc329": {
+  "problem": "A classe '{0}' não pode ser estendida, implementada nem usada como mixin fora da sua biblioteca porque é uma classe sealed.",
+  "correction": ""
+ },
+ "b419b1fed592": {
+  "problem": "O mixin '{0}' não pode ser implementado fora da sua biblioteca porque é um mixin base.",
+  "correction": ""
+ },
+ "c4216bfd620d": {
+  "problem": "A classe '{0}' não pode ser estendida fora da sua biblioteca porque é uma classe interface.",
+  "correction": ""
+ },
+ "cf0b4b43fc2f": {
+  "problem": "A classe '{0}' não pode ser estendida fora da sua biblioteca porque é uma classe final.",
+  "correction": ""
+ },
+ "d4de3c5a570b": {
+  "problem": "A classe '{0}' não pode ser implementada fora da sua biblioteca porque é uma classe base.",
+  "correction": ""
+ },
+ "faf4668baa59": {
+  "problem": "A classe '{0}' não pode ser implementada fora da sua biblioteca porque é uma classe final.",
+  "correction": ""
+ },
+ "5c05825af1d4": {
+  "problem": "O membro '{0}' só pode ser usado para sobrescrita.",
+  "correction": ""
+ },
+ "aa5434f81ebd": {
+  "problem": "O membro '{0}' só pode ser usado dentro de '{1}' ou de uma biblioteca de template.",
+  "correction": ""
+ },
+ "3850df64b5a7": {
+  "problem": "O membro '{0}' só pode ser usado dentro de '{1}' ou de um teste.",
+  "correction": ""
+ },
+ "074fc722dd3b": {
+  "problem": "O membro '{0}' está anotado com '{1}', mas esta anotação só faz sentido em declarações de membros públicos.",
+  "correction": ""
+ },
+ "54df7c483a5e": {
+  "problem": "A anotação 'visibleForOverriding' só pode ser aplicada a um membro de instância público que possa ser sobrescrito.",
+  "correction": ""
+ },
+ "62b07e56732c": {
+  "problem": "A anotação 'visibleOutsideTemplate' só pode ser aplicada a um membro de uma classe, enum ou mixin anotado com 'visibleForTemplate'.",
+  "correction": ""
+ },
+ "05f0f20a4389": {
+  "problem": "A anotação '@Preview(...)' só pode ser aplicada a construtores e funções públicos e acessíveis estaticamente.",
+  "correction": ""
+ },
+ "e9c9c309602b": {
+  "problem": "'@Preview(...)' só aceita argumentos formados por literais e símbolos públicos.",
+  "correction": "Renomeie o símbolo privado '{0}' para '{1}'."
+ },
+ "fe03b1c0f5c4": {
+  "problem": "A extensão '{0}' não define um método 'call', então o override não pode ser usado em uma invocação.",
+  "correction": ""
+ },
+ "894f53822866": {
+  "problem": "'{0}' não é uma função.",
+  "correction": "Tente corrigir o nome para corresponder a uma função existente ou defina um método ou função chamado '{0}'."
+ },
+ "1c854e9dbda0": {
+  "problem": "A expressão não resulta em uma função, então não pode ser invocada.",
+  "correction": ""
+ },
+ "3fc2f4f56765": {
+  "problem": "A atribuição poderia ser incorporada na instrução 'return'.",
+  "correction": "Tente incorporar o valor atribuído na instrução 'return'."
+ },
+ "b3a9f3e4b4dd": {
+  "problem": "Não é possível referenciar o rótulo '{0}' declarado em um método externo.",
+  "correction": ""
+ },
+ "473a319e7eec": {
+  "problem": "Não é possível referenciar um rótulo não definido '{0}'.",
+  "correction": "Tente definir o rótulo ou corrigir o nome para corresponder a um rótulo existente."
+ },
+ "4003b8a63b88": {
+  "problem": "Não pode haver um campo late final em uma classe com um construtor const generativo.",
+  "correction": "Tente remover o modificador 'late' ou não declare construtores 'const'."
+ },
+ "addcf604e7cc": {
+  "problem": "A variável local late final já foi atribuída.",
+  "correction": "Tente remover o modificador 'final' ou não reatribua o valor."
+ },
+ "d3601f7a81c4": {
+  "problem": "Uma declaração de variável de padrão não pode usar a palavra-chave `late`.",
+  "correction": "Tente remover a palavra-chave `late`."
+ },
+ "effc0b64ec04": {
+  "problem": "Falta uma quebra de linha no início de uma string multilinha.",
+  "correction": "Tente adicionar uma quebra de linha no início da string."
+ },
+ "827c3bb9af09": {
+  "problem": "Uma chamada leaf de FFI não pode retornar um 'Handle'.",
+  "correction": "Tente alterar o tipo de retorno para primitivo ou struct."
+ },
+ "d33d7e8c9caa": {
+  "problem": "Uma chamada leaf de FFI não pode receber argumentos do tipo 'Handle'.",
+  "correction": "Tente alterar o tipo do argumento para primitivo ou struct."
+ },
+ "5acb1903242e": {
+  "problem": "Esta anotação deve ser anexada a uma diretiva de biblioteca.",
+  "correction": "Tente anexar a anotação a uma diretiva de biblioteca."
+ },
+ "74a4dd0d487c": {
+  "problem": "A diretiva de biblioteca deve aparecer antes de todas as outras diretivas.",
+  "correction": "Tente mover a diretiva de biblioteca para antes de qualquer outra diretiva."
+ },
+ "2efa91fe13ab": {
+  "problem": "O nome de biblioteca '{0}' não é um identificador lower_case_with_underscores.",
+  "correction": "Tente alterar o nome para seguir o estilo lower_case_with_underscores."
+ },
+ "a00b26f4d2cb": {
+  "problem": "O prefixo '{0}' não é um identificador lower_case_with_underscores.",
+  "correction": "Tente alterar o prefixo para seguir o estilo lower_case_with_underscores."
+ },
+ "17eece913d78": {
+  "problem": "Uso inválido de um tipo privado em uma API pública.",
+  "correction": "Tente tornar o tipo privado público ou tornar privada também a API que usa o tipo privado."
+ },
+ "d430ba69671a": {
+  "problem": "O comprimento da linha excede o limite de 80 caracteres.",
+  "correction": "Tente quebrar a linha em várias linhas."
+ },
+ "b8ea0c301507": {
+  "problem": "O tipo de elemento '{0}' não pode ser atribuído ao tipo de lista '{1}'.",
+  "correction": ""
+ },
+ "6182c3af371a": {
+  "problem": "A expressão booleana tem um valor constante.",
+  "correction": "Tente alterar a expressão."
+ },
+ "8e020f980edb": {
+  "problem": "Um literal de {0} não pode ser prefixado por '{1}'.",
+  "correction": "Tente remover '{1}'."
+ },
+ "7bad616f485e": {
+  "problem": "Um literal de {0} não pode ser prefixado por 'new {1}'.",
+  "correction": "Tente remover 'new' e '{1}'."
+ },
+ "b19ec5f7d7ec": {
+  "problem": "Um literal não pode ser prefixado por 'new'.",
+  "correction": "Tente remover 'new'"
+ },
+ "9f585d769edb": {
+  "problem": "Declarações de funções locais não podem especificar modificadores.",
+  "correction": "Tente remover o modificador."
+ },
+ "28e4d7305e05": {
+  "problem": "O tipo do primeiro parâmetro posicional da função 'main' deve ser um supertipo de 'List<String>'.",
+  "correction": "Tente alterar o tipo do parâmetro."
+ },
+ "645ec5649176": {
+  "problem": "A função 'main' não pode ter parâmetros nomeados obrigatórios.",
+  "correction": "Tente usar um nome diferente para a função ou remover o modificador 'required'."
+ },
+ "99d97be4a602": {
+  "problem": "A função 'main' não pode ter mais de dois parâmetros posicionais obrigatórios.",
+  "correction": "Tente usar um nome diferente para a função ou remover os parâmetros extras."
+ },
+ "275f191c731a": {
+  "problem": "A declaração chamada 'main' deve ser uma função.",
+  "correction": "Tente usar um nome diferente para esta declaração."
+ },
+ "d8a9834eb164": {
+  "problem": "Entradas de map só podem ser usadas em um literal de map.",
+  "correction": "Tente converter a coleção em um map ou remover a entrada do map."
+ },
+ "f61a85e83c6d": {
+  "problem": "O tipo de elemento '{0}' não pode ser atribuído ao tipo de chave do map '{1}'.",
+  "correction": ""
+ },
+ "54c18729d5f3": {
+  "problem": "O tipo de elemento '{0}' não pode ser atribuído ao tipo de valor do map '{1}'.",
+  "correction": ""
+ },
+ "9cacf4e45486": {
+  "problem": "O super parâmetro '{0}' não tem o mesmo nome do parâmetro correspondente no construtor da superclasse, '{1}'.",
+  "correction": "Tente usar o nome do parâmetro correspondente no construtor da superclasse."
+ },
+ "7c843a78eeaf": {
+  "problem": "Um membro da classe não pode ter o mesmo nome da classe que o contém.",
+  "correction": "Tente renomear o membro."
+ },
+ "290ce1f94170": {
+  "problem": "A biblioteca '{0}' está descontinuada.",
+  "correction": "Tente usar o pacote Material ou Cupertino."
+ },
+ "574b6a08a63a": {
+  "problem": "A anotação não corresponde ao tipo declarado do campo.",
+  "correction": "Tente usar uma anotação diferente ou alterar o tipo declarado para corresponder."
+ },
+ "38befff07110": {
+  "problem": "Campos do tipo '{0}' em uma subclasse de '{1}' devem ter uma anotação indicando o tipo nativo.",
+  "correction": "Tente adicionar uma anotação."
+ },
+ "5fa25a853492": {
+  "problem": "Falta um seletor como '.identificador' ou '[0]'.",
+  "correction": "Tente adicionar um seletor."
+ },
+ "9785596285b0": {
+  "problem": "Era esperada uma atribuição após o nome do campo.",
+  "correction": "Para inicializar um campo, use a sintaxe 'nome = valor'."
+ },
+ "5093794377a4": {
+  "problem": "Um bloco try deve ser seguido por uma cláusula 'on', 'catch' ou 'finally'.",
+  "correction": "Tente adicionar uma cláusula catch ou finally ou remova a instrução try."
+ },
+ "42e3dee9f413": {
+  "problem": "O parêntese de fechamento está faltando.",
+  "correction": "Tente adicionar o parêntese de fechamento."
+ }
+}
