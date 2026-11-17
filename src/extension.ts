@@ -53,7 +53,7 @@ const codeOf = (d: vscode.Diagnostic): string | undefined => {
 const truncate = (s: string, max: number) => (s.length > max ? `${s.slice(0, max - 1)}…` : s);
 
 export function activate(context: vscode.ExtensionContext) {
-  const dictionary: Dictionary = JSON.parse(readFileSync(join(__dirname, 'dictionary.json'), 'utf8'));
+  const dictionary: Dictionary = JSON.parse(readFileSync(join(context.extensionPath, 'dictionary.json'), 'utf8'));
   const translator = new Translator(dictionary);
   const output = vscode.window.createOutputChannel('Erros do Dart em PT-BR');
   const misses = new Map<string, string>();
@@ -104,7 +104,7 @@ export function activate(context: vscode.ExtensionContext) {
     for (const [severity, options] of buckets) editor.setDecorations(decorationTypes[severity], options);
   };
 
-  let timer: NodeJS.Timeout | undefined;
+  let timer: ReturnType<typeof setTimeout> | undefined;
   const pending = new Set<vscode.TextEditor>();
   const schedule = (editors: readonly vscode.TextEditor[]) => {
     editors.forEach((e) => pending.add(e));
@@ -188,3 +188,10 @@ function createDecorationTypes(settings: Settings): Record<SeverityName, vscode.
 }
 
 export function deactivate() {}
+function setTimeout(arg0: () => void, arg1: number): any {
+  throw new Error('Function not implemented.');
+}
+
+function clearTimeout(timer: any) {
+  throw new Error('Function not implemented.');
+}
