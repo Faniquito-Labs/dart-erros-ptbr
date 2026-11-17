@@ -1,7 +1,8 @@
 import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { join, basename } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-const root = new URL('..', import.meta.url).pathname;
+const root = fileURLToPath(new URL('..', import.meta.url));
 const ptDir = join(root, 'data/pt');
 const chunkDir = join(root, 'data/en/chunks');
 const strict = process.argv.includes('--strict');

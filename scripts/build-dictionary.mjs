@@ -1,7 +1,8 @@
 import { readFileSync, readdirSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-const root = new URL('..', import.meta.url).pathname;
+const root = fileURLToPath(new URL('..', import.meta.url));
 const messages = JSON.parse(readFileSync(join(root, 'data/en/messages.json'), 'utf8'));
 const codes = JSON.parse(readFileSync(join(root, 'data/en/codes.json'), 'utf8'));
 const ptDir = join(root, 'data/pt');

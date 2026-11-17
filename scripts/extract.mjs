@@ -1,9 +1,10 @@
 import { readFileSync, writeFileSync, readdirSync, mkdirSync, existsSync, rmSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import YAML from 'yaml';
 
-const root = new URL('..', import.meta.url).pathname;
+const root = fileURLToPath(new URL('..', import.meta.url));
 const sourcesDir = join(root, 'data/sources');
 const outDir = join(root, 'data/en');
 const chunkSize = Number(process.argv[2] ?? 180);
